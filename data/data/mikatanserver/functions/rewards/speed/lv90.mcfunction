@@ -1,0 +1,1 @@
+give @s stone_pickaxe{display:{Name:'[{"text":"pickaxe...？","color":"red"}]'}}

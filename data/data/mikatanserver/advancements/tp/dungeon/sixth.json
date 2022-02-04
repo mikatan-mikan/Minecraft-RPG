@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:19}"
+      },
+      "title": "",
+      "description": "\"記憶の奥底に・・・\"に挑む"
+    },
+    "parent": "mikatanserver:tp/dungeon/fifth",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/25"
+    }
+  }
+  

@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:arrow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:rotten_flesh"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:7,display:{Name:'[{\"text\":\"rock of troll\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":3,
+                  "max":7
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

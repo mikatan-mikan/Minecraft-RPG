@@ -1,0 +1,104 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight":80,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 16
+                }
+              }
+            ],
+            "name": "minecraft:spruce_log"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":80,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 16
+                }
+              }
+            ],
+            "name": "minecraft:spruce_leaves"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted ruby\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":3,
+            "name": "minecraft:nether_star"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":4,
+                  "max":8
+                }
+              }
+            ],
+            "name": "minecraft:emerald_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+1する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          }
+        ]
+      }
+    ]
+  }

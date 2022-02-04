@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:light_blue_concrete"
+      },
+      "title": "光の先に",
+      "description": "鉱石マップ(sapphire area)へのテレポーターを作成する"
+    },
+    "parent": "mikatanserver:customcrafter/oremaptp",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/10"
+    }
+  }
+  

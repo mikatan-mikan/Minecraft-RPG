@@ -1,0 +1,2 @@
+summon witch ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:80},{Name:"minecraft:generic.movement_speed",Base:0.25},{Name:"minecraft:generic.attack_damage",Base:25}],Health:80,DeathLootTable:"mikatanserver:fishing/witch"}
+tellraw @s [{"text": "Good luck>>","color": "aqua","bold": true},{"text": " Spawn Witch!!","color": "dark_purple"}]

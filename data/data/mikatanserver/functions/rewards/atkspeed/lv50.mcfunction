@@ -1,0 +1,1 @@
+give @s wooden_sword{display:{Name:'[{"text":"endless sword","color":"yellow"}]'},Unbreakable:1}

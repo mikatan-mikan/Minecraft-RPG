@@ -1,0 +1,9 @@
+execute if entity @a[tag=DungeonPlay_1] run function mikatanserver:adddim/dungeonmap_one/firstdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_2] run function mikatanserver:adddim/dungeonmap_one/seconddungeon/mainloop
+execute if entity @a[tag=DungeonPlay_3] run function mikatanserver:adddim/dungeonmap_one/thirddungeon/mainloop
+execute if entity @a[tag=DungeonPlay_4] run function mikatanserver:adddim/dungeonmap_one/fourthdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_5] run function mikatanserver:adddim/dungeonmap_one/fifthdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_6] run function mikatanserver:adddim/dungeonmap_one/sixthdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_7] run function mikatanserver:adddim/dungeonmap_one/sevthdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_8] run function mikatanserver:adddim/dungeonmap_one/eigthdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_9] run function mikatanserver:adddim/dungeonmap_one/ninethdungeon/mainloop

@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond"
+      },
+      "title": "それは未来を写す石・・・",
+      "description": "勾玉を作成する"
+    },
+    "parent": "mikatanserver:customcrafter/accessories/main",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/25"
+    }
+  }
+  

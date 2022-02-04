@@ -1,0 +1,1 @@
+item replace block ~ ~ ~ container.4 with minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:smite",lvl:7s}]} 1

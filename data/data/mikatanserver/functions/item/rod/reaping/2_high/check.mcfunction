@@ -1,0 +1,1 @@
+execute as @s[nbt={SelectedItem:{tag:{spidersword:2}}}] at @s run function mikatanserver:item/rod/reaping/level_2/main

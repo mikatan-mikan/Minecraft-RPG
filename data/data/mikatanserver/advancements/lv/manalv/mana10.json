@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_bottle"
+    },
+    "title": "魔法使い",
+    "description": "manaLVを10にする"
+  },
+  "parent": "mikatanserver:lv/mikatanlvmain",
+  "criteria": {
+    "jyoken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mana-Lv": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jyoken"
+    ]
+  ],
+  "rewards": {
+    "function": "mikatanserver:rewards/mana/lv10"
+  }
+}

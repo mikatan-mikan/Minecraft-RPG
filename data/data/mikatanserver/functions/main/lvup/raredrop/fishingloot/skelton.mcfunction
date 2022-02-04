@@ -1,0 +1,2 @@
+summon skeleton ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:60},{Name:"minecraft:generic.movement_speed",Base:0.1},{Name:"minecraft:generic.attack_damage",Base:30}],Health:60,DeathLootTable:"mikatanserver:fishing/skeleton",HandItems:[{id:"minecraft:bow",tag:{Enchantments:[{id:"minecraft:power",lvl:25s}]}},{}],HandDropChances:[0.0f,0.0f]}
+tellraw @s [{"text": "Good luck>>","color": "aqua","bold": true},{"text": " Spawn Skeleton!!","color": "gray"}]

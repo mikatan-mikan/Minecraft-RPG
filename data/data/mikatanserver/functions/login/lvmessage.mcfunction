@@ -1,0 +1,1 @@
+tellraw @s [{"text": "XP一覧▽\n"},{"text": "Speed","color": "aqua","hoverEvent": {"action": "show_text","contents": [{"text": "上昇ステータス："},{"text": "Speed\n","color": "aqua"},{"text": "経験値対象："},{"text": "mining","color": "yellow"}]}},{"text": " XP"}]

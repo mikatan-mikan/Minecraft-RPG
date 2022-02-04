@@ -1,0 +1,1 @@
+give @s wooden_pickaxe{display:{Name:'[{"text":"endless pickaxe","color":"yellow"}]'},Unbreakable:1}

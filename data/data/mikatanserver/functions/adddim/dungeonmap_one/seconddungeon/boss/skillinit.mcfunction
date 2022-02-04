@@ -1,0 +1,1 @@
+scoreboard objectives add SecDSkillTimer1 dummy

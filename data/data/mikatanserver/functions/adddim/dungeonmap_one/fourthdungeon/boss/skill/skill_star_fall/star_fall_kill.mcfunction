@@ -1,0 +1,1 @@
+kill @e[tag=FD_StarFall,type=item]

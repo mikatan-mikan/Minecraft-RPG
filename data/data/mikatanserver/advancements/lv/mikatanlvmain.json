@@ -1,0 +1,126 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "title": "LvUP",
+      "description": "いずれかのLVを1にする",
+      "announce_to_chat": true
+    },
+    "parent":"mikatanserver:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "speed-Lv": 1
+              }
+            }
+          ]
+        }
+      },
+      "jyouken_1": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "ench-Lv": 1
+              }
+            }
+          ]
+        }
+      },
+      "jyouken_2": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "attackS-Lv": 1
+              }
+            }
+          ]
+        }
+      },
+      "jyouken_3": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "attackD-Lv": 1
+              }
+            }
+          ]
+        }
+      },
+      "jyouken_4": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "luck-Lv": 1
+              }
+            }
+          ]
+        }
+      },
+      "jyouken_5": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mana-Lv": 1
+              }
+            }
+          ]
+        }
+      },
+      "jyouken_6": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "hp-Lv": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "requirement",
+        "jyouken_1",
+        "jyouken_2",
+        "jyouken_3",
+        "jyouken_4",
+        "jyouken_5",
+        "jyouken_6"
+      ]
+    ],
+    "rewards": {
+      "function":"mikatanserver:rewards/5"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+give @s diamond_sword{display:{Name:'[{"text":"pearl sword","color":"green"}]'},Enchantments:[{id:sharpness,lvl:2}]}

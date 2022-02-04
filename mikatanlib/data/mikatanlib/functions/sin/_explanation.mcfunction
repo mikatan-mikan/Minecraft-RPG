@@ -1,0 +1,2 @@
+tellraw @s [{"text":"sin","color": "gold","bold": true},{"text": ":","color": "white"},{"text":"\nメソッドcall:[mikatanlib:sin/sinexe]","color": "red","italic": true,"underlined": true}]
+tellraw @s [{"text":"--使用方法","color": "light_purple","bold": true},{"text": ":","color": "white"},{"text":"\"MK.s.Theta\"に値を入れることで対象者のMK.s.sinにsin(MK.s.Theta)*10^4を返します","color": "aqua","italic": true,"underlined": true}]

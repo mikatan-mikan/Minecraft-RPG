@@ -1,0 +1,2 @@
+give @s minecraft:player_head{display:{Name:'[{"text":"yellow pearl","color": "yellow"}]'},SkullOwner:{Id:[I;336393852,-2005316063,-1194785644,-338695412],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUxOTk0MDAzNjVmMWNlOTdlNzNlNzc1NzRlMTJkNWIyNzlkOTk2MDg2Mzk5NThlY2FhMjViYzgwYmJjYTI3MSJ9fX0="}]}}} 1
+tellraw @s [{"text": "Rare Drop!! ","color": "gold","italic": true,"bold": true},{"text": "yellow pearl","color": "yellow","italic": false,"bold": false}]

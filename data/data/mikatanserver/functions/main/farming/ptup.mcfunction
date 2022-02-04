@@ -1,0 +1,2 @@
+scoreboard players add @s FarmingLuckPT 1
+tellraw @s [{"text": "Good Luck!!","color": "gold","bold": true},{"text": "Farming Luck","color": "green","bold": false},{"text": "+","color": "white"},{"text": "1","color": "gold"}]

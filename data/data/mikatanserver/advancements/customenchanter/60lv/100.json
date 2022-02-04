@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball",
+      "nbt": "{CustomModelData:5,Enchantments:[{id:\"minecraft:unbreaking\"}]}"
+    },
+    "title": "サンストーン枯渇",
+    "description": "60lvエンチャントを百回行う"
+  },
+  "parent": "mikatanserver:customenchanter/60lv/1",
+  "criteria": {
+    "jyoken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "60lvCount": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jyoken"
+    ]
+  ],
+  "rewards": {
+    "function": "mikatanserver:rewards/10"
+  }
+}

@@ -1,0 +1,1 @@
+give @s diamond_pickaxe{display:{Name:'[{"text":"innocent pickaxe","color":"white"}]'},Enchantments:[{id:sharpness,lvl:1}]}

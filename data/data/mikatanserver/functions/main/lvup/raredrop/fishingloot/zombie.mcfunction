@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {Attributes:[{Name:"minecraft:generic.max_health",Base:40},{Name:"minecraft:generic.movement_speed",Base:0.25},{Name:"minecraft:generic.attack_damage",Base:25}],Health:40,DeathLootTable:"mikatanserver:fishing/zombie"}
+tellraw @s [{"text": "Good luck>>","color": "aqua","bold": true},{"text": " Spawn Zombie!!","color": "dark_green"}]

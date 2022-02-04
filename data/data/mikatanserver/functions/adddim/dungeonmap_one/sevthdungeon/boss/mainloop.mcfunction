@@ -1,0 +1,2 @@
+execute store result bossbar minecraft:sevthboss_bar value run data get entity @e[tag=SevthDunBoss,limit=1] Health
+execute as @e[tag=SevthDunBoss] run function mikatanserver:adddim/dungeonmap_one/sevthdungeon/boss/skill/mainloop

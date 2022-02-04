@@ -1,0 +1,1 @@
+give @s netherite_pickaxe{display:{Name:'[{"text":"orange pickaxe","color":"gold"}]',Lore:['[{"text":"SpeedLvを100lvまで上げた象徴","color":"gold"}]']}}

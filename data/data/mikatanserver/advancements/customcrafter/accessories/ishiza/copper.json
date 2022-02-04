@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_ingot"
+      },
+      "title": "執念",
+      "description": "銅の石座を作成する"
+    },
+    "parent": "mikatanserver:customcrafter/accessories/main",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/10"
+    }
+  }
+  

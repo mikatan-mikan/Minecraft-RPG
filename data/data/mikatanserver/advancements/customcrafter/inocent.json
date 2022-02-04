@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chest"
+      },
+      "title": "心を識る物・・・",
+      "description": "enchant box [純白の思いⅠ]を作成する"
+    },
+    "parent": "mikatanserver:customcrafter/enchcount/50",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/60"
+    }
+  }
+  

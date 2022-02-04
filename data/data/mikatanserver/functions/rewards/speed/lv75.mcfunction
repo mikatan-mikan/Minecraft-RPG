@@ -1,0 +1,1 @@
+give @s diamond_pickaxe{display:{Name:'[{"text":"hardend pickaxe","color":"white"}]'},Enchantments:[{id:efficiency,lvl:5},{id:silk_touch,lvl:1},{id:unbreaking,lvl:3},{id:mending,lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Amount:2.0,Operation:0,Slot:"mainhand",UUID:[I;238347010,296496965,133394638,-329484850]}]}

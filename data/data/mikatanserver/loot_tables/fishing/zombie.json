@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:rotten_flesh"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:8,display:{Name:'[{\"text\":\"sea crystal\"}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 12
+                }
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+              "type": "minecraft:item",
+              "weight":1,
+              "functions":[
+                  {
+                      "function": "minecraft:set_nbt",
+                      "tag":"{StoredEnchantments:[{id:\"minecraft:punch\",lvl:3}]}"
+                  }
+              ],
+              "name":"minecraft:enchanted_book"
+          }
+        ]
+      }
+    ]
+  }

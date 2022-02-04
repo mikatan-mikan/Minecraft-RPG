@@ -1,0 +1,81 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_count",
+                "count":{
+                  "min":2,
+                  "max": 4
+                }
+              }
+            ],
+            "name": "minecraft:bone_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_count",
+                "count":{
+                  "min":2,
+                  "max": 4
+                }
+              }
+            ],
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_count",
+                "count":{
+                  "min":2,
+                  "max": 4
+                }
+              }
+            ],
+            "name": "minecraft:wither_skeleton_skull"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:8,display:{Name:'[{\"text\":\"sea crystal\"}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 12
+                }
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+              "type": "minecraft:item",
+              "weight":1,
+              "functions":[
+                {
+                  "function": "set_nbt",
+                  "tag":"{display:{Name:'[{\"text\":\"fortune bone\"}]'},Enchantments:[{id:\"minecraft:looting\",lvl:6s}]}"
+                }
+              ],
+              "name":"minecraft:bone"
+          }
+        ]
+      }
+    ]
+  }

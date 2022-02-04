@@ -1,0 +1,1 @@
+scoreboard players add @e[predicate=mikatanserver:dungeonmapdim,tag=flost] balltimer 1

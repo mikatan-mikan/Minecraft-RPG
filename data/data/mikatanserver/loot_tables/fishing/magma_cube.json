@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function":"set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"enchant box\",\"color\": \"green\"}]',Lore:['[{\"text\": \"キュービズムⅠ\",\"color\":\"gray\"}]']},SkullOwner:{Id:[I;1192102546,-848082440,-1919017834,-1907144952],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzEyYjZkNWYwNzFiOWEzYzI3ZmY0ZmJmODFhZjBiOGI0NjE4ZTA4OGZiZTVmOWQ5ZDY4ZmEwY2E5MzhkMWY4ZCJ9fX0=\"}]}},cubism:1}"
+              }
+            ],
+            "name": "minecraft:player_head"
+          }
+        ]
+      }
+    ]
+  }

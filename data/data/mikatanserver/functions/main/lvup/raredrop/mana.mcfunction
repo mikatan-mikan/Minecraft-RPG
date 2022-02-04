@@ -1,0 +1,2 @@
+give @s minecraft:book{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1,display:{Name:'[{"text":"photon","color":"white"}]'}}
+tellraw @s [{"text": "Rare Drop!! ","color": "gold","italic": true,"bold": true},{"text": "photon","color": "white","italic": false,"bold": false}]

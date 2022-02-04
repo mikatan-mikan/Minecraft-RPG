@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pink_concrete"
+      },
+      "title": "過去の香り？...",
+      "description": "鉱石マップ(rhodochrosite area)へのテレポーターを作成する",
+      "frame": "challenge"
+    },
+    "parent": "mikatanserver:customcrafter/oremaptpperidot",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/20"
+    }
+  }
+  

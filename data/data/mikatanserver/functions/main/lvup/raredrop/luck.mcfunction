@@ -1,0 +1,2 @@
+give @s minecraft:pufferfish{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1,display:{Name:'[{"text":"last part","color":"aqua"}]'}}
+tellraw @s [{"text": "Rare Drop!! ","color": "gold","italic": true,"bold": true},{"text": "last part","color": "aqua","italic": false,"bold": false}]

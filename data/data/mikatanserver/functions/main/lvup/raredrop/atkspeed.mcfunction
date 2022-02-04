@@ -1,0 +1,2 @@
+give @s minecraft:bone{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1,display:{Name:'[{"text":"fossil","color":"gray"}]'}}
+tellraw @s [{"text": "Rare Drop!! ","color": "gold","italic": true,"bold": true},{"text": "fossil","color": "gray","italic": false,"bold": false}]

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-716421548,2131969772,-1327206943,1165692828],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBkODQxNGNmY2JiZGZkYjM4M2E4YjNmMzFkMjg5MTQ2ZjM4NjcyZDU3NGUxNTQyOTZlMTEwYWFkOWUxMTQyOCJ9fX0=\"}]}}}"
+    },
+    "title": "歴戦の戦士",
+    "description": "giantkillarを50回クラフトする"
+  },
+  "parent": "mikatanserver:customcrafter/ench/giantkillar",
+  "criteria": {
+    "jyoken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "giantkillarcount": 50
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jyoken"
+    ]
+  ],
+  "rewards": {
+    "function": "mikatanserver:rewards/30"
+  }
+}

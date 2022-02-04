@@ -1,0 +1,2 @@
+give @s minecraft:gold_block{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1,display:{Name:'[{"text":"wood debris","color":"green"}]'}}
+tellraw @s [{"text": "Rare Drop!! ","color": "gold","italic": true,"bold": true},{"text": "wood debris","color": "green","italic": false,"bold": false}]

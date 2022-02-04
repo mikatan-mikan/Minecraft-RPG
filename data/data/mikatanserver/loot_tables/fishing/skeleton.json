@@ -1,0 +1,221 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_count",
+                "count":{
+                  "min":2,
+                  "max": 4
+                }
+              }
+            ],
+            "name": "minecraft:bone_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_count",
+                "count":{
+                  "min":2,
+                  "max": 4
+                }
+              }
+            ],
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:8,display:{Name:'[{\"text\":\"sea crystal\"}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 12
+                }
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+              "type": "minecraft:item",
+              "weight":1,
+              "functions":[
+                {
+                  "function": "set_nbt",
+                  "tag":"{display:{Name:'[{\"text\":\"fortune bone\"}]'},Enchantments:[{id:\"minecraft:looting\",lvl:6s}]}"
+                }
+              ],
+              "name":"minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:1,display:{Name:'[{\"text\": \"ブルーグラスグッビー\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:2,display:{Name:'[{\"text\": \"朱文金\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:3,display:{Name:'[{\"text\": \"モンガラカワハギ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:4,display:{Name:'[{\"text\": \"ゴールデンエンゼルフィッシュ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:5,display:{Name:'[{\"text\": \"チョウチョウウオ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:6,display:{Name:'[{\"text\": \"ミドリフグ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:7,display:{Name:'[{\"text\": \"テングカワハギ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:8,display:{Name:'[{\"text\": \"デメニギス\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:9,display:{Name:'[{\"text\": \"ヤマトヌマエビ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:1,display:{Name:'[{\"text\": \"ミズクラゲ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:11,display:{Name:'[{\"text\": \"メンダコ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:12,display:{Name:'[{\"text\": \"レッドビーシュリンプ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:13,display:{Name:'[{\"text\": \"コリドラスアルビノ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions":[
+              {
+                "function": "set_nbt",
+                "tag":"{CustomModelData:14,display:{Name:'[{\"text\": \"ヒカリキンメダイ\"}]'}}"
+              }
+            ],
+            "name": "minecraft:tropical_fish"
+          }
+        ]
+      }
+    ]
+  }

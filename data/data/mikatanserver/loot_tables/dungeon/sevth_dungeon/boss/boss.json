@@ -1,0 +1,224 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 70,
+            "name": "minecraft:iron_ingot",
+            "functions":[
+                {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":5,
+                  "max":20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 30,
+            "name": "minecraft:iron_axe",
+            "functions":[
+                {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min": 2,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"piece of satellite\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":8,
+                  "max":32
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"Atrus powder\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":8,
+                  "max":32
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"piece of Comet\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":8,
+                  "max":32
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:7,display:{Name:'[{\"text\":\"rock of troll\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":8,
+                  "max":32
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:player_head",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"maze\\'s stone\"}]'},SkullOwner:{Id:[I;573135134,1474645653,-1334357495,1868118749],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUyZDUxNDhhMTA3MzAxYzkzZTMwM2UxZjUzYjI4NjM1YTMxOTIyNGE4MTNlZWRjMGE5OWNiYWZjMGRlYjVjMSJ9fX0=\"}]}}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:netherite_scrap",
+            "functions":[
+                {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:diamond",
+            "functions":[
+                {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:emerald",
+            "functions":[
+                {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":5,
+                  "max":10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:golden_apple",
+            "functions":[
+                {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:coal",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "name": "minecraft:slime_ball",
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted ruby\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "name": "minecraft:slime_ball",
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "name": "minecraft:slime_ball",
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"enchanted sphene\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

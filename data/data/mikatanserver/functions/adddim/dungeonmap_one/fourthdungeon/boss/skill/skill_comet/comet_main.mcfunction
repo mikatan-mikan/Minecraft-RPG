@@ -1,0 +1,4 @@
+summon wither_skeleton ~ ~20 ~ {Attributes:[{Name:"minecraft:generic.attack_damage",Base:20},{Name:"minecraft:generic.max_health",Base:40}],Health:22,Tags:["FouDunMob","CometWMob"],Motion:[2.0,5.0,0.0]}
+summon wither_skeleton ~ ~20 ~ {Attributes:[{Name:"minecraft:generic.attack_damage",Base:20},{Name:"minecraft:generic.max_health",Base:40}],Health:22,Tags:["FouDunMob","CometWMob"],Motion:[-1.0,5.0,1.6]}
+summon wither_skeleton ~ ~20 ~ {Attributes:[{Name:"minecraft:generic.attack_damage",Base:20},{Name:"minecraft:generic.max_health",Base:40}],Health:22,Tags:["FouDunMob","CometWMob"],Motion:[-1.0,5.0,-1.6]}
+tellraw @a[tag=DungeonPlay_4] [{"text": "Comet>>","color": "aqua"},{"text": "Mini Comet!!","color": "blue"}]

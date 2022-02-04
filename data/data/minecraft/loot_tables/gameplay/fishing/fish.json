@@ -1,0 +1,266 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 300,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 130,
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 250,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8,display:{Name:'[{\"text\":\"sea crystal\"}]'}}"
+            }
+          ],
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":10,
+          "name":"minecraft:netherite_scrap"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":10,
+          "name":"minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":7,
+          "name":"minecraft:gold_block"
+        },
+        {
+          "type":"minecraft:item",
+          "weight":1,
+          "functions":[
+            {
+              "function": "minecraft:set_nbt",
+              "tag":"{display:{Name:'[{\"text\":\"天ノ海竿\",\"color\":\"aqua\"}]'},Enchantments:[{id:\"minecraft:lure\",lvl:4s},{id:\"minecraft:mending\",lvl:3}]}"
+            }
+          ],
+          "name":"minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":3,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{display:{color:8716267,Name:'[{\"text\":\"天ノ鎧\"}]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618104],Slot:\"feet\"},{AttributeName:\"minecraft:generic.luck\",Amount:0.1,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618105],Slot:\"feet\"},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.003,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618106],Slot:\"feet\"}]}"
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":3,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{display:{color:7471079,Name:'[{\"text\":\"天ノ鎧\"}]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:7.0,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618107],Slot:\"legs\"},{AttributeName:\"minecraft:generic.luck\",Amount:0.1,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618108],Slot:\"legs\"},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.003,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618109],Slot:\"legs\"}]}"
+            }
+          ],
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":3,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{display:{color:6159843,Name:'[{\"text\":\"天ノ鎧\"}]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8.0,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618110],Slot:\"chest\"},{AttributeName:\"minecraft:generic.luck\",Amount:0.1,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618111],Slot:\"chest\"},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.003,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618112],Slot:\"chest\"}]}"
+            }
+          ],
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":3,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{display:{color:4849633,Name:'[{\"text\":\"天ノ鎧\"}]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618114],Slot:\"head\"},{AttributeName:\"minecraft:generic.luck\",Amount:0.1,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618115],Slot:\"head\"},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.003,Operation:0,UUID:[I;915581423,-105458275,-295946392,53618116],Slot:\"head\"}]}"
+            }
+          ],
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:1,display:{Name:'[{\"text\": \"ブルーグラスグッビー\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:2,display:{Name:'[{\"text\": \"朱文金\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:3,display:{Name:'[{\"text\": \"モンガラカワハギ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:4,display:{Name:'[{\"text\": \"ゴールデンエンゼルフィッシュ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:5,display:{Name:'[{\"text\": \"チョウチョウウオ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:6,display:{Name:'[{\"text\": \"ミドリフグ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:7,display:{Name:'[{\"text\": \"テングカワハギ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:8,display:{Name:'[{\"text\": \"デメニギス\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:9,display:{Name:'[{\"text\": \"ヤマトヌマエビ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:10,display:{Name:'[{\"text\": \"ミズクラゲ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:11,display:{Name:'[{\"text\": \"メンダコ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:12,display:{Name:'[{\"text\": \"レッドビーシュリンプ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:13,display:{Name:'[{\"text\": \"コリドラスアルビノ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag":"{CustomModelData:14,display:{Name:'[{\"text\": \"ヒカリキンメダイ\"}]'}}"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        }
+      ]
+    }
+  ]
+}

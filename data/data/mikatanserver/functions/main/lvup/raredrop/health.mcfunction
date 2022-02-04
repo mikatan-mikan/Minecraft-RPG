@@ -1,0 +1,2 @@
+give @s minecraft:paper{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1,display:{Name:'[{"text":"proof of friendship","color":"light_purple"}]'}}
+tellraw @s [{"text": "Rare Drop!! ","color": "gold","italic": true,"bold": true},{"text": "proof of friendship","color": "light_purple","italic": false,"bold": false}]

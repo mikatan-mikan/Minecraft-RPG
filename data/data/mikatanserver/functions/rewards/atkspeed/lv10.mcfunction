@@ -1,0 +1,1 @@
+give @s diamond_sword{display:{Name:'[{"text":"innocent sword","color":"white"}]'},Enchantments:[{id:sharpness,lvl:1}]}

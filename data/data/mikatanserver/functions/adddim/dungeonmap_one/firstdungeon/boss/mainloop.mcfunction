@@ -1,0 +1,1 @@
+execute store result bossbar minecraft:firstboss_bar value run data get entity @e[tag=FirstDunBoss,limit=1] Health

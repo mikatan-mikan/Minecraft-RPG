@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:gold_nugget"
+      },
+      "title": "近道？",
+      "description": "アクセサリーの取得を目指そう！"
+    },
+    "parent": "mikatanserver:customcrafter/tablecraft",
+    "criteria": {
+      "jyoken": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/5"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+give @s netherite_sword{display:{Name:'[{"text":"orange sword","color":"gold"}]',Lore:['[{"text":"CombatLvを100lvまで上げた象徴","color":"gold"}]']}}

@@ -1,0 +1,1 @@
+give @s iron_pickaxe{display:{Name:'[{"text":"pure white pickaxe"}]'}} 1
