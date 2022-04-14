@@ -99,7 +99,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:13,display:{Name:'[{\"text\":\"enchanted frostrod\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+                "tag": "{CustomModelData:13,display:{Name:'[{\"text\":\"enchanted frostrod \"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
               }
             ],
             "name": "minecraft:nautilus_shell"
