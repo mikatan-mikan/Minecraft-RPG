@@ -1,10 +1,10 @@
 {
-    "ambient_light": 1.0,
-    "type": "mikatanserver:dungeon",
+  "type": "mikatanserver:dungeon",
     "generator": {
+      "ambient_light": 1.0,
       "type": "minecraft:flat",
       "settings": {
-        "biome": "minecraft:plains",
+        "biome": "mikatanserver:nomob",
         "lakes": false,
         "features": false,
         "layers": [
@@ -16,5 +16,5 @@
         "structure_overrides": []
       }
     }
-  }
+}
   

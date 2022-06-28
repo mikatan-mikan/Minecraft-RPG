@@ -84,6 +84,9 @@ execute as @a[scores={GoldCount=3..}] run function mikatanserver:main/ores/main
 ##farming xp判定
 execute as @a[scores={FarmingLuckPT=..9,SmallAmethyst=1..}] run function mikatanserver:main/farming/xp/xpup
 
+##boost
+execute as @a[scores={Boost = 0..}] run function mikatanserver:main/boostminus 
+
 clear @a bow{Enchantments:[{id:"minecraft:power",lvl:15s}]}
 
 clear @a[name="RoRota_",predicate=mikatanserver:overworld] carrot_on_a_stick{CustomModelData:4}

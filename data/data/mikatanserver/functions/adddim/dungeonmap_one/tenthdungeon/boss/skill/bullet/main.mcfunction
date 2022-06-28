@@ -1,0 +1,9 @@
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot1"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[0.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot2"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[45.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot3"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[90.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot4"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[135.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot5"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[180.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot6"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[-45.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot7"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[-90.0f,0.0f]}
+summon armor_stand ~ ~ ~ {Tags:["IronBossAr","IronBossRot8"],Invisible:1b,Invulnerable:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"iron_block",Count:1b}],HandItems:[{},{}],Rotation:[-135.0f,0.0f]}
+tellraw @a[tag=DungeonPlay_10] [{"text": "iron blade>>","color": "gray"},{"text": "アイアンバレット！！","color": "white"}]

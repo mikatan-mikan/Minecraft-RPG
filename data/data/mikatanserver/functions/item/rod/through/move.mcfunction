@@ -1,1 +1,1 @@
-execute as @e[tag=NBthroughSwordAr] at @s run function mikatanserver:item/rod/through/moveexe
+execute as @e[tag=throughSwordAr] at @s run function mikatanserver:item/rod/through/moveexe

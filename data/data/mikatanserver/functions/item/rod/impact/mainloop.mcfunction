@@ -1,0 +1,1 @@
+execute as @e[tag = impact_rod_sil] at @s run function mikatanserver:item/rod/impact/mainloop_exe
