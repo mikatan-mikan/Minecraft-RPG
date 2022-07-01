@@ -2,12 +2,12 @@
     "display": {
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt":"{CustomModelData:46}"
+            "nbt":"{CustomModelData:48}"
         },
-        "title": "木こりの始まり",
-        "description": "AtkD XP Boost 1を作成する"
+        "title": "釣りの始まり",
+        "description": "Luck XP Boost 9を作成する"
     },
-    "parent": "mikatanserver:root",
+    "parent": "mikatanserver:customcrafter/boost/wood/100per",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

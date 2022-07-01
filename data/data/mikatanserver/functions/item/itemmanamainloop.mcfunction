@@ -110,6 +110,7 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:48}}}] at @s run function mikatanserver:item/boost/luck/9
 
 
 ##xp配布
