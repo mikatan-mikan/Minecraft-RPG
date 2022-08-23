@@ -105,8 +105,10 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:40}}}] run function mikatanserver:item/teleporter/area/_event_christmas
 #dungeon eigth
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:42}}}] run function mikatanserver:item/teleporter/dungeon/nineth/init
-#dungeon nineth
+#dungeon tenth
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:45}}}] run function mikatanserver:item/teleporter/dungeon/tenth/init
+#dungeon eleventh
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:49}}}] run function mikatanserver:item/teleporter/dungeon/eleventh/init
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1

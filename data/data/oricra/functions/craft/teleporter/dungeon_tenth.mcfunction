@@ -1,4 +1,5 @@
 #テンプレート
+#テンプレート
 data merge block ~ ~ ~ {Items:[]}
 playsound minecraft:block.smithing_table.use master @p
 

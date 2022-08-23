@@ -268,6 +268,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add AtkBoost_1 dummy
 
     scoreboard objectives add impact_timer dummy
+##ver 1.7
+    scoreboard objectives add EBthroughArrowTimer dummy
+    scoreboard objectives add throughArrowTimer dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver1.0\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

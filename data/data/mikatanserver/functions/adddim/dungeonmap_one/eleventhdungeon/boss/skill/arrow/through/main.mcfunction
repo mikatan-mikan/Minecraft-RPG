@@ -1,18 +1,22 @@
-scoreboard players add @s ResultRot_0 10
+scoreboard players add @s ResultRot_0 40
+execute if score @s ResultRot_0 matches 360 run scoreboard players set @s ResultRot_0 0
 execute store result entity @s Rotation[0] float 1 run scoreboard players get @s ResultRot_0
 
-summon armor_stand ^0.5 ^ ^ {Tags:["NBthroughSwordAr","NBthroughSwordArBe","NineDunArmor"],Invisible:1b,Invulnerable:1b,HandItems:[{id:"minecraft:iron_sword",Count:1b}],ShowArms:1b,Pose:{RightArm:[0.0f,0.0f,0.0f]},DisabledSlots:4144959}
+summon arrow ^0.5 ^1 ^ {Tags:["EBthroughArrowAr","EBthroughArrowArBe","ElevenDunArmor"]}
 
-playsound entity.snowball.throw master @a[distance=..80] ~ ~ ~ 2 0 1
+playsound entity.arrow.shoot master @a[distance=..80] ~ ~ ~ 2 0 1
 
-execute as @e[tag=NBthroughSwordArBe] at @s unless score @s throughSwordTimer matches 1..120 store result entity @s Rotation[0] float 1 run data get entity @e[tag=NinethDunBoss,limit=1] Rotation[0] 
+execute as @e[tag=EBthroughArrowArBe] at @s unless score @s throughArrowTimer matches 1..120 store result entity @s Rotation[0] float 1 run data get entity @e[tag=EleventhDunBoss,limit=1] Rotation[0] 
 
 execute store result score @s NowDic run data get entity @s Rotation[1]
-execute store result entity @e[tag=NBthroughSwordArBe,limit=1] Pose.RightArm[0] float 1 run scoreboard players get @s NowDic
+execute store result entity @e[tag=EBthroughArrowArBe,limit=1] Pose.RightArm[0] float 1 run scoreboard players get @s NowDic
 
-#item replace entity @e[tag=throughSwordArBe,limit=1] weapon.mainhand with minecraft:iron_sword
+execute as @e[tag = EBthroughArrowArBe] run scoreboard players set @s MK.v.VecValue 2
+execute as @e[tag = EBthroughArrowArBe] run function mikatanlib:vector/vectorexe
 
-tag @e[tag=NBthroughSwordArBe] remove NBthroughSwordArBe
+#item replace entity @e[tag=throughArrowArBe,limit=1] weapon.mainhand with minecraft:iron_sword
+
+tag @e[tag=EBthroughArrowArBe] remove EBthroughArrowArBe
 
 
 function mikatanserver:adddim/dungeonmap_one/ninethdungeon/boss/skill/sword/through/move
