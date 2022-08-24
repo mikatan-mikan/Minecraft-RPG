@@ -31,4 +31,6 @@
     scoreboard players set @s FarmingLuckPT 0
     tellraw @s [{"text": "initialize farming method...","color": "green","italic": true}]
 
+    scoreboard players set @s AngelStoneFlag 0
+
     tellraw @s [{"text": "completed setup!!","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

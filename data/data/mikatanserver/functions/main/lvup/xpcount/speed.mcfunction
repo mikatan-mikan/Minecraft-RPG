@@ -11,7 +11,7 @@ scoreboard players set @s GraniteCount 0
 
 scoreboard players add @s speedxp 1
 
-execute if entity @s[scores={stonecount=1..}] run say a
+execute as @s[scores={AngelStoneFlag=1},predicate = mikatanserver:chance/0.001] at @s run function mikatanserver:main/drap_stone/angel_stone
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:1}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s speedxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:2}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s speedxp 1

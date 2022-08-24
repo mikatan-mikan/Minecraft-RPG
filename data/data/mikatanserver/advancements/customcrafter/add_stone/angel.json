@@ -5,9 +5,9 @@
             "nbt": "{CustomModelData:50}"
         },
         "title": "鉱石の錬成",
-        "description": "angel stoneの採掘権を得る\n============\n出現確率:0.01%"
+        "description": "angel stoneの採掘権を得る\n============\n出現確率:0.1%\n対象:speedXP獲得ブロックの採掘"
     },
-    "parent": "mikatanserver:customcrafter/oremaptp",
+    "parent": "mikatanserver:customcrafter/add_stone/forest",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

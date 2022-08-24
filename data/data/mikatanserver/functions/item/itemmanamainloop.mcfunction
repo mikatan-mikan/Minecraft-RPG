@@ -123,5 +123,9 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 #reward 称号 ice
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:41}}}] at @s run function mikatanserver:item/reward/ice
 
+##追加アイテム等入手条件解放処理
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:50}}}] at @s run function mikatanserver:item/add_stone/angel/main
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:51}}}] at @s run function mikatanserver:item/add_stone/forest/main
+
 ##score Reset
 scoreboard players set @s ROD 0
