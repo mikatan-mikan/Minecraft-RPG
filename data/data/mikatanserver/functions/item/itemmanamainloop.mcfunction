@@ -34,6 +34,8 @@ execute as @s[scores={ROD=1..,mana=35..},nbt={SelectedItem:{id:"minecraft:carrot
 execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:44}}}] at @s run function mikatanserver:item/rod/megiddo/main
 #impact rod mana:50
 execute as @s[scores={ROD=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:47}}}] at @s run function mikatanserver:item/rod/impact/main
+#rare stone wand mana:0 -> 追加効果で変動
+execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:52}}}] at @s run function mikatanserver:item/rod/rare_stone_wand/main
 
 
 

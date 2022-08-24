@@ -1,0 +1,43 @@
+particle scrape ~0 ~ ~-5 0 0 0 0 1
+particle scrape ~0.78217 ~ ~-4.93844 0 0 0 0 1
+particle scrape ~1.54508 ~ ~-4.75528 0 0 0 0 1
+particle scrape ~2.26995 ~ ~-4.45503 0 0 0 0 1
+particle scrape ~2.93893 ~ ~-4.04508 0 0 0 0 1
+particle scrape ~3.53553 ~ ~-3.53553 0 0 0 0 1
+particle scrape ~4.04508 ~ ~-2.93893 0 0 0 0 1
+particle scrape ~4.45503 ~ ~-2.26995 0 0 0 0 1
+particle scrape ~4.75528 ~ ~-1.54508 0 0 0 0 1
+particle scrape ~4.93844 ~ ~-0.78217 0 0 0 0 1
+particle scrape ~5 ~ ~0 0 0 0 0 1
+particle scrape ~4.93844 ~ ~0.78217 0 0 0 0 1
+particle scrape ~4.75528 ~ ~1.54508 0 0 0 0 1
+particle scrape ~4.45503 ~ ~2.26995 0 0 0 0 1
+particle scrape ~4.04508 ~ ~2.93893 0 0 0 0 1
+particle scrape ~3.53553 ~ ~3.53553 0 0 0 0 1
+particle scrape ~2.93893 ~ ~4.04508 0 0 0 0 1
+particle scrape ~2.26995 ~ ~4.45503 0 0 0 0 1
+particle scrape ~1.54508 ~ ~4.75528 0 0 0 0 1
+particle scrape ~0.78217 ~ ~4.93844 0 0 0 0 1
+particle scrape ~0 ~ ~5 0 0 0 0 1
+particle scrape ~-0.78217 ~ ~4.93844 0 0 0 0 1
+particle scrape ~-1.54508 ~ ~4.75528 0 0 0 0 1
+particle scrape ~-2.26995 ~ ~4.45503 0 0 0 0 1
+particle scrape ~-2.93893 ~ ~4.04508 0 0 0 0 1
+particle scrape ~-3.53553 ~ ~3.53553 0 0 0 0 1
+particle scrape ~-4.04508 ~ ~2.93893 0 0 0 0 1
+particle scrape ~-4.45503 ~ ~2.26995 0 0 0 0 1
+particle scrape ~-4.75528 ~ ~1.54508 0 0 0 0 1
+particle scrape ~-4.93844 ~ ~0.78217 0 0 0 0 1
+particle scrape ~-5 ~ ~0 0 0 0 0 1
+particle scrape ~-4.93844 ~ ~-0.78217 0 0 0 0 1
+particle scrape ~-4.75528 ~ ~-1.54508 0 0 0 0 1
+particle scrape ~-4.45503 ~ ~-2.26995 0 0 0 0 1
+particle scrape ~-4.04508 ~ ~-2.93893 0 0 0 0 1
+particle scrape ~-3.53553 ~ ~-3.53553 0 0 0 0 1
+particle scrape ~-2.93893 ~ ~-4.04508 0 0 0 0 1
+particle scrape ~-2.26995 ~ ~-4.45503 0 0 0 0 1
+particle scrape ~-1.54508 ~ ~-4.75528 0 0 0 0 1
+particle scrape ~-0.78217 ~ ~-4.93844 0 0 0 0 1
+
+
+playsound minecraft:item.bottle.fill master @a[distance=..5] ~ ~ ~ 1 0

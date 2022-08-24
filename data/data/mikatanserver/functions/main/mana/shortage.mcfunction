@@ -1,0 +1,1 @@
+tellraw @s [{"text": "[system]","color": "yellow"},{"text": "連鎖効果 -> manaが足りない！","color": "blue"}]

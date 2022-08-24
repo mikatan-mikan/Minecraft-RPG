@@ -273,6 +273,10 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add throughArrowTimer dummy
     scoreboard objectives add AngelStoneFlag dummy
     scoreboard objectives add ForestStoneFlag dummy
+    scoreboard objectives add NowMobCount dummy
+
+    #翠杖
+    scoreboard objectives add jadewandcount minecraft.custom:minecraft.play_time
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver1.0\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
