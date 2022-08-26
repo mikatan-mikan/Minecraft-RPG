@@ -278,5 +278,13 @@ tellraw @a [{"text": "=====================================================\n\n"
     #翠杖
     scoreboard objectives add jadewandcount minecraft.custom:minecraft.play_time
 
+    scoreboard objectives add NowPlaceX dummy
+    scoreboard objectives add NowPlaceY dummy
+
+    scoreboard objectives add TMP dummy
+
+    scoreboard objectives add HUNDRED dummy
+    scoreboard players set num HUNDRED 10
+
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver1.0\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

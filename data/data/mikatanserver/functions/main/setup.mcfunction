@@ -34,3 +34,6 @@
     scoreboard players set @s AngelStoneFlag 0
 
     tellraw @s [{"text": "completed setup!!","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
+
+
+give @s carrot_on_a_stick{GiveXp:1000} 1

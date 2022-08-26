@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "weight":10,
+            "name": "minecraft:netherite_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{ender_ingot:1,display:{Name:'[{\"text\":\"ender ingot\",\"color\":\"dark_purple\"}]'}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"piece of satellite\"}]'}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "name": "minecraft:golden_apple"
+          }
+        ]
+      }
+    ]
+  }
