@@ -4,6 +4,7 @@ give @a[tag=DungeonPlay_10] minecraft:chest{BlockEntityTag:{LootTable:"mikatanse
 execute as @a[tag=DungeonPlay_10] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_10] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_10] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:tenthboss_bar
+scoreboard players add @a[tag=DungeonPlay_10] DungeonClear_Num 1
 gamerule keepInventory false
 tag @a[tag=DungeonPlay_10] remove CountLeader
 tag @a[tag=DungeonPlay_10] remove DungeonPlay

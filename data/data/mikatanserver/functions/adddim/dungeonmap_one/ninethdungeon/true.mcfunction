@@ -5,6 +5,7 @@ execute as @a[tag=DungeonPlay_9] if entity @s[nbt={SelectedItem:{tag:{dancing:[1
 execute as @a[tag=DungeonPlay_9] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_9] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_9] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:ninethboss_bar
+scoreboard players add @a[tag=DungeonPlay_9] DungeonClear_Num 1
 gamerule keepInventory false
 tag @a[tag=DungeonPlay_9] remove CountLeader
 tag @a[tag=DungeonPlay_9] remove DungeonPlay

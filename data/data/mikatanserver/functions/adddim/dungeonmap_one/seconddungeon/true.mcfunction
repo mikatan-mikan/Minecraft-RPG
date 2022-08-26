@@ -6,6 +6,7 @@ give @a[tag=DungeonPlay_2] minecraft:chest{BlockEntityTag:{LootTable:"mikatanser
 execute as @a[tag=DungeonPlay_6] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_6] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_2] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:secondboss_bar
+scoreboard players add @a[tag=DungeonPlay_2] DungeonClear_Num 1
 tag @a[tag=DungeonPlay_2] remove CountLeader
 tag @a[tag=DungeonPlay_2] remove DungeonPlay
 tag @a[tag=DungeonPlay_2] remove BossBattle2

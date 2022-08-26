@@ -1,2 +1,2 @@
-for i in range(189,250):
+for i in range(375,438):
     print(f"execute if score @s luck-Lv matches {i} if predicate mikatanserver:chance/{i/1000} run scoreboard players set @s farming_judge_bool 1")

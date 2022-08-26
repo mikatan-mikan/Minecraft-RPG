@@ -1,0 +1,2 @@
+execute if score @s luck-Lv matches 501..625 run function mikatanserver:main/lvup/luck/farming/501_1000/501_750/501_625/
+execute if score @s luck-Lv matches 626..750 run function mikatanserver:main/lvup/luck/farming/501_1000/501_750/626_750/

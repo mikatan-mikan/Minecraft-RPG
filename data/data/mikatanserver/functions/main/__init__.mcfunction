@@ -287,6 +287,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set num HUNDRED 10
 
     scoreboard objectives add farming_judge_bool dummy
+    #ダンジョンクリア回数
+    scoreboard objectives add DungeonClear_Num dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver1.0\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
