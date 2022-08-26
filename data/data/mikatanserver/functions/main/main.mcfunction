@@ -82,6 +82,7 @@ execute as @a[scores={QuartzCount=3..}] run function mikatanserver:main/ores/mai
 execute as @a[scores={GoldCount=3..}] run function mikatanserver:main/ores/main
 
 ##farming xp判定
+execute as @a[scores={FarmingLuckPT=..9,SmallAmethyst=1..}] run function mikatanserver:main/lvup/xpcount/luck
 execute as @a[scores={FarmingLuckPT=..9,SmallAmethyst=1..}] run function mikatanserver:main/farming/xp/xpup
 
 ##boost

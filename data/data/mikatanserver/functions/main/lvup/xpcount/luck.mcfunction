@@ -4,6 +4,10 @@ scoreboard players add @s luckxp 1
 
 scoreboard players add @s[scores={LuckBoost_9 = 1..}] luckxp 1
 
+##2022/8/27以降ファーミングラックの統合
+clear @s small_amethyst_bud{CustomModelData:2} 1
+scoreboard players remove @s SmallAmethyst 1
+
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:10}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s hpxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:11}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s hpxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:12}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s hpxp 1

@@ -1,8 +1,2 @@
-
-path =  r"C:\Users\mikasa\AppData\Roaming\.minecraft\saves\server_data\datapacks\data\data\mikatanserver\predicates\chance"
-
-num_list = [float(i / 1000) for i in range(1000)]
-
-for i in num_list:
-    with open(f"{path}\\{i}.json",mode="w") as file:
-        file.write("{\n\t\"condition\": \"minecraft:random_chance\",\n\t\"chance\":" +  str(i) + "\n}")
+for i in range(189,250):
+    print(f"execute if score @s luck-Lv matches {i} if predicate mikatanserver:chance/{i/1000} run scoreboard players set @s farming_judge_bool 1")
