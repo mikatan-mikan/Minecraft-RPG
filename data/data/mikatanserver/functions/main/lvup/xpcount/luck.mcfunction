@@ -1,11 +1,13 @@
-scoreboard players set @s fishingcount 0
+
 
 scoreboard players add @s luckxp 1
 
-scoreboard players add @s[scores={LuckBoost_9 = 1..}] luckxp 1
+scoreboard players add @s[scores={LuckBoost_9 = 1..}] luckxp 9
 
 ##2022/8/27以降ファーミングラックの統合
 clear @s small_amethyst_bud{CustomModelData:2} 1
+execute if score @s SmallAmethyst matches 1.. as @s[scores={FarmingStoneFlag=1},predicate=mikatanserver:chance/0.001] at @s run function mikatanserver:main/drap_stone/farming_stone
+execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:31}}]},predicate=mikatanserver:chance/0.10] run function mikatanserver:main/lvup/xpcount/ac/all_xp
 scoreboard players remove @s SmallAmethyst 1
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:10}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s hpxp 1
@@ -15,35 +17,36 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomM
 execute as @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:27}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s hpxp 1
 
 ##釣ったときレア泥
-execute as @s[predicate=mikatanserver:chance/0.002] run function mikatanserver:main/lvup/raredrop/luck
-execute as @s[predicate=mikatanserver:chance/0.001,scores={luck-Lv=25..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/fishing_rod
-execute as @s[predicate=mikatanserver:chance/0.001,scores={luck-Lv=50..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/sword
-execute as @s[predicate=mikatanserver:chance/0.0001,scores={luck-Lv=55..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/fishing_rod_2
-execute as @s[predicate=mikatanserver:chance/0.0001,scores={luck-Lv=75..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/fishing_rod_3
+execute as @s[predicate=mikatanserver:chance/0.002,scores={fishingcount = 1..}] run function mikatanserver:main/lvup/raredrop/luck
+execute as @s[predicate=mikatanserver:chance/0.001,scores={luck-Lv=25..,fishingcount = 1..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/fishing_rod
+execute as @s[predicate=mikatanserver:chance/0.001,scores={luck-Lv=50..,fishingcount = 1..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/sword
+execute as @s[predicate=mikatanserver:chance/0.0001,scores={luck-Lv=55..,fishingcount = 1..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/fishing_rod_2
+execute as @s[predicate=mikatanserver:chance/0.0001,scores={luck-Lv=75..,fishingcount = 1..}] run function mikatanserver:main/lvup/raredrop/fishingloot/item/fishing_rod_3
 
 ##特殊ヒット
 #mob hit
-execute as @s[predicate=mikatanserver:chance/0.01] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/zombie
-execute as @s[predicate=mikatanserver:chance/0.01] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/guardian
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=15..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/skelton
-execute as @s[predicate=mikatanserver:chance/0.002,scores={luck-Lv=20..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/magma_cube
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=25..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/witherskelton
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=35..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/witch
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=45..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/iron_golem
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=55..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/skelton_2
+execute as @s[predicate=mikatanserver:chance/0.01,scores={fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/zombie
+execute as @s[predicate=mikatanserver:chance/0.01,scores={fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/guardian
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=15..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/skelton
+execute as @s[predicate=mikatanserver:chance/0.002,scores={luck-Lv=20..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/magma_cube
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=25..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/witherskelton
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=35..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/witch
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=45..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/iron_golem
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=55..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/skelton_2
 
 #xp hit
-execute as @s[predicate=mikatanserver:chance/0.02] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_1
-execute as @s[predicate=mikatanserver:chance/0.01] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_3
-execute as @s[predicate=mikatanserver:chance/0.01] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_5
-execute as @s[predicate=mikatanserver:chance/0.01] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_10
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=30..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_15
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=35..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_20
-execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=40..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_25
+execute as @s[predicate=mikatanserver:chance/0.02,scores={fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_1
+execute as @s[predicate=mikatanserver:chance/0.01,scores={fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_3
+execute as @s[predicate=mikatanserver:chance/0.01,scores={fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_5
+execute as @s[predicate=mikatanserver:chance/0.01,scores={fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_10
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=30..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_15
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=35..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_20
+execute as @s[predicate=mikatanserver:chance/0.01,scores={luck-Lv=40..,fishingcount = 1..}] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/xp_plus_25
 
 execute as @s[nbt={SelectedItem:{tag:{saintmana:[1]}}},predicate=mikatanserver:chance/0.10] run function mikatanserver:main/lvup/raredrop/fishingloot/saintmana/give
 execute as @s[nbt={SelectedItem:{tag:{shieldfishingrod:[1]}}}] run function mikatanserver:main/lvup/raredrop/fishingloot/shieldfishing/main
 
+scoreboard players set @s fishingcount 0
 
 #execute as @s[predicate=mikatanserver:chance/0.20] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/event/xp_plus_1
 

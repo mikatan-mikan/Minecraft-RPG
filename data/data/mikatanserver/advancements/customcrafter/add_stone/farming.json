@@ -2,12 +2,12 @@
     "display": {
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:51}"
+            "nbt": "{CustomModelData:56}"
         },
-        "title": "植物の結晶...？",
-        "description": "forest stoneの採掘権を得る\n============\n出現確率:0.5%\n対象:atkdXP獲得ブロックの採掘"
+        "title": "豊農の石",
+        "description": "farming stoneの採取権を得る\n============\n出現確率:0.1%\n対象:luckXP獲得作物の採掘"
     },
-    "parent": "mikatanserver:customcrafter/add_stone/farming",
+    "parent": "mikatanserver:customcrafter/oremaptp",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

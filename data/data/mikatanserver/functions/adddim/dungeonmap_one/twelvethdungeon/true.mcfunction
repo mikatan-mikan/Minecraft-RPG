@@ -1,5 +1,7 @@
 bossbar remove minecraft:twelvethboss_bar
-give @a[tag=DungeonPlay_12] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twelveth_dungeon/boss/boss"}}
+execute store result score $boss_chest TMP run clear @a lever{tresurekey:1}
+execute if score $boss_chest TMP matches 1 run give @a[tag=DungeonPlay_12] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twelveth_dungeon/boss/boss"}}
+execute if score $boss_chest TMP matches 2.. run give @a[tag=DungeonPlay_12] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twelveth_dungeon/boss/boss"}} 2
 #execute as @a[tag=DungeonPlay_11] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/Twelveth_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_12] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_12] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_12] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,110,0)へTPします","color": "yellow"}]

@@ -273,6 +273,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add throughArrowTimer dummy
     scoreboard objectives add AngelStoneFlag dummy
     scoreboard objectives add ForestStoneFlag dummy
+    scoreboard objectives add SpiritMassFlag dummy
+    scoreboard objectives add FarmingStoneFlag dummy
     scoreboard objectives add NowMobCount dummy
 
     #翠杖

@@ -36,6 +36,8 @@ execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot
 execute as @s[scores={ROD=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:47}}}] at @s run function mikatanserver:item/rod/impact/main
 #rare stone wand mana:0 -> 追加効果で変動
 execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:52}}}] at @s run function mikatanserver:item/rod/rare_stone_wand/main
+#spirit wand mana:100
+execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/spirit_wand/main
 
 
 
@@ -131,6 +133,8 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 ##追加アイテム等入手条件解放処理
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:50}}}] at @s run function mikatanserver:item/add_stone/angel/main
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:51}}}] at @s run function mikatanserver:item/add_stone/forest/main
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:55}}}] at @s run function mikatanserver:item/add_stone/spirit/main
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:56}}}] at @s run function mikatanserver:item/add_stone/farming/main
 
 ##score Reset
 scoreboard players set @s ROD 0

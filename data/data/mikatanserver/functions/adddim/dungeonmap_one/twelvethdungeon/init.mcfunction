@@ -8,4 +8,5 @@ scoreboard objectives add BossMoveCnt dummy
 scoreboard players set $bosscnt BossMoveCnt 0
 ##人数検知
 scoreboard objectives add 12DunPlayers dummy
+scoreboard players set $200 12DunPlayers 200 
 scoreboard players set $256 12DunPlayers 256 

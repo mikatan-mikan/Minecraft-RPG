@@ -14,7 +14,7 @@ bossbar set minecraft:twelvethboss_bar color purple
 
 ##人数を取得 & 値の決定
 execute store result score player 12DunPlayers if entity @a[tag = DungeonPlay_12]
-scoreboard players operation player 12DunPlayers *= $256 12DunPlayers
+scoreboard players operation player 12DunPlayers *= $200 12DunPlayers
 execute store result bossbar twelvethboss_bar max run scoreboard players get player 12DunPlayers
 execute store result bossbar twelvethboss_bar value run scoreboard players get player 12DunPlayers
 
