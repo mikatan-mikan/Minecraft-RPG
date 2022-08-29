@@ -268,6 +268,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add AtkBoost_1 dummy
 
     scoreboard objectives add impact_timer dummy
+    
+    tellraw @a [{"text": "completed initialize version 1.6 system...","color": "yellow","italic": true}]
 ##ver 1.7
     scoreboard objectives add EBthroughArrowTimer dummy
     scoreboard objectives add throughArrowTimer dummy
@@ -276,6 +278,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add SpiritMassFlag dummy
     scoreboard objectives add FarmingStoneFlag dummy
     scoreboard objectives add NowMobCount dummy
+
+    
+    tellraw @a [{"text": "completed add stone method...","color": "green","italic": true}]
 
     #翠杖
     scoreboard objectives add jadewandcount minecraft.custom:minecraft.play_time
@@ -286,11 +291,29 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add TMP dummy
 
     scoreboard objectives add HUNDRED dummy
-    scoreboard players set num HUNDRED 10
+    scoreboard players set num HUNDRED 100
 
     scoreboard objectives add farming_judge_bool dummy
     #ダンジョンクリア回数
     scoreboard objectives add DungeonClear_Num dummy
 
+    ##number set
+    scoreboard objectives add int dummy
+    scoreboard players set $1 int 1
+    scoreboard players set $2 int 2
+    scoreboard players set $3 int 3
+    scoreboard players set $4 int 4
+    scoreboard players set $5 int 5
+    scoreboard players set $6 int 6
+    scoreboard players set $7 int 7
+    scoreboard players set $8 int 8
+    scoreboard players set $9 int 9
+    scoreboard players set $10 int 10
+    scoreboard players set $100 int 100
+    scoreboard players set $200 int 200
+
+    
+    tellraw @a [{"text": "completed initialize version 1.5 system...","color": "yellow","italic": true}]
+
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
-tellraw @a [{"text": "ver : mikatan server main code ver1.0\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
+tellraw @a [{"text": "ver : mikatan server main code ver1.6\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

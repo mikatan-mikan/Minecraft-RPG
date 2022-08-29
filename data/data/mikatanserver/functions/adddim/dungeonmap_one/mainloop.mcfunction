@@ -11,3 +11,4 @@ execute if entity @a[tag=DungeonPlay_9] run function mikatanserver:adddim/dungeo
 execute if entity @a[tag=DungeonPlay_10] run function mikatanserver:adddim/dungeonmap_one/tenthdungeon/mainloop
 execute if entity @a[tag=DungeonPlay_11] run function mikatanserver:adddim/dungeonmap_one/eleventhdungeon/mainloop
 execute if entity @a[tag=DungeonPlay_12] run function mikatanserver:adddim/dungeonmap_one/twelvethdungeon/mainloop
+execute if entity @a[tag=DungeonPlay_13] run function mikatanserver:adddim/dungeonmap_one/thirteendungeon/mainloop
