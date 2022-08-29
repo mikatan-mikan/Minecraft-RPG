@@ -40,7 +40,7 @@ scoreboard players remove @s EnchanterItemCount 1
 execute store result block ~ ~ ~ Items[0].Count short 1 run scoreboard players get @s EnchanterItemCount
 execute if score @s EnchanterItemCount matches 0 run item replace block ~ ~ ~ container.0 with minecraft:air
 
-
+item modify block ~ ~ ~ container.4 oriench:rand/ench_del
 
 scoreboard players set @s MK.r.RandValue 100
 function mikatanlib:rand/rand_exe

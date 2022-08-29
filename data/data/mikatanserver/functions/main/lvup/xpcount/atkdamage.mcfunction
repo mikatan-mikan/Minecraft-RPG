@@ -2,6 +2,9 @@ execute if score @s[predicate=mikatanserver:chance/0.03] acaciacount matches 1..
 ##氷斧
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe",Count:1b,tag:{CustomModelData:9}}}] run effect give @s haste 2 0
 
+##100 / 1で100aktdドロップ
+execute as @s[predicate = mikatanserver:chance/0.01] run scoreboard players add @s attackDxp 1
+
 scoreboard players set @s oakcount 0
 scoreboard players set @s acaciacount 0
 scoreboard players set @s junglecount 0
@@ -13,7 +16,7 @@ scoreboard players set @s warpedcount 0
 scoreboard players set @s DirtCount 0
 scoreboard players set @s GrassCount 0
 
-scoreboard players add @s attackDxp 1
+scoreboard players add @s attackDxp 2
 
 scoreboard players add @s[scores={AtkBoost_1 = 1..}] attackDxp 1
 

@@ -4,6 +4,7 @@ execute as @a[tag=DungeonPlay_7] at @s run playsound entity.player.levelup maste
 tellraw @a[tag=DungeonPlay_7] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:sevthboss_bar
 scoreboard players add @a[tag=DungeonPlay_7] DungeonClear_Num 1
+execute as @a[tag=DungeonPlay_7] run function mikatanserver:adddim/dungeonmap_one/atks_xp
 tag @a[tag=DungeonPlay_7] remove CountLeader
 tag @a[tag=DungeonPlay_7] remove DungeonPlay
 tag @a[tag=DungeonPlay_7] remove BossBattle7

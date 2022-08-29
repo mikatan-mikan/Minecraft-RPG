@@ -6,7 +6,8 @@ execute if score $boss_chest TMP matches 2.. run give @a[tag=DungeonPlay_12] min
 execute as @a[tag=DungeonPlay_12] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_12] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_12] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,110,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:twelvethboss_bar
-scoreboard players add @a[tag=DungeonPlay_12] DungeonClear_Num 1
+scoreboard players add @a[tag=DungeonPlay_12] DungeonClear_Num 5
+execute as @a[tag=DungeonPlay_12] run function mikatanserver:adddim/dungeonmap_one/atks_xp
 gamerule keepInventory false
 tag @a[tag=DungeonPlay_12] remove CountLeader
 tag @a[tag=DungeonPlay_12] remove DungeonPlay
