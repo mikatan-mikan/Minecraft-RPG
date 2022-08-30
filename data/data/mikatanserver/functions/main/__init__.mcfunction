@@ -316,7 +316,7 @@ tellraw @a [{"text": "=====================================================\n\n"
 
 
     scoreboard objectives add ImaginStoneFlag dummy
-    
+    scoreboard objectives add LuckStoneFlag dummy
 
     team add OrangeTeam {"text": "【歴史の採掘者】"}
     team modify OrangeTeam color gold

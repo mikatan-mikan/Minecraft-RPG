@@ -13,3 +13,6 @@ scoreboard players add @s[scores={attackD-Lv=75..}] needattackDxp 1
 scoreboard players add @s[scores={attackD-Lv=90..}] needattackDxp 1
 execute as @a[scores={attackD-Lv=..100}] run function mikatanserver:main/lvup/atkdamage/lv100_lv0/func
 execute as @a[scores={attackD-Lv=101..200}] run function mikatanserver:main/lvup/atkdamage/lv200_lv101/func
+
+##アクセサリー
+execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:34}}]}] run xp add @s 25 levels
