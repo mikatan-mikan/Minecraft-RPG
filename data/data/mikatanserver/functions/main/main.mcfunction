@@ -30,6 +30,8 @@ execute as @a[scores={LogCheck_Logger=1..}] at @s run function mikatanserver:log
 ##ダンジョン検知
 execute if entity @a[predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/dungeonmap_one/mainloop
 
+##Tips
+execute as @a if score @s DeathCnt_Tip matches 1.. run function mikatanserver:main/tips
 
 ##死亡後復帰用
 execute as @a[scores={deathflag=1..,healthflag=1..,deathafter=1..}] run function mikatanserver:main/deathflag

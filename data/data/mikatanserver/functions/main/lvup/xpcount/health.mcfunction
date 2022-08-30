@@ -1,4 +1,4 @@
-scoreboard players set @s tradecount 0
+scoreboard players remove @s tradecount 1
 
 scoreboard players add @s hpxp 1
 

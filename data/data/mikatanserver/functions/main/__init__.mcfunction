@@ -321,6 +321,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     team add OrangeTeam {"text": "【歴史の採掘者】"}
     team modify OrangeTeam color gold
 
+    scoreboard objectives add DeathCnt_Tip deathCount
+
     
     tellraw @a [{"text": "completed initialize version 1.5 system...","color": "yellow","italic": true}]
 
