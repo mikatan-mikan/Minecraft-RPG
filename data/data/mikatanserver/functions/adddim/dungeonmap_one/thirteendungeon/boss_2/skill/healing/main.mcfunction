@@ -11,4 +11,7 @@ execute if score @s MobNowHP matches ..200 run effect give @a[tag=BossBattle13] 
 particle heart ~ ~ ~ 1 1 1 1 100
 playsound entity.experience_orb.pickup master @a[tag=DungeonPlay_13,distance=..30] ~ ~ ~ 2 1
 tellraw @a[tag=DungeonPlay_13] [{"text": "神子>>","color": "white"},{"text": "ヒーリング！！","color": "green"}]
-kill @e[type=armor_stand,tag=BossWindArmor13]
+
+
+## 数ティック遅延のため
+scoreboard players set $floor 13_TowerFloor 11

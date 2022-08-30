@@ -309,8 +309,10 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $8 int 8
     scoreboard players set $9 int 9
     scoreboard players set $10 int 10
+    scoreboard players set $16 int 16
     scoreboard players set $100 int 100
     scoreboard players set $200 int 200
+    scoreboard players set $333 int 333
 
     
     tellraw @a [{"text": "completed initialize version 1.5 system...","color": "yellow","italic": true}]

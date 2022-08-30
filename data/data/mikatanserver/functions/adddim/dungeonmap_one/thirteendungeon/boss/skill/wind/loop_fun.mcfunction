@@ -1,1 +1,0 @@
-execute as @e[tag=BossWindArmor11] at @s run function mikatanserver:adddim/dungeonmap_one/eleventhdungeon/boss/skill/wind/loop

@@ -6,11 +6,13 @@ tellraw @a[tag=DungeonPlay_13] [{"text":"ダンジョンクリア!!\n","color": 
 bossbar remove minecraft:thirteenboss_bar
 scoreboard players add @a[tag=DungeonPlay_13] DungeonClear_Num 7
 execute as @a[tag=DungeonPlay_13] run function mikatanserver:adddim/dungeonmap_one/atks_xp
-gamerule keepInventory false
+gamerule keepInventory true
 tag @a[tag=DungeonPlay_13] remove Dun13_Tower
 tag @a[tag=DungeonPlay_13] remove CountLeader
 tag @a[tag=DungeonPlay_13] remove DungeonPlay
 tag @a[tag=DungeonPlay_13] remove BossBattle13
+tag @a[tag=DungeonPlay_13] remove BossBattle13_2
+tag @a[tag=DungeonPlay_13] remove DungeonPlay_13
 scoreboard objectives remove ThirteenDunDeath
 scoreboard objectives remove ThirteenBossSkill
 scoreboard objectives remove ThirteenBossSkill2

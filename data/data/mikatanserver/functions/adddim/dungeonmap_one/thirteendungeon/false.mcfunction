@@ -17,4 +17,5 @@ tag @a[tag=DungeonPlay_13] remove Dun13_Tower
 tag @a[tag=DungeonPlay_13] remove CountLeader
 tag @a[tag=DungeonPlay_13] remove DungeonPlay
 tag @a[tag=DungeonPlay_13] remove BossBattle13
+tag @a[tag=DungeonPlay_13] remove BossBattle13_2
 tag @a[tag=DungeonPlay_13] remove DungeonPlay_13

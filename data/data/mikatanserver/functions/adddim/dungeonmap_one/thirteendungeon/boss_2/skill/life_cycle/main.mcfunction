@@ -1,0 +1,7 @@
+summon armor_stand 270.5 208 -31.5 {Tags:["ThirteenDunMob","13_EffectAr","13_EffectAr1"],Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:oak_leaves",Count:1b}],Invisible:1b}
+summon slime 270.5 209 -31.5 {Tags:["ThirteenDunMob","13_EffectAr","13_EffectAr_Slime1","13_EffectAr1"],Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2000000000,Amplifier:1,ShowParticles:false}],Size:2,Attributes:[{Name:"minecraft:generic.max_health",Base:1024}],Health:1024,NoAI:1b,Silent:1b}
+summon armor_stand 314.5 208 -31.5 {Tags:["ThirteenDunMob","13_EffectAr","13_EffectAr2"],Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:oak_leaves",Count:1b}],Invisible:1b}
+summon slime 314.5 209 -31.5 {Tags:["ThirteenDunMob","13_EffectAr","13_EffectAr_Slime2","13_EffectAr2"],Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2000000000,Amplifier:1,ShowParticles:false}],Size:2,Attributes:[{Name:"minecraft:generic.max_health",Base:1024}],Health:1024,NoAI:1b,Silent:1b}
+tellraw @a[tag=DungeonPlay_13] [{"text": "神子>>","color": "white"},{"text": "命の輝き！！","color": "#FF0000"}]
+execute as @a[tag=DungeonPlay_13] at @s run playsound item.totem.use master @s ~ ~ ~ 0.25 2
+execute as @e[tag=13_EffectAr] at @s run particle totem_of_undying ~ ~ ~ 0.5 0.5 0.5 1 100

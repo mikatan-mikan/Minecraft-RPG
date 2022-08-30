@@ -1,0 +1,199 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "weight":10,
+            "name": "minecraft:netherite_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "name": "minecraft:beacon"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "name": "minecraft:golden_apple",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":20,
+            "name": "minecraft:coal_block",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:slime_ball",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 48,
+                  "max": 64
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5,display:{Name:'[{\"text\":\"charoite\"}]'}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:coal",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 48,
+                  "max": 64
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 30\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:iron_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"iron block\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":16,
+                  "max":32
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:16,display:{Name:'[{\"text\":\"創造の塵\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":16,
+                  "max":48
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"enchanted charoite\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"enchanted gold\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "item",
+            "name": "minecraft:player_head",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"?????\"]'},SkullOwner:{Id:[I;449009448,-1853471127,-1234613827,-683900578],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNGQ3ZDM4NTcxODRhN2Y5ZTYxZmFiMDc2YzAxY2I4YWRlMjZkOWE4MjQ5ODI5NTJkMGUwYzNiYmY0MjBjZiJ9fX0=\"}]}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
