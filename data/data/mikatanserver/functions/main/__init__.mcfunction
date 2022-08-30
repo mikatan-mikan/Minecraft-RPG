@@ -314,6 +314,13 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $200 int 200
     scoreboard players set $333 int 333
 
+
+    scoreboard objectives add ImaginStoneFlag dummy
+    
+
+    team add OrangeTeam {"text": "【歴史の採掘者】"}
+    team modify OrangeTeam color gold
+
     
     tellraw @a [{"text": "completed initialize version 1.5 system...","color": "yellow","italic": true}]
 

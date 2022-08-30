@@ -38,7 +38,8 @@ execute as @s[scores={ROD=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:carrot
 execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:52}}}] at @s run function mikatanserver:item/rod/rare_stone_wand/main
 #spirit wand mana:100
 execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/spirit_wand/main
-
+#rare stone wand mana:0 -> 追加効果で変動
+execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:59}}}] at @s run function mikatanserver:item/rod/rare_stone_wand_2/main
 
 
 #想剣
@@ -116,7 +117,7 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 #dungeon twelveth
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:53}}}] run function mikatanserver:item/teleporter/dungeon/twelveth/init
 #dungeon thirteen
-execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:57}}}] run function mikatanserver:item/teleporter/dungeon/thirteen/init
+execute as @s[scores={ROD=1..,luck-Lv=80..,attackS-Lv=80..,attackD-Lv=80..,mana-Lv=80..,speed-Lv=80..,hp-Lv=80..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:57}}}] run function mikatanserver:item/teleporter/dungeon/thirteen/init
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1
@@ -131,12 +132,14 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 
 #reward 称号 ice
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:41}}}] at @s run function mikatanserver:item/reward/ice
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:60}}}] at @s run function mikatanserver:item/reward/orange
 
 ##追加アイテム等入手条件解放処理
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:50}}}] at @s run function mikatanserver:item/add_stone/angel/main
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:51}}}] at @s run function mikatanserver:item/add_stone/forest/main
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:55}}}] at @s run function mikatanserver:item/add_stone/spirit/main
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:56}}}] at @s run function mikatanserver:item/add_stone/farming/main
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:58}}}] at @s run function mikatanserver:item/add_stone/imagination/main
 
 ##score Reset
 scoreboard players set @s ROD 0
