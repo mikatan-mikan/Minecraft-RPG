@@ -1,0 +1,2 @@
+tellraw @s [{"text":"rand","color": "gold","bold": true},{"text": ":","color": "white"},{"text":"\nメソッドcall:[mikatanlib:knockback/knockbackexe]","color": "red","italic": true,"underlined": true}]
+tellraw @s [{"text":"--使用方法","color": "light_purple","bold": true},{"text": ":","color": "white"},{"text":"\"MK.r.RandValue\"の$MK.k.Xpowerと$MK.k.Ypowerに値を入れてノックバックさせる対象に呼び出させることで、MK.k.attackerからの方角とpowerに応じたノックバックを発生させます","color": "aqua","italic": true,"underlined": true}]
