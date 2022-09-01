@@ -36,6 +36,11 @@ tellraw @a [{"text": "initialize rand method...","color": "green","italic": true
 
 tellraw @a [{"text": "initialize sin method...","color": "green","italic": true}]
 
+    #knockback storage初期化
+    scoreboard objectives add MK.k.knockbackValue dummy
+
+tellraw @a [{"text": "initialize knockback method...","color": "green","italic": true}]
+
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan lib ver1.1\n\n","color": "gold"},{"text": "     /function mikatanlib:_explanation\n","color": "light_purple"},{"text": "     を実行すると各メソッドの使用方法が表示されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

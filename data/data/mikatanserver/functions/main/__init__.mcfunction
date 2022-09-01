@@ -330,6 +330,10 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add EnderVillagerFlag minecraft.custom:minecraft.talked_to_villager
 
+    scoreboard objectives add luckrodLoop dummy
+
+    scoreboard objectives add aotd_plus20_flag dummy
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

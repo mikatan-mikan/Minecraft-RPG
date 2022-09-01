@@ -18,7 +18,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
 ## 座標代入及びタグの決定
-summon wither_skeleton 243.5 74 -385.5 {Tags:["Field_TagBefEnder"],DeathLootTable:"mikatanserver:area/ender/wither",Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.6},{Name:"minecraft:generic.max_health",Base:10}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:0}}},{id:"minecraft:obsidian",Count:1b}]}
+summon wither_skeleton 243.5 74 -385.5 {Tags:["Field_TagBefEnder"],DeathLootTable:"mikatanserver:area/ender/wither",Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.6},{Name:"minecraft:generic.max_health",Base:10}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:0}}},{id:"minecraft:obsidian",Count:1b}],CustomName:'[{"text": "obsidian defender"}]'}
 execute store result entity @e[tag=Field_TagBefEnder,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
 execute store result entity @e[tag=Field_TagBefEnder,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
 data modify entity @e[tag=Field_TagBefEnder,limit=1] Tags append from storage mikatanserver:ender_tagbox tag[0]

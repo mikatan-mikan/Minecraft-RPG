@@ -1,9 +1,22 @@
-##人数を取得 & 値の決定
-execute store result score player TMP if entity @a[tag = DungeonPlay_13]
-scoreboard players operation player TMP *= $200 int
-execute store result bossbar twelvethboss_bar max run scoreboard players get player TMP
-execute store result bossbar twelvethboss_bar value run scoreboard players get player TMP
-execute store result entity @e[tag=ThirteenDunBoss,limit=1] Health int 1 run scoreboard players get player TMP
-data merge storage mikatanserver:13_boss_hpmax {Name:"minecraft:generic.max_health",Base:1024}
-execute store result storage mikatanserver:13_boss_hpmax Base int 1 run scoreboard players get player TMP
-data modify entity @e[tag=ThirteenDunBoss,limit=1] Attributes merge from storage mikatanserver:13_boss_hpmax
+# [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAEYBsALLZXLQKwC0clKA7K7QJykADKwAcARmZxWAQzEAzSl2a1pAZj7TKYAgDtpAWwTJAYYoACMdrAxpGAwGck4FAHtCOiEgBMggijju4DEcwADdpbEIjcAAPJB8wKDiAXySCW1I0QgdEMQI7CBsPRHi4bGw0GDsjMUF4jGcCiCN4tDsAUTKKqraAR0Jw7CgAZWs-ckQ5cKqUgF0gA_3
+# 円 1
+particle minecraft:flame ^0 ^-1 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.30902 ^-0.95106 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.58779 ^-0.80902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.80902 ^-0.58779 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.95106 ^-0.30902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^1 ^0 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.95106 ^0.30902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.80902 ^0.58779 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.58779 ^0.80902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0.30902 ^0.95106 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^0 ^1 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.30902 ^0.95106 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.58779 ^0.80902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.80902 ^0.58779 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.95106 ^0.30902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-1 ^0 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.95106 ^-0.30902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.80902 ^-0.58779 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.58779 ^-0.80902 ^1 0.01 0.01 0.01 0 1
+particle minecraft:flame ^-0.30902 ^-0.95106 ^1 0.01 0.01 0.01 0 1

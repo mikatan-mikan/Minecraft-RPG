@@ -18,7 +18,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
 ## 座標代入及びタグの決定
-summon enderman 243.5 74 -385.5 {Tags:["Field_TagBefEnder"],DeathLootTable:"mikatanserver:area/ender/enderman",Attributes:[{Name:"minecraft:generic.max_health",Base:10}]}
+summon enderman 243.5 74 -385.5 {Tags:["Field_TagBefEnder"],DeathLootTable:"mikatanserver:area/ender/enderman",Attributes:[{Name:"minecraft:generic.max_health",Base:10}],CustomName:'[{"text": "zealot"}]'}
 execute store result entity @e[tag=Field_TagBefEnder,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
 execute store result entity @e[tag=Field_TagBefEnder,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
 data modify entity @e[tag=Field_TagBefEnder,limit=1] Tags append from storage mikatanserver:ender_tagbox tag[0]
