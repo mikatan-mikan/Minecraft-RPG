@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt":"{CustomModelData:62}"
+      },
+      "title": "ドラゴンを従えて",
+      "description": "ender areaへのテレポーターを作成する"
+    },
+    "parent": "mikatanserver:event/newyear/tp",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/end/10"
+    }
+  }
+  

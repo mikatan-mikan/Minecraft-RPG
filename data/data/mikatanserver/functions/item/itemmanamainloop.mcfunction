@@ -118,6 +118,8 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:53}}}] run function mikatanserver:item/teleporter/dungeon/twelveth/init
 #dungeon thirteen
 execute as @s[scores={ROD=1..,luck-Lv=80..,attackS-Lv=80..,attackD-Lv=80..,mana-Lv=80..,speed-Lv=80..,hp-Lv=80..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:57}}}] run function mikatanserver:item/teleporter/dungeon/thirteen/init
+#ender
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:62}}}] run function mikatanserver:item/teleporter/area/ender
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1
@@ -125,6 +127,7 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 
 
 ##xp配布
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:"return"}}}] run function mikatanserver:item/givexp/return
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:1000}}}] run function mikatanserver:item/givexp/1000
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:100}}}] run function mikatanserver:item/givexp/100
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:30}}}] run function mikatanserver:item/givexp/30

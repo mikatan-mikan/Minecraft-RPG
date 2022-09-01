@@ -12,6 +12,7 @@ scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:16}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:17}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:18}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s attackSxp 1
+execute as @s[nbt={Inventory:[{"Slot":103b,id:"minecraft:player_head",tag:{Ender_helmet:1b}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s attackSxp 1
 
 ##
 

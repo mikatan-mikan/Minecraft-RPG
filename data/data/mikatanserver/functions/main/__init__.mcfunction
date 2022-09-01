@@ -310,6 +310,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $9 int 9
     scoreboard players set $10 int 10
     scoreboard players set $16 int 16
+    scoreboard players set $60 int 60
     scoreboard players set $100 int 100
     scoreboard players set $200 int 200
     scoreboard players set $333 int 333
@@ -323,8 +324,14 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add DeathCnt_Tip deathCount
 
+    scoreboard objectives add ender_field_loop dummy
+
+    scoreboard objectives add field_EnderKillCnt killed:enderman
+
+    scoreboard objectives add EnderVillagerFlag minecraft.custom:minecraft.talked_to_villager
+
     
-    tellraw @a [{"text": "completed initialize version 1.5 system...","color": "yellow","italic": true}]
+    tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver1.6\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
