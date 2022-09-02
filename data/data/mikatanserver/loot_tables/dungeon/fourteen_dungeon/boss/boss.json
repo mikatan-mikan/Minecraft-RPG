@@ -11,8 +11,8 @@
           },
           {
             "type": "minecraft:item",
-            "weight":10,
-            "name": "minecraft:beacon"
+            "weight":100,
+            "name": "minecraft:purpur_block"
           },
           {
             "type": "minecraft:item",
@@ -30,14 +30,14 @@
           },
           {
             "type": "minecraft:item",
-            "weight":20,
-            "name": "minecraft:coal_block",
+            "weight":100,
+            "name": "minecraft:end_stone",
             "functions":[
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 10,
-                  "max": 30
+                  "min": 32,
+                  "max": 64
                 }
               }
             ]
@@ -56,20 +56,20 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"charoite\"}]'}}"
+                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"sphene\"}]'}}"
               }
             ]
           },
           {
             "type": "minecraft:item",
             "weight":100,
-            "name": "minecraft:coal",
+            "name": "minecraft:shulker_shell",
             "functions":[
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 48,
-                  "max": 64
+                  "min": 1,
+                  "max": 2
                 }
               }
             ]
@@ -87,12 +87,12 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 50,
+            "weight": 25,
             "name": "minecraft:slime_ball",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"enchanted sphene\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
               },
               {
                 "function":"minecraft:set_count",
@@ -106,13 +106,17 @@
           {
             "type": "minecraft:item",
             "weight": 100,
-            "name": "minecraft:iron_block",
+            "name": "minecraft:ender_pearl",
             "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"enchanted ender pearl\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              },
               {
                 "function":"minecraft:set_count",
                 "count":{
-                  "min":16,
-                  "max":32
+                  "min":2,
+                  "max":16
                 }
               }
             ]
@@ -124,34 +128,34 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:16,display:{Name:'[{\"text\":\"創造の塵\"}]'}}"
+                "tag": "{CustomModelData:18,display:{Name:'[{\"text\":\"ドラゴンの鱗\"}]'}}"
               },
               {
                 "function":"minecraft:set_count",
                 "count":{
-                  "min":16,
-                  "max":48
+                  "min":2,
+                  "max":16
                 }
               }
             ]
           },
           {
             "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:slime_ball",
+            "weight":100,
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"enchanted charoite\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 16,
+                  "max": 32
+                }
               },
               {
-                "function":"minecraft:set_count",
-                "count":{
-                  "min":1,
-                  "max":2
-                }
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:17,display:{Name:'[{\"text\":\"purple ender crystal\"}]'}}"
               }
-            ]
+            ],
+            "name": "minecraft:nautilus_shell"
           },
           {
             "type": "minecraft:item",
@@ -172,22 +176,22 @@
             "name": "minecraft:gold_ingot"
           },
           {
-            "type": "item",
-            "name": "minecraft:player_head",
-            "weight": 100,
+            "type": "minecraft:item",
+            "weight":2,
             "functions": [
               {
-                "function": "set_count",
+                "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 2
+                  "max": 1
                 }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'[\"?????\"]'},SkullOwner:{Id:[I;449009448,-1853471127,-1234613827,-683900578],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkNGQ3ZDM4NTcxODRhN2Y5ZTYxZmFiMDc2YzAxY2I4YWRlMjZkOWE4MjQ5ODI5NTJkMGUwYzNiYmY0MjBjZiJ9fX0=\"}]}}}"
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Dragon Head\"}]'},SkullOwner:{Id:[I;1511045815,-1078178991,-1555977776,453315480],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFjOTY3NTBmNTM3ZTU4YTU5ODgwNDJhNjIyZGMxZmNiZWJiYzVjYmJhZjQ5MzU3ZGFjYjc2NGIzYjkxNiJ9fX0=\"}]}}}"
               }
-            ]
+            ],
+            "name": "minecraft:player_head"
           }
         ]
       }

@@ -1,4 +1,5 @@
 bossbar remove minecraft:twelvethboss_bar
+advancement grant @a[tag=DungeonPlay_12] only mikatanserver:tp/dungeon_clear/twelveth
 execute store result score $boss_chest TMP run clear @a lever{tresurekey:1}
 execute if score $boss_chest TMP matches 1 run give @a[tag=DungeonPlay_12] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twelveth_dungeon/boss/boss"}}
 execute if score $boss_chest TMP matches 2.. run give @a[tag=DungeonPlay_12] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twelveth_dungeon/boss/boss"}} 2

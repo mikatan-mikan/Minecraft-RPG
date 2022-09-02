@@ -313,7 +313,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $60 int 60
     scoreboard players set $100 int 100
     scoreboard players set $200 int 200
+    scoreboard players set $256 int 256
     scoreboard players set $333 int 333
+    scoreboard players set $1024 int 1024
 
 
     scoreboard objectives add ImaginStoneFlag dummy
@@ -333,6 +335,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add luckrodLoop dummy
 
     scoreboard objectives add aotd_plus20_flag dummy
+
+    scoreboard objectives add BossHP dummy
 
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
