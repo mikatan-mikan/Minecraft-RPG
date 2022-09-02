@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:67}"
+        },
+        "title": "自然に蔓延る竜の跡",
+        "description": "ender stoneの採掘権を得る\n============\n出現確率:0.2%\n対象:AtkdXP獲得ブロックの採掘"
+    },
+    "parent": "mikatanserver:customcrafter/add_stone/forest",
+    "criteria": {
+        "jyoken": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "jyoken"
+        ]
+    ],
+    "rewards": {
+        "function": "mikatanserver:rewards/20"
+    }
+}

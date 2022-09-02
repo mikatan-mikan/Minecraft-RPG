@@ -338,6 +338,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add BossHP dummy
 
+    scoreboard objectives add EnderStoneFlag dummy
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 
