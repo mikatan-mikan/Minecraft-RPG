@@ -2,9 +2,10 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:60}"
+        "nbt":"{CustomModelData:60}",
+        "frame": "goal"
       },
-      "title": "歴史の採掘者",
+      "title": "Re: Mikatan Server",
       "description": "【歴史の採掘者】を達成する"
     },
     "parent": "mikatanserver:customcrafter/rod_and_sword/rare_stone_2",
