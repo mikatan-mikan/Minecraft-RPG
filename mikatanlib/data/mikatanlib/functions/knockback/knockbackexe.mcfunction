@@ -21,7 +21,7 @@
     execute store result storage mikatanlib:knockback Pos[2] double 0.00001 run scoreboard players get $MK.k.KnockbackZ MK.k.knockbackValue
     data modify entity @s Motion set from storage mikatanlib:knockback Pos
 ##リセット
-    #tag @a remove MK.k.Attacker
+    tag @a remove MK.k.Attacker
     data remove storage mikatanlib:knockback Pos
     scoreboard players reset $MK.k.KnockbackX
     scoreboard players reset $MK.k.KnockbackY

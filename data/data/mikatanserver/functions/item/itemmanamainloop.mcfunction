@@ -34,15 +34,8 @@ execute as @s[scores={ROD=1..,mana=35..},nbt={SelectedItem:{id:"minecraft:carrot
 execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:44}}}] at @s run function mikatanserver:item/rod/megiddo/main
 #impact rod mana:50
 execute as @s[scores={ROD=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:47}}}] at @s run function mikatanserver:item/rod/impact/main
-#rare stone wand mana:0 -> 追加効果で変動
-execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:52}}}] at @s run function mikatanserver:item/rod/rare_stone_wand/main
-#spirit wand mana:100
-execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/spirit_wand/main
-#rare stone wand mana:0 -> 追加効果で変動
-execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:59}}}] at @s run function mikatanserver:item/rod/rare_stone_wand_2/main
-# aspect of the end 
-execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:64}}}] at @s run function mikatanserver:item/rod/aspect_of_the_dragon/main
-
+#spirit rod:mana45
+execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:65}}}] at @s run function mikatanserver:item/rod/spirit/main
 
 #想剣
 execute as @s[scores={ROD=1..,mana=100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:20}}}] at @s run function mikatanserver:item/rod/memory_sword/main
@@ -59,6 +52,14 @@ execute as @s[scores={manachargercount=20..,ROD=1..},nbt={SelectedItem:{id:"mine
 execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:37}}}] at @s run function mikatanserver:item/rod/through/main
 #luck rod
 execute as @s[scores={ROD=1..,mana=60..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:63}}}] at @s run function mikatanserver:item/rod/luck/main
+#rare stone wand mana:0 -> 追加効果で変動
+execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:52}}}] at @s run function mikatanserver:item/rod/rare_stone_wand/main
+#spirit wand mana:100
+execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/spirit_wand/main
+#rare stone wand mana:0 -> 追加効果で変動
+execute as @s[scores={ROD=1..,jadewandcount = 200..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:59}}}] at @s run function mikatanserver:item/rod/rare_stone_wand_2/main
+# aspect of the end 
+execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:64}}}] at @s run function mikatanserver:item/rod/aspect_of_the_dragon/main
 
 
 

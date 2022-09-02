@@ -2,12 +2,12 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:63}"
+        "nbt":"{CustomModelData:65}"
       },
-      "title": "幸運を呼び寄せるもの",
-      "description": "幸運の杖を作成する"
+      "title": "霊の波動",
+      "description": "spirit rodを作成する"
     },
-    "parent": "mikatanserver:customcrafter/rod_and_sword/flyingsword",
+    "parent": "mikatanserver:customcrafter/aqua",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"
@@ -22,3 +22,4 @@
       "function": "mikatanserver:rewards/15"
     }
   }
+  
