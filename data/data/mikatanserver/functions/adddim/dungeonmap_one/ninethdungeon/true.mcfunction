@@ -7,7 +7,7 @@ tellraw @a[tag=DungeonPlay_9] [{"text":"ダンジョンクリア!!\n","color": "
 bossbar remove minecraft:ninethboss_bar
 scoreboard players add @a[tag=DungeonPlay_9] DungeonClear_Num 3
 execute as @a[tag=DungeonPlay_9] run function mikatanserver:adddim/dungeonmap_one/atks_xp
-gamerule keepInventory false
+gamerule keepInventory true
 tag @a[tag=DungeonPlay_9] remove CountLeader
 tag @a[tag=DungeonPlay_9] remove DungeonPlay
 tag @a[tag=DungeonPlay_9] remove BossBattle9
