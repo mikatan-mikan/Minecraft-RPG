@@ -1,7 +1,6 @@
 
 execute if score $14 BossHP matches ..300 run clear @a[tag=BossBattle14] #boats
 execute if score $14 BossHP matches ..300 run effect clear @a[tag=BossBattle14] resistance
-gamemode creative @a
 ##bossの現在HPをgetする
 execute store result score $boss_hp 14_boss_hp_checker run data get entity @e[tag=FourteenDunBoss,limit=1] Health
 ##減ったhpを検知する

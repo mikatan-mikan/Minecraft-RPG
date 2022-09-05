@@ -1,4 +1,4 @@
-scoreboard players remove @s mana 50
+scoreboard players remove @s mana 45
 
 summon armor_stand ~ ~1 ~ {Tags:["megiddoAr","BeforeStoreMegiddoAr"],Invulnerable:1b,Invisible:1b}
 

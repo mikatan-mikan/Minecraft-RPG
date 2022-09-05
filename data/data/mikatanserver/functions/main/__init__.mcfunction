@@ -340,6 +340,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add EnderStoneFlag dummy
 
+    scoreboard objectives add embercount dummy
+    scoreboard objectives add burtcount dummy
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

@@ -12,8 +12,6 @@ tag @a[tag=DungeonPlay_14] remove DungeonPlay
 tag @a[tag=DungeonPlay_14] remove BossBattle14
 scoreboard objectives remove FourteenDunDeath
 scoreboard objectives remove FourteenBossSkill
-scoreboard objectives remove Wind_Count
-scoreboard objectives remove Wind_Rot_Count
 scoreboard objectives remove 14_boss_hp_checker
 kill @e[tag=FourteenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item]
