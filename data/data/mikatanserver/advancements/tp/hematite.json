@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:72}"
+      },
+      "title": "根深く根付く暗黒の石",
+      "description": "jade採掘場へ向かう"
+    },
+    "parent": "mikatanserver:tp/jade",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/5"
+    }
+  }

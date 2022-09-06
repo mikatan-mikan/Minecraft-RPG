@@ -346,6 +346,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     
     ##鉱石
     scoreboard objectives add aquaselfcount minecraft.mined:minecraft.blue_concrete
+    scoreboard objectives add jadeselfcount minecraft.mined:minecraft.green_concrete
+    scoreboard objectives add hematiteselfcount minecraft.mined:minecraft.black_concrete
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 
