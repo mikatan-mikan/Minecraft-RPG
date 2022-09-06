@@ -1,13 +1,12 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:carrot_on_a_stick",
-        "nbt": "{CustomModelData:71}"
+        "item": "minecraft:green_concrete"
       },
       "title": "見覚えのある輝きにつられて",
-      "description": "jade採掘場へ向かう"
+      "description": "鉱石マップ(jade area)へのテレポーターを作成する"
     },
-    "parent": "mikatanserver:tp/aquamarine",
+    "parent": "mikatanserver:customcrafter/oremaptpaquamarine",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

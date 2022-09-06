@@ -5,7 +5,7 @@
         "nbt": "{CustomModelData:72}"
       },
       "title": "根深く根付く暗黒の石",
-      "description": "jade採掘場へ向かう"
+      "description": "hematite採掘場へ向かう"
     },
     "parent": "mikatanserver:tp/jade",
     "criteria": {

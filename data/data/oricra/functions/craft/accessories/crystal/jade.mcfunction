@@ -7,3 +7,4 @@ item replace block ~ ~ ~ container.4 with minecraft:magma_cream{display:{Name:'[
 
 #進捗
 advancement grant @p only mikatanserver:customcrafter/accessories/crystal/jade
+advancement grant @p only mikatanserver:customcrafter/tool/jadecraft

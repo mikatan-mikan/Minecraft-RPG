@@ -4,8 +4,7 @@
         "item": "minecraft:lime_concrete"
       },
       "title": "新しい境地？...",
-      "description": "鉱石マップ(peridot area)へのテレポーターを作成する",
-      "frame": "challenge"
+      "description": "鉱石マップ(peridot area)へのテレポーターを作成する"
     },
     "parent": "mikatanserver:customcrafter/oremaptpsunstone",
     "criteria": {

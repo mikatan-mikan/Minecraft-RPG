@@ -5,10 +5,10 @@
         "nbt": "{CustomModelData:20}"
       },
       "title": "繫栄と幸福を願って・・・",
-      "description": "翡翠ツールを作成する",
+      "description": "翡翠のアクセサリーを作成する",
       "frame": "challenge"
     },
-    "parent": "mikatanserver:customcrafter/tool/jadecraft",
+    "parent": "mikatanserver:customcrafter/tool/aquamarine",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"
@@ -20,6 +20,6 @@
       ]
     ],
     "rewards": {
-      "function": "mikatanserver:rewards/20"
+      "function": "mikatanserver:rewards/25"
     }
   }

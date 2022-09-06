@@ -5,7 +5,6 @@ execute as @e[type=armor_stand,distance=..6,tag=giantkillarAr] at @s as @e[dista
 
 execute as @e[type=armor_stand,distance=..6,tag=giantkillarAr] at @s as @e[distance=..3.5] if score @a[tag=Executegiantkillar,limit=1,sort=nearest] PHealth < @s MobNowHP as @a[tag=Executegiantkillar,limit=1,sort=nearest] run function mikatanserver:item/enchant/giantkillar/armor_hit
 
-say run
 scoreboard players add @s giantkillarLoop 1
 execute if entity @s[scores={giantkillarLoop=..6}] run function mikatanserver:item/enchant/giantkillar/armor
 execute if entity @s[scores={giantkillarLoop=6..}] run tag @s remove Executegiantkillar
