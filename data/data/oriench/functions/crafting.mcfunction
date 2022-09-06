@@ -3,6 +3,9 @@ execute as @p if entity @s[level=40..] as @e[type=minecraft:item_frame,tag=My_en
 
 execute as @p if entity @s[level=60..] as @e[type=minecraft:item_frame,tag=My_enchanter,nbt={ItemRotation:1b,Item:{id:"minecraft:lapis_block",tag:{Tags:["My_enchanter"]}}}] if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:slime_ball", tag: {CustomModelData: 5}}, {Slot: 1b, id: "minecraft:lapis_lazuli"}, {Slot: 2b, id: "minecraft:lapis_lazuli"}, {Slot: 3b, id: "minecraft:lapis_lazuli"}, {Slot: 4b, Count: 1b}, {Slot: 5b, id: "minecraft:lapis_lazuli"}, {Slot: 6b, id: "minecraft:lapis_lazuli"}, {Slot: 7b, id: "minecraft:lapis_lazuli"}, {Slot: 8b, id: "minecraft:slime_ball", tag: {CustomModelData: 5}}]} unless data block ~ ~ ~ Items[4].tag.Enchantments unless data block ~ ~ ~ Items[4].tag.StoredEnchantments run function oriench:craft/60lv/enchant
 
+execute as @p if entity @s[level=5..] as @e[type=minecraft:item_frame,tag=My_enchanter,nbt={ItemRotation:1b,Item:{id:"minecraft:lapis_block",tag:{Tags:["My_enchanter"]}}}] if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:slime_ball", tag: {CustomModelData: 4}}, {Slot: 1b, id: "minecraft:lapis_lazuli"}, {Slot: 2b, id: "minecraft:lapis_lazuli"}, {Slot: 3b, id: "minecraft:slime_ball", tag: {CustomModelData: 4}}, {Slot: 4b, Count: 1b}, {Slot: 5b, id: "minecraft:slime_ball", tag: {CustomModelData: 4}}, {Slot: 6b, id: "minecraft:lapis_lazuli"}, {Slot: 7b, id: "minecraft:lapis_lazuli"}, {Slot: 8b, id: "minecraft:slime_ball", tag: {CustomModelData: 4}}]} unless data block ~ ~ ~ Items[4].tag.Enchantments unless data block ~ ~ ~ Items[4].tag.StoredEnchantments run function oriench:craft/5lv/enchant
+
+
 
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oriench:craft/
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oriench:craft/
