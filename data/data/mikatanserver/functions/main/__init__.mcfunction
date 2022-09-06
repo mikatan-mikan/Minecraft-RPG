@@ -330,7 +330,7 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add field_EnderKillCnt killed:enderman
 
-    scoreboard objectives add EnderVillagerFlag minecraft.custom:minecraft.talked_to_villager
+    scoreboard objectives add VillagerFlag minecraft.custom:minecraft.talked_to_villager
 
     scoreboard objectives add luckrodLoop dummy
 

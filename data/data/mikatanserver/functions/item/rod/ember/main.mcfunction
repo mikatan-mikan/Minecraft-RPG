@@ -13,3 +13,4 @@ execute store result entity @e[tag=EmberAr,limit=1,sort=nearest] Rotation[1] flo
 playsound entity.ghast.shoot master @a[distance=..20] ~ ~ ~ 0.5 1.3
 
 function mikatanserver:item/rod/ember/executation
+

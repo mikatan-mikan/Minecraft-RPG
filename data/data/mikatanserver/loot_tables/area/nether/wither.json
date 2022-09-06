@@ -1,0 +1,227 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight":200,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 8
+                }
+              }
+            ],
+            "name": "minecraft:golden_apple"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":1000,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 12
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:17,display:{Name:'[{\"text\":\"purple ender crystal\"}]'}}"
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted ruby\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"obsidian chestplate\"}]',Lore:['[{\"text\":\"obsidianを1スタック所持していると、スピード経験値が10%で+1される\"}]'],color:0},HideFlags:1,Unbreakable:1b,obsidian_chestplate:1b}"
+              }
+            ],
+            "name": "minecraft:leather_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"enchanted sphene\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":4,
+                  "max":8
+                }
+              }
+            ],
+            "name": "minecraft:emerald"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":3
+                }
+              }
+            ],
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 300,
+            "name": "minecraft:obsidian",
+            "functions": [
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":2,
+                  "max":16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":20,
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+1する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:45,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<波動>>\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:18,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\":\"そこにあるもの\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv75以上\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:42,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"奇跡の剣舞\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 300,
+            "name": "minecraft:obsidian",
+            "functions": [
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":4,
+                  "max":32
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

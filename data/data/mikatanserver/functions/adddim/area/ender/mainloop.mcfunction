@@ -17,11 +17,11 @@
     scoreboard players set @a field_EnderKillCnt 0
 
     ##村人に話しかけたなら
-    execute as @a[tag=FieldEnder,scores={EnderVillagerFlag=1..},predicate=mikatanserver:villager/end/1] at @s run function mikatanserver:adddim/area/ender/villager/talk_1
-    execute as @a[tag=FieldEnder,scores={EnderVillagerFlag=1..},predicate=mikatanserver:villager/end/2] at @s run function mikatanserver:adddim/area/ender/villager/talk_2
-    execute as @a[tag=FieldEnder,scores={EnderVillagerFlag=1..},predicate=mikatanserver:villager/end/3] at @s run function mikatanserver:adddim/area/ender/villager/talk_3
-    execute as @a[tag=FieldEnder,scores={EnderVillagerFlag=1..},predicate=mikatanserver:villager/end/4] at @s run function mikatanserver:adddim/area/ender/villager/talk_4
-    scoreboard players set @a EnderVillagerFlag 0
+    execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/1] at @s run function mikatanserver:adddim/area/ender/villager/talk_1
+    execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/2] at @s run function mikatanserver:adddim/area/ender/villager/talk_2
+    execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/3] at @s run function mikatanserver:adddim/area/ender/villager/talk_3
+    execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/4] at @s run function mikatanserver:adddim/area/ender/villager/talk_4
+    scoreboard players set @a VillagerFlag 0
 
     kill @e[type=item,nbt={Item:{id:"minecraft:end_portal_frame"}}]
 
