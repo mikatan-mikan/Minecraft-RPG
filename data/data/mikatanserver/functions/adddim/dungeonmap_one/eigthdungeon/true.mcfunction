@@ -12,6 +12,6 @@ tag @a[tag=DungeonPlay_8] remove BossBattle8
 scoreboard objectives remove EigthDunDeath
 scoreboard objectives remove EigBossSkill
 kill @e[tag=EigDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=EigDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/eigthdungeon/boss/clearboss_tp 100t
