@@ -14,6 +14,6 @@ scoreboard objectives remove TrollFifDunSkill
 scoreboard objectives remove TrollArmorCT
 scoreboard objectives remove FifDunBackS 
 kill @e[tag=FifDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FifDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/fifthdungeon/boss/clearboss_tp 100t

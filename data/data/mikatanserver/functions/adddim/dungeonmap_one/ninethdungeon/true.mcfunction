@@ -16,6 +16,6 @@ scoreboard objectives remove NineBossSkill
 scoreboard objectives remove Wind_Count
 scoreboard objectives remove Wind_Rot_Count
 kill @e[tag=NineDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=NineDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/ninethdungeon/boss/clearboss_tp 100t

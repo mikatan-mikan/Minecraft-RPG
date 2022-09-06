@@ -8,7 +8,7 @@ scoreboard objectives remove NineBossSkill2
 scoreboard objectives remove NineBossSkill
 scoreboard objectives remove Wind_Count
 scoreboard objectives remove Wind_Rot_Count
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=NineDunMob]
 scoreboard objectives remove NinethDunDeath
 gamemode survival @a[tag=DungeonPlay_9]

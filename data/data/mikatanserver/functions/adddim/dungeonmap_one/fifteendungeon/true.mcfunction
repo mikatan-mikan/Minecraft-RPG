@@ -14,6 +14,6 @@ scoreboard objectives remove FifteenDunDeath
 scoreboard objectives remove FifteenBossSkill
 scoreboard objectives remove 15_boss_hp_checker
 kill @e[tag=FifteenDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FifteenDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/clearboss_tp 100t

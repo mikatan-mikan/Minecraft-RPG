@@ -4,7 +4,7 @@ tellraw @a[tag=DungeonPlay_1] [{"text":"ゲームオーバー!!\n","color":"red"
 kill @a[tag=DungeonPlay_1]
 kill @e[tag=FirDunArmor]
 kill @e[tag=FirstDunNowP]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FirDunMob]
 scoreboard objectives remove FirstDunDeath
 gamemode survival @a[tag=DungeonPlay_1]

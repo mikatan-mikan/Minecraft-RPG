@@ -7,7 +7,7 @@ kill @e[tag=FifteenDunNowP]
 scoreboard objectives remove FifteenBossSkill2
 scoreboard objectives remove FifteenBossSkill
 scoreboard objectives remove 15_boss_hp_checker
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FifteenDunMob]
 scoreboard objectives remove FifteenDunDeath
 gamemode survival @a[tag=DungeonPlay_15]

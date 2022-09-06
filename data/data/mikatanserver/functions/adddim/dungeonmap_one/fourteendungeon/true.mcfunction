@@ -14,6 +14,6 @@ scoreboard objectives remove FourteenDunDeath
 scoreboard objectives remove FourteenBossSkill
 scoreboard objectives remove 14_boss_hp_checker
 kill @e[tag=FourteenDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FourteenDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/fourteendungeon/boss/clearboss_tp 100t

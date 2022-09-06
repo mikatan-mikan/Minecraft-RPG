@@ -2,7 +2,7 @@ bossbar remove minecraft:sixthboss_bar
 execute as @a[tag=DungeonPlay_6] run playsound entity.player.levelup master @s ~ ~ ~ 1 1
 tellraw @a[tag=DungeonPlay_6] [{"text":"Lava Cube を討伐した!!\n","color": "red"}]
 bossbar remove minecraft:sixthboss_bar
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 scoreboard players set @a PheseManeger_6 1
 
 playsound block.portal.trigger master @s ~ ~ ~ 2 2 1

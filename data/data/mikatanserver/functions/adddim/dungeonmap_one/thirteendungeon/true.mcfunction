@@ -20,6 +20,6 @@ scoreboard objectives remove 13_NextMobCheckTimer
 scoreboard objectives remove 13_TowerFloor
 scoreboard objectives remove 13_TowerNowMobCnt
 kill @e[tag=ThirteenDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=ThirteenDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/thirteendungeon/boss/clearboss_tp 100t

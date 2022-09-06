@@ -4,7 +4,7 @@ tellraw @a[tag=DungeonPlay_3] [{"text":"ゲームオーバー!!\n","color":"red"
 kill @a[tag=DungeonPlay_3]
 kill @e[tag=ThiDunArmor]
 kill @e[tag=ThirdDunNowP]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=ThiDunMob]
 scoreboard objectives remove ThirdDunDeath
 gamemode survival @a[tag=DungeonPlay_3]

@@ -7,7 +7,7 @@ kill @e[tag=FourteenDunNowP]
 scoreboard objectives remove FourteenBossSkill2
 scoreboard objectives remove FourteenBossSkill
 scoreboard objectives remove 14_boss_hp_checker
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FourteenDunMob]
 scoreboard objectives remove FourteenDunDeath
 gamemode survival @a[tag=DungeonPlay_14]

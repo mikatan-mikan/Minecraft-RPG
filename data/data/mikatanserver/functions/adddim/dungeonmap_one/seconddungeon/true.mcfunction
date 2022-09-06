@@ -13,6 +13,6 @@ tag @a[tag=DungeonPlay_2] remove DungeonPlay
 tag @a[tag=DungeonPlay_2] remove BossBattle2
 scoreboard objectives remove SecondDunDeath
 kill @e[tag=SecDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=SecDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/seconddungeon/boss/clearboss_tp 100t

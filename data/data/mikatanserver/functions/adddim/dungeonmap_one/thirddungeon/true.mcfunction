@@ -10,6 +10,6 @@ tag @a[tag=DungeonPlay_3] remove DungeonPlay
 tag @a[tag=DungeonPlay_3] remove BossBattle3
 scoreboard objectives remove ThirdDunDeath
 kill @e[tag=ThiDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=ThiDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/thirddungeon/boss/clearboss_tp 100t

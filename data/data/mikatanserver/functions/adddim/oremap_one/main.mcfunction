@@ -22,7 +22,9 @@ execute as @a[predicate=mikatanserver:oremapdim,tag=event_christmas] at @s unles
 ##aquamarine
 execute as @a[predicate=mikatanserver:oremapdim,tag=ore_aquamarine] at @s unless blocks -135 71 -162 -104 102 -131 -95 71 -162 masked run clone -134 71 -161 -104 102 -131 -94 71 -161 filtered #mikatanserver:ore_aquamarine
 ##hematite
-execute as @a[predicate=mikatanserver:oremapdim,tag=ore_hematite] at @s unless blocks -134 70 -206 -103 101 -175 -94 70 -206 masked run clone -133 70 -205 -103 101 -175 -93 70 -205 filtered #mikatanserver:ore_aquamarine
+execute as @a[predicate=mikatanserver:oremapdim,tag=ore_hematite] at @s unless blocks -134 70 -206 -103 101 -175 -94 70 -206 masked run clone -133 70 -205 -103 101 -175 -93 70 -205 filtered #mikatanserver:ore_hematite
+##jade
+# execute as @a[predicate=mikatanserver:oremapdim,tag=ore_jade] at @s unless blocks -134 70 -206 -103 101 -175 -94 70 -206 masked run clone -133 70 -205 -103 101 -175 -93 70 -205 filtered #mikatanserver:ore_aquamarine
 
 
 

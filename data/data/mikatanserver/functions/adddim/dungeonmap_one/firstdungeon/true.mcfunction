@@ -10,7 +10,7 @@ tag @a[tag=DungeonPlay_1] remove DungeonPlay
 tag @a[tag=DungeonPlay_1] remove BossBattle1
 scoreboard objectives remove FirstDunDeath
 kill @e[tag=FirDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FirDunMob]
 
 schedule function mikatanserver:adddim/dungeonmap_one/firstdungeon/boss/clearboss_tp 100t

@@ -8,7 +8,7 @@ scoreboard objectives remove TrollSevDunSkill
 scoreboard objectives remove SevBossSkill
 scoreboard objectives remove TrollArmorCT
 scoreboard objectives remove SevDunBackS 
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=SevDunMob]
 scoreboard objectives remove SevthDunDeath
 gamemode survival @a[tag=DungeonPlay_7]

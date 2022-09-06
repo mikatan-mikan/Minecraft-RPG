@@ -16,7 +16,7 @@ scoreboard objectives remove TrollArmorCT
 scoreboard objectives remove SixDunBackS 
 scoreboard objectives remove PheseManeger_6
 kill @e[tag=SixDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=SixDunMob]
 gamerule keepInventory true
 schedule function mikatanserver:adddim/dungeonmap_one/sixthdungeon/dungeon/boss/clearboss_tp 100t

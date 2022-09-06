@@ -12,6 +12,6 @@ scoreboard objectives remove SevthDunDeath
 scoreboard objectives remove SevBossSkill
 scoreboard objectives remove SevDunBackS 
 kill @e[tag=SevDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=SevDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/sevthdungeon/boss/clearboss_tp 100t

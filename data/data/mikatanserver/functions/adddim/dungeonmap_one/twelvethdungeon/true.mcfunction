@@ -21,6 +21,6 @@ scoreboard objectives remove Wind_Count
 scoreboard objectives remove Wind_Rot_Count
 scoreboard objectives remove BossMoveCnt
 kill @e[tag=TwelveDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=TwelveDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/twelvethdungeon/boss/clearboss_tp 100t

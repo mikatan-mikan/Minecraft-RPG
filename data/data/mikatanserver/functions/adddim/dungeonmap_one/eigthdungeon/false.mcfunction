@@ -6,7 +6,7 @@ kill @e[tag=EigDunArmor]
 kill @e[tag=EigDunNowP]
 scoreboard objectives remove CometTimer
 scoreboard objectives remove EigBossSkill
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=EigDunMob]
 scoreboard objectives remove EigthDunDeath
 gamemode survival @a[tag=DungeonPlay_8]

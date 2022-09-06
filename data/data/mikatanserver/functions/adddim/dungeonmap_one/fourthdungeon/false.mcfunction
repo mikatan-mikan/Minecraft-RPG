@@ -6,7 +6,7 @@ kill @e[tag=FouDunArmor]
 kill @e[tag=FourdDunNowP]
 scoreboard objectives remove CometTimer
 scoreboard objectives remove FourBossSkill
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FouDunMob]
 scoreboard objectives remove FourthDunDeath
 gamemode survival @a[tag=DungeonPlay_4]

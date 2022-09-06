@@ -12,6 +12,6 @@ tag @a[tag=DungeonPlay_4] remove BossBattle4
 scoreboard objectives remove FourthDunDeath
 scoreboard objectives remove FourBossSkill
 kill @e[tag=FourDunArmor]
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FouDunMob]
 schedule function mikatanserver:adddim/dungeonmap_one/fourthdungeon/boss/clearboss_tp 100t

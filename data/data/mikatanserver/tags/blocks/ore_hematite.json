@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:coal_block",
+    "minecraft:oak_wood",
+    "minecraft:soul_lantern",
+    "minecraft:birch_fence"
+  ]
+}

@@ -7,7 +7,7 @@ kill @e[tag=TwelveDunNowP]
 scoreboard objectives remove TwelveBossSkill3
 scoreboard objectives remove TwelveBossSkill2
 scoreboard objectives remove TwelveBossSkill
-execute in mikatanserver:dungeon run kill @e[type=item]
+execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=TwelveDunMob]
 scoreboard objectives remove TwelvethDunDeath
 scoreboard objectives remove BossMoveCnt
