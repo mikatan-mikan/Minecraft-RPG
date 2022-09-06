@@ -340,8 +340,12 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add EnderStoneFlag dummy
 
+    ##ロッドタグ
     scoreboard objectives add embercount dummy
     scoreboard objectives add burtcount dummy
+    
+    ##鉱石
+    scoreboard objectives add aquaselfcount minecraft.mined:minecraft.blue_concrete
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

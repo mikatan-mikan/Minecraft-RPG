@@ -130,6 +130,8 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 execute as @s[scores={ROD=1..,luck-Lv=95..,attackS-Lv=95..,attackD-Lv=95..,mana-Lv=95..,speed-Lv=95..,hp-Lv=95..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:66}}}] run function mikatanserver:item/teleporter/dungeon/fourteen/init
 #dungeon fifteen
 execute as @s[scores={ROD=1..,luck-Lv=85..,attackS-Lv=85..,attackD-Lv=85..,mana-Lv=85..,speed-Lv=85..,hp-Lv=85..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:68}}}] run function mikatanserver:item/teleporter/dungeon/fifteen/init
+#aquamarine
+execute as @s[scores={ROD=1..,luck-Lv=165..,attackS-Lv=165..,attackD-Lv=165..,mana-Lv=165..,speed-Lv=165..,hp-Lv=165..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:70}}}] run function mikatanserver:item/teleporter/aquamarinemaptp
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1

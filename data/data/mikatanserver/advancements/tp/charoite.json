@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt": "{CustomModelData:33}"
+        "nbt": "{CustomModelData:15}"
       },
       "title": "輝きの先に見るもの",
       "description": "charosite採掘場へ向かう"

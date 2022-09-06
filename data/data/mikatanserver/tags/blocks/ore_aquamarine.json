@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:stone_brick_slab",
+    "minecraft:polished_andesite",
+    "minecraft:andesite",
+    "minecraft:lantern",
+    "minecraft:soul_lantern",
+    "minecraft:jungle_log",
+    "minecraft:oak_planks",
+    "minecraft:ladder",
+    "minecraft:cobblestone"
+  ]
+}

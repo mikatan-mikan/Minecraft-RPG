@@ -2,12 +2,12 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt": "{CustomModelData:33}"
+        "nbt": "{CustomModelData:70}"
       },
-      "title": "かつての輝きを取り戻す・・・",
-      "description": "rhodochrosite採掘場へ向かう"
+      "title": "それは神秘の輝き・・・",
+      "description": "aquamarine採掘場へ向かう"
     },
-    "parent": "mikatanserver:tp/peridot",
+    "parent": "mikatanserver:tp/rhodochrosite",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

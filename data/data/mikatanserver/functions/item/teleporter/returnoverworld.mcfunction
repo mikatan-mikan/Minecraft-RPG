@@ -11,6 +11,9 @@ tag @s remove ore_ruby
 tag @s remove ore_sapphire
 tag @s remove ore_sphene
 tag @s remove ore_sunstone
+tag @s remove ore_aquamarine
+tag @s remove ore_jade
+tag @s remove ore_hematite
 tag @s remove event_christmas
 
 tp @s[tag=!DungeonPlay] 0 100 0
