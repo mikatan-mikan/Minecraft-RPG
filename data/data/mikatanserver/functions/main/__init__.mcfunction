@@ -348,6 +348,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add aquaselfcount minecraft.mined:minecraft.blue_concrete
     scoreboard objectives add jadeselfcount minecraft.mined:minecraft.green_concrete
     scoreboard objectives add hematiteselfcount minecraft.mined:minecraft.black_concrete
+
+    ##ネザーエリア
+    scoreboard objectives add nether_field_loop dummy
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

@@ -3,6 +3,7 @@ tag @s remove new_year2021P
 tag @s remove tp_after
 tag @s remove FieldEnder
 tag @s remove ender_tp_after
+tag @s remove nether_tp_after
 ##鉱石タグ
 tag @s remove ore_charoite
 tag @s remove ore_peridot

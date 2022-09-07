@@ -25,7 +25,7 @@
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 3,
+                  "min": 8,
                   "max": 12
                 }
               },
@@ -129,7 +129,7 @@
             "functions":[
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+1する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+                "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
               }
             ],
             "name": "minecraft:carrot_on_a_stick"

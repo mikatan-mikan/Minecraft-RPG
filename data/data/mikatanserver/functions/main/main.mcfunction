@@ -3,6 +3,7 @@ execute as @a run title @s actionbar [{"text":"                   ","color":"whi
 gamemode survival @a[predicate=mikatanserver:overworld,gamemode=adventure]
 execute as @a[tag=new_year2021P,predicate=mikatanserver:overworld] run tag @s remove new_year2021P
 execute as @a[tag=FieldEnder,predicate=mikatanserver:overworld] run tag @s remove FieldEnder
+execute as @a[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
 
 ##放置検知
 execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp

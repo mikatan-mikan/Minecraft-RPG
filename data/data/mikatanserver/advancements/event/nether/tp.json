@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt":"{CustomModelData:74}"
+      },
+      "title": "炎を探して",
+      "description": "nether areaへのテレポーターを作成する"
+    },
+    "parent": "mikatanserver:event/ender/tp",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/end/10"
+    }
+  }
+  
