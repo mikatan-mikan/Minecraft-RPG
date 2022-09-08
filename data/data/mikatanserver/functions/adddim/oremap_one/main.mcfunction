@@ -9,6 +9,7 @@ execute if entity @a[tag=ore_rhodo] run function mikatanserver:adddim/oremap_one
 execute if entity @a[tag=event_christmas] run function mikatanserver:adddim/oremap_one/_event_christmas/check
 execute if entity @a[tag=ore_aquamarine] run function mikatanserver:adddim/oremap_one/aquamarine/check
 execute if entity @a[tag=ore_hematite] run function mikatanserver:adddim/oremap_one/hematite/check
+execute if entity @a[tag=ore_jade] run function mikatanserver:adddim/oremap_one/jade/check
 
 execute as @s[scores={stonecount=1..}] run function mikatanserver:adddim/oremap_one/clone
 execute as @s[scores={basaltCount=1..}] run function mikatanserver:adddim/oremap_one/clone
@@ -24,7 +25,7 @@ execute as @a[predicate=mikatanserver:oremapdim,tag=ore_aquamarine] at @s unless
 ##hematite
 execute as @a[predicate=mikatanserver:oremapdim,tag=ore_hematite] at @s unless blocks -134 70 -206 -103 101 -175 -94 70 -206 masked run clone -133 70 -205 -103 101 -175 -93 70 -205 filtered #mikatanserver:ore_hematite
 ##jade
-# execute as @a[predicate=mikatanserver:oremapdim,tag=ore_jade] at @s unless blocks -134 70 -206 -103 101 -175 -94 70 -206 masked run clone -133 70 -205 -103 101 -175 -93 70 -205 filtered #mikatanserver:ore_aquamarine
+execute as @a[predicate=mikatanserver:oremapdim,tag=ore_jade] at @s unless blocks -41 73 -207 -10 104 -176 -1 73 -207 masked run clone -41 73 -207 -10 104 -176 -1 73 -207 filtered #mikatanserver:ore_jade
 
 
 

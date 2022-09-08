@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:stone_bricks",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:cobblestone_wall",
+        "minecraft:andesite_wall",
+        "minecraft:ladder",
+        "minecraft:polished_andesite",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:oak_log",
+        "minecraft:oak_leaves",
+        "minecraft:hay_block",
+        "minecraft:emerald_ore"
+    ]
+}

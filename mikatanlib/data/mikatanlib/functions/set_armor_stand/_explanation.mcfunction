@@ -1,0 +1,2 @@
+tellraw @s [{"text":"set armor","color": "gold","bold": true},{"text": ":","color": "white"},{"text":"\nメソッドcall:[mikatanlib:set_armor_stand/main]","color": "red","italic": true,"underlined": true}]
+tellraw @s [{"text":"--使用方法","color": "light_purple","bold": true},{"text": ":","color": "white"},{"text":"\"MK.sa.Place\"の$x,$y,$zに探索範囲を入力することで呼び出し地点から正の方向に[$x,$y,$z]全探索するアーマースタンドを呼び出します。\n探索速度：20blocks/s","color": "aqua","italic": true,"underlined": true}]
