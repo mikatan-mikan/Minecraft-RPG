@@ -28,3 +28,4 @@ execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[2]}}}] run function mi
 execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[3]}}}] run function mikatanserver:item/enchant/giantkillar/main
 ##regeneration batch
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:30}}]}] run effect give @s regeneration 3 0 true
+execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:39}}]}] run effect give @s speed 1 0 true

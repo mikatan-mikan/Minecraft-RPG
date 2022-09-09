@@ -1,6 +1,8 @@
 execute if score @s[predicate=mikatanserver:chance/0.03] acaciacount matches 1.. run give @s chest{BlockEntityTag:{LootTable:"mikatanserver:raredrop/christmas_wood"}}
 ##氷斧
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe",Count:1b,tag:{CustomModelData:9}}}] run effect give @s haste 2 0
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe",Count:1b,tag:{CustomModelData:9}}}] run effect give @s haste 2 0 true
+##batch
+execute if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:42}}]}] run effect give @s haste 1 0 true
 
 ##100 / 1で100aktdドロップ
 execute as @s[predicate = mikatanserver:chance/0.01] run scoreboard players add @s attackDxp 1
@@ -22,7 +24,7 @@ scoreboard players add @s[scores={AtkBoost_1 = 1..}] attackDxp 1
 
 
 execute as @s[scores={ForestStoneFlag=1},predicate = mikatanserver:chance/0.005] at @s run function mikatanserver:main/drap_stone/forest_stone
-execute as @s[scores={EnderStoneFlag=1},predicate = mikatanserver:chance/1] at @s run function mikatanserver:main/drap_stone/ender_stone
+execute as @s[scores={EnderStoneFlag=1},predicate = mikatanserver:chance/0.002] at @s run function mikatanserver:main/drap_stone/ender_stone
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:4}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s attackDxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:5}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s attackDxp 1

@@ -173,6 +173,7 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:58}}}] at @s run function mikatanserver:item/add_stone/imagination/main
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:61}}}] at @s run function mikatanserver:item/add_stone/luck/main
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:67}}}] at @s run function mikatanserver:item/add_stone/ender/main
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:79}}}] at @s run function mikatanserver:item/add_stone/egg/main
 
 ##score Reset
 scoreboard players set @s ROD 0

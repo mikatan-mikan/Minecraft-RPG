@@ -7,7 +7,7 @@
         "title": "植物の結晶...？",
         "description": "imagination stoneの採掘権を得る\n============\n出現確率:0.1%\n対象:speedXP獲得ブロックの採掘"
     },
-    "parent": "mikatanserver:customcrafter/add_stone/angel",
+    "parent": "mikatanserver:customcrafter/add_stone/spirit",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

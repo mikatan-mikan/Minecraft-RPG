@@ -2,12 +2,12 @@
     "display": {
         "icon": {
             "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:55}"
+            "nbt": "{CustomModelData:79}"
         },
-        "title": "見えないもの",
-        "description": "spirit massの採掘権を得る\n============\n出現確率:0.05%\n対象:speedXP獲得ブロックの採掘"
+        "title": "親玉",
+        "description": "golden eggの採掘権を得る\n============\n出現確率:0.07%\n対象:speedXP獲得ブロックの採掘"
     },
-    "parent": "mikatanserver:customcrafter/add_stone/angel",
+    "parent": "mikatanserver:customcrafter/add_stone/imagination",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"
