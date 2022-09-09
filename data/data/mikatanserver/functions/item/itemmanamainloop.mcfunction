@@ -66,6 +66,10 @@ execute as @s[scores={ROD=1..,mana = 40..},nbt={SelectedItem:{id:"minecraft:carr
 execute as @s[scores={ROD=1..,mana = 50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:73}}}] at @s run function mikatanserver:item/rod/pointer/main
 #crystal
 execute as @s[scores={ROD=1..,mana = 100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:75}}}] at @s run function mikatanserver:item/rod/crystal/main
+# aspect of the end
+execute as @s[scores={ROD=1..,mana = 50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:76}}}] at @s run function mikatanserver:item/rod/aspect_of_the_end/main
+#投剣:45
+execute as @s[scores={ROD=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:78}}}] at @s run function mikatanserver:item/rod/through_2/main
 
 
 #純真エンチャント
@@ -142,6 +146,8 @@ execute as @s[scores={ROD=1..,luck-Lv=185..,attackS-Lv=185..,attackD-Lv=185..,ma
 execute as @s[scores={ROD=1..,luck-Lv=210..,attackS-Lv=210..,attackD-Lv=210..,mana-Lv=210..,speed-Lv=210..,hp-Lv=210..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:72}}}] run function mikatanserver:item/teleporter/hematitemaptp
 #nether
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:74}}}] run function mikatanserver:item/teleporter/area/nether
+#dungeon fourteen
+execute as @s[scores={ROD=1..,luck-Lv=100..,attackS-Lv=100..,attackD-Lv=100..,mana-Lv=100..,speed-Lv=100..,hp-Lv=100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:77}}}] run function mikatanserver:item/teleporter/dungeon/sixteen/init
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1

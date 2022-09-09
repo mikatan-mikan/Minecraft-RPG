@@ -351,6 +351,9 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     ##ネザーエリア
     scoreboard objectives add nether_field_loop dummy
+
+    ##5lvエンチャント
+    scoreboard objectives add 5lvCount dummy
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

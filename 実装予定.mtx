@@ -1,0 +1,16 @@
+execute commands | (15:10:02:10,JST)   : 以下のコマンドを実行しました
+/mitsuki group-bot --root:{user:mikatan,pass:**************} mikatanserver the-under-world get-plan map --option:{genre:area,min-size:6400,max-min-size:25600,status:None,pick:10,sort:rand} 
+--条件の絞り込みを行いました：[GENRE:エリア,MINIMUM-SIZE:6400-25600,STATUS:None,PICK:10,SORT:random]
+
+NAME   　　　　　|introduction                                                                              | MINIMUM-SIZE     | STATUS     | POSTUSER:groupname-name(Sub-Group,Position)
+
+スカイ　　　　　　|雲の上、壁装飾　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | 130*130          | None       | mitsuki-lime(All,Leader)
+月面　　　　　　　|クレーターなり　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | 100*100          | None       | mitsuki-tea(bot,Member)
+ジャングル　　　　|視界悪、ルートから５ｍの範囲にモブ沸き、その他の場所には間を通るのが面倒になる程度大量の大木 　　　| 90*90            | None       | mitsuki-lime(All,Leader)
+いい感じの亜空間　|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | 80*80            | None       | mitsuki-粋寧(sys,Sub-Leader)
+反転世界　　　　　|上下が逆さになったワールド、雲＋ガラスでのアスレチックを要求する　　　　　　　　　　　　　　　　　 | 90*90            | None       | None-睡眠欲
+ナーロッパ　　　　|まぁそんな感じ　面倒だからバランスは考えてほしい　　　　　　　　　　　　　　　　　　　　　　　　　 | 100*100          | None       | mitsuki-("^^")(game-c,Member)
+魔法の国　　　　　|魔法が飛び交っているようなパーティクル制作、建物　　　　　　　　　　　　　　　　　　　　　　　　　 | 140*140          | None       | ref-int(N)
+ドラゴンの島　　　|造形：ドラゴン　ヤシ等　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | 85*85            | None       | mitsuki-mikatan(bot,Sub-Leader)
+エンドー２ｎｄ　　|エンドワールド、装飾を一新し、今後のアップデートに向けた要素のための要素を追加する　　　　　　　　 | 160*160          | None       | mitsuki-lime(All,Leader)
+紫の森　　　　　　|紫・茶色ベース　ファンタージー感を要求する　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | 95*95            | None       | ref-float(N)

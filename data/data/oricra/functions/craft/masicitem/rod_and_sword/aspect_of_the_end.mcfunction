@@ -1,0 +1,9 @@
+#テンプレート
+data merge block ~ ~ ~ {Items:[]}
+playsound minecraft:block.smithing_table.use master @p
+
+#アイテム
+item replace block ~ ~ ~ container.4 with minecraft:carrot_on_a_stick{Enchantments:[{id:"minecraft:mending",lvl:1s},{id:"minecraft:smite",lvl:1s}],display:{Name:'[{"text":"Aspect of the End","color": "blue"}]',Lore:['[{"text": "Ability: Instant Transmission","color": "gold","italic": false},{"text": " RIGHT CLICK","color": "yellow","bold": true,"italic": false}]','[{"text": "Teleport ","color": "gray","italic": false,"bold": false},{"text": "8 blocks ","color": "green","italic": false,"bold": false},{"text": "ahead of","color": "gray","italic": false,"bold": false}]','[{"text": "you and gain ","color": "gray","italic": false},{"text": "level 2 ","color": "green","italic": false},{"text": "speed","color": "white","italic": false}]','[{"text": "for ","color": "gray","italic": false},{"text": "3 second","color": "green","italic": false}]','[{"text": "Mana Cost:","color": "dark_gray","italic": false},{"text": "50","color": "dark_aqua"}]','[{"text": "利き手に持った時","color":"white","italic": false}]','[{"text":" 攻撃力 5","color": "dark_green","italic": false}]','[{"text": " 攻撃速度 1.6","color": "dark_green","italic": false}]']},HideFlags:2,CustomModelData:76,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5,Operation:0,Slot:"mainhand",UUID:[I;-956796003,830653523,393774358,-36031691]},{AttributeName:"generic.attack_speed",Amount:-2.4,Operation:0,Slot:"mainhand",UUID:[I;-212372333,307371239,101113870,96471227]}],aspect_of_the_end:1b} 1
+
+#進捗
+advancement grant @p only mikatanserver:customcrafter/rod_and_sword/aspect_of_the_end
