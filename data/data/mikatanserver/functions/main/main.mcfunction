@@ -94,3 +94,6 @@ execute as @a[scores={Boost = 0..}] run function mikatanserver:main/boostminus
 clear @a bow{Enchantments:[{id:"minecraft:power",lvl:15s}]}
 
 clear @a[name="RoRota_",predicate=mikatanserver:overworld] carrot_on_a_stick{CustomModelData:4}
+
+#リセ
+scoreboard players set @a ManaBatchBool 0

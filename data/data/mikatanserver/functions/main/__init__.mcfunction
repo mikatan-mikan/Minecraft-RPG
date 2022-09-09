@@ -355,6 +355,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     ##5lvエンチャント
     scoreboard objectives add 5lvCount dummy
+
+    scoreboard objectives add ManaBatchBool dummy
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

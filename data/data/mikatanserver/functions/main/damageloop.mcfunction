@@ -26,6 +26,8 @@ execute as @s[nbt={SelectedItem:{tag:{ice:[1]}}}] at @s run function mikatanserv
 execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[1]}}}] run function mikatanserver:item/enchant/giantkillar/main
 execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[2]}}}] run function mikatanserver:item/enchant/giantkillar/main
 execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[3]}}}] run function mikatanserver:item/enchant/giantkillar/main
-##regeneration batch
+##batch
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:30}}]}] run effect give @s regeneration 3 0 true
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:39}}]}] run effect give @s speed 1 0 true
+execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43}}]}] run scoreboard players add @s mana 1
+scoreboard players set @s ManaBatchBool 1
