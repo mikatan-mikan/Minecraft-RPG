@@ -1,2 +1,0 @@
-for i in range(1,18):
-    print("execute if score $ender" + str(i) +" spawn_count matches ..1 as @e[tag=field_ender_ar_" + str(i) + "] at @s run data merge storage mikatanserver:ender_tagbox {\"tag\":\"field_enderman_" + str(i) + "\"}")

@@ -7,10 +7,10 @@ execute as @e[scores={removesapAr=200..},tag=sunstoneArmor] at @s run function m
 ##スフェーン変換&持ち込み削除
 clear @s orange_concrete
 
-execute as @s[scores={sunstoselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}}] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
-execute as @s[scores={sunstoselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},predicate=mikatanserver:chance/0.30] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
-execute as @s[scores={sunstoselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},predicate=mikatanserver:chance/0.30] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
-execute as @s[scores={sunstoselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},predicate=mikatanserver:chance/0.30] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
+execute as @s[scores={sunstoselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
+execute as @s[scores={sunstoselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
+execute as @s[scores={sunstoselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
+execute as @s[scores={sunstoselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sunstone"}]'},CustomModelData:5} 1
 
-execute as @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}}] run kill @s
-execute as @a[scores={sunstoselfcount=1..}] run scoreboard players set @s sunstoselfcount 0
+execute at @s as @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:orange_concrete",Count:1b}},distance=..5] run kill @s
+execute as @s[scores={sunstoselfcount=1..}] run scoreboard players set @s sunstoselfcount 0

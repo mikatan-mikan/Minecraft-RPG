@@ -7,10 +7,10 @@ execute as @e[scores={removesapAr=200..},tag=peridotArmor] at @s run function mi
 ##スフェーン変換&持ち込み削除
 clear @s lime_concrete
 
-execute as @s[scores={peridotselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}}] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
-execute as @s[scores={peridotselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},predicate=mikatanserver:chance/0.30] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
-execute as @s[scores={peridotselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},predicate=mikatanserver:chance/0.30] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
-execute as @s[scores={peridotselfcount=1..}] if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},predicate=mikatanserver:chance/0.30] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
+execute as @s[scores={peridotselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},distance=..5] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
+execute as @s[scores={peridotselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
+execute as @s[scores={peridotselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
+execute as @s[scores={peridotselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"peridot"}]'},CustomModelData:6} 1
 
-execute as @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}}] run kill @s
-execute as @a[scores={peridotselfcount=1..}] run scoreboard players set @s peridotselfcount 0
+execute at @s as @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lime_concrete",Count:1b}},distance=..5] run kill @s
+execute as @s[scores={peridotselfcount=1..}] run scoreboard players set @s peridotselfcount 0

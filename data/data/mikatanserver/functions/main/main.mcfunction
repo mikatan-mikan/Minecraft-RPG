@@ -36,8 +36,8 @@ execute if entity @a[predicate=mikatanserver:dungeonmapdim] run function mikatan
 execute as @a if score @s DeathCnt_Tip matches 1.. run function mikatanserver:main/tips
 
 ##死亡後復帰用
-execute as @a[scores={deathflag=1..,healthflag=1..,deathafter=1..}] run function mikatanserver:main/deathflag
-execute as @a[scores={deathflag=1..,healthflag=1..}] run scoreboard players set @s deathafter 1
+execute as @a[scores={deathflag=1..}] run function mikatanserver:main/deathflag
+execute as @a[scores={deathflag=1..}] run scoreboard players set @s deathafter 1
 
 ##鉱石ディメンション検知
 #鉱石dimに人がいるかを検知
@@ -82,8 +82,6 @@ execute as @a[scores={fishingcount=1..}] run function mikatanserver:main/lvup/xp
 
 ##effort material
 execute as @a[scores={ObsidianCount=1..}] run function mikatanserver:main/ores/main
-execute as @a[scores={QuartzCount=3..}] run function mikatanserver:main/ores/main
-execute as @a[scores={GoldCount=3..}] run function mikatanserver:main/ores/main
 
 ##farming xp判定
 execute as @a[scores={FarmingLuckPT=..9,SmallAmethyst=1..}] run function mikatanserver:main/lvup/xpcount/luck
