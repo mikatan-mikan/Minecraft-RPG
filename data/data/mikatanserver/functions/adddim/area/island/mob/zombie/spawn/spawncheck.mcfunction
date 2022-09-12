@@ -48,3 +48,20 @@ execute if score $island_zombie14 spawn_count matches 0 as @e[tag=field_island_z
 execute store result score $island_zombie15 spawn_count if entity @e[tag=field_island_zombie_15]
 execute if score $island_zombie15 spawn_count matches 0 as @e[tag=field_island_zombie_ar_15] at @s run data merge storage mikatanserver:zombie_tagbox {"tag":["field_island_zombie_15"]}
 execute if score $island_zombie15 spawn_count matches 0 as @e[tag=field_island_zombie_ar_15] at @s run function mikatanserver:adddim/area/island/mob/zombie/spawn/main
+
+
+scoreboard players reset $island_zombie1 spawn_count
+scoreboard players reset $island_zombie2 spawn_count
+scoreboard players reset $island_zombie3 spawn_count
+scoreboard players reset $island_zombie4 spawn_count
+scoreboard players reset $island_zombie5 spawn_count
+scoreboard players reset $island_zombie6 spawn_count
+scoreboard players reset $island_zombie7 spawn_count
+scoreboard players reset $island_zombie8 spawn_count
+scoreboard players reset $island_zombie9 spawn_count
+scoreboard players reset $island_zombie10 spawn_count
+scoreboard players reset $island_zombie11 spawn_count
+scoreboard players reset $island_zombie12 spawn_count
+scoreboard players reset $island_zombie13 spawn_count
+scoreboard players reset $island_zombie14 spawn_count
+scoreboard players reset $island_zombie15 spawn_count

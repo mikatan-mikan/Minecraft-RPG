@@ -76,6 +76,29 @@ execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:nauti
 
 
 
+
+
+##potion
+execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:potion", Count: 1b, tag: {display: {Lore: ['[{"text":"ここの定番だ。飲むといい。"}]']}}}, {Slot: 1b, id: "minecraft:player_head", Count: 8b, tag: {SkullOwner: {Id: [I; -419310302, 1131171186, -1424870546, -1128850037]}}}, {Slot: 2b, id: "minecraft:purple_stained_glass", Count: 1b, tag: {island_item: 1b}}, {Slot: 3b, id: "minecraft:purple_stained_glass", Count: 1b, tag: {island_item: 1b}}, {Slot: 4b, id: "minecraft:potion", Count: 1b, tag: {display: {Lore: ['[{"text":"どこからか出てきた飲み物"}]', '[{"text": "効果は分からない"}]']}}}, {Slot: 5b, id: "minecraft:player_head", Count: 8b, tag: {SkullOwner: {Id: [I; -419310302, 1131171186, -1424870546, -1128850037]}}}, {Slot: 6b, id: "minecraft:player_head", Count: 8b, tag: {SkullOwner: {Id: [I; -419310302, 1131171186, -1424870546, -1128850037]}}}, {Slot: 7b, id: "minecraft:purple_stained_glass", Count: 1b, tag: {island_item: 1b}}, {Slot: 8b, id: "minecraft:purple_stained_glass", Count: 1b, tag: {island_item: 1b}}]} run function oricra:craft/potion/pumpkin_beer
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+
+
+
+
+
+
+
+
+
 ##masic and sword 複合
 #future sword
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:apple", Count: 2b, tag: {CustomModelData: 1}}, {Slot: 1b, id: "minecraft:nautilus_shell", Count: 1b, tag: {CustomModelData: 5}}, {Slot: 2b, id: "minecraft:slime_ball", Count: 2b, tag: {CustomModelData: 5, HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 3b, id: "minecraft:nautilus_shell", Count: 2b, tag: {CustomModelData: 1, HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 4b, id: "minecraft:nautilus_shell", Count: 1b, tag: {CustomModelData: 7}}, {Slot: 5b, id: "minecraft:nautilus_shell", Count: 2b, tag: {CustomModelData: 1, HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 6b, id: "minecraft:slime_ball", Count: 2b, tag: {CustomModelData: 5, HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 7b, id: "minecraft:nautilus_shell", Count: 2b, tag: {CustomModelData: 1, HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 8b, id: "minecraft:apple", Count: 2b, tag: {CustomModelData: 1}}]} run function oricra:craft/masicitem/rod_and_sword/futuresword
@@ -409,7 +432,8 @@ execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:slime
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:ender_pearl", Count: 2b, tag: {HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 1b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 12}}, {Slot: 2b, id: "minecraft:ender_pearl", Count: 2b, tag: {HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 3b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 12}}, {Slot: 4b, id: "minecraft:ender_pearl", Count: 16b}, {Slot: 5b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 12}}, {Slot: 6b, id: "minecraft:ender_pearl", Count: 2b, tag: {HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}, {Slot: 7b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 12}}, {Slot: 8b, id: "minecraft:ender_pearl", Count: 2b, tag: {HideFlags: 1, Enchantments: [{lvl: 1s, id: "minecraft:unbreaking"}]}}]} run function oricra:craft/teleporter/dungeon_sixteen
 ## island
 execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:slime_ball", Count: 64b, tag: {CustomModelData: 9}}, {Slot: 1b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 2b, id: "minecraft:slime_ball", Count: 64b, tag: {CustomModelData: 9}}, {Slot: 3b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 4b, id: "minecraft:ender_pearl", Count: 16b}, {Slot: 5b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 6b, id: "minecraft:slime_ball", Count: 64b, tag: {CustomModelData: 9}}, {Slot: 7b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 8b, id: "minecraft:slime_ball", Count: 64b, tag: {CustomModelData: 9}}]} run function oricra:craft/teleporter/area__island
-# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
+## halloween
+execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:pumpkin", Count: 64b}, {Slot: 1b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 2b, id: "minecraft:pumpkin", Count: 64b}, {Slot: 3b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 4b, id: "minecraft:ender_pearl", Count: 16b}, {Slot: 5b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 6b, id: "minecraft:pumpkin", Count: 64b}, {Slot: 7b, id: "minecraft:experience_bottle", Count: 64b}, {Slot: 8b, id: "minecraft:pumpkin", Count: 64b}]} run function oricra:craft/teleporter/area__halloween
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oricra:craft/

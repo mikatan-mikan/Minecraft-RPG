@@ -13,6 +13,7 @@ execute as @s[scores={luck-Lv=65..}] run scoreboard players add @s needluckxp 3
 execute as @s[scores={luck-Lv=70..}] run scoreboard players add @s needluckxp 1
 execute as @s[scores={luck-Lv=90..}] run scoreboard players add @s needluckxp 1
 execute as @s[scores={luck-Lv=110..}] run scoreboard players add @s needluckxp 5
+execute as @s[scores={luck-Lv=140..}] run scoreboard players add @s needluckxp 5
 execute as @s[scores={luck-Lv=180..}] run scoreboard players add @s needluckxp 10
 execute as @a[scores={luck-Lv=..100}] run function mikatanserver:main/lvup/luck/lv100_lv0/func
 execute as @a[scores={luck-Lv=101..200}] run function mikatanserver:main/lvup/luck/lv200_lv101/func

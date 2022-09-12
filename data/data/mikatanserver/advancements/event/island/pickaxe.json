@@ -1,13 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:80}"
+        "item": "minecraft:netherite_axe",
+        "nbt": "{CustomModelData:12}"
       },
-      "title": "新たな開拓を目指して",
-      "description": "island areaへのテレポーターを作成する"
+      "title": "島の開拓者",
+      "description": "island pickaxeを作成する"
     },
-    "parent": "mikatanserver:event/nether/tp",
+    "parent": "mikatanserver:event/island/tp",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

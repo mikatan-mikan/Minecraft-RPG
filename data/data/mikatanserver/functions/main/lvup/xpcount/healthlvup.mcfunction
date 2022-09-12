@@ -12,5 +12,6 @@ execute as @s[scores={hp-Lv=30..}] run scoreboard players add @s needhpxp 1
 execute as @s[scores={hp-Lv=45..}] run scoreboard players add @s needhpxp 1
 execute as @s[scores={hp-Lv=60..}] run scoreboard players add @s needhpxp 1
 execute as @s[scores={hp-Lv=70..}] run scoreboard players add @s needhpxp 1
+execute as @s[scores={hp-Lv=120..}] run scoreboard players add @s needhpxp 4
 execute as @a[scores={hp-Lv=..100}] run function mikatanserver:main/lvup/hp/lv100_lv0/func
 execute as @a[scores={hp-Lv=101..200}] run function mikatanserver:main/lvup/hp/lv200_lv101/func
