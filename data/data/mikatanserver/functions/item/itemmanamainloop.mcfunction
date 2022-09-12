@@ -148,6 +148,8 @@ execute as @s[scores={ROD=1..,luck-Lv=210..,attackS-Lv=210..,attackD-Lv=210..,ma
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:74}}}] run function mikatanserver:item/teleporter/area/nether
 #dungeon fourteen
 execute as @s[scores={ROD=1..,luck-Lv=100..,attackS-Lv=100..,attackD-Lv=100..,mana-Lv=100..,speed-Lv=100..,hp-Lv=100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:77}}}] run function mikatanserver:item/teleporter/dungeon/sixteen/init
+#island
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:80}}}] run function mikatanserver:item/teleporter/area/island
 
 ##XPboost
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1

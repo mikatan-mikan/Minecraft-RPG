@@ -4,7 +4,6 @@
     "offsetY": 0,
     "offsetZ": 0,
     "predicate": {
-      "dimension": "mikatanserver:oremap",
       "block": {
         "blocks": [
           "minecraft:air"

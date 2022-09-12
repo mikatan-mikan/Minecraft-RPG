@@ -1,0 +1,14 @@
+summon armor_stand 362.5 94 -771.5 {Tags:["field_island_zombie_ar_1","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 343.5 94 -759.5 {Tags:["field_island_zombie_ar_2","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 338.5 95 -744.5 {Tags:["field_island_zombie_ar_3","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 340.5 95 -727.5 {Tags:["field_island_zombie_ar_4","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 348.5 94 -717.5 {Tags:["field_island_zombie_ar_5","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 373.5 94 -728.5 {Tags:["field_island_zombie_ar_6","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 384.5 94 -713.5 {Tags:["field_island_zombie_ar_7","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 396.5 94 -729.5 {Tags:["field_island_zombie_ar_8","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 411.5 94 -731.5 {Tags:["field_island_zombie_ar_9","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 410.5 95 -749.5 {Tags:["field_island_zombie_ar_10","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 419.5 97 -770.5 {Tags:["field_island_zombie_ar_11","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 407.5 97 -775.5 {Tags:["field_island_zombie_ar_12","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 404.5 98 -785.5 {Tags:["field_island_zombie_ar_13","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 382.5 95 -785.5 {Tags:["field_island_zombie_ar_14","IslandField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}

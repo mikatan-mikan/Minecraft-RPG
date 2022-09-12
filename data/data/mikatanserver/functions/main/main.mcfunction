@@ -3,6 +3,8 @@ execute as @a run title @s actionbar [{"text":"                   ","color":"whi
 gamemode survival @a[predicate=mikatanserver:overworld,gamemode=adventure]
 execute as @a[tag=new_year2021P,predicate=mikatanserver:overworld] run tag @s remove new_year2021P
 execute as @a[tag=FieldEnder,predicate=mikatanserver:overworld] run tag @s remove FieldEnder
+execute as @a[tag=FieldIsland,predicate=mikatanserver:overworld] run function mikatanserver:main/event/island/tagremove 
+execute as @a[tag=FieldHalloween,predicate=mikatanserver:overworld] run tag @s remove FieldHalloween
 execute as @a[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
 
 ##放置検知
@@ -36,8 +38,8 @@ execute if entity @a[predicate=mikatanserver:dungeonmapdim] run function mikatan
 execute as @a if score @s DeathCnt_Tip matches 1.. run function mikatanserver:main/tips
 
 ##死亡後復帰用
-execute as @a[scores={deathflag=1..}] run function mikatanserver:main/deathflag
-execute as @a[scores={deathflag=1..}] run scoreboard players set @s deathafter 1
+execute as @a[scores={deathflag=1..,deathafter=10..}] run function mikatanserver:main/deathflag
+execute as @a[scores={deathflag=1..}] run scoreboard players add @s deathafter 1
 
 ##鉱石ディメンション検知
 #鉱石dimに人がいるかを検知
@@ -56,8 +58,6 @@ execute as @a[scores={AndesiteCount=1..}] run function mikatanserver:main/lvup/x
 execute as @a[scores={DioriteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
 execute as @a[scores={GraniteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
 execute as @a[scores={ObsidianCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={QuartzCount=3..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={GoldCount=3..}] run function mikatanserver:main/lvup/xpcount/speed
 
 #atkspeedxp
 execute as @a[scores={mobcount=1..}] run function mikatanserver:main/lvup/xpcount/atkspeed

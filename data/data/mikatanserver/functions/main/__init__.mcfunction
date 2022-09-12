@@ -351,6 +351,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add aquaselfcount minecraft.mined:minecraft.blue_concrete
     scoreboard objectives add jadeselfcount minecraft.mined:minecraft.green_concrete
     scoreboard objectives add hematiteselfcount minecraft.mined:minecraft.black_concrete
+    scoreboard objectives add amethystselfcount minecraft.mined:minecraft.amethyst_block
+    scoreboard objectives add oakselfcount minecraft.mined:minecraft.oak_log
+    scoreboard objectives add doakselfcount minecraft.mined:minecraft.dark_oak_log
 
     ##ネザーエリア
     scoreboard objectives add nether_field_loop dummy
@@ -359,6 +362,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add 5lvCount dummy
 
     scoreboard objectives add ManaBatchBool dummy
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

@@ -2,8 +2,13 @@
 tag @s remove new_year2021P
 tag @s remove tp_after
 tag @s remove FieldEnder
+tag @s remove FieldNether
+tag @s remove FieldIsland
+clear @s iron_pickaxe{island_item:true}
+clear @s stone_axe{island_item:true}
 tag @s remove ender_tp_after
 tag @s remove nether_tp_after
+tag @s remove island_tp_after
 ##鉱石タグ
 tag @s remove ore_charoite
 tag @s remove ore_peridot

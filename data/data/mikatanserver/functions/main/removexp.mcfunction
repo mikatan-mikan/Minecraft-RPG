@@ -18,3 +18,4 @@ scoreboard players set @s EStonecount 0
 scoreboard players set @s AndesiteCount 0
 scoreboard players set @s DioriteCount 0
 scoreboard players set @s GraniteCount 0
+scoreboard players set @s SmallAmethyst 0
