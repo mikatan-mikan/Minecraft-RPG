@@ -363,6 +363,10 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add ManaBatchBool dummy
 
+    ##クリスマス2022
+    scoreboard objectives add redwoolselfcount minecraft.mined:minecraft.red_wool
+    scoreboard objectives add bookselfcount minecraft.mined:minecraft.bookshelf
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

@@ -54,6 +54,7 @@ scoreboard players add @p manaxp 6
 execute as @p[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:13}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s manaxp 1
 execute as @p[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:14}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s manaxp 1
 execute as @p[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:15}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s manaxp 1
+execute as @p if entity @s[nbt={Inventory:[{"Slot":100b,tag:{masic_armor:true}},{"Slot":101b,tag:{masic_armor:true}},{"Slot":102b,tag:{masic_armor:true}},{"Slot":103b,tag:{masic_armor:true}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s manaxp 1
 
 #アイテム
 #replaceitem block ~ ~ ~ container.4 minecraft:

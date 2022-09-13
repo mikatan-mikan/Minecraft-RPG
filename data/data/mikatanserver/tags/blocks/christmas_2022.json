@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:mossy_stone_bricks",
+        "minecraft:spruce_leaves",
+        "minecraft:snow_block",
+        "minecraft:chain",
+        "minecraft:lantern",
+        "minecraft:spruce_planks"
+    ]
+}
