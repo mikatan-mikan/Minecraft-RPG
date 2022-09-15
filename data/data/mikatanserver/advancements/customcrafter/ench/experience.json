@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chest"
+      },
+      "title": "些細な届きもの",
+      "description": "enchantbox\n[エクスペリエンス]を作成する"
+    },
+    "parent": "mikatanserver:customcrafter/ench/dancing",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/10"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+xp add @s 9 points

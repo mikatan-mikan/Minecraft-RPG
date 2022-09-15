@@ -4,6 +4,7 @@
       "mikatanserver:item/itemmanamainloopcheck",
       "mikatanserver:adddim/area/mainloop",
       "oricra:main",
-      "oriench:main"
+      "oriench:main",
+      "orienhancer:main"
     ]
   }

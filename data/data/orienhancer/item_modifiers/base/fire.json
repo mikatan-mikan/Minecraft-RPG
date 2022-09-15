@@ -1,0 +1,19 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+            "text": "火属性",
+            "color": "red",
+            "bold": true,
+            "italic": false
+            }
+        ],
+        "replace": false
+    },
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Enhance_Num:1}"
+	}
+]

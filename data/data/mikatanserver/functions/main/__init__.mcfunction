@@ -371,6 +371,11 @@ tellraw @a [{"text": "=====================================================\n\n"
     ##フィールド用モブカウント
     scoreboard objectives add field_mobcount minecraft.custom:minecraft.mob_kills
 
+    scoreboard objectives add ench_experiencecraft dummy
+
+    ##attribute number
+    scoreboard objectives add Enhancer.Attribute dummy
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 
