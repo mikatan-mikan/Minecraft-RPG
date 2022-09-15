@@ -3,13 +3,19 @@
 
 ##素材が0個になるとややこしいので最初に消して付与する
 execute store result score $att_num Enhancer.Attribute run data get block ~ ~ ~ Items[4].tag.Enhance_Num
+##既に属性があった場合は現在の属性を削除
 execute if score $att_num Enhancer.Attribute matches 1.. run data remove block ~ ~ ~ Items[4].tag.display.Lore[-1]
+##文字列の結合
 data merge storage enhancer:lore {Attribute:'[{"text":"火属性","color":"red"}]'}
 data modify storage enhancer:lore Lore set from block ~ ~ ~ Items[4].tag.display.Lore
 data modify storage enhancer:lore Lore insert -1 from storage enhancer:lore Attribute
-data modify storage enhancer:lore Attribute set from storage enhancer:lore Lore
 data modify block ~ ~ ~ Items[4].tag.display.Lore set from storage enhancer:lore Lore
+##属性の付与
+execute store result block ~ ~ ~ Items[4].tag.Enhance_Num int 1 run scoreboard players get $1 int
+##データの削除
 scoreboard players reset $att_num Enhancer.Attribute
+data remove storage enhancer:lore Attribute
+data remove storage enhancer:lore Lore
 
 execute store result score @s EnchanterItemCount8 run data get block ~ ~ ~ Items[8].Count
 scoreboard players remove @s EnchanterItemCount8 1
