@@ -12,6 +12,7 @@ scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:16}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:17}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:18}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s attackSxp 1
+execute as @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:38}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":103b,id:"minecraft:player_head",tag:{Ender_helmet:1b}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s attackSxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:player_head",tag:{candy_talisman:true}}]},predicate=mikatanserver:chance/0.05] run give @s player_head{display:{Name:'[{"text":"green candy","color": "green"}]'},SkullOwner:{Id:[I;-1730419398,-1775679819,-1928173840,-407426768],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY3MDk5NTQ1MGJkYjcxMDlmYTViZmU2ZDEzZmVlZGUzMjRmNDM5NWZjOTAwOTAwMGM4MGVlNTU0ZmFmYTYzNyJ9fX0="}]}}}
 

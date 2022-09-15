@@ -316,6 +316,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $190 int 190
     scoreboard players set $200 int 200
     scoreboard players set $256 int 256
+    scoreboard players set $300 int 300
     scoreboard players set $333 int 333
     scoreboard players set $400 int 400
     scoreboard players set $1024 int 1024
@@ -366,6 +367,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     ##クリスマス2022
     scoreboard objectives add redwoolselfcount minecraft.mined:minecraft.red_wool
     scoreboard objectives add bookselfcount minecraft.mined:minecraft.bookshelf
+
+    ##フィールド用モブカウント
+    scoreboard objectives add field_mobcount minecraft.custom:minecraft.mob_kills
 
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]

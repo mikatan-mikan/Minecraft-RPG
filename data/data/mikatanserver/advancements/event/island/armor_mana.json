@@ -5,7 +5,7 @@
         "nbt": "{display:{color:10887667}}"
       },
       "title": "ありふれた気",
-      "description": "speedstar armorを作成する"
+      "description": "masic armorを作成する"
     },
     "parent": "mikatanserver:event/island/armor",
     "criteria": {

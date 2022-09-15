@@ -4,8 +4,8 @@
         "item": "minecraft:magma_cream",
         "nbt": "{CustomModelData:36}"
       },
-      "title": "復元される溶岩の滴り",
-      "description": "magma crystalを作成する"
+      "title": "それは可能性を呼び覚ます・・・",
+      "description": "翡翠の水晶を作成する"
     },
     "parent": "mikatanserver:customcrafter/accessories/crystal/coal",
     "criteria": {

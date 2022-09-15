@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:magma_cream",
+        "nbt": "{CustomModelData:46}"
+      },
+      "title": "それは未来からの提示・・・",
+      "description": "遺跡の水晶を作成する",
+      "frame": "challenge"
+    },
+    "parent": "mikatanserver:customcrafter/accessories/crystal/rapis",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/25"
+    }
+  }
+  

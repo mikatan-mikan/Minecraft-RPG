@@ -36,6 +36,8 @@ execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot
 execute as @s[scores={ROD=1..,mana=50..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:47}}}] at @s run function mikatanserver:item/rod/impact/main
 #spirit rod:mana45
 execute as @s[scores={ROD=1..,mana=45..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:65}}}] at @s run function mikatanserver:item/rod/spirit/main
+#spirit rod:mana45
+execute as @s[scores={ROD=1..,mana=40..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:85}}}] at @s run function mikatanserver:item/rod/ruins/main
 
 #想剣
 execute as @s[scores={ROD=1..,mana=100..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:20}}}] at @s run function mikatanserver:item/rod/memory_sword/main
@@ -156,6 +158,8 @@ execute as @s[scores={ROD=1..,RewardPoint=2300..},nbt={SelectedItem:{id:"minecra
 execute as @s[scores={ROD=1..,RewardPoint=2300..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:81}}}] run function mikatanserver:item/teleporter/area/halloween
 #クリスマス 2022
 execute as @s[scores={ROD=1..,RewardPoint=400..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:83}}}] run function mikatanserver:item/teleporter/_event_christmas_2022
+#ruins
+execute as @s[scores={ROD=1..,RewardPoint=500..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:84}}}] run function mikatanserver:item/teleporter/area/ruins
 
 
 ##XPboost
@@ -168,6 +172,7 @@ execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stic
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:1000}}}] run function mikatanserver:item/givexp/1000
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:100}}}] run function mikatanserver:item/givexp/100
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:30}}}] run function mikatanserver:item/givexp/30
+execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:5}}}] run function mikatanserver:item/givexp/5
 execute as @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{GiveXp:1}}}] run function mikatanserver:item/givexp/1
 
 #reward 称号 ice

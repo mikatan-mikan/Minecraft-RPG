@@ -28,6 +28,7 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomM
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:2}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s speedxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:3}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s speedxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:19}}]},predicate=mikatanserver:chance/0.30] run scoreboard players add @s speedxp 1
+execute as @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:37}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s speedxp 1
 execute as @s[nbt={Inventory:[{"Slot":102b,id:"minecraft:leather_chestplate",tag:{obsidian_chestplate:1b}},{id:"minecraft:obsidian",Count:64b}]},predicate=mikatanserver:chance/0.1] run scoreboard players add @s speedxp 1
 
 ##石を掘ったときレア泥

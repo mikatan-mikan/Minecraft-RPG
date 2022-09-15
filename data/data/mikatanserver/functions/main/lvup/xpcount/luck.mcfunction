@@ -10,6 +10,7 @@ execute if score @s SmallAmethyst matches 1.. as @s[scores={FarmingStoneFlag=1},
 execute if score @s SmallAmethyst matches 1.. as @s[scores={LuckStoneFlag=1},predicate=mikatanserver:chance/0.005] at @s run function mikatanserver:main/drap_stone/luck_stone
 execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:31}}]},predicate=mikatanserver:chance/0.02] run function mikatanserver:main/lvup/xpcount/ac/all_xp
 execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:44}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s luckxp 1
+execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:45}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s luckxp 1
 scoreboard players remove @s SmallAmethyst 1
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:10}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s hpxp 1

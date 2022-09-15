@@ -119,7 +119,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[{\"text\":\"enchanted blaze rod\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                "tag": "{display:{Name:'[{\"text\":\"enchanted blaze rod\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
               },
               {
                 "function":"minecraft:set_count",

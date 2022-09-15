@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:netherite_axe",
+        "item": "minecraft:netherite_pickaxe",
         "nbt": "{CustomModelData:12}"
       },
       "title": "島の開拓者",
