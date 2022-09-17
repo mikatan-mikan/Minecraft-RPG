@@ -10,6 +10,8 @@ tag @s add DungeonPlay_9
 gamemode adventure @a[tag=DungeonPlay_9]
 gamerule keepInventory true
 
+scoreboard players set $9 dungeon_play_now 1
+
 kill @e[type=item,predicate=mikatanserver:dungeonmapdim,distance=..100]
 
 advancement grant @s only mikatanserver:tp/dungeon/nineth

@@ -8,6 +8,7 @@ scoreboard objectives remove TrollFifDunSkill
 scoreboard objectives remove FifBossSkill
 scoreboard objectives remove TrollArmorCT
 scoreboard objectives remove FifDunBackS 
+scoreboard players set $5 dungeon_play_now 0
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FifDunMob]
 scoreboard objectives remove FifthDunDeath

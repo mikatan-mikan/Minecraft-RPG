@@ -8,6 +8,7 @@ tag @s remove DungeonStart15
 tag @a remove FifteenDLeader
 tag @s add DungeonPlay
 tag @s add DungeonPlay_15
+scoreboard players set $15 dungeon_play_now 1
 gamemode adventure @a[tag=DungeonPlay_15]
 gamerule keepInventory true
 

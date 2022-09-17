@@ -19,7 +19,7 @@
       ]
     ],
     "rewards": {
-      "function": "mikatanserver:rewards/end/10"
+      "function": "mikatanserver:rewards/10"
     }
   }
   

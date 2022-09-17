@@ -18,4 +18,5 @@ tag @a[tag=DungeonPlay_16] remove CountLeader
 tag @a[tag=DungeonPlay_16] remove DungeonPlay
 tag @a[tag=DungeonPlay_16] remove BossBattle16
 tag @a[tag=DungeonPlay_16] remove DungeonPlay_16
+scoreboard players set $16 dungeon_play_now 0
 schedule function mikatanserver:main/keepinventoryfalse 10s

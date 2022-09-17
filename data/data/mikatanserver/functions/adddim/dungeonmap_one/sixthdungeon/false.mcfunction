@@ -10,6 +10,7 @@ scoreboard objectives remove SixBossSkill
 scoreboard objectives remove TrollArmorCT
 scoreboard objectives remove SixDunBackS
 scoreboard objectives remove PheseManeger_6
+scoreboard players set $6 dungeon_play_now 0
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=SixDunMob]
 scoreboard objectives remove SixthDunDeath

@@ -1,4 +1,4 @@
-
+execute if score $13 dungeon_play_now matches 0 run function mikatanserver:adddim/dungeonmap_one/death_after_player/13
 # ##ボスループ
 # execute if entity @e[tag=ThirteenDunBoss] run function mikatanserver:adddim/dungeonmap_one/thirteendungeon/boss/mainloop
 

@@ -8,6 +8,7 @@ execute as @a[tag=DungeonPlay_1] run function mikatanserver:adddim/dungeonmap_on
 tag @a[tag=DungeonPlay_1] remove CountLeader
 tag @a[tag=DungeonPlay_1] remove DungeonPlay
 tag @a[tag=DungeonPlay_1] remove BossBattle1
+scoreboard players set $1 dungeon_play_now 0
 scoreboard objectives remove FirstDunDeath
 kill @e[tag=FirDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]

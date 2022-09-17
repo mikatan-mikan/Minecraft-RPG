@@ -1,3 +1,4 @@
+execute if score $6 dungeon_play_now matches 0 run function mikatanserver:adddim/dungeonmap_one/death_after_player/6
 ##lava cubeボスループ
 execute if entity @e[tag=magma_6] run function mikatanserver:adddim/dungeonmap_one/sixthdungeon/dungeon/mainloop
 ##phese2 loop

@@ -1,3 +1,4 @@
+execute if score $8 dungeon_play_now matches 0 run function mikatanserver:adddim/dungeonmap_one/death_after_player/8
 ##ダンジョン内アマスタ検知(モブ沸き判定)        メモ[設置アマスタ]:summon armor_stand ~ ~ ~ {Tags:["EigDunMobArmor"]}
 execute as @e[tag=EigDunMobArmor] at @s if entity @a[distance=..7] run function mikatanserver:adddim/dungeonmap_one/eigthdungeon/spawn/mob
 

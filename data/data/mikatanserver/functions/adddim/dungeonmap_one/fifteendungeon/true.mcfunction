@@ -10,6 +10,7 @@ gamerule keepInventory true
 tag @a[tag=DungeonPlay_15] remove CountLeader
 tag @a[tag=DungeonPlay_15] remove DungeonPlay
 tag @a[tag=DungeonPlay_15] remove BossBattle15
+scoreboard players set $15 dungeon_play_now 0
 scoreboard objectives remove FifteenDunDeath
 scoreboard objectives remove FifteenBossSkill
 scoreboard objectives remove 15_boss_hp_checker

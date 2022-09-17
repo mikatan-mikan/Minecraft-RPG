@@ -8,6 +8,8 @@ tag @s remove DungeonStart8
 tag @a remove EigthDLeader
 tag @s add DungeonPlay
 tag @s add DungeonPlay_8
+
+scoreboard players set $8 dungeon_play_now 1
 gamemode adventure @a[tag=DungeonPlay_8]
 
 ##BossSpawn Score

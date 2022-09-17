@@ -7,6 +7,7 @@ kill @e[tag=FifteenDunNowP]
 scoreboard objectives remove FifteenBossSkill2
 scoreboard objectives remove FifteenBossSkill
 scoreboard objectives remove 15_boss_hp_checker
+scoreboard players set $15 dungeon_play_now 0
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FifteenDunMob]
 scoreboard objectives remove FifteenDunDeath

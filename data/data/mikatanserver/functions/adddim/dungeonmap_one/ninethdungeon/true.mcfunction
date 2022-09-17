@@ -15,6 +15,8 @@ scoreboard objectives remove NinethDunDeath
 scoreboard objectives remove NineBossSkill
 scoreboard objectives remove Wind_Count
 scoreboard objectives remove Wind_Rot_Count
+
+scoreboard players set $9 dungeon_play_now 0
 kill @e[tag=NineDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=NineDunMob]

@@ -1,4 +1,4 @@
-
+execute if score $12 dungeon_play_now matches 0 run function mikatanserver:adddim/dungeonmap_one/death_after_player/12
 ##ダンジョン死亡検知
 execute if entity @a[scores={TwelvethDunDeath=1..},tag=DungeonPlay_12] run function mikatanserver:adddim/dungeonmap_one/twelvethdungeon/false
 ##ダンジョンクリア検知

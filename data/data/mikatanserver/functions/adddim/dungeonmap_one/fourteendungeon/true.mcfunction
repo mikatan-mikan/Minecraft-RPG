@@ -13,6 +13,7 @@ tag @a[tag=DungeonPlay_14] remove BossBattle14
 scoreboard objectives remove FourteenDunDeath
 scoreboard objectives remove FourteenBossSkill
 scoreboard objectives remove 14_boss_hp_checker
+scoreboard players set $14 dungeon_play_now 0
 kill @e[tag=FourteenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=FourteenDunMob]

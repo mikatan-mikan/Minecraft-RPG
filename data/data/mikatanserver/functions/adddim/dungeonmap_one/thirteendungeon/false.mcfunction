@@ -9,6 +9,7 @@ scoreboard objectives remove ThirteenBossSkill
 scoreboard objectives remove 13_NextMobCheckTimer
 scoreboard objectives remove 13_TowerFloor
 scoreboard objectives remove 13_TowerNowMobCnt
+scoreboard players set $13 dungeon_play_now 0
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=ThirteenDunMob]
 scoreboard objectives remove ThirteenDunDeath

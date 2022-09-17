@@ -11,7 +11,7 @@ scoreboard players operation $15 BossHP -= $15_boss_hp TMP
 ##ボス本体のhpを回復させる
 effect give @s instant_damage 1 200
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
-#execute if score $15 BossHP matches ..0 run kill @s
+execute if score $15 BossHP matches ..0 run kill @s
     ##healing
         execute if entity @a[scores={FifteenBossSkill=100},tag=BossBattle15] as @e[tag=FifteenDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/healing/main
     ##衝撃波のようなもの

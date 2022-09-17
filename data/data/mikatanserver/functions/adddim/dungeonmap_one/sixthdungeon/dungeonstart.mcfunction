@@ -9,6 +9,7 @@ function mikatanserver:adddim/dungeonmap_one/fifthdungeon/init
 tag @a remove SixthDLeader
 tag @s add DungeonPlay
 tag @s add DungeonPlay_6
+scoreboard players set $6 dungeon_play_now 1
 gamemode adventure @a[tag=DungeonPlay_6]
 
 

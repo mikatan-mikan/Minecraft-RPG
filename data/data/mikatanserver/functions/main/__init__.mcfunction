@@ -318,6 +318,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $256 int 256
     scoreboard players set $300 int 300
     scoreboard players set $333 int 333
+    scoreboard players set $350 int 350
     scoreboard players set $400 int 400
     scoreboard players set $1024 int 1024
 
@@ -375,6 +376,11 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     ##attribute number
     scoreboard objectives add Enhancer.Attribute dummy
+
+    ##boss hp減算用変数
+    scoreboard objectives add boss_hp_checker dummy
+
+    scoreboard objectives add dungeon_play_now dummy
 
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]

@@ -7,6 +7,7 @@ tag @s remove DungeonStart16
 tag @a remove SixteenDLeader
 tag @s add DungeonPlay
 tag @s add DungeonPlay_16
+scoreboard players set $16 dungeon_play_now 1
 gamemode adventure @a[tag=DungeonPlay_16]
 gamerule keepInventory true
 

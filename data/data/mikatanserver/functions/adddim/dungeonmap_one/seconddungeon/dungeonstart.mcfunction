@@ -8,4 +8,5 @@ tag @s remove DungeonStart2
 tag @a remove SecondDLeader
 tag @s add DungeonPlay
 tag @s add DungeonPlay_2
+scoreboard players set $2 dungeon_play_now 1
 gamemode adventure @a[tag=DungeonPlay_2]

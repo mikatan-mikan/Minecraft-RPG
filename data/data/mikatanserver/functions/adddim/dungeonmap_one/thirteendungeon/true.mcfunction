@@ -13,6 +13,7 @@ tag @a[tag=DungeonPlay_13] remove DungeonPlay
 tag @a[tag=DungeonPlay_13] remove BossBattle13
 tag @a[tag=DungeonPlay_13] remove BossBattle13_2
 tag @a[tag=DungeonPlay_13] remove DungeonPlay_13
+scoreboard players set $13 dungeon_play_now 0
 scoreboard objectives remove ThirteenDunDeath
 scoreboard objectives remove ThirteenBossSkill
 scoreboard objectives remove ThirteenBossSkill2

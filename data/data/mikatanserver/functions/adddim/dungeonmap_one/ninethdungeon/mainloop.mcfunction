@@ -1,4 +1,4 @@
-
+execute if score $9 dungeon_play_now matches 0 run function mikatanserver:adddim/dungeonmap_one/death_after_player/9
 ##ボスループ
 execute if entity @e[tag=NinethDunBoss] run function mikatanserver:adddim/dungeonmap_one/ninethdungeon/boss/mainloop
 
