@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:61}"
         },
         "title": "幸運を集めて",
-        "description": "luck crystalの採掘権を得る\n============\n出現確率:0.5%\n対象:speedXP獲得ブロックの採掘"
+        "description": "luck crystalの採掘権を得る\n============\n出現確率:0.5%\n対象:luckXP獲得ブロックの採掘"
     },
     "parent": "mikatanserver:customcrafter/add_stone/farming",
     "criteria": {

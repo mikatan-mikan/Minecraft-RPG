@@ -1,8 +1,8 @@
 scoreboard players remove @s mana 100
-effect give @s strength 10 1
+effect give @s strength 2 0
 effect give @a[distance=..10] regeneration 10 1
 effect give @a[distance=..10] absorption 10 1
-effect give @a[distance=..10] resistance 10 1
+effect give @a[distance=..10] resistance 5 0
 
 playsound minecraft:item.totem.use master @a[distance=..10] ~ ~ ~ 0.6 0
 playsound minecraft:block.glass.break master @a[distance=..10] ~ ~ ~ 2 1

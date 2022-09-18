@@ -1,4 +1,4 @@
-gamemode survival @a[tag=DungeonPlay_3]
-execute in minecraft:overworld run tp @a[tag=DungeonPlay_3] 0 100 0
-tag @a[tag=DungeonPlay_3] remove DungeonPlay_3
+gamemode survival @a[tag=Return_Dun_3]
+execute in minecraft:overworld run tp @a[tag=Return_Dun_3] 0 100 0
+tag @a[tag=Return_Dun_3] remove Return_Dun_3
 kill @e[tag=ThirdDunNowP]

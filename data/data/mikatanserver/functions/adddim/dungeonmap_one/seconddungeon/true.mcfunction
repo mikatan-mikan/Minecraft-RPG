@@ -11,6 +11,7 @@ execute as @a[tag=DungeonPlay_2] run function mikatanserver:adddim/dungeonmap_on
 tag @a[tag=DungeonPlay_2] remove CountLeader
 tag @a[tag=DungeonPlay_2] remove DungeonPlay
 tag @a[tag=DungeonPlay_2] remove BossBattle2
+tag @a[tag=DungeonPlay_2] add Return_Dun_2
 scoreboard players set $2 dungeon_play_now 0
 scoreboard objectives remove SecondDunDeath
 kill @e[tag=SecDunArmor]

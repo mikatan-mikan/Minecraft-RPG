@@ -1,6 +1,7 @@
 
 execute store result bossbar minecraft:sixthboss_bar value run data get entity @e[tag=SixthDunBoss,limit=1] Health
 execute in mikatanserver:dungeon positioned -425.5 115 -161 run kill @e[type=magma_cube,distance=..100]
+clear @a[tag=DungeonPlay_6] #boats
 
 ##skill healing
 execute if entity @a[scores={SixBossSkill1=70},tag=DungeonPlay_6] as @e[tag=SixthDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/sixthdungeon/dungeon/phese_2/boss/skill/healing/main

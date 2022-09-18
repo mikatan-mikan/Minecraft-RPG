@@ -11,7 +11,7 @@ execute as @s[scores={mana=25..},nbt={SelectedItem:{tag:{CustomModelData:9}}}] a
 #windROD mana:35
 execute as @s[scores={mana=35..},nbt={SelectedItem:{tag:{CustomModelData:12}}}] at @s run function mikatanserver:item/rod/windrod/main
 #frozenROD mana:40
-execute as @s[scores={mana=40..},nbt={SelectedItem:{tag:{CustomModelData:17}}}] at @s run function mikatanserver:item/rod/frozenrod/main
+execute as @s[scores={mana=60..},nbt={SelectedItem:{tag:{CustomModelData:17}}}] at @s run function mikatanserver:item/rod/frozenrod/main
 #tact mana:30
 execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:23}}}] at @s run function mikatanserver:item/rod/tact/one/main
 #fireball mana:27

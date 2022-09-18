@@ -8,6 +8,7 @@ execute as @a[tag=DungeonPlay_5] run function mikatanserver:adddim/dungeonmap_on
 tag @a[tag=DungeonPlay_5] remove CountLeader
 tag @a[tag=DungeonPlay_5] remove DungeonPlay
 tag @a[tag=DungeonPlay_5] remove BossBattle5
+tag @a[tag=DungeonPlay_5] add Return_Dun_5
 scoreboard objectives remove FifthDunDeath
 scoreboard objectives remove FifBossSkill
 scoreboard objectives remove TrollFifDunSkill

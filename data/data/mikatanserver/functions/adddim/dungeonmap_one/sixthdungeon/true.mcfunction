@@ -4,7 +4,6 @@ tellraw @a[tag=DungeonPlay_6] [{"text":"Lava Cube を討伐した!!\n","color": 
 bossbar remove minecraft:sixthboss_bar
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 scoreboard players set @a PheseManeger_6 1
-scoreboard players set $6 dungeon_play_now 0
 
 playsound block.portal.trigger master @s ~ ~ ~ 2 2 1
 

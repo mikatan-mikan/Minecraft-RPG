@@ -13,6 +13,7 @@ gamerule keepInventory true
 tag @a[tag=DungeonPlay_12] remove CountLeader
 tag @a[tag=DungeonPlay_12] remove DungeonPlay
 tag @a[tag=DungeonPlay_12] remove BossBattle12
+tag @a[tag=DungeonPlay_12] add Return_Dun_12
 scoreboard objectives remove TwelvethDunDeath
 scoreboard objectives remove TwelveBossSkill3
 scoreboard objectives remove TwelveBossSkill2
