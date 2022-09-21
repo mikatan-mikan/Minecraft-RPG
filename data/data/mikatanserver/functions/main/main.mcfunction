@@ -21,9 +21,9 @@ execute as @a[scores={darkoakcount=1..},predicate=mikatanserver:oremapdim] run s
     execute as @a[scores={MoveCheck=..12000}] run scoreboard players add @s TimerCrystalTime 1
     execute as @a[scores={MoveCheck_walk=1..,MoveCheck_shift=1..}] run function mikatanserver:main/walkreset
     execute as @a[scores={MoveCheck_dush=1..,MoveCheck_shift=1..}] run function mikatanserver:main/walkreset
-    execute as @a[scores={TimerCrystalTime=72000..}] run function mikatanserver:main/orangegive
+    execute as @a[scores={TimerCrystalTime=72000..}] run function mikatanserver:main/give_item/orangegive
     #ライム
-    execute as @a[scores={limetimer=72000..}] run function mikatanserver:main/limegive
+    execute as @a[scores={limetimer=72000..}] run function mikatanserver:main/give_item/limegive
 
 
 ##初回ログイン検知
@@ -33,14 +33,13 @@ execute as @a[scores={firstlogin=..100}] run function mikatanserver:main/setup
 execute as @a[scores={LogCheck_Logger=1..}] at @s run function mikatanserver:login/loginmessage
 
 ##ダンジョン検知
-execute if entity @a[predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/dungeonmap_one/mainloop
+## execute if entity @a[predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/dungeonmap_one/mainloop
 
 ##Tips
 execute as @a if score @s DeathCnt_Tip matches 1.. run function mikatanserver:main/tips
 
 ##死亡後復帰用
-execute as @a[scores={deathflag=1..,deathafter=10..}] run function mikatanserver:main/deathflag
-execute as @a[scores={deathflag=1..}] run scoreboard players add @s deathafter 1
+execute as @a[scores={deathflag=1..}] run function mikatanserver:main/deathflag/main 
 
 ##鉱石ディメンション検知
 #鉱石dimに人がいるかを検知
@@ -51,15 +50,6 @@ execute as @a[scores={manatimer=20..}] run execute if score @s manamax > @s mana
 ##xp変換
 #speedxp
 execute as @a[predicate=mikatanserver:main/breakstone] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={stonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={cobblestonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={deepslatecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={NRtonecount=2..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={EStonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={AndesiteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={DioriteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={GraniteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-# execute as @a[scores={ObsidianCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
 
 #atkspeedxp
 execute as @a[scores={mobcount=1..}] run function mikatanserver:main/lvup/xpcount/atkspeed
@@ -93,7 +83,5 @@ execute as @a[scores={Boost = 0..}] run function mikatanserver:main/boostminus
 
 clear @a bow{Enchantments:[{id:"minecraft:power",lvl:15s}]}
 
-clear @a[name="RoRota_",predicate=mikatanserver:overworld] carrot_on_a_stick{CustomModelData:4}
-
-#リセ
+##マナ用スコアリセ
 scoreboard players set @a ManaBatchBool 0

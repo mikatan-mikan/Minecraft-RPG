@@ -2,7 +2,10 @@
 function mikatanserver:item/teleporter/tag/remove
 
 
-tp @s[tag=!DungeonPlay] 0 100 0
 clear @s[tag=!DungeonPlay] carrot_on_a_stick{CustomModelData:4} 
-
 gamemode survival
+
+gamerule showDeathMessages false
+kill @s[tag=!DungeonPlay]
+gamerule showDeathMessages true
+scoreboard players reset @s DeathCnt_Tip

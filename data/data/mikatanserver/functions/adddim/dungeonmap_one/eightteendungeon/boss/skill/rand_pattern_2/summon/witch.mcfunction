@@ -1,0 +1,1 @@
+summon witch ~ ~ ~ {Tags:["EightteenDunMob","EightteenDun_Witch"],DeathLootTable:"mikatanserver:null",Attributes:[{Name:"minecraft:generic.max_health",Base:100},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.attack_damage",Base:35},{Name:"minecraft:generic.movement_speed",Base:0.2}],CustomName:'[{"text": "masic witch"}]',Silent:true,Health:30}

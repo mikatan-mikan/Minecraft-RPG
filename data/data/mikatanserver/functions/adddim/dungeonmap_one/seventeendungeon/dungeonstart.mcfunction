@@ -4,7 +4,7 @@ playsound entity.ender_pearl.throw master @s ~ ~ ~ 2
 scoreboard objectives remove DungeonStartCnt17
 function mikatanserver:adddim/dungeonmap_one/seventeendungeon/init
 tag @s remove DungeonStart17
-tag @a remove NinethDLeader
+tag @a remove SeventeenDLeader
 tag @s add DungeonPlay
 tag @s add DungeonPlay_17
 scoreboard players set $17 dungeon_play_now 1

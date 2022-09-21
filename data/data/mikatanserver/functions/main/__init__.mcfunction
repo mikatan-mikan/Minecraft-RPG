@@ -334,6 +334,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $300 int 300
     scoreboard players set $333 int 333
     scoreboard players set $350 int 350
+    scoreboard players set $373 int 373
     scoreboard players set $400 int 400
     scoreboard players set $1024 int 1024
 
@@ -397,6 +398,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add dungeon_play_now dummy
     scoreboard objectives add ench_smeltingcraft dummy
+
+    scoreboard objectives add deathafter dummy
 
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]

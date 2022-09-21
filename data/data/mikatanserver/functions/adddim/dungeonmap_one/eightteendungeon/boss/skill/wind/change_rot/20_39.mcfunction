@@ -1,0 +1,2 @@
+execute if score $18_dun_wind MK.r.RandValue matches 20..29 run function mikatanserver:adddim/dungeonmap_one/eightteendungeon/boss/skill/wind/change_rot/20_39/20_29
+execute if score $18_dun_wind MK.r.RandValue matches 30..39 run function mikatanserver:adddim/dungeonmap_one/eightteendungeon/boss/skill/wind/change_rot/20_39/30_39

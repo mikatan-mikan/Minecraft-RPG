@@ -162,6 +162,8 @@ execute as @s[scores={RewardPoint=400..},nbt={SelectedItem:{tag:{CustomModelData
 execute as @s[scores={RewardPoint=500..},nbt={SelectedItem:{tag:{CustomModelData:84}}}] run function mikatanserver:item/teleporter/area/ruins
 #dungeon thirteen
 execute as @s[scores={luck-Lv=125..,attackS-Lv=125..,attackD-Lv=125..,mana-Lv=125..,speed-Lv=125..,hp-Lv=125..},nbt={SelectedItem:{tag:{CustomModelData:86}}}] run function mikatanserver:item/teleporter/dungeon/seventeen/init
+#dungeon eightteen
+execute as @s[scores={luck-Lv=135..,attackS-Lv=135..,attackD-Lv=135..,mana-Lv=135..,speed-Lv=135..,hp-Lv=135..},nbt={SelectedItem:{tag:{CustomModelData:87}}}] run function mikatanserver:item/teleporter/dungeon/eightteen/init
 
 
 ##XPboost
