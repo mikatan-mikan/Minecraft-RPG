@@ -50,15 +50,16 @@ execute as @a[predicate=mikatanserver:oremapdim] run function mikatanserver:addd
 execute as @a[scores={manatimer=20..}] run execute if score @s manamax > @s mana run function mikatanserver:main/mana/main
 ##xp変換
 #speedxp
-execute as @a[scores={stonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={cobblestonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={deepslatecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={NRtonecount=2..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={EStonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={AndesiteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={DioriteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={GraniteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
-execute as @a[scores={ObsidianCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+execute as @a[predicate=mikatanserver:main/breakstone] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={stonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={cobblestonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={deepslatecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={NRtonecount=2..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={EStonecount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={AndesiteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={DioriteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={GraniteCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
+# execute as @a[scores={ObsidianCount=1..}] run function mikatanserver:main/lvup/xpcount/speed
 
 #atkspeedxp
 execute as @a[scores={mobcount=1..}] run function mikatanserver:main/lvup/xpcount/atkspeed

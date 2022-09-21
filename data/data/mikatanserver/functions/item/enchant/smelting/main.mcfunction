@@ -1,0 +1,1 @@
+execute as @e[type=item,distance=..6,limit=1,sort=nearest,nbt={PickupDelay:10s}] run function mikatanserver:item/enchant/smelting/change_stone

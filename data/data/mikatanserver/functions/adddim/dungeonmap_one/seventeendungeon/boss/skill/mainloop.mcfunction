@@ -32,7 +32,7 @@ execute if score $17 BossHP matches ..0 run kill @s
         execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] run tellraw @a[tag=DungeonPlay_17] [{"text": "Michelle>>","color": "gold"},{"text": "召喚：戦士","color": "#FFCCCC"}]
         execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] as @a[tag=DungeonPlay_17] at @s run playsound entity.wither.spawn master @s ~ ~ ~ 1 2 1
         #乱数
-            execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] run scoreboard players set @s MK.r.RandValue 3
+            execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] run scoreboard players set @s MK.r.RandValue 4
             execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] run function mikatanlib:rand/rand_exe
         #乱数==0        [剣士(男)]
             execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=0}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/male
@@ -40,6 +40,11 @@ execute if score $17 BossHP matches ..0 run kill @s
             execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=1}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/golem
         #乱数==2        [剣士(女)]
             execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=2}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/female
+        #乱数==3        [masic witch]
+            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=3}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/witch
+            ##masic            
+            execute if entity @a[scores={SeventeenBossSkill=20},tag=BossBattle17] as @e[tag=SeventeenDun_Witch] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/masic/before_particle
+            execute if entity @a[scores={SeventeenBossSkill=40},tag=BossBattle17] as @e[tag=SeventeenDun_Witch] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/masic/main
         
 
 
@@ -70,8 +75,8 @@ execute if score $17 BossHP matches ..0 run kill @s
         execute if entity @a[scores={SeventeenBossSkill2=483},tag=BossBattle17,limit=1] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rush_forward/main
 
     ##剣舞
-        execute if entity @a[scores={SeventeenBossSkill2=500..600},tag=BossBattle17] run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/sword/main
+        execute if entity @a[scores={SeventeenBossSkill2=500..660},tag=BossBattle17] run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/sword/main
 
-        execute if entity @a[scores={SeventeenBossSkill2=500..600},tag=BossBattle17] run effect give @s glowing 100 1 true
+        execute if entity @a[scores={SeventeenBossSkill2=500..660},tag=BossBattle17] run effect give @s glowing 100 1 true
 
-    execute if entity @a[scores={SeventeenBossSkill2=675..}] run scoreboard players set @a SeventeenBossSkill2 0
+    execute if entity @a[scores={SeventeenBossSkill2=685..}] run scoreboard players set @a SeventeenBossSkill2 0

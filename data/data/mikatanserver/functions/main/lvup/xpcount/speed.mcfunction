@@ -5,6 +5,7 @@ execute if data entity @s[scores={deepslatecount=1..}] SelectedItem.tag.ice run 
 execute if entity @s[scores={deepslatecount=1..},nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:40}}]}] run effect give @s haste 1 2
 execute if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:41}}]}] run effect give @s haste 1 0
 
+execute if entity @s[nbt={SelectedItem:{tag:{Smelting:true}}}] at @s run function mikatanserver:item/enchant/smelting/lv_check
 
 ##経験値に変換
 scoreboard players set @s stonecount 0
@@ -15,6 +16,20 @@ scoreboard players set @s EStonecount 0
 scoreboard players set @s AndesiteCount 0
 scoreboard players set @s DioriteCount 0
 scoreboard players set @s GraniteCount 0
+scoreboard players set @s coal_ore_cnt 0
+scoreboard players set @s iron_ore_cnt 0
+scoreboard players set @s gold_ore_cnt 0
+scoreboard players set @s redstone_ore_cnt 0
+scoreboard players set @s lapis_ore_cnt 0
+scoreboard players set @s diamond_ore_cnt 0
+scoreboard players set @s emerald_ore_cnt 0
+scoreboard players set @s D_coal_ore_cnt 0
+scoreboard players set @s D_iron_ore_cnt 0
+scoreboard players set @s D_gold_ore_cnt 0
+scoreboard players set @s D_redstone_ore_cnt 0
+scoreboard players set @s D_lapis_ore_cnt 0
+scoreboard players set @s D_diamond_ore_cnt 0
+scoreboard players set @s D_emerald_ore_cnt 0
 
 scoreboard players add @s speedxp 1
 

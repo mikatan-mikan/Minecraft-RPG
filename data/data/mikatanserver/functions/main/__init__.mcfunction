@@ -41,6 +41,21 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add deepslatecount minecraft.mined:minecraft.deepslate
         scoreboard objectives add NRtonecount minecraft.mined:minecraft.netherrack
         scoreboard objectives add EStonecount minecraft.mined:minecraft.end_stone
+
+        scoreboard objectives add coal_ore_cnt minecraft.mined:minecraft.coal_ore
+        scoreboard objectives add iron_ore_cnt minecraft.mined:minecraft.iron_ore
+        scoreboard objectives add gold_ore_cnt minecraft.mined:minecraft.gold_ore
+        scoreboard objectives add redstone_ore_cnt minecraft.mined:minecraft.redstone_ore
+        scoreboard objectives add lapis_ore_cnt minecraft.mined:minecraft.lapis_ore
+        scoreboard objectives add diamond_ore_cnt minecraft.mined:minecraft.diamond_ore
+        scoreboard objectives add emerald_ore_cnt minecraft.mined:minecraft.emerald_ore
+        scoreboard objectives add D_coal_ore_cnt minecraft.mined:minecraft.deepslate_coal_ore
+        scoreboard objectives add D_iron_ore_cnt minecraft.mined:minecraft.deepslate_iron_ore
+        scoreboard objectives add D_gold_ore_cnt minecraft.mined:minecraft.deepslate_gold_ore
+        scoreboard objectives add D_redstone_ore_cnt minecraft.mined:minecraft.deepslate_redstone_ore
+        scoreboard objectives add D_lapis_ore_cnt minecraft.mined:minecraft.deepslate_lapis_ore
+        scoreboard objectives add D_diamond_ore_cnt minecraft.mined:minecraft.deepslate_diamond_ore
+        scoreboard objectives add D_emerald_ore_cnt minecraft.mined:minecraft.deepslate_emerald_ore
     
     #モブ討伐数(attack speed)
         scoreboard objectives add mobcount minecraft.custom:minecraft.mob_kills
@@ -381,6 +396,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add boss_hp_checker dummy
 
     scoreboard objectives add dungeon_play_now dummy
+    scoreboard objectives add ench_smeltingcraft dummy
 
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]

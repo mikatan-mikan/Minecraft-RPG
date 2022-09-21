@@ -1,0 +1,203 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "cobblestonecount": {
+            "min": 1
+            }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "stonecount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "deepslatecount": {
+                "min": 1
+            }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "NRtonecount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "EStonecount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "coal_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "iron_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "gold_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "redstone_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "lapis_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "diamond_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "emerald_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "AndesiteCount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "DioriteCount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "GraniteCount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_coal_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_iron_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_gold_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_redstone_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_lapis_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_diamond_ore_cnt": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "D_emerald_ore_cnt": {
+                "min": 1
+                }
+            }
+        }
+    ]
+}

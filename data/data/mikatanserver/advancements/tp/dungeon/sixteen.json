@@ -7,7 +7,7 @@
         "title": "回答",
         "description": "\"その先に出した答え\"に挑む"
     },
-    "parent": "mikatanserver:tp/dungeon/sixteen",
+    "parent": "mikatanserver:tp/dungeon/fifteen",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

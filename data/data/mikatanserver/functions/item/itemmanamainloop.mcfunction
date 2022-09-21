@@ -160,6 +160,8 @@ execute as @s[scores={RewardPoint=2300..},nbt={SelectedItem:{tag:{CustomModelDat
 execute as @s[scores={RewardPoint=400..},nbt={SelectedItem:{tag:{CustomModelData:83}}}] run function mikatanserver:item/teleporter/_event_christmas_2022
 #ruins
 execute as @s[scores={RewardPoint=500..},nbt={SelectedItem:{tag:{CustomModelData:84}}}] run function mikatanserver:item/teleporter/area/ruins
+#dungeon thirteen
+execute as @s[scores={luck-Lv=125..,attackS-Lv=125..,attackD-Lv=125..,mana-Lv=125..,speed-Lv=125..,hp-Lv=125..},nbt={SelectedItem:{tag:{CustomModelData:86}}}] run function mikatanserver:item/teleporter/dungeon/seventeen/init
 
 
 ##XPboost

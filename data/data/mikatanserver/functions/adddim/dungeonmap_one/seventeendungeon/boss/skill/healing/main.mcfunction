@@ -1,4 +1,4 @@
-execute as @a[tag=BossBattle17] run scoreboard players add $15 BossHP 17
+execute as @a[tag=BossBattle17] run scoreboard players add $17 BossHP 17
 execute if score $17 BossHP > $17_max BossHP run scoreboard players operation $17 BossHP = $17_max BossHP
 execute if score $17 BossHP matches ..600 run kill @e[distance=..50,type=boat]
 execute if score $17 BossHP matches ..200 run effect give @a[tag=BossBattle17] instant_damage 1 2
