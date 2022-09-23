@@ -8,6 +8,7 @@ bossbar remove minecraft:eightteenboss_bar
 scoreboard players add @a[tag=DungeonPlay_18] DungeonClear_Num 7
 execute as @a[tag=DungeonPlay_18] run function mikatanserver:adddim/dungeonmap_one/atks_xp
 gamerule keepInventory true
+kill @e[tag=EightteenDunMob]
 tag @a[tag=DungeonPlay_18] remove CountLeader
 tag @a[tag=DungeonPlay_18] remove DungeonPlay
 tag @a[tag=DungeonPlay_18] remove BossBattle18

@@ -7,7 +7,7 @@ execute as @p if entity @s[level=5..] as @e[type=minecraft:item_frame,tag=My_enc
 
 
 
-# execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oriench:craft/
+execute if block ~ ~ ~ dropper[facing=up]{Items:[{Slot: 0b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 25}}, {Slot: 1b, id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Id: [I; -766967091, -1546499956, -1724235543, 187402964]}}}, {Slot: 2b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 25}}, {Slot: 3b, id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Id: [I; -766967091, -1546499956, -1724235543, 187402964]}}}, {Slot: 5b, id: "minecraft:nautilus_shell", Count: 1b, tag: {CustomModelData: 15}}, {Slot: 6b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 25}}, {Slot: 7b, id: "minecraft:nautilus_shell", Count: 1b, tag: {CustomModelData: 15}}, {Slot: 8b, id: "minecraft:slime_ball", Count: 1b, tag: {CustomModelData: 25}}]} run function oriench:craft/0lv/enchant
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oriench:craft/
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oriench:craft/
 # execute if block ~ ~ ~ dropper[facing=up]{Items:[RECIPE]} run function oriench:craft/

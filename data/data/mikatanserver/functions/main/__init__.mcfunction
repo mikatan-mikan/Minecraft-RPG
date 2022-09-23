@@ -401,6 +401,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add deathafter dummy
 
+    scoreboard objectives add GoddessStoneFlag dummy
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

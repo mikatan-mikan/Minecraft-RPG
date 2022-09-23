@@ -2,7 +2,8 @@
 execute if data entity @s[scores={deepslatecount=1..}] SelectedItem.tag.ice run effect give @s haste 1 0 true
 
 ##batch
-execute if entity @s[scores={deepslatecount=1..},nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:40}}]}] run effect give @s haste 1 2
+execute if entity @s[scores={deepslatecount=1..},nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:40,deepslate_tier:1}}]}] run effect give @s haste 1 1
+execute if entity @s[scores={deepslatecount=1..},nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:40,deepslate_tier:2}}]}] run effect give @s haste 1 2
 execute if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:41}}]}] run effect give @s haste 1 0
 
 execute if entity @s[nbt={SelectedItem:{tag:{Smelting:true}}}] at @s run function mikatanserver:item/enchant/smelting/lv_check

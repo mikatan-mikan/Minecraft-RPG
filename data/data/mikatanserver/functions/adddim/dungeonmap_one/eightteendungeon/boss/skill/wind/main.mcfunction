@@ -1,5 +1,9 @@
 
 tellraw @a[tag=DungeonPlay_18] [{"text": "Venus & Goddess>>","color": "dark_green"},{"text": "ウィンドマジック！！","color": "#84C98B"}]
-scoreboard players set $18_dun_wind MK.r.RandValue 40
+playsound entity.ender_pearl.throw master @s ~ ~ ~ 2 2
+scoreboard players set @s MK.r.RandValue 40
+execute as @s run function mikatanlib:rand/rand_exe
+scoreboard players operation $18_dun_wind MK.r.RandValue = @s MK.r.RandValue
+#scoreboard players reset @s MK.r.RandValue
 execute if score $18_dun_wind MK.r.RandValue matches 0..19 as @a[tag=DungeonPlay_18] at @s run function mikatanserver:adddim/dungeonmap_one/eightteendungeon/boss/skill/wind/change_rot/0_19
 execute if score $18_dun_wind MK.r.RandValue matches 20..39 as @a[tag=DungeonPlay_18] at @s run function mikatanserver:adddim/dungeonmap_one/eightteendungeon/boss/skill/wind/change_rot/20_39

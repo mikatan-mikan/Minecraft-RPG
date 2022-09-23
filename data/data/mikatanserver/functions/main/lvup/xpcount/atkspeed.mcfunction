@@ -18,6 +18,9 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:player_head",tag:{candy_t
 
 ##
 
+##Goddess Stone
+execute as @s[scores={GoddessStoneFlag=1},predicate = mikatanserver:chance/0.01,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/goddess_stone
+
 ##敵を倒したときレア泥
 execute as @s[predicate=mikatanserver:chance/0.001] run function mikatanserver:main/lvup/raredrop/atkspeed
 

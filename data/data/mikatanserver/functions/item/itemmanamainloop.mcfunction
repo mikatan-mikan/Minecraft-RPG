@@ -192,6 +192,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:58}}}] at @s run function 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:61}}}] at @s run function mikatanserver:item/add_stone/luck/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:67}}}] at @s run function mikatanserver:item/add_stone/ender/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:79}}}] at @s run function mikatanserver:item/add_stone/egg/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:88}}}] at @s run function mikatanserver:item/add_stone/goddess/main
 
 ##score Reset
 scoreboard players set @s ROD 0
