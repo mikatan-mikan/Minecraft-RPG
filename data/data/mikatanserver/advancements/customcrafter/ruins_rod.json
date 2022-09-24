@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt": "{CustomModelData:86}"
+        "nbt": "{CustomModelData:85}"
       },
       "title": "その魔法は未来を指して",
       "description": "ruins rodを作成する"

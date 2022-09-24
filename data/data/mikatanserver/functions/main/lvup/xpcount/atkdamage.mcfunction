@@ -35,4 +35,15 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomM
 ##木を掘ったときレア泥
 execute as @s[predicate=mikatanserver:chance/0.00002] run function mikatanserver:main/lvup/raredrop/atkdamage
 
+##アーティファクト
+scoreboard players set @s MK.r.RandValue 100
+function mikatanlib:rand/rand_exe
+scoreboard players add @s MK.r.RandValue 1
+scoreboard players operation @s TMP = @s ART.atkd
+scoreboard players operation @s TMP /= $100 int
+scoreboard players operation @s attackDxp += @s TMP
+scoreboard players operation @s TMP = @s ART.atkd
+scoreboard players operation @s TMP %= $100 int
+execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s attackDxp 1
+
 execute as @s[scores={attackD-Lv=..199}] run execute if score @s attackDxp >= @s needattackDxp run function mikatanserver:main/lvup/xpcount/atkdamagelvup

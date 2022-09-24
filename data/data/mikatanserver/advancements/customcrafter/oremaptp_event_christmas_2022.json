@@ -7,7 +7,7 @@
       "title": "MerryChristmas!!2022!!",
       "description": "Christmas(2022)マップへのテレポーターを作成する"
     },
-    "parent": "mikatanserver:event/newyear/tp",
+    "parent": "mikatanserver:tp/charoite",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

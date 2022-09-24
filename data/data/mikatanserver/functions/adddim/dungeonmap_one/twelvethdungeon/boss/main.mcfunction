@@ -19,6 +19,7 @@ execute store result bossbar twelvethboss_bar max run scoreboard players get pla
 execute store result bossbar twelvethboss_bar value run scoreboard players get player 12DunPlayers
 
 #Bossbattletag もバグる
+scoreboard players reset @a Dun_ROD
 
 execute as @a[tag=DungeonPlay_12] run clear @s #boats
 

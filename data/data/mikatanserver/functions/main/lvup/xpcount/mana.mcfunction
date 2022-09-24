@@ -17,5 +17,16 @@ execute as @p if entity @s[nbt={Inventory:[{"Slot":100b,tag:{masician_armor:true
 ##エンチャントしたときレア泥
 execute as @s[predicate=mikatanserver:chance/0.002] run function mikatanserver:main/lvup/raredrop/mana
 
+##アーティファクト
+scoreboard players set @s MK.r.RandValue 100
+function mikatanlib:rand/rand_exe
+scoreboard players add @s MK.r.RandValue 1
+scoreboard players operation @s TMP = @s ART.mana
+scoreboard players operation @s TMP /= $100 int
+scoreboard players operation @s manaxp += @s TMP
+scoreboard players operation @s TMP = @s ART.mana
+scoreboard players operation @s TMP %= $100 int
+execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s manaxp 1
+
 
 execute as @s[scores={mana-Lv=..199}] run execute if score @s manaxp >= @s needmanaxp run function mikatanserver:main/lvup/xpcount/manalvup

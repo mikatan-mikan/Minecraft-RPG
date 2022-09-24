@@ -22,4 +22,5 @@ tag @s remove ore_aquamarine
 tag @s remove ore_jade
 tag @s remove ore_hematite
 tag @s remove event_christmas
-tag @s remove event_shristmas_2022
+tag @s remove event_christmas_2022
+tag @s remove ore_windmasic

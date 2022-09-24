@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:coarse_dirt",
+        "minecraft:oak_log",
+        "minecraft:oak_planks",
+        "minecraft:oak_stairs",
+        "minecraft:cobblestone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:mossy_stone_bricks"
+    ]
+}

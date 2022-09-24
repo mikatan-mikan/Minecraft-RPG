@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item":"minecraft:warped_fungus_on_a_stick",
+        "nbt": "{CustomModelData:507}"
+      },
+      "title": "artifact - speedⅦ",
+      "description": "speed artifact Ⅶを取得する\n効果：SpdXPの入手時に該当XPが7%で+1される"
+    },
+    "parent": "oriartifacter:spd/6",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/5"
+    }
+  }

@@ -43,7 +43,7 @@ execute as @e[type=armor_stand,tag=TwelvethDunSwArSphene] at @s if entity @a[dis
     ##後ろから攻撃
         execute at @s if entity @a[scores = {TwelveBossSkill2=50}] run function mikatanserver:adddim/dungeonmap_one/twelvethdungeon/boss/skill/sword_back/main
 
-
+execute at @s run tag @a[distance=..20] add BossBattle12
 
 ##ボスさんすまんな。このステージ専用の味方武器の処理もここでさせてな。
-execute as @a[tag = DungeonPlay_12] if entity @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/through_12thboss/main
+execute as @a[tag = DungeonPlay_12] if entity @s[scores={Dun_ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/through_12thboss/main

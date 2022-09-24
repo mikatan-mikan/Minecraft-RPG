@@ -54,4 +54,15 @@ scoreboard players set @s fishingcount 0
 
 #execute as @s[predicate=mikatanserver:chance/0.20] at @s run function mikatanserver:main/lvup/raredrop/fishingloot/event/xp_plus_1
 
+##アーティファクト
+scoreboard players set @s MK.r.RandValue 100
+function mikatanlib:rand/rand_exe
+scoreboard players add @s MK.r.RandValue 1
+scoreboard players operation @s TMP = @s ART.luck
+scoreboard players operation @s TMP /= $100 int
+scoreboard players operation @s luckxp += @s TMP
+scoreboard players operation @s TMP = @s ART.luck
+scoreboard players operation @s TMP %= $100 int
+execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s luckxp 1
+
 execute as @s[scores={luck-Lv=..199}] run execute if score @s luckxp >= @s needluckxp run function mikatanserver:main/lvup/xpcount/lucklvup

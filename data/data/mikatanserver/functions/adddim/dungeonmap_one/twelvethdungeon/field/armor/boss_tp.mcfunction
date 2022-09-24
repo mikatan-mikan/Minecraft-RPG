@@ -5,8 +5,4 @@ execute if score $bossloop 12thDunBossLoopBool matches 0 run schedule function m
 
 
 #bossloopを始める
-scoreboard players set $bossloop 12thDunBossLoopBool 1
-
-
-#ボスタグ付与
-tag @p add BossBattle12
+schedule function mikatanserver:adddim/dungeonmap_one/twelvethdungeon/boss/score_change 20t

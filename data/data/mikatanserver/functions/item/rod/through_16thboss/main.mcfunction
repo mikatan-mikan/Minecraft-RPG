@@ -4,3 +4,5 @@ tp @e[type=armor_stand,tag=SixDunArTpBef] @s
 execute store result entity @e[tag=SixDunArTpBef,sort=nearest,limit=1] Rotation[0] float 1 run data get entity @s Rotation[0]
 execute store result entity @e[tag=SixDunArTpBef,sort=nearest,limit=1] Rotation[1] float 1 run data get entity @s Rotation[1]
 tag @e[tag=SixDunArTpBef] remove SixDunArTpBef
+
+scoreboard players reset @s Dun_ROD

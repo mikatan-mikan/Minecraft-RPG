@@ -50,4 +50,15 @@ execute as @s[nbt={Inventory:[{"Slot":102b,id:"minecraft:leather_chestplate",tag
 ##石を掘ったときレア泥
 execute as @s[predicate=mikatanserver:chance/0.000002] run function mikatanserver:main/lvup/raredrop/speed
 
+##アーティファクト
+scoreboard players set @s MK.r.RandValue 100
+function mikatanlib:rand/rand_exe
+scoreboard players add @s MK.r.RandValue 1
+scoreboard players operation @s TMP = @s ART.spd
+scoreboard players operation @s TMP /= $100 int
+scoreboard players operation @s speedxp += @s TMP
+scoreboard players operation @s TMP = @s ART.spd
+scoreboard players operation @s TMP %= $100 int
+execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s speedxp 1
+
 execute as @s[scores={speed-Lv=..199}] run execute if score @s speedxp >= @s needspeedxp run function mikatanserver:main/lvup/xpcount/speedlvup

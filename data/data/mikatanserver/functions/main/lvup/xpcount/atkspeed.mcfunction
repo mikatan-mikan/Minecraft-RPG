@@ -24,4 +24,15 @@ execute as @s[scores={GoddessStoneFlag=1},predicate = mikatanserver:chance/0.01,
 ##敵を倒したときレア泥
 execute as @s[predicate=mikatanserver:chance/0.001] run function mikatanserver:main/lvup/raredrop/atkspeed
 
+##アーティファクト
+scoreboard players set @s MK.r.RandValue 100
+function mikatanlib:rand/rand_exe
+scoreboard players add @s MK.r.RandValue 1
+scoreboard players operation @s TMP = @s ART.atks
+scoreboard players operation @s TMP /= $100 int
+scoreboard players operation @s attackSxp += @s TMP
+scoreboard players operation @s TMP = @s ART.atks
+scoreboard players operation @s TMP %= $100 int
+execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s attackSxp 1
+
 execute as @s[scores={attackS-Lv=..199}] run execute if score @s attackSxp >= @s needattackSxp run function mikatanserver:main/lvup/xpcount/atkspeedup

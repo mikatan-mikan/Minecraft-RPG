@@ -164,6 +164,8 @@ execute as @s[scores={RewardPoint=500..},nbt={SelectedItem:{tag:{CustomModelData
 execute as @s[scores={luck-Lv=125..,attackS-Lv=125..,attackD-Lv=125..,mana-Lv=125..,speed-Lv=125..,hp-Lv=125..},nbt={SelectedItem:{tag:{CustomModelData:86}}}] run function mikatanserver:item/teleporter/dungeon/seventeen/init
 #dungeon eightteen
 execute as @s[scores={luck-Lv=135..,attackS-Lv=135..,attackD-Lv=135..,mana-Lv=135..,speed-Lv=135..,hp-Lv=135..},nbt={SelectedItem:{tag:{CustomModelData:87}}}] run function mikatanserver:item/teleporter/dungeon/eightteen/init
+#masic_wind
+execute as @s[scores={luck-Lv=120..,attackS-Lv=120..,attackD-Lv=120..,mana-Lv=120..,speed-Lv=120..,hp-Lv=120..},nbt={SelectedItem:{tag:{CustomModelData:89}}}] run function mikatanserver:item/teleporter/masic_win
 
 
 ##XPboost
@@ -193,6 +195,11 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:61}}}] at @s run function 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:67}}}] at @s run function mikatanserver:item/add_stone/ender/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:79}}}] at @s run function mikatanserver:item/add_stone/egg/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:88}}}] at @s run function mikatanserver:item/add_stone/goddess/main
+
+
+##属性
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] at @s run function mikatanserver:item/_attribute/fire/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] at @s run function mikatanserver:item/_attribute/wind/check
 
 ##score Reset
 scoreboard players set @s ROD 0

@@ -53,4 +53,4 @@ execute as @e[type=armor_stand,tag=SixteenDunSwArSphene] at @s if entity @a[dist
 
 
 ##ボスさんすまんな。このステージ専用の味方武器の処理もここでさせてな。
-execute as @a[tag = DungeonPlay_16] if entity @s[scores={ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/through_16thboss/main
+execute as @a[tag = DungeonPlay_16] if entity @s[scores={Dun_ROD=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:54}}}] at @s run function mikatanserver:item/rod/through_16thboss/main

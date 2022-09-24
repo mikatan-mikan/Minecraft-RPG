@@ -403,6 +403,20 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add GoddessStoneFlag dummy
 
+    #キノコ付き棒感知
+        scoreboard objectives add ARTIFACT minecraft.used:minecraft.warped_fungus_on_a_stick
+
+        scoreboard objectives add ART.spd dummy
+        scoreboard objectives add ART.atkd dummy
+        scoreboard objectives add ART.atks dummy
+        scoreboard objectives add ART.mana dummy
+        scoreboard objectives add ART.luck dummy
+        scoreboard objectives add ART.hp dummy
+
+    scoreboard objectives add Dun_ROD minecraft.used:minecraft.carrot_on_a_stick
+
+    scoreboard objectives add greenwoolselfcount minecraft.mined:minecraft.green_wool
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

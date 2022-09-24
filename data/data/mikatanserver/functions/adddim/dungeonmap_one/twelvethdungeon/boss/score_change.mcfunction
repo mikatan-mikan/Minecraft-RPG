@@ -1,0 +1,1 @@
+scoreboard players set $bossloop 12thDunBossLoopBool 1

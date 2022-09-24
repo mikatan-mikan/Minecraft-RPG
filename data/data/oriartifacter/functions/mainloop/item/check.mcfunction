@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={ARTIFACT=1..}] run function oriartifacter:mainloop/item/use
