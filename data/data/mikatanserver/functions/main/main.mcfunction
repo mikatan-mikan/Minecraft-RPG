@@ -7,6 +7,7 @@ execute as @a[tag=FieldIsland,predicate=mikatanserver:overworld] run function mi
 execute as @a[tag=FieldHalloween,predicate=mikatanserver:overworld] run tag @s remove FieldHalloween
 execute as @a[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
 execute as @a[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
+execute as @a[tag=FieldFarm,predicate=mikatanserver:overworld] run tag @s remove FieldFarm
 
 ##放置検知
 execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp

@@ -1,0 +1,2 @@
+setblock ~ ~ ~ player_head{SkullOwner:{Id:[I;-1408550901,-118994627,-1818660455,1422662945],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2ZDYxYzg2Mjc3NGFiOGEyOGM1M2M1MTBlYWIwZWQ3ODlkMDJiNDI2OWM1YzBiZDgxOGY5M2MwZmI0YmM0In19fQ=="}]}}}
+scoreboard players reset @s removesapAr

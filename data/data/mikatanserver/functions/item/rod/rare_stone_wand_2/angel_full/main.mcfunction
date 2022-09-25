@@ -1,4 +1,4 @@
-
+scoreboard players remove @s mana 30
 
 effect clear @s absorption
 effect give @s absorption 10 0

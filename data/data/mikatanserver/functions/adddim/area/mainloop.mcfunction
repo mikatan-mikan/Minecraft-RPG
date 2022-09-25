@@ -8,3 +8,4 @@ execute if entity @a[tag=FieldNether,scores={LogCheck_Timer=600..},predicate=mik
 execute if entity @a[tag=FieldIsland,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/island/mainloop
 execute if entity @a[tag=FieldHalloween,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/halloween/mainloop
 execute if entity @a[tag=FieldRuins,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/ruins/mainloop
+execute if entity @a[tag=FieldFarm,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/farm/mainloop

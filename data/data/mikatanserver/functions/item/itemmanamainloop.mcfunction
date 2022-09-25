@@ -166,6 +166,8 @@ execute as @s[scores={luck-Lv=125..,attackS-Lv=125..,attackD-Lv=125..,mana-Lv=12
 execute as @s[scores={luck-Lv=135..,attackS-Lv=135..,attackD-Lv=135..,mana-Lv=135..,speed-Lv=135..,hp-Lv=135..},nbt={SelectedItem:{tag:{CustomModelData:87}}}] run function mikatanserver:item/teleporter/dungeon/eightteen/init
 #masic_wind
 execute as @s[scores={luck-Lv=120..,attackS-Lv=120..,attackD-Lv=120..,mana-Lv=120..,speed-Lv=120..,hp-Lv=120..},nbt={SelectedItem:{tag:{CustomModelData:89}}}] run function mikatanserver:item/teleporter/masic_win
+#farm
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikatanserver:item/teleporter/area/farm
 
 
 ##XPboost

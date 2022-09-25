@@ -417,6 +417,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add greenwoolselfcount minecraft.mined:minecraft.green_wool
 
+    scoreboard objectives add p_headselfcount minecraft.mined:minecraft.player_head
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

@@ -1,0 +1,17 @@
+##採掘済みの箇所があれば
+execute as @e[type=armor_stand,tag=Area_mine_onion] at @s if predicate mikatanserver:oremapdim/orecheck run function mikatanserver:adddim/area/farm/blocks/ore/putbedrock
+##採掘済みで岩盤が設置されてるなら
+scoreboard players add @e[tag=Area_mine_onion,predicate=mikatanserver:oremapdim/putbedrockafter] removesapAr 1
+execute as @e[scores={removesapAr=200..},tag=Area_mine_onion] at @s run function mikatanserver:adddim/area/farm/blocks/ore/put_onion
+##p_head変換&持ち込み削除
+clear @s player_head
+
+execute as @s[scores={p_headselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:player_head",Count:1b}},distance=..5] run give @s player_head{display:{Name:'[{"text":"onion"}]'},SkullOwner:{Id:[I;-1408550901,-118994627,-1818660455,1422662945],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2ZDYxYzg2Mjc3NGFiOGEyOGM1M2M1MTBlYWIwZWQ3ODlkMDJiNDI2OWM1YzBiZDgxOGY5M2MwZmI0YmM0In19fQ=="}]}}} 1
+execute as @s[scores={p_headselfcount=1..},nbt={Inventory:[{Slot:100b,tag:{onion_ar:1b}},{Slot:101b,tag:{onion_ar:1b}},{Slot:102b,tag:{onion_ar:1b}},{Slot:103b,tag:{onion_ar:1b}}]}] if predicate mikatanserver:chance/0.30 at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:player_head",Count:1b}},distance=..5] run give @s player_head{display:{Name:'[{"text":"onion"}]'},SkullOwner:{Id:[I;-1408550901,-118994627,-1818660455,1422662945],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2ZDYxYzg2Mjc3NGFiOGEyOGM1M2M1MTBlYWIwZWQ3ODlkMDJiNDI2OWM1YzBiZDgxOGY5M2MwZmI0YmM0In19fQ=="}]}}} 1
+execute as @s[scores={p_headselfcount=1..},nbt={Inventory:[{Slot:100b,tag:{onion_ar:1b}},{Slot:101b,tag:{onion_ar:1b}},{Slot:102b,tag:{onion_ar:1b}},{Slot:103b,tag:{onion_ar:1b}}]}] if predicate mikatanserver:chance/0.30 at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:player_head",Count:1b}},distance=..5] run give @s player_head{display:{Name:'[{"text":"onion"}]'},SkullOwner:{Id:[I;-1408550901,-118994627,-1818660455,1422662945],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2ZDYxYzg2Mjc3NGFiOGEyOGM1M2M1MTBlYWIwZWQ3ODlkMDJiNDI2OWM1YzBiZDgxOGY5M2MwZmI0YmM0In19fQ=="}]}}} 1
+execute as @s[scores={p_headselfcount=1..},nbt={Inventory:[{Slot:100b,tag:{onion_ar:1b}},{Slot:101b,tag:{onion_ar:1b}},{Slot:102b,tag:{onion_ar:1b}},{Slot:103b,tag:{onion_ar:1b}}]}] if predicate mikatanserver:chance/0.30 at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:player_head",Count:1b}},distance=..5] run give @s player_head{display:{Name:'[{"text":"onion"}]'},SkullOwner:{Id:[I;-1408550901,-118994627,-1818660455,1422662945],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2ZDYxYzg2Mjc3NGFiOGEyOGM1M2M1MTBlYWIwZWQ3ODlkMDJiNDI2OWM1YzBiZDgxOGY5M2MwZmI0YmM0In19fQ=="}]}}} 1
+
+execute at @s as @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:player_head",Count:1b}},distance=..5] run kill @s
+execute as @s[scores={p_headselfcount=1..}] run scoreboard players set @s p_headselfcount 0
+
+#チェック用アマスタsummon minecraft:armor_stand ~ ~-1 ~ {Tags:["Area_mine_onion"],Invisible:1,Small:1b,Invulnerable:1b,NoGravity:1b}
