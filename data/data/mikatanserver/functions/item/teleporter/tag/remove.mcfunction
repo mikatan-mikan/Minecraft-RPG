@@ -8,6 +8,7 @@ clear @s iron_pickaxe{island_item:true}
 clear @s stone_axe{island_item:true}
 tag @s remove FieldHalloween
 tag @s remove Fieldfarm
+clear @s wooden_hoe{area_farming_item:true}
 tag @s remove ender_tp_after
 tag @s remove island_tp_after
 tag @s remove halloween_tp_after
