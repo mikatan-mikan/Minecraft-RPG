@@ -1,0 +1,21 @@
+
+attribute @s[scores={speed-Lv=261}] minecraft:generic.movement_speed base set 0.1722
+attribute @s[scores={speed-Lv=262}] minecraft:generic.movement_speed base set 0.1724
+attribute @s[scores={speed-Lv=263}] minecraft:generic.movement_speed base set 0.1726
+attribute @s[scores={speed-Lv=264}] minecraft:generic.movement_speed base set 0.1728
+attribute @s[scores={speed-Lv=265}] minecraft:generic.movement_speed base set 0.1730
+attribute @s[scores={speed-Lv=266}] minecraft:generic.movement_speed base set 0.1732
+attribute @s[scores={speed-Lv=267}] minecraft:generic.movement_speed base set 0.1734
+attribute @s[scores={speed-Lv=268}] minecraft:generic.movement_speed base set 0.1736
+attribute @s[scores={speed-Lv=269}] minecraft:generic.movement_speed base set 0.1738
+attribute @s[scores={speed-Lv=270}] minecraft:generic.movement_speed base set 0.1740
+attribute @s[scores={speed-Lv=271}] minecraft:generic.movement_speed base set 0.1742
+attribute @s[scores={speed-Lv=272}] minecraft:generic.movement_speed base set 0.1744
+attribute @s[scores={speed-Lv=273}] minecraft:generic.movement_speed base set 0.1746
+attribute @s[scores={speed-Lv=274}] minecraft:generic.movement_speed base set 0.1748
+attribute @s[scores={speed-Lv=275}] minecraft:generic.movement_speed base set 0.1750
+attribute @s[scores={speed-Lv=276}] minecraft:generic.movement_speed base set 0.1752
+attribute @s[scores={speed-Lv=277}] minecraft:generic.movement_speed base set 0.1754
+attribute @s[scores={speed-Lv=278}] minecraft:generic.movement_speed base set 0.1756
+attribute @s[scores={speed-Lv=279}] minecraft:generic.movement_speed base set 0.1758
+attribute @s[scores={speed-Lv=280}] minecraft:generic.movement_speed base set 0.1760

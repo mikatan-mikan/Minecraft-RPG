@@ -14,5 +14,4 @@ scoreboard players add @s[scores={attackS-Lv=60..}] needattackSxp 1
 scoreboard players add @s[scores={attackS-Lv=70..}] needattackSxp 5
 scoreboard players add @s[scores={attackS-Lv=75..}] needattackSxp 1
 scoreboard players add @s[scores={attackS-Lv=90..}] needattackSxp 1
-execute as @a[scores={attackS-Lv=..100}] run function mikatanserver:main/lvup/atkspeed/lv100_lv0/func
-execute as @a[scores={attackS-Lv=101..200}] run function mikatanserver:main/lvup/atkspeed/lv200_lv101/func
+function mikatanserver:main/lvup/_lvset

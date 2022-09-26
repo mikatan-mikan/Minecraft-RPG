@@ -1,0 +1,21 @@
+
+attribute @s[scores={attackS-Lv=281}] minecraft:generic.attack_speed base set 4.281
+attribute @s[scores={attackS-Lv=282}] minecraft:generic.attack_speed base set 4.282
+attribute @s[scores={attackS-Lv=283}] minecraft:generic.attack_speed base set 4.283
+attribute @s[scores={attackS-Lv=284}] minecraft:generic.attack_speed base set 4.284
+attribute @s[scores={attackS-Lv=285}] minecraft:generic.attack_speed base set 4.285
+attribute @s[scores={attackS-Lv=286}] minecraft:generic.attack_speed base set 4.286
+attribute @s[scores={attackS-Lv=287}] minecraft:generic.attack_speed base set 4.287
+attribute @s[scores={attackS-Lv=288}] minecraft:generic.attack_speed base set 4.288
+attribute @s[scores={attackS-Lv=289}] minecraft:generic.attack_speed base set 4.289
+attribute @s[scores={attackS-Lv=290}] minecraft:generic.attack_speed base set 4.290
+attribute @s[scores={attackS-Lv=291}] minecraft:generic.attack_speed base set 4.291
+attribute @s[scores={attackS-Lv=292}] minecraft:generic.attack_speed base set 4.292
+attribute @s[scores={attackS-Lv=293}] minecraft:generic.attack_speed base set 4.293
+attribute @s[scores={attackS-Lv=294}] minecraft:generic.attack_speed base set 4.294
+attribute @s[scores={attackS-Lv=295}] minecraft:generic.attack_speed base set 4.295
+attribute @s[scores={attackS-Lv=296}] minecraft:generic.attack_speed base set 4.296
+attribute @s[scores={attackS-Lv=297}] minecraft:generic.attack_speed base set 4.297
+attribute @s[scores={attackS-Lv=298}] minecraft:generic.attack_speed base set 4.298
+attribute @s[scores={attackS-Lv=299}] minecraft:generic.attack_speed base set 4.299
+attribute @s[scores={attackS-Lv=300}] minecraft:generic.attack_speed base set 4.300

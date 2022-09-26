@@ -7,5 +7,4 @@ tellraw @a [{"text": ""},{"text": "[System] ","color": "yellow"},{"selector":"@s
 scoreboard players operation @s speedxp -= @s needspeedxp
 scoreboard players add @s needspeedxp 50
 scoreboard players add @s[scores={speed-Lv=50..}] needspeedxp 25
-execute as @a[scores={speed-Lv=..100}] run function mikatanserver:main/lvup/speed/lv100_lv0/func
-execute as @a[scores={speed-Lv=101..200}] run function mikatanserver:main/lvup/speed/lv200_lv101/func
+function mikatanserver:main/lvup/_lvset

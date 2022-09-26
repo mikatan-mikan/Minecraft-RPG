@@ -1,0 +1,21 @@
+
+attribute @s[scores={luck-Lv=281}] minecraft:generic.luck base set 2.124
+attribute @s[scores={luck-Lv=282}] minecraft:generic.luck base set 2.128
+attribute @s[scores={luck-Lv=283}] minecraft:generic.luck base set 2.132
+attribute @s[scores={luck-Lv=284}] minecraft:generic.luck base set 2.136
+attribute @s[scores={luck-Lv=285}] minecraft:generic.luck base set 2.140
+attribute @s[scores={luck-Lv=286}] minecraft:generic.luck base set 2.144
+attribute @s[scores={luck-Lv=287}] minecraft:generic.luck base set 2.148
+attribute @s[scores={luck-Lv=288}] minecraft:generic.luck base set 2.152
+attribute @s[scores={luck-Lv=289}] minecraft:generic.luck base set 2.156
+attribute @s[scores={luck-Lv=290}] minecraft:generic.luck base set 2.160
+attribute @s[scores={luck-Lv=291}] minecraft:generic.luck base set 2.164
+attribute @s[scores={luck-Lv=292}] minecraft:generic.luck base set 2.168
+attribute @s[scores={luck-Lv=293}] minecraft:generic.luck base set 2.172
+attribute @s[scores={luck-Lv=294}] minecraft:generic.luck base set 2.176
+attribute @s[scores={luck-Lv=295}] minecraft:generic.luck base set 2.180
+attribute @s[scores={luck-Lv=296}] minecraft:generic.luck base set 2.184
+attribute @s[scores={luck-Lv=297}] minecraft:generic.luck base set 2.188
+attribute @s[scores={luck-Lv=298}] minecraft:generic.luck base set 2.192
+attribute @s[scores={luck-Lv=299}] minecraft:generic.luck base set 2.196
+attribute @s[scores={luck-Lv=300}] minecraft:generic.luck base set 2.200

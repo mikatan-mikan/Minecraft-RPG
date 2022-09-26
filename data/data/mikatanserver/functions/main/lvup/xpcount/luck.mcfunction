@@ -12,6 +12,7 @@ execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,i
 execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:47}}]},predicate=mikatanserver:chance/0.02] run function mikatanserver:main/lvup/xpcount/ac/all_xp
 execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:44}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s luckxp 1
 execute if score @s SmallAmethyst matches 1.. as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:45}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s luckxp 1
+execute if score @s SmallAmethyst matches 1.. as @s[nbt={SelectedItem:{Count:1b,tag:{onion_talisman:true}}}] run effect give @s speed 1 0
 scoreboard players remove @s SmallAmethyst 1
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:10}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s hpxp 1
@@ -65,4 +66,9 @@ scoreboard players operation @s TMP = @s ART.luck
 scoreboard players operation @s TMP %= $100 int
 execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s luckxp 1
 
-execute as @s[scores={luck-Lv=..199}] run execute if score @s luckxp >= @s needluckxp run function mikatanserver:main/lvup/xpcount/lucklvup
+
+##actionbar
+scoreboard players set @s PlayerUI_Skill 4
+scoreboard players set @s PlayerUI_Skill_Timer 20
+
+execute as @s[scores={luck-Lv=..299}] run execute if score @s luckxp >= @s needluckxp run function mikatanserver:main/lvup/xpcount/lucklvup

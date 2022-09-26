@@ -419,6 +419,15 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add p_headselfcount minecraft.mined:minecraft.player_head
 
+    ##アクションバー表示設定
+        #mode = 1 : 旧表示 mode = 0 : 新方式
+        scoreboard objectives add PlayerUIMode dummy
+        #0:何も表示しない 1-6:任意のスキル経験値を表示
+        scoreboard objectives add PlayerUI_Skill dummy
+        #残り時間(表示)
+        scoreboard objectives add PlayerUI_Skill_Timer dummy
+
+
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 

@@ -51,6 +51,18 @@ playsound minecraft:block.smithing_table.use master @a
 
 scoreboard players add @p 60lvCount 1
 scoreboard players add @p manaxp 6
+
+##アーティファクト
+scoreboard players set @s MK.r.RandValue 100
+function mikatanlib:rand/rand_exe
+scoreboard players add @s MK.r.RandValue 1
+scoreboard players operation @s TMP = @s ART.mana
+scoreboard players operation @s TMP /= $100 int
+scoreboard players operation @s manaxp += @s TMP
+scoreboard players operation @s TMP = @s ART.mana
+scoreboard players operation @s TMP %= $100 int
+execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s manaxp 1
+
 execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:13}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s manaxp 1
 execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:14}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s manaxp 1
 execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:15}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s manaxp 1
@@ -61,4 +73,4 @@ execute as @p if entity @s[nbt={Inventory:[{"Slot":100b,tag:{masician_armor:true
 #アイテム
 #replaceitem block ~ ~ ~ container.4 minecraft:
 
-give @s paper{display:{Name:'[{"text":"Enchanter 60lv enchant","color": "blue","italic": false}]',Lore:['[{"text":" コスト:6lv(要求60lv)","color": "gold","italic": false}]','[{"text":" エンチャント:60lv相当(mojang比)","color": "gold","italic": false}]','[{"text":" xp: +6xp","color": "gold","italic": false}]']}}
+#give @s paper{display:{Name:'[{"text":"Enchanter 60lv enchant","color": "blue","italic": false}]',Lore:['[{"text":" コスト:6lv(要求60lv)","color": "gold","italic": false}]','[{"text":" エンチャント:60lv相当(mojang比)","color": "gold","italic": false}]','[{"text":" xp: +6xp","color": "gold","italic": false}]']}}

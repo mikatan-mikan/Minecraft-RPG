@@ -1,0 +1,21 @@
+
+attribute @s[scores={attackD-Lv=241}] minecraft:generic.attack_damage base set 5.82
+attribute @s[scores={attackD-Lv=242}] minecraft:generic.attack_damage base set 5.84
+attribute @s[scores={attackD-Lv=243}] minecraft:generic.attack_damage base set 5.86
+attribute @s[scores={attackD-Lv=244}] minecraft:generic.attack_damage base set 5.88
+attribute @s[scores={attackD-Lv=245}] minecraft:generic.attack_damage base set 5.90
+attribute @s[scores={attackD-Lv=246}] minecraft:generic.attack_damage base set 5.92
+attribute @s[scores={attackD-Lv=247}] minecraft:generic.attack_damage base set 5.94
+attribute @s[scores={attackD-Lv=248}] minecraft:generic.attack_damage base set 5.96
+attribute @s[scores={attackD-Lv=249}] minecraft:generic.attack_damage base set 5.98
+attribute @s[scores={attackD-Lv=250}] minecraft:generic.attack_damage base set 6.00
+attribute @s[scores={attackD-Lv=251}] minecraft:generic.attack_damage base set 6.02
+attribute @s[scores={attackD-Lv=252}] minecraft:generic.attack_damage base set 6.04
+attribute @s[scores={attackD-Lv=253}] minecraft:generic.attack_damage base set 6.06
+attribute @s[scores={attackD-Lv=254}] minecraft:generic.attack_damage base set 6.08
+attribute @s[scores={attackD-Lv=255}] minecraft:generic.attack_damage base set 6.10
+attribute @s[scores={attackD-Lv=256}] minecraft:generic.attack_damage base set 6.12
+attribute @s[scores={attackD-Lv=257}] minecraft:generic.attack_damage base set 6.14
+attribute @s[scores={attackD-Lv=258}] minecraft:generic.attack_damage base set 6.16
+attribute @s[scores={attackD-Lv=259}] minecraft:generic.attack_damage base set 6.18
+attribute @s[scores={attackD-Lv=260}] minecraft:generic.attack_damage base set 6.20
