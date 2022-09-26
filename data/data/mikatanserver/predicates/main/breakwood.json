@@ -1,0 +1,95 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "oakcount": {
+            "min": 1
+            }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "acaciacount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "junglecount": {
+                "min": 1
+            }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "sprucecount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "birchcount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "darkoakcount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "cristoncount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "warpedcount": {
+                "min": 1
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "DirtCount": {
+                "min": 10
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "GrassCount": {
+                "min": 10
+                }
+            }
+        }
+    ]
+}

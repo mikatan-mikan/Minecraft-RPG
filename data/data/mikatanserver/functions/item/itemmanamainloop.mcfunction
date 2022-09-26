@@ -183,7 +183,7 @@ execute as @s[nbt={SelectedItem:{tag:{GiveXp:30}}}] run function mikatanserver:i
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:5}}}] run function mikatanserver:item/givexp/5
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:1}}}] run function mikatanserver:item/givexp/1
 
-execute as @s[nbt={SelectedItem:{tag:{XPViewChange:true}}}] run function mikatanserver:item/system/change_view_xp/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] run function mikatanserver:item/system/change_view_xp/main
 
 #reward 称号 ice
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:41}}}] at @s run function mikatanserver:item/reward/ice

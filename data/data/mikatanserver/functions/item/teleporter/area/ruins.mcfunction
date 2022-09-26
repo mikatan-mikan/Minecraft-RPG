@@ -5,4 +5,5 @@ execute in mikatanserver:dungeon run tp @s[tag=!DungeonPlay] -221.5 127 872.5 -9
 scoreboard players set @s VillagerFlag 0
 give @s[tag=!DungeonPlay] carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"オーバーワールドへ戻る"}]'}}
 gamemode adventure @s
+tag @s add FieldPlayer
 schedule function mikatanserver:item/teleporter/area/ruins/tag 10s
