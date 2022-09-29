@@ -11,7 +11,8 @@ execute as @s[scores={mana=25..},nbt={SelectedItem:{tag:{CustomModelData:9}}}] a
 #windROD mana:35
 execute as @s[scores={mana=35..},nbt={SelectedItem:{tag:{CustomModelData:12}}}] at @s run function mikatanserver:item/rod/windrod/main
 #frozenROD mana:40
-execute as @s[scores={mana=60..},nbt={SelectedItem:{tag:{CustomModelData:17}}}] at @s run function mikatanserver:item/rod/frozenrod/main
+execute as @s[scores={mana=60..},nbt={SelectedItem:{tag:{CustomModelData:17}}}] unless entity @s[nbt={SelectedItem:{tag:{tier:2}}}] at @s run function mikatanserver:item/rod/frozenrod/main
+execute as @s[scores={mana=100..},nbt={SelectedItem:{tag:{CustomModelData:17}}}] if entity @s[nbt={SelectedItem:{tag:{tier:2}}}] at @s run function mikatanserver:item/rod/frozenrod_2/main
 #tact mana:30
 execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:23}}}] at @s run function mikatanserver:item/rod/tact/one/main
 #fireball mana:27
@@ -168,6 +169,8 @@ execute as @s[scores={luck-Lv=135..,attackS-Lv=135..,attackD-Lv=135..,mana-Lv=13
 execute as @s[scores={luck-Lv=120..,attackS-Lv=120..,attackD-Lv=120..,mana-Lv=120..,speed-Lv=120..,hp-Lv=120..},nbt={SelectedItem:{tag:{CustomModelData:89}}}] run function mikatanserver:item/teleporter/masic_win
 #farm
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikatanserver:item/teleporter/area/farm
+#new_year 2023
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}}] run function mikatanserver:item/teleporter/area/newyear_2023
 
 
 ##XPboost

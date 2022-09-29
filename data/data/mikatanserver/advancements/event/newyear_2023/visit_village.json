@@ -1,12 +1,12 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:wooden_hoe"
+        "item": "minecraft:emerald"
+      },
+      "title": "冬の訪れ",
+      "description": "ice landの村に訪れる"
     },
-      "title": "涙が出る？そうかい",
-      "description": "玉ねぎのツルハシを作成する"
-    },
-    "parent": "mikatanserver:event/farm/onion_ring",
+    "parent": "mikatanserver:event/newyear_2023/tp",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

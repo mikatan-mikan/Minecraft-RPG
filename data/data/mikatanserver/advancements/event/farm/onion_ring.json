@@ -7,7 +7,7 @@
       "title": "ほら、そうなる。",
       "description": "onion ringを作成する"
     },
-    "parent": "mikatanserver:event/farm/tp",
+    "parent": "mikatanserver:event/farm/onion_talisman",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"
