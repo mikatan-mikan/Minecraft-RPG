@@ -59,3 +59,5 @@ execute if score @s EnchanterItemCount matches 0 run item replace block ~ ~ ~ co
 
 
 playsound minecraft:block.smithing_table.use master @p
+
+advancement grant @p only mikatanserver:customenhancer/base/fire
