@@ -173,6 +173,13 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikata
 #new_year 2023
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}}] run function mikatanserver:item/teleporter/area/newyear_2023
 
+#tanzanite
+execute as @s[scores={luck-Lv=235..,attackS-Lv=235..,attackD-Lv=235..,mana-Lv=235..,speed-Lv=235..,hp-Lv=235..},nbt={SelectedItem:{tag:{CustomModelData:94}}}] run function mikatanserver:item/teleporter/tanzanitemaptp
+#citrin
+execute as @s[scores={luck-Lv=260..,attackS-Lv=260..,attackD-Lv=260..,mana-Lv=260..,speed-Lv=260..,hp-Lv=260..},nbt={SelectedItem:{tag:{CustomModelData:95}}}] run function mikatanserver:item/teleporter/citrinmaptp
+#moon_stone
+execute as @s[scores={luck-Lv=285..,attackS-Lv=285..,attackD-Lv=285..,mana-Lv=285..,speed-Lv=285..,hp-Lv=285..},nbt={SelectedItem:{tag:{CustomModelData:96}}}] run function mikatanserver:item/teleporter/moonstonemaptp
+
 
 ##XPboost
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:46}}}] at @s run function mikatanserver:item/boost/atkd/1

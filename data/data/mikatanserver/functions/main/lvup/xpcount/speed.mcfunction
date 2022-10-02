@@ -63,7 +63,6 @@ execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s speed
 
 
 ##actionbar
-scoreboard players set @s PlayerUI_Skill 5
-scoreboard players set @s PlayerUI_Skill_Timer 20
+function mikatanserver:main/lvup/_view/speed
 
 execute as @s[scores={speed-Lv=..299}] run execute if score @s speedxp >= @s needspeedxp run function mikatanserver:main/lvup/xpcount/speedlvup

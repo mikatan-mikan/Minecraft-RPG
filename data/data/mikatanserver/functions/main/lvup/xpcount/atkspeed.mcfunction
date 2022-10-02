@@ -36,7 +36,6 @@ scoreboard players operation @s TMP %= $100 int
 execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s attackSxp 1
 
 ##actionbar
-scoreboard players set @s PlayerUI_Skill 3
-scoreboard players set @s PlayerUI_Skill_Timer 20
+function mikatanserver:main/lvup/_view/atks
 
 execute as @s[scores={attackS-Lv=..299}] run execute if score @s attackSxp >= @s needattackSxp run function mikatanserver:main/lvup/xpcount/atkspeedup

@@ -68,7 +68,6 @@ execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s luckx
 
 
 ##actionbar
-scoreboard players set @s PlayerUI_Skill 4
-scoreboard players set @s PlayerUI_Skill_Timer 20
+function mikatanserver:main/lvup/_view/luck
 
 execute as @s[scores={luck-Lv=..299}] run execute if score @s luckxp >= @s needluckxp run function mikatanserver:main/lvup/xpcount/lucklvup

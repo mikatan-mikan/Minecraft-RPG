@@ -10,7 +10,7 @@
         "layers": [
           {
             "block": "minecraft:stone",
-            "height": 255
+            "height": 128
           }
         ],
         "structure_overrides": []

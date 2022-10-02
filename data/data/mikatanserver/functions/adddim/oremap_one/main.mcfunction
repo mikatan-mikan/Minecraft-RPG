@@ -12,6 +12,9 @@ execute if entity @s[tag=ore_hematite] run function mikatanserver:adddim/oremap_
 execute if entity @s[tag=ore_jade] run function mikatanserver:adddim/oremap_one/jade/check
 execute if entity @s[tag=event_christmas_2022] run function mikatanserver:adddim/oremap_one/_event_christmas_2022/check
 execute if entity @s[tag=ore_windmasic] run function mikatanserver:adddim/oremap_one/masic_wind/check
+execute if entity @s[tag=ore_tanzanite] run function mikatanserver:adddim/oremap_one/tanzanite/check
+execute if entity @s[tag=ore_citrin] run function mikatanserver:adddim/oremap_one/citrin/check
+execute if entity @s[tag=ore_moon_stone] run function mikatanserver:adddim/oremap_one/moon_stone/check
 
 execute as @s[scores={stonecount=1..}] run function mikatanserver:adddim/oremap_one/clone
 execute as @s[scores={basaltCount=1..}] run function mikatanserver:adddim/oremap_one/clone
@@ -32,6 +35,12 @@ execute as @s[predicate=mikatanserver:oremapdim,tag=ore_jade] at @s unless block
 execute as @s[predicate=mikatanserver:oremapdim,tag=event_christmas_2022] at @s unless blocks 437 81 15 463 122 41 477 81 15 masked run clone 437 81 15 463 122 41 477 81 15 filtered #mikatanserver:christmas_2022
 ##chriatmas 2022
 execute as @s[predicate=mikatanserver:oremapdim,tag=ore_windmasic] at @s unless blocks 417 96 252 457 116 288 462 96 252 masked run clone 417 96 252 457 116 288 462 96 252 filtered #mikatanserver:ore_windmasic
+##tanzanite
+execute as @s[predicate=mikatanserver:oremapdim,tag=ore_tanzanite] at @s unless blocks 443 121 -339 469 157 -313 393 121 -339 masked run clone 443 121 -339 469 157 -313 393 121 -339 filtered #mikatanserver:ore_tanzanite
+##citrin
+execute as @s[predicate=mikatanserver:oremapdim,tag=ore_citrin] at @s unless blocks 429 121 -405 460 142 -374 379 121 -405 masked run clone 429 121 -405 460 142 -374 379 121 -405 filtered #mikatanserver:ore_citrin
+##moon_stone
+execute as @s[predicate=mikatanserver:oremapdim,tag=ore_moon_stone] at @s unless blocks 433 120 -454 464 151 -423 383 120 -454 masked run clone 433 120 -454 464 151 -423 383 120 -454 filtered #mikatanserver:ore_moon_stone
 
 
 

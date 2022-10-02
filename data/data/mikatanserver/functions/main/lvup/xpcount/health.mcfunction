@@ -23,7 +23,6 @@ scoreboard players operation @s TMP %= $100 int
 execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s hpxp 1
 
 ##actionbar
-scoreboard players set @s PlayerUI_Skill 1
-scoreboard players set @s PlayerUI_Skill_Timer 20
+function mikatanserver:main/lvup/_view/hp
 
 execute as @s[scores={hp-Lv=..299}] run execute if score @s hpxp >= @s needhpxp run function mikatanserver:main/lvup/xpcount/healthlvup

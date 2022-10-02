@@ -327,6 +327,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $10 int 10
     scoreboard players set $16 int 16
     scoreboard players set $60 int 60
+    scoreboard players set $65 int 65
     scoreboard players set $100 int 100
     scoreboard players set $190 int 190
     scoreboard players set $200 int 200
@@ -426,6 +427,10 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add PlayerUI_Skill dummy
         #残り時間(表示)
         scoreboard objectives add PlayerUI_Skill_Timer dummy
+
+    scoreboard objectives add tanzaniteselfcount minecraft.mined:minecraft.blue_wool
+    scoreboard objectives add citrinselfcount minecraft.mined:minecraft.yellow_wool
+    scoreboard objectives add moon_stoneselfcount minecraft.mined:minecraft.white_wool
 
 
     

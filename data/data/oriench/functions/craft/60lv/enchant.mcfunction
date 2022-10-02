@@ -53,24 +53,9 @@ scoreboard players add @p 60lvCount 1
 scoreboard players add @p manaxp 6
 
 ##アーティファクト
-scoreboard players set @s MK.r.RandValue 100
-function mikatanlib:rand/rand_exe
-scoreboard players add @s MK.r.RandValue 1
-scoreboard players operation @s TMP = @s ART.mana
-scoreboard players operation @s TMP /= $100 int
-scoreboard players operation @s manaxp += @s TMP
-scoreboard players operation @s TMP = @s ART.mana
-scoreboard players operation @s TMP %= $100 int
-execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s manaxp 1
+execute as @p run function mikatanserver:main/lvup/_artifact/mana
 
-execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:13}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s manaxp 1
-execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:14}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s manaxp 1
-execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:15}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s manaxp 1
-execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:46}}]},predicate=mikatanserver:chance/0.30] run scoreboard players add @s manaxp 1
-execute as @p if entity @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:36}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s manaxp 1
-execute as @p if entity @s[nbt={Inventory:[{"Slot":100b,tag:{masic_armor:true}},{"Slot":101b,tag:{masic_armor:true}},{"Slot":102b,tag:{masic_armor:true}},{"Slot":103b,tag:{masic_armor:true}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s manaxp 1
-execute as @p if entity @s[nbt={Inventory:[{"Slot":100b,tag:{masician_armor:true}},{"Slot":101b,tag:{masician_armor:true}},{"Slot":102b,tag:{masician_armor:true}},{"Slot":103b,tag:{masician_armor:true}}]},predicate=mikatanserver:chance/0.30] run scoreboard players add @s manaxp 1
-#アイテム
-#replaceitem block ~ ~ ~ container.4 minecraft:
+#view xp
+execute as @p run function mikatanserver:main/lvup/_view/mana
 
-#give @s paper{display:{Name:'[{"text":"Enchanter 60lv enchant","color": "blue","italic": false}]',Lore:['[{"text":" コスト:6lv(要求60lv)","color": "gold","italic": false}]','[{"text":" エンチャント:60lv相当(mojang比)","color": "gold","italic": false}]','[{"text":" xp: +6xp","color": "gold","italic": false}]']}}
+execute as @p run function mikatanserver:main/lvup/_accessory/mana

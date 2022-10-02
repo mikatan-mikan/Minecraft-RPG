@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:white_stained_glass",
+        "minecraft:quartz_pillar",
+        "minecraft:oak_planks",
+        "minecraft:birch_planks",
+        "minecraft:tuff",
+        "minecraft:gold_block"
+    ]
+}
