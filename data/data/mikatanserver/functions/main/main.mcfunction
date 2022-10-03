@@ -77,7 +77,7 @@ execute as @a[scores={ObsidianCount=1..}] run function mikatanserver:main/ores/m
 execute as @a[scores={SmallAmethyst=1..}] run function mikatanserver:main/lvup/xpcount/luck
 
 ##boost
-execute as @a[scores={Boost = 0..}] run function mikatanserver:main/boostminus
+execute as @a[scores={Boost = 1..}] run function mikatanserver:main/boostminus
 
 ##マナ用スコアリセ
 scoreboard players set @a ManaBatchBool 0

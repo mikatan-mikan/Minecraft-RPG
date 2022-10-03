@@ -2,12 +2,12 @@
     "display": {
       "icon": {
         "item": "minecraft:magma_cream",
-        "nbt": "{CustomModelData:36}"
+        "nbt": "{CustomModelData:48}"
       },
-      "title": {"text":"それは可能性を呼び覚ます・・・"},
-      "description": "翡翠の水晶を作成する"
+      "title": "その島で起きた事とは",
+      "description": "island crystalを作成する"
     },
-    "parent": "mikatanserver:customcrafter/accessories/crystal/coal",
+    "parent": "mikatanserver:customcrafter/accessories/crystal/magma",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

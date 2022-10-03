@@ -14,4 +14,7 @@ scoreboard players add @s[scores={attackS-Lv=60..}] needattackSxp 1
 scoreboard players add @s[scores={attackS-Lv=70..}] needattackSxp 5
 scoreboard players add @s[scores={attackS-Lv=75..}] needattackSxp 1
 scoreboard players add @s[scores={attackS-Lv=90..}] needattackSxp 1
+scoreboard players add @s[scores={attackS-Lv=160..170}] needattackSxp 100
 function mikatanserver:main/lvup/_lvset
+
+execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:48}}]}] run xp add @s 35 levels

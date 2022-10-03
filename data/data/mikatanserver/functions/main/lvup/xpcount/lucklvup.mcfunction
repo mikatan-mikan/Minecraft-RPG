@@ -1,7 +1,7 @@
 scoreboard players add @s luck-Lv 1
 execute at @s run particle minecraft:happy_villager ~ ~1 ~ 1 1 1 1 500
 playsound minecraft:entity.player.levelup master @s ~ ~ ~ 2 0 1
-title @s subtitle [{"text":"fishing level ->","color":"aqua"},{"score":{"name":"@s","objective":"luck-Lv"},"color":"aqua"}]
+title @s subtitle [{"text":"farming level ->","color":"aqua"},{"score":{"name":"@s","objective":"luck-Lv"},"color":"aqua"}]
 title @s title {"text":"Luck LV \u0020UP!!","underlined":true,"color":"green"}
 tellraw @a [{"text": ""},{"text": "[System] ","color": "yellow"},{"selector":"@s","color": "white"},{"text": "の"},{"text": "luck Lv","color": "green"},{"text": "が","color": "white"},{"score":{"name": "@s","objective": "luck-Lv"}},{"text": "になった"}]
 scoreboard players operation @s luckxp -= @s needluckxp

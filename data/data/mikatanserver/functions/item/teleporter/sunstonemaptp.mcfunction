@@ -4,4 +4,4 @@ give @s[tag=!DungeonPlay] carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"
 function mikatanserver:item/teleporter/tag/remove
 tag @s add ore_sunstone
 
-advancement grant @s[tag=!DungeonPlay] only mikatanserver:tp/sphene
+advancement grant @s[tag=!DungeonPlay] only mikatanserver:tp/sunstone
