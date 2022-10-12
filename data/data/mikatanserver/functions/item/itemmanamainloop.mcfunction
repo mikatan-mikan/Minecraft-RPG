@@ -3,7 +3,7 @@
 
 ##ROD
 #teleportROD mana:75
-execute as @s[scores={mana=75..},nbt={SelectedItem:{tag:{CustomModelData:1}}},predicate=mikatanserver:overworld] at @s if block ^ ^ ^8 air run function mikatanserver:item/rod/aote
+execute as @s[scores={mana=75..},nbt={SelectedItem:{tag:{CustomModelData:1}}},predicate=mikatanserver:overworld] at @s if block ^ ^ ^1 air if block ^ ^ ^2 air if block ^ ^ ^3 air if block ^ ^ ^4 air if block ^ ^ ^5 air if block ^ ^ ^6 air if block ^ ^ ^7 air if block ^ ^ ^8 air run function mikatanserver:item/rod/aote
 #speedBuffer mana:10
 execute as @s[scores={mana=10..},nbt={SelectedItem:{tag:{CustomModelData:2}}}] run function mikatanserver:item/rod/speedbuffer
 #lightningROD mana:25
@@ -70,13 +70,15 @@ execute as @s[scores={mana = 50..},nbt={SelectedItem:{tag:{CustomModelData:73}}}
 #crystal
 execute as @s[scores={mana = 100..},nbt={SelectedItem:{tag:{CustomModelData:75}}}] at @s run function mikatanserver:item/rod/crystal/main
 # aspect of the end
-execute as @s[scores={mana = 50..},nbt={SelectedItem:{tag:{CustomModelData:76}}}] at @s run function mikatanserver:item/rod/aspect_of_the_end/main
+execute as @s[scores={mana = 50..},nbt={SelectedItem:{tag:{CustomModelData:76}}}] at @s if block ^ ^ ^1 air if block ^ ^ ^2 air if block ^ ^ ^3 air if block ^ ^ ^4 air if block ^ ^ ^5 air if block ^ ^ ^6 air if block ^ ^ ^7 air if block ^ ^ ^8 air run function mikatanserver:item/rod/aspect_of_the_end/main
 #投剣:45
 execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:78}}}] at @s run function mikatanserver:item/rod/through_2/main
 #pumpkin:30
 execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:82,pumpkin_rod:true}}}] at @s run function mikatanserver:item/rod/pumpkin/main
 #tact mana:50
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:93}}}] at @s run function mikatanserver:item/rod/tact/two/main
+#rupture mana:55
+execute as @s[scores={mana=55..},nbt={SelectedItem:{tag:{CustomModelData:98}}}] at @s run function mikatanserver:item/rod/rupture/main
 
 #純真エンチャント
 execute as @s[scores={mana=70..},nbt={SelectedItem:{tag:{inocent:[1]}}}] at @s run function mikatanserver:item/rod/inocent_ench/main
@@ -179,6 +181,8 @@ execute as @s[scores={luck-Lv=235..,attackS-Lv=235..,attackD-Lv=235..,mana-Lv=23
 execute as @s[scores={luck-Lv=260..,attackS-Lv=260..,attackD-Lv=260..,mana-Lv=260..,speed-Lv=260..,hp-Lv=260..},nbt={SelectedItem:{tag:{CustomModelData:95}}}] run function mikatanserver:item/teleporter/citrinmaptp
 #moon_stone
 execute as @s[scores={luck-Lv=285..,attackS-Lv=285..,attackD-Lv=285..,mana-Lv=285..,speed-Lv=285..,hp-Lv=285..},nbt={SelectedItem:{tag:{CustomModelData:96}}}] run function mikatanserver:item/teleporter/moonstonemaptp
+#dungeon nineteen
+execute as @s[scores={luck-Lv=130..,attackS-Lv=130..,attackD-Lv=130..,mana-Lv=130..,speed-Lv=130..,hp-Lv=130..},nbt={SelectedItem:{tag:{CustomModelData:97}}}] run function mikatanserver:item/teleporter/dungeon/nineteen/init
 
 
 ##XPboost

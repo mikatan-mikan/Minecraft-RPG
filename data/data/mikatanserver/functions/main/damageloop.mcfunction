@@ -29,5 +29,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[3]}}}] run function mi
 ##batch
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:30}}]}] run effect give @s regeneration 3 0 true
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:39}}]}] run effect give @s speed 1 0 true
-execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43}}]}] run scoreboard players add @s mana 1
+execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if predicate mikatanserver:chance/0.40 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:1}}]}] run scoreboard players add @s mana 1
+execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if predicate mikatanserver:chance/0.70 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:2}}]}] run scoreboard players add @s mana 1
+execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:3}}]}] run scoreboard players add @s mana 1
 scoreboard players set @s ManaBatchBool 1

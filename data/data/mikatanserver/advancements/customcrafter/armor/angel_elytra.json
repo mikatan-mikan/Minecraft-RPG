@@ -19,7 +19,7 @@
       ]
     ],
     "rewards": {
-      "function": "mikatanserver:rewards/20"
+      "function": "mikatanserver:rewards/60"
     }
   }
   

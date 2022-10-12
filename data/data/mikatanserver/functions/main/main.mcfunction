@@ -16,7 +16,8 @@ gamemode survival @a[predicate=mikatanserver:overworld,gamemode=adventure]
 execute as @a[scores={MoveCheck=200..},name="RoRota_"] run scoreboard players set @s ObsidianCount 0
 
 ##放置検知
-execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp
+execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp/main
+execute as @a[scores={MoveCheck_Lite=100..}] at @s run function mikatanserver:main/removexp/luck
 
 execute positioned 2000 110 -717 as @a[distance=..100,predicate=mikatanserver:overworld] run scoreboard players set @s mobcount 0
 
@@ -26,6 +27,7 @@ execute as @a[scores={darkoakcount=1..},predicate=mikatanserver:oremapdim] run s
     #みかん
     execute as @a[scores={MoveCheck=12000..}] run scoreboard players set @s TimerCrystalTime 0
     execute as @a[scores={MoveCheck=..12000}] run scoreboard players add @s TimerCrystalTime 1
+    execute as @a[scores={MoveCheck_walk=1..}] run scoreboard players set @s MoveCheck_Lite 0
     execute as @a[scores={MoveCheck_walk=1..,MoveCheck_shift=1..}] run function mikatanserver:main/walkreset
     execute as @a[scores={MoveCheck_dush=1..,MoveCheck_shift=1..}] run function mikatanserver:main/walkreset
     execute as @a[scores={TimerCrystalTime=72000..}] run function mikatanserver:main/give_item/orangegive

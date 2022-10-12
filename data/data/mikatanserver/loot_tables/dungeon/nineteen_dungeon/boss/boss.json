@@ -1,0 +1,289 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "weight":10,
+            "name": "minecraft:netherite_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "name": "minecraft:enchanted_golden_apple"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "name": "minecraft:golden_apple",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":20,
+            "name": "minecraft:emerald_block",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:slime_ball",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 48,
+                  "max": 64
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"sphene\"}]'}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:diamond",
+            "functions":[
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 48,
+                  "max": 64
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 30\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:15,display:{Name:'[{\"text\":\"Spirit Stone\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:7,display:{Name:'[{\"text\":\"rock of troll\"}]'}}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":16,
+                  "max":48
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted ruby\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              },
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":1,
+                  "max":2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"enchanted iron\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "item",
+            "name": "minecraft:player_head",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"Spirit Head\"]'},SkullOwner:{Id:[I;1741307386,-304331284,-1350857045,789912679],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxZmRlYjE0YThiN2E5NWU2MWYwODBhYWY5MWQyZDYyMWI2MjFjM2JlMzhlMjJlZWEwZjY4ZWQ4ZjJiMTMxMiJ9fX0=\"}]}}}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:player_head",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"purple cluster head\"]'},SkullOwner:{Id:[I;-1596255128,-590459770,-1778995153,968929833],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMyNDRhNGUzMDZmZDE0NzQwNWViYTZiZjY3MDIxZDUwYjgxNWQxMDdjYzE1ZDk3YjgwMmI3ODUyMTAwOTllNiJ9fX0=\"}]}},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,Slot:\"head\",UUID:[I;513512214,-105458275,-295946392,53618117]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"head\",UUID:[I;-43124134,307371239,101113870,96471228]},{AttributeName:\"minecraft:generic.max_health\",Amount:2,Operation:0,Slot:\"head\",UUID:[I;221243134,235463474,47352235,64625134]}],Pcluster_ar:true}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"purple cluster chestplate\"]',color:13392869},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8.0,Operation:0,Slot:\"chest\",UUID:[I;915581423,-105458275,-295946392,5364134]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"chest\",UUID:[I;-212372333,307371239,101113870,23542354]},{AttributeName:\"minecraft:generic.max_health\",Amount:2,Operation:0,Slot:\"chest\",UUID:[I;221243134,235463474,6345,346356362]}],Pcluster_ar:true}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:leather_leggings",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"purple cluster leggings\"]',color:13392869},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6.0,Operation:0,Slot:\"legs\",UUID:[I;915581423,-105458275,-295946392,525141]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"legs\",UUID:[I;-212372333,307371239,101113870,56251354]},{AttributeName:\"minecraft:generic.max_health\",Amount:2,Operation:0,Slot:\"legs\",UUID:[I;413413412,141,47345522,346356362]}],Pcluster_ar:true}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:leather_boots",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"purple cluster boots\"]',color:13392869},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,Slot:\"feet\",UUID:[I;915581423,-6352152,-295946392,53618117]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"feet\",UUID:[I;-212372333,307371239,5135153,96471228]},{AttributeName:\"minecraft:generic.max_health\",Amount:2,Operation:0,Slot:\"feet\",UUID:[I;221243134,101234981,47352235,346356362]}],Pcluster_ar:true}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:player_head",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'[\"Spirit Power Head\"]'},SkullOwner:{Id:[I;-21471222,-185842082,-1452034115,-1953328167],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkMzI5MzU5ZWJlYWM3ZGM1OWQzMDA0OTMyOTFmZmI3YTk5NWI4NWE3NzE4M2RjMDM5ZjdhZTgyZjYzNmRiYSJ9fX0=\"}]}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

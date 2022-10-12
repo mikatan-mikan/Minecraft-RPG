@@ -18,5 +18,4 @@ execute if predicate mikatanserver:chance/0.99 run scoreboard players set @s ESt
 execute if predicate mikatanserver:chance/0.99 run scoreboard players set @s AndesiteCount 0
 execute if predicate mikatanserver:chance/0.99 run scoreboard players set @s DioriteCount 0
 execute if predicate mikatanserver:chance/0.99 run scoreboard players set @s GraniteCount 0
-execute if predicate mikatanserver:chance/0.99 run scoreboard players set @s SmallAmethyst 0
 execute if predicate mikatanserver:chance/0.33 run scoreboard players set @s ObsidianCount 0

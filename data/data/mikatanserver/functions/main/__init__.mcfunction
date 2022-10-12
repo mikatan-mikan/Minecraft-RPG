@@ -432,6 +432,13 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add citrinselfcount minecraft.mined:minecraft.yellow_wool
     scoreboard objectives add moon_stoneselfcount minecraft.mined:minecraft.white_wool
 
+    scoreboard objectives add PlayerHealth health
+    scoreboard objectives setdisplay belowName PlayerHealth
+
+    scoreboard objectives add EntityTimer dummy
+
+    scoreboard objectives add MoveCheck_Lite minecraft.custom:minecraft.play_time
+
 
     
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]

@@ -1,0 +1,5 @@
+execute as @a[tag=NineteenBombAndMobAr] at @s run playsound entity.generic.explode master @a[distance=..80] ~ ~ ~ 2 1.4 1
+execute as @a[tag=NineteenBombAndMobAr] at @s run particle explosion ~ ~ ~ 0.4 0.4 0.4 0.2 100
+execute as @e[tag=NineteenBombAndMobAr] at @s run effect give @a[distance=..5] instant_damage 1 3
+execute as @e[tag=NineteenBombAndMobAr_zom] at @s run summon zombie ~ ~ ~ {Tags:["NineteenDunMob","NineteenBossSkillMob"],Health:10,HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{Count:1b,tag:{display:{color:13392869}},id:"minecraft:leather_boots"},{Count:1b,tag:{display:{color:13392869}},id:"minecraft:leather_leggings"},{Count:1b,tag:{display:{color:13392869}},id:"minecraft:leather_chestplate"},{Count:1b,tag:{SkullOwner:{Id:[I;-1596255128,-590459770,-1778995153,968929833],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMyNDRhNGUzMDZmZDE0NzQwNWViYTZiZjY3MDIxZDUwYjgxNWQxMDdjYzE1ZDk3YjgwMmI3ODUyMTAwOTllNiJ9fX0="}]}}},id:"minecraft:player_head"}]}
+kill @e[tag=NineteenBombAndMobAr]
