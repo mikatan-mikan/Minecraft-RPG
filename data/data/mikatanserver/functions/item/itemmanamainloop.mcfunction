@@ -77,6 +77,8 @@ execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:78}}}] 
 execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:82,pumpkin_rod:true}}}] at @s run function mikatanserver:item/rod/pumpkin/main
 #tact mana:50
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:93}}}] at @s run function mikatanserver:item/rod/tact/two/main
+#ruins tact mana:70
+execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:99}}}] at @s run function mikatanserver:item/rod/tact/three/main
 #rupture mana:55
 execute as @s[scores={mana=55..},nbt={SelectedItem:{tag:{CustomModelData:98}}}] at @s run function mikatanserver:item/rod/rupture/main
 

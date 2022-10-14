@@ -1,4 +1,4 @@
-scoreboard players remove @s mana 30
+scoreboard players remove @s mana 50
 
 
 scoreboard players set @s MK.r.RandValue 2
