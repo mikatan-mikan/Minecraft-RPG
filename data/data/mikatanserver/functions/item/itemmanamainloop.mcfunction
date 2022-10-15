@@ -39,6 +39,8 @@ execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:47}}}] 
 execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:65}}}] at @s run function mikatanserver:item/rod/spirit/main
 #ruins rod:mana40
 execute as @s[scores={mana=40..},nbt={SelectedItem:{tag:{CustomModelData:85}}}] at @s run function mikatanserver:item/rod/ruins/main
+#jungle sword:mana40
+execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:101}}}] at @s run function mikatanserver:item/rod/jungle_sword/main
 
 #想剣
 execute as @s[scores={mana=100..},nbt={SelectedItem:{tag:{CustomModelData:20}}}] at @s run function mikatanserver:item/rod/memory_sword/main

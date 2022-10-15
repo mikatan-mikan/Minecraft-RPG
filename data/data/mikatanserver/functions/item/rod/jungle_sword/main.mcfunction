@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:100b,Count:1b,tag:{fresh_ar:true}},{Slot:101b,Count:1b,tag:{fresh_ar:true}},{Slot:102b,Count:1b,tag:{fresh_ar:true}},{Slot:103b,Count:1b,tag:{fresh_ar:true}}]}] run function mikatanserver:item/rod/jungle_sword/effect
