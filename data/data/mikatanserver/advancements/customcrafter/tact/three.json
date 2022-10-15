@@ -2,12 +2,12 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:93}"
+        "nbt":"{CustomModelData:99}"
       },
-      "title": "従者とともに",
-      "description": "ice tactを作成する"
+      "title": "その女神は微笑んで",
+      "description": "ruins tactを作成する"
     },
-    "parent": "mikatanserver:customcrafter/tact/three",
+    "parent": "mikatanserver:customcrafter/tact/one",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

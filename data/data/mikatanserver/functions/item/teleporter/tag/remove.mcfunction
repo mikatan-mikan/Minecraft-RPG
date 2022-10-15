@@ -12,6 +12,7 @@ tag @s remove FieldHalloween
 tag @s remove Fieldfarm
 clear @s wooden_hoe{area_farming_item:true}
 tag @s remove FieldNewyear_2023
+tag @s remove FieldJungle
 execute as @a[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
 execute as @a[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
 tag @s remove ender_tp_after
@@ -21,6 +22,7 @@ tag @s remove island_tp_after
 tag @s remove halloween_tp_after
 tag @s remove farm_tp_after
 tag @s remove newyear_2023_tp_after
+tag @s remove jungle_tp_after
 #alltag
 tag @s remove FieldPlayer
 ##鉱石タグ

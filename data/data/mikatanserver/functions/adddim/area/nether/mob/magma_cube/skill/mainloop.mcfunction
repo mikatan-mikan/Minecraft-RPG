@@ -9,3 +9,5 @@ execute if score $10cnt TMP matches 0 run kill @e[tag=Nether_BossNowPlaceAr]
 execute if score $10cnt TMP matches 0 run summon armor_stand ~ ~ ~ {Tags:["Nether_BossNowPlaceAr"],Invisible:1b,Invulnerable:1b,Small:1b,NoAI:1b}
 
 execute if score $score TMP matches 80 run function mikatanserver:adddim/area/nether/mob/magma_cube/skill/firecircle/main
+
+scoreboard players reset $10cnt TMP

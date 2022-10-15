@@ -2,12 +2,12 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:93}"
+        "nbt": "{CustomModelData:101}"
       },
-      "title": "従者とともに",
-      "description": "ice tactを作成する"
+      "title": "新緑の上に",
+      "description": "jungle swordを作成する"
     },
-    "parent": "mikatanserver:customcrafter/tact/three",
+    "parent": "mikatanserver:customcrafter/rod_and_sword/ruins_wand",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"
@@ -19,7 +19,7 @@
       ]
     ],
     "rewards": {
-      "function": "mikatanserver:rewards/15"
+      "function": "mikatanserver:rewards/25"
     }
   }
   

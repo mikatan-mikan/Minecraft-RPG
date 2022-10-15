@@ -2,12 +2,12 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:93}"
+        "nbt":"{CustomModelData:100}"
       },
-      "title": "従者とともに",
-      "description": "ice tactを作成する"
+      "title": "そこに住むのは",
+      "description": "jungle areaへのテレポーターを作成する"
     },
-    "parent": "mikatanserver:customcrafter/tact/three",
+    "parent": "mikatanserver:event/newyear_2023/tp",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"
@@ -19,7 +19,7 @@
       ]
     ],
     "rewards": {
-      "function": "mikatanserver:rewards/15"
+      "function": "mikatanserver:rewards/10"
     }
   }
   

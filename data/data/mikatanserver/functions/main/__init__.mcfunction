@@ -377,8 +377,9 @@ tellraw @a [{"text": "=====================================================\n\n"
     ##ネザーエリア
     scoreboard objectives add nether_field_loop dummy
 
-    ##5lvエンチャント
+    ##5lvエンチャント/15lvエンチャント
     scoreboard objectives add 5lvCount dummy
+    scoreboard objectives add 15lvCount dummy
 
     scoreboard objectives add ManaBatchBool dummy
 
