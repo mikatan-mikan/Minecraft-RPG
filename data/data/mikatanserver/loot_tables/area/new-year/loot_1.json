@@ -164,7 +164,7 @@
             "functions":[
               {
                 "function": "set_nbt",
-                "tag": "{display:{Name:'[{\"text\":\"atrus powder\"}]'},CustomModelData:1}"
+                "tag": "{display:{Name:'[{\"text\":\"Atrus powder\"}]'},CustomModelData:1}"
               }
             ],
             "name": "minecraft:nautilus_shell"

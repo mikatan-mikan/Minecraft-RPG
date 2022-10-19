@@ -45,18 +45,14 @@
           {
             "type": "minecraft:item",
             "weight":100,
-            "name": "minecraft:slime_ball",
+            "name": "minecraft:diamond_ore",
             "functions":[
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 48,
-                  "max": 64
+                  "min": 4,
+                  "max": 8
                 }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"sphene\"}]'}}"
               }
             ]
           },
@@ -123,7 +119,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 100,
+            "weight": 200,
             "name": "minecraft:nautilus_shell",
             "functions": [
               {
@@ -133,7 +129,7 @@
               {
                 "function":"minecraft:set_count",
                 "count":{
-                  "min":2,
+                  "min":8,
                   "max":16
                 }
               }
@@ -177,7 +173,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight":2,
+            "weight":3,
             "functions": [
               {
                 "function": "minecraft:set_count",

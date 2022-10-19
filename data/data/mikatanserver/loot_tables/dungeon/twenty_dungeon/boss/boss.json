@@ -1,0 +1,230 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight":10,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":30,
+          "name": "minecraft:golden_apple",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":20,
+          "name": "minecraft:gold_block",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":15,
+          "name": "minecraft:lapis_ore",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":50,
+          "name": "minecraft:deepslate_diamond_ore",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":50,
+          "name": "minecraft:amethyst_block",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"enchanted amethyst\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 30\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"piece of satellite\"}]'}}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":48,
+                "max":64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted Atrus Powder\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":4,
+                "max":8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"piece of Comet\"}]'}}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":48,
+                "max":64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted charoite\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:4}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":4,
+                "max":8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"enchanted coal\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Maiden Crystal\"}]'},SkullOwner:{Id:[I;-1807418954,187125608,-1817910986,832197734],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MjRhNDRlNzdiOTVkYmUxY2M3MzU1MzY5NTNlODQwYmE2YzE5YjAxNTdjNTQ5ZDliODI1MzQ2NDhjOGNlNCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"wind wing\",\"color\":\"blue\"}]'}}"
+            }
+          ]
+        },
+        {
+          "type":"minecraft:item",
+          "weight": 150,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":8,
+                "max":16
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:30,display:{Name:'[{\"text\":\"Maiden Powder\",\"color\":\"aqua\"}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

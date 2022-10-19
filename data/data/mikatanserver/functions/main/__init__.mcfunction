@@ -379,6 +379,7 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     ##5lvエンチャント/15lvエンチャント
     scoreboard objectives add 5lvCount dummy
+    scoreboard objectives add 10lvCount dummy
     scoreboard objectives add 15lvCount dummy
 
     scoreboard objectives add ManaBatchBool dummy

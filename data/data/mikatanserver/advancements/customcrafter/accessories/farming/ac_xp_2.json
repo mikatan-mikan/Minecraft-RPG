@@ -7,7 +7,7 @@
       "title": "さらなる錬成",
       "description": "farming crystal tier2を作成する"
     },
-    "parent": "mikatanserver:customcrafter/accessories/main",
+    "parent": "mikatanserver:customcrafter/accessories/farming/ac_xp",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

@@ -180,6 +180,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikata
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}}] run function mikatanserver:item/teleporter/area/newyear_2023
 #jungle
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}}] run function mikatanserver:item/teleporter/area/jungle
+#masic_wind
+execute as @s[scores={luck-Lv=150..,attackS-Lv=150..,attackD-Lv=150..,mana-Lv=150..,speed-Lv=150..,hp-Lv=150..,RewardPoint=3500..},nbt={SelectedItem:{tag:{CustomModelData:102}}}] run function mikatanserver:item/teleporter/dungeon/twenty/init
 
 #tanzanite
 execute as @s[scores={luck-Lv=235..,attackS-Lv=235..,attackD-Lv=235..,mana-Lv=235..,speed-Lv=235..,hp-Lv=235..},nbt={SelectedItem:{tag:{CustomModelData:94}}}] run function mikatanserver:item/teleporter/tanzanitemaptp

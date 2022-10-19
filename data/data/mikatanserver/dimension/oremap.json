@@ -1,6 +1,6 @@
 {
   "ambient_light": 1.0,
-  "type": "minecraft:overworld",
+  "type": "mikatanserver:oremap",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
