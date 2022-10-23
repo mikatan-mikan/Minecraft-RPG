@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stone",
+      "minecraft:andesite",
+      "minecraft:polished_andesite",
+      "minecraft:soul_lantern",
+      "minecraft:birch_fence",
+      "minecraft:stone_bricks",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_slab",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:chain"
+    ]
+  }

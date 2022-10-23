@@ -1,0 +1,1 @@
+execute as @s[tag=QUEST_ENDER] at @s run function mikatanserver:adddim/area/_quest/ender/main

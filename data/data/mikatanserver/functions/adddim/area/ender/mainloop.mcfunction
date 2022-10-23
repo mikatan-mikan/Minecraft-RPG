@@ -27,6 +27,8 @@
 
     ##発光検知
     execute as @a[nbt={Inventory:[{id:"minecraft:light",tag:{ender_light:1b}}]}] at @s run function mikatanserver:adddim/area/ender/item/light/main
+    ##クエスト判定
+    execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{ender_quest:true}}]}] at @s run function mikatanserver:adddim/area/ender/item/quest/check
 
 
 ##ループリセット

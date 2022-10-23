@@ -15,6 +15,7 @@ execute if entity @s[tag=ore_windmasic] run function mikatanserver:adddim/oremap
 execute if entity @s[tag=ore_tanzanite] run function mikatanserver:adddim/oremap_one/tanzanite/check
 execute if entity @s[tag=ore_citrin] run function mikatanserver:adddim/oremap_one/citrin/check
 execute if entity @s[tag=ore_moon_stone] run function mikatanserver:adddim/oremap_one/moon_stone/check
+execute if entity @s[tag=ore_icemasic] run function mikatanserver:adddim/oremap_one/masic_ice/check
 
 execute as @s[scores={stonecount=1..}] run function mikatanserver:adddim/oremap_one/clone
 execute as @s[scores={basaltCount=1..}] run function mikatanserver:adddim/oremap_one/clone
@@ -41,6 +42,8 @@ execute as @s[predicate=mikatanserver:oremapdim,tag=ore_tanzanite] at @s unless 
 execute as @s[predicate=mikatanserver:oremapdim,tag=ore_citrin] at @s unless blocks 429 121 -405 460 142 -374 379 121 -405 masked run clone 429 121 -405 460 142 -374 379 121 -405 filtered #mikatanserver:ore_citrin
 ##moon_stone
 execute as @s[predicate=mikatanserver:oremapdim,tag=ore_moon_stone] at @s unless blocks 433 120 -454 464 151 -423 383 120 -454 masked run clone 433 120 -454 464 151 -423 383 120 -454 filtered #mikatanserver:ore_moon_stone
+##ice_masic
+execute as @s[predicate=mikatanserver:oremapdim,tag=ore_moon_stone] at @s unless blocks 425 82 482 451 123 508 465 82 482 masked run clone 425 82 482 451 123 508 465 82 482 filtered #mikatanserver:ore_icemasic
 
 
 

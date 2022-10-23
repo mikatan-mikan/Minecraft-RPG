@@ -1,4 +1,5 @@
 tag @s remove FieldRuins
+function mikatanserver:item/teleporter/tag/remove
 tag @s add ruins_tp_after
 clear @s carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"オーバーワールドへ戻る"}]'}}
 execute in mikatanserver:dungeon run tp @s[tag=!DungeonPlay] -221.5 127 872.5 -90 0

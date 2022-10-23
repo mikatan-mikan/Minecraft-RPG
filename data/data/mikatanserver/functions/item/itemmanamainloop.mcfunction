@@ -111,45 +111,45 @@ execute as @s[scores={luck-Lv=110..,attackS-Lv=110..,attackD-Lv=110..,mana-Lv=11
 #rhodochrosite
 execute as @s[scores={luck-Lv=130..,attackS-Lv=130..,attackD-Lv=130..,mana-Lv=130..,speed-Lv=130..,hp-Lv=130..},nbt={SelectedItem:{tag:{CustomModelData:33}}}] run function mikatanserver:item/teleporter/rhodochrositemaptp
 #dungeon first
-execute as @s[scores={luck-Lv=10..,attackS-Lv=10..,attackD-Lv=10..,mana-Lv=10..,speed-Lv=10..,hp-Lv=10..},nbt={SelectedItem:{tag:{CustomModelData:10}}}] run function mikatanserver:item/teleporter/dungeon/first/init
+execute as @s[scores={luck-Lv=10..,attackS-Lv=10..,attackD-Lv=10..,mana-Lv=10..,speed-Lv=10..,hp-Lv=10..},nbt={SelectedItem:{tag:{CustomModelData:10}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/first/init
 #dungeon second
-execute as @s[scores={luck-Lv=35..,attackS-Lv=35..,attackD-Lv=35..,mana-Lv=35..,speed-Lv=35..,hp-Lv=35..},nbt={SelectedItem:{tag:{CustomModelData:11}}}] run function mikatanserver:item/teleporter/dungeon/second/init
+execute as @s[scores={luck-Lv=35..,attackS-Lv=35..,attackD-Lv=35..,mana-Lv=35..,speed-Lv=35..,hp-Lv=35..},nbt={SelectedItem:{tag:{CustomModelData:11}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/second/init
 #dungeon third
-execute as @s[scores={luck-Lv=50..,attackS-Lv=50..,attackD-Lv=50..,mana-Lv=50..,speed-Lv=50..,hp-Lv=50..},nbt={SelectedItem:{tag:{CustomModelData:13}}}] run function mikatanserver:item/teleporter/dungeon/third/init
+execute as @s[scores={luck-Lv=50..,attackS-Lv=50..,attackD-Lv=50..,mana-Lv=50..,speed-Lv=50..,hp-Lv=50..},nbt={SelectedItem:{tag:{CustomModelData:13}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/third/init
 #dungeon fourth
-execute as @s[scores={luck-Lv=60..,attackS-Lv=60..,attackD-Lv=60..,mana-Lv=60..,speed-Lv=60..,hp-Lv=60..},nbt={SelectedItem:{tag:{CustomModelData:14}}}] run function mikatanserver:item/teleporter/dungeon/fourth/init
+execute as @s[scores={luck-Lv=60..,attackS-Lv=60..,attackD-Lv=60..,mana-Lv=60..,speed-Lv=60..,hp-Lv=60..},nbt={SelectedItem:{tag:{CustomModelData:14}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/fourth/init
 #charoite
 execute as @s[scores={luck-Lv=65..,attackS-Lv=65..,attackD-Lv=65..,mana-Lv=65..,speed-Lv=65..,hp-Lv=65..},nbt={SelectedItem:{tag:{CustomModelData:15}}}] run function mikatanserver:item/teleporter/charoitemaptp
 #sunstone
 execute as @s[scores={luck-Lv=80..,attackS-Lv=80..,attackD-Lv=80..,mana-Lv=80..,speed-Lv=80..,hp-Lv=80..},nbt={SelectedItem:{tag:{CustomModelData:16}}}] run function mikatanserver:item/teleporter/sunstonemaptp
 #dungeon fifth
-execute as @s[scores={luck-Lv=75..,attackS-Lv=75..,attackD-Lv=75..,mana-Lv=75..,speed-Lv=75..,hp-Lv=75..},nbt={SelectedItem:{tag:{CustomModelData:18}}}] run function mikatanserver:item/teleporter/dungeon/fifth/init
+execute as @s[scores={luck-Lv=75..,attackS-Lv=75..,attackD-Lv=75..,mana-Lv=75..,speed-Lv=75..,hp-Lv=75..},nbt={SelectedItem:{tag:{CustomModelData:18}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/fifth/init
 #dungeon sixth
-execute as @s[scores={luck-Lv=90..,attackS-Lv=90..,attackD-Lv=90..,mana-Lv=90..,speed-Lv=90..,hp-Lv=90..},nbt={SelectedItem:{tag:{CustomModelData:19}}}] run function mikatanserver:item/teleporter/dungeon/sixth/init
+execute as @s[scores={luck-Lv=90..,attackS-Lv=90..,attackD-Lv=90..,mana-Lv=90..,speed-Lv=90..,hp-Lv=90..},nbt={SelectedItem:{tag:{CustomModelData:19}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/sixth/init
 #dungeon sevth
-execute as @s[scores={luck-Lv=120..,attackS-Lv=120..,attackD-Lv=120..,mana-Lv=120..,speed-Lv=120..,hp-Lv=120..},nbt={SelectedItem:{tag:{CustomModelData:29}}}] run function mikatanserver:item/teleporter/dungeon/sevth/init
+execute as @s[scores={luck-Lv=120..,attackS-Lv=120..,attackD-Lv=120..,mana-Lv=120..,speed-Lv=120..,hp-Lv=120..},nbt={SelectedItem:{tag:{CustomModelData:29}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/sevth/init
 #dungeon eigth
-execute as @s[scores={luck-Lv=140..,attackS-Lv=140..,attackD-Lv=140..,mana-Lv=140..,speed-Lv=140..,hp-Lv=140..},nbt={SelectedItem:{tag:{CustomModelData:30}}}] run function mikatanserver:item/teleporter/dungeon/eigth/init
+execute as @s[scores={luck-Lv=140..,attackS-Lv=140..,attackD-Lv=140..,mana-Lv=140..,speed-Lv=140..,hp-Lv=140..},nbt={SelectedItem:{tag:{CustomModelData:30}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/eigth/init
 #dungeon eigth
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:38}}}] run function mikatanserver:item/teleporter/_event_christmas
 #christmas event
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:40}}}] run function mikatanserver:item/teleporter/area/_event_christmas
 #dungeon eigth
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:42}}}] run function mikatanserver:item/teleporter/dungeon/nineth/init
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:42}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/nineth/init
 #dungeon tenth
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:45}}}] run function mikatanserver:item/teleporter/dungeon/tenth/init
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:45}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/tenth/init
 #dungeon eleventh
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:49}}}] run function mikatanserver:item/teleporter/dungeon/eleventh/init
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:49}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/eleventh/init
 #dungeon twelveth
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:53}}}] run function mikatanserver:item/teleporter/dungeon/twelveth/init
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:53}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twelveth/init
 #dungeon thirteen
-execute as @s[scores={luck-Lv=80..,attackS-Lv=80..,attackD-Lv=80..,mana-Lv=80..,speed-Lv=80..,hp-Lv=80..},nbt={SelectedItem:{tag:{CustomModelData:57}}}] run function mikatanserver:item/teleporter/dungeon/thirteen/init
+execute as @s[scores={luck-Lv=80..,attackS-Lv=80..,attackD-Lv=80..,mana-Lv=80..,speed-Lv=80..,hp-Lv=80..},nbt={SelectedItem:{tag:{CustomModelData:57}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirteen/init
 #ender
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:62}}}] run function mikatanserver:item/teleporter/area/ender
 #dungeon fourteen
-execute as @s[scores={luck-Lv=95..,attackS-Lv=95..,attackD-Lv=95..,mana-Lv=95..,speed-Lv=95..,hp-Lv=95..},nbt={SelectedItem:{tag:{CustomModelData:66}}}] run function mikatanserver:item/teleporter/dungeon/fourteen/init
+execute as @s[scores={luck-Lv=95..,attackS-Lv=95..,attackD-Lv=95..,mana-Lv=95..,speed-Lv=95..,hp-Lv=95..,QUEST_ENDER_LEVEL=3..},nbt={SelectedItem:{tag:{CustomModelData:66}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/fourteen/init
 #dungeon fifteen
-execute as @s[scores={luck-Lv=85..,attackS-Lv=85..,attackD-Lv=85..,mana-Lv=85..,speed-Lv=85..,hp-Lv=85..},nbt={SelectedItem:{tag:{CustomModelData:68}}}] run function mikatanserver:item/teleporter/dungeon/fifteen/init
+execute as @s[scores={luck-Lv=85..,attackS-Lv=85..,attackD-Lv=85..,mana-Lv=85..,speed-Lv=85..,hp-Lv=85..},nbt={SelectedItem:{tag:{CustomModelData:68}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/fifteen/init
 #aquamarine
 execute as @s[scores={luck-Lv=165..,attackS-Lv=165..,attackD-Lv=165..,mana-Lv=165..,speed-Lv=165..,hp-Lv=165..},nbt={SelectedItem:{tag:{CustomModelData:70}}}] run function mikatanserver:item/teleporter/aquamarinemaptp
 #aquamarine
@@ -159,7 +159,7 @@ execute as @s[scores={luck-Lv=210..,attackS-Lv=210..,attackD-Lv=210..,mana-Lv=21
 #nether
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:74}}}] run function mikatanserver:item/teleporter/area/nether
 #dungeon fourteen
-execute as @s[scores={luck-Lv=100..,attackS-Lv=100..,attackD-Lv=100..,mana-Lv=100..,speed-Lv=100..,hp-Lv=100..},nbt={SelectedItem:{tag:{CustomModelData:77}}}] run function mikatanserver:item/teleporter/dungeon/sixteen/init
+execute as @s[scores={luck-Lv=100..,attackS-Lv=100..,attackD-Lv=100..,mana-Lv=100..,speed-Lv=100..,hp-Lv=100..},nbt={SelectedItem:{tag:{CustomModelData:77}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/sixteen/init
 #island
 execute as @s[scores={RewardPoint=2300..},nbt={SelectedItem:{tag:{CustomModelData:80}}}] run function mikatanserver:item/teleporter/area/island
 #halloween
@@ -169,9 +169,9 @@ execute as @s[scores={RewardPoint=400..},nbt={SelectedItem:{tag:{CustomModelData
 #ruins
 execute as @s[scores={RewardPoint=500..},nbt={SelectedItem:{tag:{CustomModelData:84}}}] run function mikatanserver:item/teleporter/area/ruins
 #dungeon thirteen
-execute as @s[scores={luck-Lv=125..,attackS-Lv=125..,attackD-Lv=125..,mana-Lv=125..,speed-Lv=125..,hp-Lv=125..},nbt={SelectedItem:{tag:{CustomModelData:86}}}] run function mikatanserver:item/teleporter/dungeon/seventeen/init
+execute as @s[scores={luck-Lv=125..,attackS-Lv=125..,attackD-Lv=125..,mana-Lv=125..,speed-Lv=125..,hp-Lv=125..},nbt={SelectedItem:{tag:{CustomModelData:86}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/seventeen/init
 #dungeon eightteen
-execute as @s[scores={luck-Lv=135..,attackS-Lv=135..,attackD-Lv=135..,mana-Lv=135..,speed-Lv=135..,hp-Lv=135..},nbt={SelectedItem:{tag:{CustomModelData:87}}}] run function mikatanserver:item/teleporter/dungeon/eightteen/init
+execute as @s[scores={luck-Lv=135..,attackS-Lv=135..,attackD-Lv=135..,mana-Lv=135..,speed-Lv=135..,hp-Lv=135..},nbt={SelectedItem:{tag:{CustomModelData:87}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/eightteen/init
 #masic_wind
 execute as @s[scores={luck-Lv=120..,attackS-Lv=120..,attackD-Lv=120..,mana-Lv=120..,speed-Lv=120..,hp-Lv=120..},nbt={SelectedItem:{tag:{CustomModelData:89}}}] run function mikatanserver:item/teleporter/masic_win
 #farm
@@ -181,7 +181,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}}] run function mikata
 #jungle
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}}] run function mikatanserver:item/teleporter/area/jungle
 #masic_wind
-execute as @s[scores={luck-Lv=150..,attackS-Lv=150..,attackD-Lv=150..,mana-Lv=150..,speed-Lv=150..,hp-Lv=150..,RewardPoint=3500..},nbt={SelectedItem:{tag:{CustomModelData:102}}}] run function mikatanserver:item/teleporter/dungeon/twenty/init
+execute as @s[scores={luck-Lv=150..,attackS-Lv=150..,attackD-Lv=150..,mana-Lv=150..,speed-Lv=150..,hp-Lv=150..,RewardPoint=3500..},nbt={SelectedItem:{tag:{CustomModelData:102}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twenty/init
 
 #tanzanite
 execute as @s[scores={luck-Lv=235..,attackS-Lv=235..,attackD-Lv=235..,mana-Lv=235..,speed-Lv=235..,hp-Lv=235..},nbt={SelectedItem:{tag:{CustomModelData:94}}}] run function mikatanserver:item/teleporter/tanzanitemaptp
@@ -190,7 +190,10 @@ execute as @s[scores={luck-Lv=260..,attackS-Lv=260..,attackD-Lv=260..,mana-Lv=26
 #moon_stone
 execute as @s[scores={luck-Lv=285..,attackS-Lv=285..,attackD-Lv=285..,mana-Lv=285..,speed-Lv=285..,hp-Lv=285..},nbt={SelectedItem:{tag:{CustomModelData:96}}}] run function mikatanserver:item/teleporter/moonstonemaptp
 #dungeon nineteen
-execute as @s[scores={luck-Lv=130..,attackS-Lv=130..,attackD-Lv=130..,mana-Lv=130..,speed-Lv=130..,hp-Lv=130..},nbt={SelectedItem:{tag:{CustomModelData:97}}}] run function mikatanserver:item/teleporter/dungeon/nineteen/init
+execute as @s[scores={luck-Lv=130..,attackS-Lv=130..,attackD-Lv=130..,mana-Lv=130..,speed-Lv=130..,hp-Lv=130..},nbt={SelectedItem:{tag:{CustomModelData:97}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/nineteen/init
+
+#masic_ice
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:103}}}] run function mikatanserver:item/teleporter/masic_ice
 
 
 ##XPboost
@@ -205,6 +208,8 @@ execute as @s[nbt={SelectedItem:{tag:{GiveXp:100}}}] run function mikatanserver:
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:30}}}] run function mikatanserver:item/givexp/30
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:5}}}] run function mikatanserver:item/givexp/5
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:1}}}] run function mikatanserver:item/givexp/1
+execute as @s[nbt={SelectedItem:{tag:{GiveMana:100}}},scores={mana-Lv=..99}] run function mikatanserver:item/givexp/mana/100
+
 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] run function mikatanserver:item/system/change_view_xp/main
 
@@ -227,6 +232,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:88}}}] at @s run function 
 ##属性
 execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] at @s run function mikatanserver:item/_attribute/fire/check
 execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] at @s run function mikatanserver:item/_attribute/wind/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:3}}}] at @s run function mikatanserver:item/_attribute/ice/check
 
 ##score Reset
 scoreboard players set @s ROD 0

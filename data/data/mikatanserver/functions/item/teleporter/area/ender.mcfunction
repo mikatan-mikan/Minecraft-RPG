@@ -1,4 +1,5 @@
 tag @s remove FieldEnder
+function mikatanserver:item/teleporter/tag/remove
 tag @s add ender_tp_after
 clear @s carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"オーバーワールドへ戻る"}]'}}
 execute in mikatanserver:dungeon run tp @s[tag=!DungeonPlay] 264.0 73.0 -289.5 180 0

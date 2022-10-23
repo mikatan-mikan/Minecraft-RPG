@@ -1,7 +1,7 @@
 ##5秒待ち
 execute as @a[scores={DungeonStartCnt14=..101},tag=CountLeader] run schedule function mikatanserver:adddim/dungeonmap_one/fourteendungeon/sleep 1t
 ##参加者が現れた場合
-execute at @a[tag=FourteenDLeader] as @a[distance=..5,tag=!DungeonStart14,scores={luck-Lv=95..,attackS-Lv=95..,attackD-Lv=95..,mana-Lv=95..,speed-Lv=95..,hp-Lv=95..}] run function mikatanserver:adddim/dungeonmap_one/fourteendungeon/challengeadd
+execute at @a[tag=FourteenDLeader] as @a[distance=..5,tag=!DungeonStart14,scores={luck-Lv=95..,attackS-Lv=95..,attackD-Lv=95..,mana-Lv=95..,speed-Lv=95..,hp-Lv=95..,QUEST_ENDER_LEVEL=3..}] run function mikatanserver:adddim/dungeonmap_one/fourteendungeon/challengeadd
 
 
 ##ダンジョンへワープ#startが全部同じだから多分バグる

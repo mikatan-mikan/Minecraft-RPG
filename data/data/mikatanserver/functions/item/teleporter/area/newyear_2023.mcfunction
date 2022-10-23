@@ -1,4 +1,5 @@
 tag @s remove FieldNewyear_2023
+function mikatanserver:item/teleporter/tag/remove
 tag @s add newyear_2023_tp_after
 clear @s carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"オーバーワールドへ戻る"}]'}}
 execute in mikatanserver:dungeon run tp @s[tag=!DungeonPlay] -121.5 261 368.5 43 0

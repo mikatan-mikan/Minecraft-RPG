@@ -1,4 +1,5 @@
 tag @s remove FieldIsland
+function mikatanserver:item/teleporter/tag/remove
 tag @s add island_tp_after
 clear @s carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"オーバーワールドへ戻る"}]'}}
 execute in mikatanserver:dungeon run tp @s[tag=!DungeonPlay] 384.5 97.0 -709.5 180 0

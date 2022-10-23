@@ -12,9 +12,6 @@ gamemode survival @a[predicate=mikatanserver:overworld,gamemode=adventure]
 # execute as @a[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
 # execute as @a[tag=FieldFarm,predicate=mikatanserver:overworld] run tag @s remove FieldFarm
 
-##BAN者対応
-execute as @a[scores={MoveCheck=200..},name="RoRota_"] run scoreboard players set @s ObsidianCount 0
-
 ##放置検知
 execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp/main
 execute as @a[scores={MoveCheck_Lite=100..}] at @s run function mikatanserver:main/removexp/luck

@@ -337,6 +337,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $350 int 350
     scoreboard players set $373 int 373
     scoreboard players set $400 int 400
+    scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
 
 
@@ -378,6 +379,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add nether_field_loop dummy
 
     ##5lvエンチャント/15lvエンチャント
+    scoreboard objectives add 3lvCount dummy
     scoreboard objectives add 5lvCount dummy
     scoreboard objectives add 10lvCount dummy
     scoreboard objectives add 15lvCount dummy
@@ -440,6 +442,10 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add EntityTimer dummy
 
     scoreboard objectives add MoveCheck_Lite minecraft.custom:minecraft.play_time
+
+    ##ender_quest_score
+    scoreboard objectives add QUEST_ENDER dummy
+    scoreboard objectives add QUEST_ENDER_LEVEL dummy
 
 
     

@@ -45,8 +45,8 @@ execute if score $14 BossHP matches ..0 run kill @s
         execute if entity @a[scores={FourteenBossSkill2=140},tag=BossBattle14] as @e[tag=FourteenDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/fourteendungeon/boss/skill/tp/main
 
     ##起爆
-        execute if entity @a[scores={FourteenBossSkill2=180},tag=BossBattle14] run tellraw @a[tag=DungeonPlay_14] [{"text": "略奪者>>","color": "dark_purple"},{"text": "ドラゴンの怒り！！","color": "gold"}]
-        execute if entity @a[scores={FourteenBossSkill2=180},tag=BossBattle14] as @e[tag=14_FrameAr] at @s run function mikatanserver:adddim/dungeonmap_one/fourteendungeon/boss/skill/bomb/main
+        execute if entity @a[scores={FourteenBossSkill2=160},tag=BossBattle14] run tellraw @a[tag=DungeonPlay_14] [{"text": "略奪者>>","color": "dark_purple"},{"text": "ドラゴンの怒り！！","color": "gold"}]
+        execute if entity @a[scores={FourteenBossSkill2=160},tag=BossBattle14] as @e[tag=14_FrameAr] at @s run function mikatanserver:adddim/dungeonmap_one/fourteendungeon/boss/skill/bomb/main
 
     ##ドラゴンの吐息
         execute if entity @a[scores={FourteenBossSkill2=250},tag=BossBattle14] at @s positioned ~ ~1.5 ~ run function mikatanserver:adddim/dungeonmap_one/fourteendungeon/boss/skill/dragon_bless/main

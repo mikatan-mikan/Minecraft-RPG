@@ -1,4 +1,4 @@
-scoreboard players set @s mobcount 0
+
 ##レア泥カウント判定＆リセ
 #zombie
 execute as @s[predicate=mikatanserver:chance/0.00001,scores={zombiecount=1..}] run function mikatanserver:main/lvup/raredrop/mob/zombie
@@ -38,4 +38,8 @@ execute if score @s MK.r.RandValue <= @s TMP run scoreboard players add @s attac
 ##actionbar
 function mikatanserver:main/lvup/_view/atks
 
+execute as @a[tag=FieldPlayer,scores={mobcount=1..}] at @s run function mikatanserver:adddim/area/_quest/check/main
+
 execute as @s[scores={attackS-Lv=..299}] run execute if score @s attackSxp >= @s needattackSxp run function mikatanserver:main/lvup/xpcount/atkspeedup
+
+scoreboard players set @s mobcount 0
