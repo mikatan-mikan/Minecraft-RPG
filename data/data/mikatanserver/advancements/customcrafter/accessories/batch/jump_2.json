@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:magma_cream",
+        "nbt": "{CustomModelData:51}"
+      },
+      "title": "重力に打ち勝って",
+      "description": "跳躍力上昇 tier2のバッチを作成する"
+    },
+    "parent": "mikatanserver:customcrafter/accessories/batch/jump",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/20"
+    }
+  }
+  

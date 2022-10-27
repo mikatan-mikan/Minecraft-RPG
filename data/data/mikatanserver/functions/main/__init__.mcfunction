@@ -293,6 +293,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add GoldenEggFlag dummy
     scoreboard objectives add SpiritMassFlag dummy
     scoreboard objectives add FarmingStoneFlag dummy
+    scoreboard objectives add GravityStoneFlag dummy
     scoreboard objectives add NowMobCount dummy
 
     

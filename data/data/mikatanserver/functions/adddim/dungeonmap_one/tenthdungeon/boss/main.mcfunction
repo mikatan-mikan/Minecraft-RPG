@@ -22,7 +22,3 @@ execute store result bossbar minecraft:tenthboss_bar value run data get entity @
 scoreboard objectives add TenBossSkill minecraft.custom:minecraft.play_time
 
 scoreboard objectives add TenBossSkill2 minecraft.custom:minecraft.play_time
-
-scoreboard objectives add Wind_Count dummy
-
-scoreboard objectives add Wind_Rot_Count dummy

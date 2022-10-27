@@ -1,0 +1,33 @@
+
+summon silverfish -158 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -157 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -156 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -155 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -154 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -153 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -152 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -151 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -150 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -149 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -148 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -147 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -146 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -145 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -144 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -143 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -142 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -141 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -140 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -139 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -138 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -137 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -136 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -135 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -134 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -133 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -132 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -131 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -130 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -129 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+summon silverfish -128 99 -230.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["22_impact_fish_dun_y","TwentytwoDunMob"]}
+tellraw @a[tag=DungeonPlay_22] [{"text": "iron blade>>","color": "gray"},{"text": "インパクトY！！","color": "gold"}]

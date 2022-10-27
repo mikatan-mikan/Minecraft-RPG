@@ -83,6 +83,10 @@ execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:93}}}] 
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:99}}}] at @s run function mikatanserver:item/rod/tact/three/main
 #rupture mana:55
 execute as @s[scores={mana=55..},nbt={SelectedItem:{tag:{CustomModelData:98}}}] at @s run function mikatanserver:item/rod/rupture/main
+#gravity mana:40
+execute as @s[scores={mana=40..},nbt={SelectedItem:{tag:{CustomModelData:107}}}] at @s run function mikatanserver:item/rod/gravity/main
+#golem mana:45
+execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:108}}}] at @s run function mikatanserver:item/rod/golem/main
 
 #純真エンチャント
 execute as @s[scores={mana=70..},nbt={SelectedItem:{tag:{inocent:[1]}}}] at @s run function mikatanserver:item/rod/inocent_ench/main
@@ -191,6 +195,11 @@ execute as @s[scores={luck-Lv=260..,attackS-Lv=260..,attackD-Lv=260..,mana-Lv=26
 execute as @s[scores={luck-Lv=285..,attackS-Lv=285..,attackD-Lv=285..,mana-Lv=285..,speed-Lv=285..,hp-Lv=285..},nbt={SelectedItem:{tag:{CustomModelData:96}}}] run function mikatanserver:item/teleporter/moonstonemaptp
 #dungeon nineteen
 execute as @s[scores={luck-Lv=130..,attackS-Lv=130..,attackD-Lv=130..,mana-Lv=130..,speed-Lv=130..,hp-Lv=130..},nbt={SelectedItem:{tag:{CustomModelData:97}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/nineteen/init
+#dungeon twentyone
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:104}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyone/init
+#dungeon twentytwo
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:105}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentytwo/init
+
 
 #masic_ice
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:103}}}] run function mikatanserver:item/teleporter/masic_ice
@@ -227,6 +236,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:61}}}] at @s run function 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:67}}}] at @s run function mikatanserver:item/add_stone/ender/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:79}}}] at @s run function mikatanserver:item/add_stone/egg/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:88}}}] at @s run function mikatanserver:item/add_stone/goddess/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:106}}}] at @s run function mikatanserver:item/add_stone/gravity/main
 
 
 ##属性

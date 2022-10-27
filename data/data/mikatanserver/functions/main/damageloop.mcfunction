@@ -33,3 +33,5 @@ execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if
 execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if predicate mikatanserver:chance/0.70 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:2}}]}] run scoreboard players add @s mana 1
 execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:3}}]}] run scoreboard players add @s mana 1
 scoreboard players set @s ManaBatchBool 1
+execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:51,tier:2}}]}] run effect clear @s jump_boost
+execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:51}}]}] run effect give @s jump_boost 1 0 true

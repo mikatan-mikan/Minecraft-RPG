@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:108}"
+      },
+      "title": "鉄を打って",
+      "description": "ゴーレムソードを作成する"
+    },
+    "parent": "mikatanserver:customcrafter/rod_and_sword/gravity_sp",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/20"
+    }
+  }
+  

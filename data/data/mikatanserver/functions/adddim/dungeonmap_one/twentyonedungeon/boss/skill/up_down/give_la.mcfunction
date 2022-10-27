@@ -1,0 +1,1 @@
+effect give @a[tag=DungeonPlay_21] levitation 1 50 true

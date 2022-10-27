@@ -14,8 +14,6 @@ tag @a[tag=DungeonPlay_10] add Return_Dun_10
 scoreboard players set $10 dungeon_play_now 0
 scoreboard objectives remove TenthDunDeath
 scoreboard objectives remove TenBossSkill
-scoreboard objectives remove Wind_Count
-scoreboard objectives remove Wind_Rot_Count
 kill @e[tag=TenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=TenDunMob]

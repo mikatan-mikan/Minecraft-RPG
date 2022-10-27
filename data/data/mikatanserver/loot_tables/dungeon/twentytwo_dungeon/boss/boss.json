@@ -1,0 +1,321 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type":"minecraft:item",
+          "weight":10,
+          "name": "minecraft:netherite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"enchanted iron\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":10,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":30,
+          "name": "minecraft:golden_apple",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":20,
+          "name": "minecraft:gold_block",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":15,
+          "name": "minecraft:lapis_ore",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":50,
+          "name": "minecraft:slime_ball",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 48,
+                "max": 64
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"sapphire\"}]'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":50,
+          "name": "minecraft:iron_ingot",
+          "functions":[
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 48,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 30\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"piece of satellite\"}]'}}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":16,
+                "max":48
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"Atrus powder\"}]'}}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":16,
+                "max":48
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"piece of Comet\"}]'}}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":16,
+                "max":48
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted ruby\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            },
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1,
+                "max":2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"enchanted coal\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[\"Golem Crystal\"]'},SkullOwner:{Id:[I;-142913477,143870502,-2104065451,-1097510633],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ1MTk0NjNkZTQ3OGQ2Nzk3MjY0NmM5MGFjZTA2Y2RhYTY2ODZkODkwNjNiMzUzNWQ0OTVmMTA2Y2Q0NjFhNCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[\"Golem Soul\"]'},SkullOwner:{Id:[I;-1791025873,-1477621276,-1566783247,390129000],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM0YjhjYjJmYTFkMjU0NDU2YWY5MDIwOWFmMjgzMDljYmIxOTBmODZlYmE0ZmU1ZjFiMGIyNmExNjYxZTIyIn19fQ==\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[\"golem helmet\"]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,Slot:\"head\",UUID:[I;915581423,-105458275,-295946392,525141]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"head\",UUID:[I;-212372333,307371239,101113870,56251354]},{AttributeName:\"minecraft:generic.attack_damage\",Amount:0.25,Operation:0,Slot:\"head\",UUID:[I;413413412,141,47345522,346356362]}],golem_ar:true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[\"golem chestplate\"]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8.0,Operation:0,Slot:\"chest\",UUID:[I;915581423,-105458275,-295946392,5364134]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"chest\",UUID:[I;-212372333,307371239,101113870,23542354]},{AttributeName:\"minecraft:generic.attack_damage\",Amount:0.5,Operation:0,Slot:\"chest\",UUID:[I;221243134,235463474,6345,346356362]}],golem_ar:true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[\"golem leggings\"]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6.0,Operation:0,Slot:\"legs\",UUID:[I;915581423,-105458275,-295946392,525141]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"legs\",UUID:[I;-212372333,307371239,101113870,56251354]},{AttributeName:\"minecraft:generic.attack_damage\",Amount:0.5,Operation:0,Slot:\"legs\",UUID:[I;413413412,141,47345522,346356362]}],golem_ar:true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[\"golem boots\"]'},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,Slot:\"feet\",UUID:[I;915581423,-6352152,-295946392,53618117]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"feet\",UUID:[I;-212372333,307371239,5135153,96471228]},{AttributeName:\"minecraft:generic.attack_damage\",Amount:0.25,Operation:0,Slot:\"feet\",UUID:[I;221243134,101234981,47352235,346356362]}],golem_ar:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

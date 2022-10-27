@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:88}"
         },
         "title": "女神がつぶやくその時",
-        "description": "goddess stoneの採掘権を得る\n============\n出現確率:0.01%\n対象:dungeon又はareaでのAtkSXP入手"
+        "description": "goddess stoneの採掘権を得る\n============\n出現確率:1%\n対象:dungeon又はareaでのAtkSXP入手"
     },
     "parent": "mikatanserver:customcrafter/add_stone/ender",
     "criteria": {
