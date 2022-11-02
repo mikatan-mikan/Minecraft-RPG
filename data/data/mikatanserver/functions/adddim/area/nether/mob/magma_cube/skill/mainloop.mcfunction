@@ -1,6 +1,6 @@
 particle lava ~ ~ ~ 2 0.3 2 0 20
 
-execute store result bossbar nether_magmaboss value run data get entity @e[tag=nether_magmacube,limit=1] Health
+execute store result bossbar nether_magmaboss value run scoreboard players get @e[tag=nether_magmacube,limit=1] mh.hp
 bossbar set nether_magmaboss players @a[tag=FieldNether]
 
 scoreboard players operation $10cnt TMP = $score TMP

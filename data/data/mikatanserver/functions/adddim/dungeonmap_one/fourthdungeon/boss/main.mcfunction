@@ -1,4 +1,4 @@
-execute in mikatanserver:dungeon run summon vindicator -450.5 230 88.5 {Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5},{Name:"minecraft:generic.armor",Base:12},{Name:"minecraft:generic.max_health",Base:600},{Name:"minecraft:generic.attack_damage",Base:38}],Health:600,Tags:["FourthDunBoss","FouDunMob"],Motion:[1.0,5.0,1.0]}
+execute in mikatanserver:dungeon run summon vindicator -450.5 230 88.5 {Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5},{Name:"minecraft:generic.armor",Base:12},{Name:"minecraft:generic.max_health",Base:600},{Name:"minecraft:generic.attack_damage",Base:38}],Health:600,Tags:["FourthDunBoss","FouDunMob","Dungeon_Boss"],Motion:[1.0,5.0,1.0]}
 scoreboard objectives remove BossSpawnTimer4
 bossbar add fourthboss_bar "Comet"
 bossbar set minecraft:fourthboss_bar players @a[tag=DungeonPlay_4]

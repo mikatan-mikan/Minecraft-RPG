@@ -27,6 +27,8 @@
     tag @s remove FieldPlayer
 ##クエストタグ
     execute if entity @s[tag=QUEST_PLAYER] run function mikatanserver:item/teleporter/tag/area/quest/check
+##レイドタグ
+    execute if entity @s[tag=RAID_Player] run function mikatanserver:item/teleporter/tag/raid/check
 ##鉱石タグ
     tag @s remove ore_charoite
     tag @s remove ore_peridot

@@ -4,6 +4,7 @@
       "mikatanserver:item/itemmanamainloopcheck",
       "mikatanserver:adddim/area/mainloop",
       "mikatanserver:adddim/dungeonmap_one/mainloop",
+      "mikatanserver:adddim/raid/mainloop",
       "oricra:main",
       "oriench:main",
       "orienhancer:main",

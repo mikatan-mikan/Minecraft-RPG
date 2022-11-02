@@ -25,7 +25,7 @@ execute as @a[scores={darkoakcount=1..},predicate=mikatanserver:oremapdim] run s
     execute as @a[scores={MoveCheck=12000..}] run scoreboard players set @s TimerCrystalTime 0
     execute as @a[scores={MoveCheck=..12000}] run scoreboard players add @s TimerCrystalTime 1
     execute as @a[scores={MoveCheck_walk=1..}] run scoreboard players set @s MoveCheck_Lite 0
-    execute as @a[scores={MoveCheck_dash=1..}] run scoreboard players set @s MoveCheck_Lite 0
+    execute as @a[scores={MoveCheck_dush=1..}] run scoreboard players set @s MoveCheck_Lite 0
     execute as @a[scores={MoveCheck_walk=1..,MoveCheck_shift=1..}] run function mikatanserver:main/walkreset
     execute as @a[scores={MoveCheck_dush=1..,MoveCheck_shift=1..}] run function mikatanserver:main/walkreset
     execute as @a[scores={TimerCrystalTime=72000..}] run function mikatanserver:main/give_item/orangegive

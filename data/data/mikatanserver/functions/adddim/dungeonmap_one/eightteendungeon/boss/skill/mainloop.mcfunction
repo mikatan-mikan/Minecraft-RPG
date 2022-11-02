@@ -13,6 +13,8 @@ scoreboard players operation $18_boss_hp_venus TMP -= $18_boss_hp_venus boss_hp_
 ##スコアからhpを減算する
 scoreboard players operation $18 BossHP -= $18_boss_hp_god TMP
 scoreboard players operation $18 BossHP -= $18_boss_hp_venus TMP
+##ダメージ表示
+execute at @s run function mh_rpgish:mob/non_bar/hp_changed
 ##ボス本体のhpを回復させる
 effect give @e[tag=EightteenDunBoss] instant_damage 1 200
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)

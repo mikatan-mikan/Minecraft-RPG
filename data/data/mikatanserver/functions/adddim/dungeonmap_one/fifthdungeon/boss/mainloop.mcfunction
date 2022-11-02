@@ -1,2 +1,2 @@
-execute store result bossbar minecraft:fifthboss_bar value run data get entity @e[tag=FifthDunBoss,limit=1] Health
+execute store result bossbar minecraft:fifthboss_bar value run scoreboard players get @e[tag=FifthDunBoss,limit=1] mh.hp
 execute as @e[tag=FifthDunBoss] run function mikatanserver:adddim/dungeonmap_one/fifthdungeon/boss/skill/mainloop

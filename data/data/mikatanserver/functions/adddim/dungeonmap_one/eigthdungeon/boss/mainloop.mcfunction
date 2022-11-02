@@ -1,2 +1,2 @@
-execute store result bossbar minecraft:eigthboss_bar value run data get entity @e[tag=EigthDunBoss,limit=1] Health
+execute store result bossbar minecraft:eigthboss_bar value run scoreboard players get @e[tag=EigthDunBoss,limit=1] mh.hp
 execute as @e[tag=EigthDunBoss] run function mikatanserver:adddim/dungeonmap_one/eigthdungeon/boss/skill/mainloop

@@ -200,6 +200,12 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:104}}}] at @s if predicate
 #dungeon twentytwo
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:105}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentytwo/init
 
+##slime raid
+    #ボスがいないなら召喚可能
+    execute as @s[nbt={SelectedItem:{tag:{CustomModelData:109}}}] at @s if predicate mikatanserver:overworld unless score $slime RAID_Flag matches 1 run function mikatanserver:adddim/raid/slime/call
+    #ボスがいるなら参加可能
+    execute as @s[nbt={SelectedItem:{tag:{CustomModelData:110}}}] at @s if predicate mikatanserver:overworld if score $slime RAID_Flag matches 1 run function mikatanserver:adddim/raid/slime/participation
+
 
 #masic_ice
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:103}}}] run function mikatanserver:item/teleporter/masic_ice
@@ -220,7 +226,7 @@ execute as @s[nbt={SelectedItem:{tag:{GiveXp:1}}}] run function mikatanserver:it
 execute as @s[nbt={SelectedItem:{tag:{GiveMana:100}}},scores={mana-Lv=..99}] run function mikatanserver:item/givexp/mana/100
 
 
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] run function mikatanserver:item/system/change_view_xp/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] at @s run function mikatanserver:item/system/change_view_xp/main
 
 #reward 称号 ice
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:41}}}] at @s run function mikatanserver:item/reward/ice

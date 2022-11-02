@@ -295,6 +295,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add FarmingStoneFlag dummy
     scoreboard objectives add GravityStoneFlag dummy
     scoreboard objectives add NowMobCount dummy
+    tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 
     
     tellraw @a [{"text": "completed add stone method...","color": "green","italic": true}]
@@ -313,6 +314,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add farming_judge_bool dummy
     #ダンジョンクリア回数
     scoreboard objectives add DungeonClear_Num dummy
+    tellraw @a [{"text": "completed initialize version 2.0 system...","color": "yellow","italic": true}]
 
     ##number set
     scoreboard objectives add int dummy
@@ -327,6 +329,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $9 int 9
     scoreboard players set $10 int 10
     scoreboard players set $16 int 16
+    scoreboard players set $20 int 20
+    scoreboard players set $50 int 50
     scoreboard players set $60 int 60
     scoreboard players set $65 int 65
     scoreboard players set $100 int 100
@@ -363,6 +367,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add BossHP dummy
 
     scoreboard objectives add EnderStoneFlag dummy
+    tellraw @a [{"text": "completed initialize version 2.1 system...","color": "yellow","italic": true}]
 
     ##ロッドタグ
     scoreboard objectives add embercount dummy
@@ -378,6 +383,7 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     ##ネザーエリア
     scoreboard objectives add nether_field_loop dummy
+    tellraw @a [{"text": "completed initialize version 2.2 system...","color": "yellow","italic": true}]
 
     ##5lvエンチャント/15lvエンチャント
     scoreboard objectives add 3lvCount dummy
@@ -395,9 +401,11 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add field_mobcount minecraft.custom:minecraft.mob_kills
 
     scoreboard objectives add ench_experiencecraft dummy
+    tellraw @a [{"text": "completed initialize version 2.3 system...","color": "yellow","italic": true}]
 
     ##attribute number
     scoreboard objectives add Enhancer.Attribute dummy
+    tellraw @a [{"text": "completed initialize version 2.4 system...","color": "yellow","italic": true}]
 
     ##boss hp減算用変数
     scoreboard objectives add boss_hp_checker dummy
@@ -418,6 +426,7 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add ART.mana dummy
         scoreboard objectives add ART.luck dummy
         scoreboard objectives add ART.hp dummy
+    tellraw @a [{"text": "completed initialize version 2.5 system...","color": "yellow","italic": true}]
 
     scoreboard objectives add Dun_ROD minecraft.used:minecraft.carrot_on_a_stick
 
@@ -448,9 +457,11 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add QUEST_ENDER dummy
     scoreboard objectives add QUEST_ENDER_LEVEL dummy
 
+    scoreboard objectives add RAID_Flag dummy
+
 
     
-    tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
+    tellraw @a [{"text": "completed initialize version 2.6 system...","color": "yellow","italic": true}]
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver1.6\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

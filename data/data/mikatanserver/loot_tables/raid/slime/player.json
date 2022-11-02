@@ -1,0 +1,284 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 70,
+                    "name": "minecraft:lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:slime_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 30,
+                    "name": "minecraft:slime_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"piece of satellite\"}]'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"piece of Comet\"}]'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:gold_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:copper_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:slime_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 48,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"charoite\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted Atrus Powder\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Slime Spirit\",\"color\":\"green\"}]'},SkullOwner:{Id:[I;-75927169,-2043328963,-1463466488,-1680031955],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA1ZmQ4N2VlNmQ0MGMzMGM1MDM0NGZmZGY5MDBiMjgyNDE4MWMyNjNmZjM1Mzk1YjdiNzM3NGI1ZGFjY2RkNCJ9fX0=\"}]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Slime head\",\"color\":\"green\"}]'},SkullOwner:{Id:[I;987339854,-165526917,-1592368837,-85270771],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU0NTdmNDYyNjdjZDc2NWVmMDQ1NDY3Yjk4ODRiNzAyOWEzMjJhMjM5MGY1ZDllZGE0OGZlYWI2MWNlZDRmMyJ9fX0=\"}]}},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,UUID:[I;1423416136,242234292,633452134,4134234],Slot:\"head\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;1423416136,242342342,63937134,413423423],Slot:\"head\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;142234136,249282342,63937134,413423423],Slot:\"head\"}],slime_ar:true}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Slime chestplate\",\"color\":\"green\"}]',color:3735302},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:8,Operation:0,UUID:[I;654654,242234292,633452134,1684134234],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;984126652,242342342,63937134,204562423],Slot:\"chest\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;624785136,249282342,63937134,1695523423],Slot:\"chest\"}],slime_ar:true}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Slime leggings\",\"color\":\"green\"}]',color:3735302},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:6,Operation:0,UUID:[I;654654,242234292,39252134,1684134234],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;984126652,920342342,63937134,204562423],Slot:\"legs\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;620085136,1829282342,63937134,1695523423],Slot:\"legs\"}],slime_ar:true}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Slime boots\",\"color\":\"green\"}]',color:3735302},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,UUID:[I;654654,242234292,39252134,8726424],Slot:\"feet\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;984126652,920343202,1063937134,204562423],Slot:\"feet\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;620085136,182942492,1263937134,1695523423],Slot:\"feet\"}],slime_ar:true}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

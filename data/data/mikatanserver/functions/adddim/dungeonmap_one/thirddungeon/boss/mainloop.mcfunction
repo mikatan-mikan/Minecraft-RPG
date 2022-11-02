@@ -1,1 +1,1 @@
-execute store result bossbar minecraft:thirdboss_bar value run data get entity @e[tag=ThirdDunBoss,limit=1] Health
+execute store result bossbar minecraft:thirdboss_bar value run scoreboard players get @e[tag=ThirdDunBoss,limit=1] mh.hp

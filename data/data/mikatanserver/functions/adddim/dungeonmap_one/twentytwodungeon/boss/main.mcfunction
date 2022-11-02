@@ -1,5 +1,5 @@
 ##初期呼び出し
-execute in mikatanserver:dungeon run summon iron_golem -143.5 100 -245.5 {CustomNameVisible:1,Glowing:1,Health:1024,Attributes:[{Name:"minecraft:generic.max_health",Base:1024},{Name:"minecraft:generic.follow_range",Base:20},{Name:"minecraft:generic.knockback_resistance",Base:1d},{Name:"minecraft:generic.movement_speed",Base:0.9},{Name:"minecraft:generic.attack_damage",Base:20}],Tags:["TwentytwoDunBoss","TwentytwoDunMob"]}
+execute in mikatanserver:dungeon run summon iron_golem -143.5 100 -245.5 {CustomNameVisible:1,Glowing:1,Health:1024,Attributes:[{Name:"minecraft:generic.max_health",Base:1024},{Name:"minecraft:generic.follow_range",Base:20},{Name:"minecraft:generic.knockback_resistance",Base:1d},{Name:"minecraft:generic.movement_speed",Base:0.9},{Name:"minecraft:generic.attack_damage",Base:20}],Tags:["TwentytwoDunBoss","TwentytwoDunMob","Non_HPBar","Dungeon_Boss"]}
 
 #execute as @e[tag=FourteenDunBoss] store result score @s MobNowHP run data get entity @s Health
 scoreboard objectives remove BossSpawnTimer22

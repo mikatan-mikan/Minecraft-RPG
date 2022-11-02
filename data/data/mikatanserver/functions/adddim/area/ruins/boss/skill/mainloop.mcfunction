@@ -1,6 +1,6 @@
 particle witch ~ ~ ~ 0.2 0.2 0.2 1 5
 
-execute store result bossbar ruins_witch value run data get entity @s Health
+execute store result bossbar ruins_witch value run scoreboard players get @s mh.hp
 bossbar set ruins_witch players @a[tag=FieldRuins]
 
 tp @e[tag=Ruins_BossNowPlaceAr] @s

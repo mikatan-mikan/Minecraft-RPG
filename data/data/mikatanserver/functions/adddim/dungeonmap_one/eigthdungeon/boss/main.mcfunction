@@ -1,4 +1,4 @@
-execute in mikatanserver:dungeon run summon elder_guardian -93 142 512 {Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5},{Name:"minecraft:generic.armor",Base:12},{Name:"minecraft:generic.max_health",Base:600},{Name:"minecraft:generic.attack_damage",Base:25}],Health:600,Tags:["EigthDunBoss","EigDunMob"]}
+execute in mikatanserver:dungeon run summon elder_guardian -93 142 512 {Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5},{Name:"minecraft:generic.armor",Base:12},{Name:"minecraft:generic.max_health",Base:600},{Name:"minecraft:generic.attack_damage",Base:25}],Health:600,Tags:["EigthDunBoss","EigDunMob","Dungeon_Boss"]}
 scoreboard objectives remove BossSpawnTimer8
 bossbar add eigthboss_bar "Comet"
 bossbar set minecraft:eigthboss_bar players @a[tag=DungeonPlay_8]

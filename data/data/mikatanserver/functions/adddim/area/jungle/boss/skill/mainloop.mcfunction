@@ -1,6 +1,6 @@
 particle block oak_leaves ~ ~ ~ 2 0.3 2 0 20
 
-execute store result bossbar jungle_zombie value run data get entity @e[tag=Jungle_Boss,limit=1] Health
+execute store result bossbar jungle_zombie value run scoreboard players get @e[tag=Jungle_Boss,limit=1] mh.hp
 bossbar set jungle_zombie players @a[tag=FieldJungle]
 
 scoreboard players operation $10cnt TMP = $score TMP

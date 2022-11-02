@@ -1,5 +1,5 @@
 
-execute store result bossbar minecraft:sixthboss_bar value run data get entity @e[tag=SixthDunBoss,limit=1] Health
+execute store result bossbar minecraft:sixthboss_bar value run scoreboard players get @e[tag=SixthDunBoss,limit=1] mh.hp
 execute in mikatanserver:dungeon positioned -425.5 115 -161 run kill @e[type=magma_cube,distance=..100]
 clear @a[tag=DungeonPlay_6] #boats
 

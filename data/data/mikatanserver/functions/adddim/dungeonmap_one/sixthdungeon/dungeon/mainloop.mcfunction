@@ -1,5 +1,5 @@
 
-execute store result bossbar minecraft:sixthboss_bar value run data get entity @e[tag=SixthDunBoss,limit=1] Health
+execute store result bossbar minecraft:sixthboss_bar value run scoreboard players get @e[tag=SixthDunBoss,limit=1] mh.hp
 
 ##skill healing
 execute if entity @a[scores={SixBossSkill1=70},tag=DungeonPlay_6] as @e[tag=SixthDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/sixthdungeon/dungeon/boss/skill/healing/main

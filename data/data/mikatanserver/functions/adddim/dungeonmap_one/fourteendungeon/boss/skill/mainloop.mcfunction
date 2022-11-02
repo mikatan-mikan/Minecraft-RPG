@@ -8,6 +8,9 @@ scoreboard players operation $14_boss_hp TMP = $1024 int
 scoreboard players operation $14_boss_hp TMP -= $boss_hp 14_boss_hp_checker
 ##スコアからhpを減算する
 scoreboard players operation $14 BossHP -= $14_boss_hp TMP
+#execute unless data entity @s {Health:1024.0f} run 
+##ダメージ表示
+execute at @s run function mh_rpgish:mob/non_bar/hp_changed
 ##ボス本体のhpを回復させる
 effect give @s instant_damage 1 200
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)

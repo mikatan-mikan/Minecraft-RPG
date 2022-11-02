@@ -1,4 +1,4 @@
-execute in mikatanserver:dungeon run summon magma_cube -437.5 115 -166.5 {Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5},{Name:"minecraft:generic.armor",Base:15},{Name:"minecraft:generic.max_health",Base:500},{Name:"minecraft:generic.attack_damage",Base:40}],Health:700,Tags:["SixthDunBoss","SixDunMob","magma_6"],Size:5}
+execute in mikatanserver:dungeon run summon magma_cube -437.5 115 -166.5 {Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0.5},{Name:"minecraft:generic.armor",Base:15},{Name:"minecraft:generic.max_health",Base:500},{Name:"minecraft:generic.attack_damage",Base:40}],Health:700,Tags:["SixthDunBoss","SixDunMob","magma_6","Dungeon_Boss"],Size:5}
 
 execute as @a[tag=DungeonPlay_6] at @s run playsound entity.wither.spawn master @a[tag=DungeonPlay_6] ~ ~ ~ 2 1
 
