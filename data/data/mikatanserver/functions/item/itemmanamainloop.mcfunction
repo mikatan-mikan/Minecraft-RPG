@@ -184,8 +184,10 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikata
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}}] run function mikatanserver:item/teleporter/area/newyear_2023
 #jungle
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}}] run function mikatanserver:item/teleporter/area/jungle
-#masic_wind
+#dungeon 20
 execute as @s[scores={luck-Lv=150..,attackS-Lv=150..,attackD-Lv=150..,mana-Lv=150..,speed-Lv=150..,hp-Lv=150..,RewardPoint=3500..},nbt={SelectedItem:{tag:{CustomModelData:102}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twenty/init
+#masic_light
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:112}}}] run function mikatanserver:item/teleporter/masic_light
 
 #tanzanite
 execute as @s[scores={luck-Lv=235..,attackS-Lv=235..,attackD-Lv=235..,mana-Lv=235..,speed-Lv=235..,hp-Lv=235..},nbt={SelectedItem:{tag:{CustomModelData:94}}}] run function mikatanserver:item/teleporter/tanzanitemaptp
@@ -249,6 +251,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:106}}}] at @s run function
 execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] at @s run function mikatanserver:item/_attribute/fire/check
 execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] at @s run function mikatanserver:item/_attribute/wind/check
 execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:3}}}] at @s run function mikatanserver:item/_attribute/ice/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:4}}}] at @s run function mikatanserver:item/_attribute/light/check
 
 ##score Reset
 scoreboard players set @s ROD 0

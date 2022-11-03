@@ -47,3 +47,4 @@
     tag @s remove ore_citrin
     tag @s remove ore_tanzanite
     tag @s remove ore_icemasic
+    tag @s remove ore_lightmasic

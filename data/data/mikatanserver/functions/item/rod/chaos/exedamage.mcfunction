@@ -22,5 +22,4 @@ execute if score @e[distance=..6,limit=1,type=armor_stand,tag=ChaosAr] ChaosArEx
 execute if score @e[distance=..6,limit=1,type=armor_stand,tag=ChaosAr] ChaosArExeTimer matches 120 run function mikatanserver:main/manyuse/damage
 
 
-execute as @e[scores={ChaosArExeTimer=120}] run kill @s
 
