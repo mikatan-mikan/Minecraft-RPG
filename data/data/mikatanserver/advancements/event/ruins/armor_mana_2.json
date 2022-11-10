@@ -5,7 +5,7 @@
         "nbt": "{display:{color:7536821}}"
       },
       "title": "古代の魔法",
-      "description": "masician_armor armorを作成する"
+      "description": "masician armorを作成する"
     },
     "parent": "mikatanserver:event/ruins/tp",
     "criteria": {

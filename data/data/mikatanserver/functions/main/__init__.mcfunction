@@ -334,6 +334,12 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $60 int 60
     scoreboard players set $65 int 65
     scoreboard players set $100 int 100
+    scoreboard players set $101 int 101
+    scoreboard players set $102 int 102
+    scoreboard players set $103 int 103
+    scoreboard players set $104 int 104
+    scoreboard players set $105 int 105
+    scoreboard players set $106 int 106
     scoreboard players set $190 int 190
     scoreboard players set $200 int 200
     scoreboard players set $256 int 256

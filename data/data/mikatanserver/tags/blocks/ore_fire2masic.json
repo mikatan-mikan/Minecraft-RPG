@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "netherrack",
+        "red_stained_glass",
+        "nether_bricks",
+        "soul_lantern",
+        "lantern",
+        "chain"
+    ]
+}

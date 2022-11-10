@@ -1,5 +1,6 @@
 tellraw @a [{"text": "[system]","color": "yellow"},{"text": "レイドボス<キングスライム>の討伐に失敗しました","color": "red"}]
 
+tp @e[tag=RAID_SlimeMob] ~ ~-129 ~
 kill @e[tag=RAID_SlimeMob]
 scoreboard players set $slime RAID_Flag 0
 bossbar remove minecraft:raid_slime_bossbar
@@ -12,5 +13,5 @@ tag @a remove RAID_Slime_Player
 tag @a remove RAID_Slime_Player_2
 tag @a remove RAID_Player
 
-scoreboard objectives remove RAID_Sime_Skill
+scoreboard objectives remove RAID_Slime_Skill
 scoreboard players reset $slime RAID_Flag

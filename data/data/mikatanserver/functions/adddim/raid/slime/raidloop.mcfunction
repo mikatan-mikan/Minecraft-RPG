@@ -1,12 +1,21 @@
 ##ボス視点
-scoreboard players add $timer RAID_Sime_Skill 1
+scoreboard players add $timer RAID_Slime_Skill 1
+
+
+##二体以上スライムがいる場合の処理(例外処理)
+execute store result score $slimes RAID_Slime_Skill if entity @e[type=slime,distance=..10]
+    #もし2以上なら一体を奈落にtpした後killをする
+    execute if score $slimes RAID_Slime_Skill matches 2.. as @e[type=slime,distance=0.01..10] at @s run function mikatanserver:adddim/raid/slime/exception/double_slime
 
 execute facing entity @p eyes run tp @s ~ ~ ~
 
 ##残り時間の計算
-scoreboard players operation $20t RAID_Sime_Skill = $cnt RAID_Sime_Skill 
-scoreboard players operation $20t RAID_Sime_Skill %= $20 int
-execute if score $20t RAID_Slime_Skill matches 0 run function mikatanserver:adddim/raid/slime/set_time
+scoreboard players operation $20t RAID_Slime_Skill = $cnt RAID_Slime_Skill 
+scoreboard players operation $20t RAID_Slime_Skill %= $20 int
+execute if score $20t RAID_Slime_Skill matches 1 run function mikatanserver:adddim/raid/slime/set_time
+execute if score $12000 RAID_Slime_Skill matches 0..9 run bossbar set raid_slime_bossbar name [{"text":"キングスライム","color": "green"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Slime_Skill"}},{"text": ":0"},{"score":{"name": "$12000","objective": "RAID_Slime_Skill"}}]
+execute unless score $12000 RAID_Slime_Skill matches 0..9 run bossbar set raid_slime_bossbar name [{"text":"キングスライム","color": "green"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Slime_Skill"}},{"text": ":"},{"score":{"name": "$12000","objective": "RAID_Slime_Skill"}}]
+
 
 ##この辺りにHP管理+途中抜けして帰ってきたときには既にスライムがおらず帰れないのでプレイヤーをkillするためのフラグをセットする処理を書く(killするのは./mainloop.mcfunction内)
 ##bossの現在HPをgetする
@@ -19,7 +28,7 @@ scoreboard players operation $raid_slime BossHP -= $raid_slime TMP
 ##ボス本体のhpを回復させる
 effect give @s instant_health 1 200
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
-execute if score $cnt RAID_Sime_Skill matches 100.. if score $raid_slime BossHP matches ..0 run kill @s
+execute if score $cnt RAID_Slime_Skill matches 100.. if score $raid_slime BossHP matches ..0 run kill @s
 execute store result bossbar minecraft:raid_slime_bossbar value run scoreboard players get $raid_slime BossHP
 
 bossbar set minecraft:raid_slime_bossbar players @a
@@ -32,19 +41,19 @@ tag @a[distance=..60] add RAID_Slime_Player_2
 tag @a[distance=..60] add RAID_Player
 
 ##スキル用変数
-execute if score $timer RAID_Sime_Skill matches 1 run function mikatanserver:adddim/raid/slime/skill/rand
+execute if score $timer RAID_Slime_Skill matches 1 run function mikatanserver:adddim/raid/slime/skill/rand
 
 ##30m以内
-    execute if score $timer RAID_Sime_Skill matches 20..280 if score @s MK.r.RandValue matches 0 run function mikatanserver:adddim/raid/slime/skill/near/call
-    execute if score $timer RAID_Sime_Skill matches 280 if score @s MK.r.RandValue matches 0 run function mikatanserver:adddim/raid/slime/skill/near/main
+    execute if score $timer RAID_Slime_Skill matches 20..280 if score @s MK.r.RandValue matches 0 run function mikatanserver:adddim/raid/slime/skill/near/call
+    execute if score $timer RAID_Slime_Skill matches 280 if score @s MK.r.RandValue matches 0 run function mikatanserver:adddim/raid/slime/skill/near/main
 ##10mより遠い
-    execute if score $timer RAID_Sime_Skill matches 20..280 if score @s MK.r.RandValue matches 1 run function mikatanserver:adddim/raid/slime/skill/far/call
-    execute if score $timer RAID_Sime_Skill matches 280 if score @s MK.r.RandValue matches 1 run function mikatanserver:adddim/raid/slime/skill/far/main
+    execute if score $timer RAID_Slime_Skill matches 20..280 if score @s MK.r.RandValue matches 1 run function mikatanserver:adddim/raid/slime/skill/far/call
+    execute if score $timer RAID_Slime_Skill matches 280 if score @s MK.r.RandValue matches 1 run function mikatanserver:adddim/raid/slime/skill/far/main
 ##十字
-    execute if score $timer RAID_Sime_Skill matches 20..280 if score @s MK.r.RandValue matches 2 run function mikatanserver:adddim/raid/slime/skill/cross/call
-    execute if score $timer RAID_Sime_Skill matches 280 if score @s MK.r.RandValue matches 2 run function mikatanserver:adddim/raid/slime/skill/cross/main
+    execute if score $timer RAID_Slime_Skill matches 20..280 if score @s MK.r.RandValue matches 2 run function mikatanserver:adddim/raid/slime/skill/cross/call
+    execute if score $timer RAID_Slime_Skill matches 280 if score @s MK.r.RandValue matches 2 run function mikatanserver:adddim/raid/slime/skill/cross/main
 ##ランダム地点
-    execute if score $timer RAID_Sime_Skill matches 20..280 if score @s MK.r.RandValue matches 3 run function mikatanserver:adddim/raid/slime/skill/random/call
-    execute if score $timer RAID_Sime_Skill matches 280 if score @s MK.r.RandValue matches 3 run function mikatanserver:adddim/raid/slime/skill/random/main
+    execute if score $timer RAID_Slime_Skill matches 20..280 if score @s MK.r.RandValue matches 3 run function mikatanserver:adddim/raid/slime/skill/random/call
+    execute if score $timer RAID_Slime_Skill matches 280 if score @s MK.r.RandValue matches 3 run function mikatanserver:adddim/raid/slime/skill/random/main
 
-execute if score $timer RAID_Sime_Skill matches 300.. run scoreboard players set $timer RAID_Sime_Skill 0
+execute if score $timer RAID_Slime_Skill matches 300.. run scoreboard players set $timer RAID_Slime_Skill 0

@@ -188,7 +188,6 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}}] run function mikat
 execute as @s[scores={luck-Lv=150..,attackS-Lv=150..,attackD-Lv=150..,mana-Lv=150..,speed-Lv=150..,hp-Lv=150..,RewardPoint=3500..},nbt={SelectedItem:{tag:{CustomModelData:102}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twenty/init
 #masic_light
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:112}}}] run function mikatanserver:item/teleporter/masic_light
-
 #tanzanite
 execute as @s[scores={luck-Lv=235..,attackS-Lv=235..,attackD-Lv=235..,mana-Lv=235..,speed-Lv=235..,hp-Lv=235..},nbt={SelectedItem:{tag:{CustomModelData:94}}}] run function mikatanserver:item/teleporter/tanzanitemaptp
 #citrin
@@ -201,6 +200,12 @@ execute as @s[scores={luck-Lv=130..,attackS-Lv=130..,attackD-Lv=130..,mana-Lv=13
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:104}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyone/init
 #dungeon twentytwo
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:105}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentytwo/init
+#masic_dark
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:113}}}] run function mikatanserver:item/teleporter/masic_dark
+#masic_fire2
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:114}}}] run function mikatanserver:item/teleporter/masic_fire2
+#cherry
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:115}}}] run function mikatanserver:item/teleporter/area/cherryblossom
 
 ##slime raid
     #ボスがいないなら召喚可能
@@ -248,10 +253,13 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:106}}}] at @s run function
 
 
 ##属性
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] at @s run function mikatanserver:item/_attribute/fire/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] at @s run function mikatanserver:item/_attribute/wind/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:3}}}] at @s run function mikatanserver:item/_attribute/ice/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:4}}}] at @s run function mikatanserver:item/_attribute/light/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/fire/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/wind/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:3}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/ice/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:4}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/light/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:5}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/dark/check
+execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:101}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/tier_2/flame/check
+
 
 ##score Reset
 scoreboard players set @s ROD 0

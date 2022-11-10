@@ -1,2 +1,2 @@
-scoreboard players operation $50t RAID_Sime_Skill = $timer RAID_Sime_Skill
-scoreboard players operation $50t RAID_Sime_Skill %= $50 int
+scoreboard players operation $50t RAID_Slime_Skill = $timer RAID_Slime_Skill
+scoreboard players operation $50t RAID_Slime_Skill %= $50 int

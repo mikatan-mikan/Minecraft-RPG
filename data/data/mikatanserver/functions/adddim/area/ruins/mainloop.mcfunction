@@ -23,7 +23,7 @@
         execute if score $ruins_boss_flag field_loop matches 1 unless entity @e[type=witch,tag=Area_Ruins_Boss] run function mikatanserver:adddim/area/ruins/boss/death
 
     ##ruins vinus
-    execute as @a[scores={field_mobcount=1..},predicate=mikatanserver:chance/0.015] at @s run function mikatanserver:adddim/area/ruins/mob/vinus
+    execute as @a[scores={field_mobcount=1..},tag=FieldRuins,predicate=mikatanserver:chance/0.015] at @s run function mikatanserver:adddim/area/ruins/mob/vinus
     scoreboard players set @a field_mobcount 0
 
     ##witch masic

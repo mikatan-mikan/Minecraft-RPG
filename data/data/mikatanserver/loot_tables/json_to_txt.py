@@ -104,7 +104,7 @@ def arrange_json(nbt) -> str:
                     add.append(point)
                     add.append(i)
             elif nbt[i] == "," and cut == [False,False]:#次の要素の始まり
-                if isint(nbt[point:i - 1]) == True:
+                if isint(nbt[point:i - 1]) == True and nbt[i - 1] != "}":
                     add.append(point)
                     add.append(i)
                 flag = 1
@@ -115,7 +115,7 @@ def arrange_json(nbt) -> str:
     return nbt
 
 def arrange_space(line_msg) -> dict:
-    for i in range(20 - len(line_msg["item"])):
+    for i in range(50 - len(line_msg["item"])):
         line_msg["item"] += " "
     return line_msg
 
@@ -163,7 +163,7 @@ def main():
     print(os.path.basename(path))
     for i in range(len(file["pools"])):
         print(f'\n抽選回数({file["pools"][i]["rolls"]})')
-        print("item                | chance|drop_cnt")
+        print("item                                              | chance|drop_cnt")
         all_chance = all_chance_check(i)
         for j in range(len(file["pools"][i]["entries"])):
             drop_data = create_one_line(i,j,all_chance)

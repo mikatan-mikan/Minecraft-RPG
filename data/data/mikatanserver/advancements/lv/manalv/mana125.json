@@ -32,6 +32,6 @@
     ]
   ],
   "rewards": {
-    "function": "mikatanserver:rewards/30"
+    "function": "mikatanserver:rewards/mana/lv125"
   }
 }

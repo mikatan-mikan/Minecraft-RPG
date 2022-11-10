@@ -129,7 +129,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:53,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<とてもとても長い道>>\",\"color\":\"green\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+                "tag": "{CustomModelData:10,display:{Name:'[{\"text\":\"テレポート->始まりのダンジョン\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv10以上\"}]']}}"
               }
             ],
             "name": "minecraft:carrot_on_a_stick"
@@ -147,7 +147,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:18,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\":\"そこにあるもの\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv75以上\"}]']}}"
+                "tag": "{CustomModelData:14,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【高難易度】\",\"color\": \"red\"},{\"text\":\"その輝きは彗星の如き・・・\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv60以上\"}]']}}"
               }
             ],
             "name": "minecraft:carrot_on_a_stick"
@@ -187,6 +187,24 @@
               }
             ],
             "name": "minecraft:player_head"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":2,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"obsidian leggings\"}]',Lore:['[{\"text\":\"obsidianを1スタック所持していると、マナ経験値が10%で+1される\"}]'],color:0},HideFlags:1,Unbreakable:1b,obsidian_leggings:1b}"
+              }
+            ],
+            "name": "minecraft:leather_leggings"
           }
         ]
       },
