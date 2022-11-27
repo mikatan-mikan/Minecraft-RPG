@@ -348,6 +348,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $350 int 350
     scoreboard players set $373 int 373
     scoreboard players set $400 int 400
+    scoreboard players set $512 int 512
     scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
 
@@ -394,6 +395,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     ##5lvエンチャント/15lvエンチャント
     scoreboard objectives add 3lvCount dummy
     scoreboard objectives add 5lvCount dummy
+    scoreboard objectives add 5lv_2Count dummy
     scoreboard objectives add 10lvCount dummy
     scoreboard objectives add 15lvCount dummy
 
@@ -465,9 +467,22 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add RAID_Flag dummy
 
+    scoreboard objectives add UseFireWorks minecraft.used:minecraft.firework_rocket
+
 
     
     tellraw @a [{"text": "completed initialize version 2.6 system...","color": "yellow","italic": true}]
 
+    scoreboard objectives add ironblockselfcount minecraft.mined:minecraft.iron_block
+
+    scoreboard objectives add bulletrodtimer dummy
+    
+    ##ender_quest_score
+    scoreboard objectives add QUEST_NETHER dummy
+    scoreboard objectives add QUEST_NETHER_LEVEL dummy
+    
+    #榴杖
+    scoreboard objectives add devilwandcount minecraft.custom:minecraft.play_time
+
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
-tellraw @a [{"text": "ver : mikatan server main code ver1.6\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
+tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

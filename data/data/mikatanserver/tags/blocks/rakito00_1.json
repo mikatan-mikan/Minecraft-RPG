@@ -63,6 +63,8 @@
     "minecraft:dirt_path",
     "minecraft:fern",
     "minecraft:tripwire",
-    "minecraft:campfire"
+    "minecraft:campfire",
+    "minecraft:deepslate",
+    "minecraft:infested_cobblestone"
   ]
 }

@@ -17,6 +17,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     ## 乱数を加算後3を引いて座標を算出
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
+function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
 summon zombie -219.5 92 880.5 {Tags:["RU.Field_TagBefHardendZombie"],DeathLootTable:"mikatanserver:area/ruins/hardend",Attributes:[{Name:"minecraft:generic.max_health",Base:50},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.attack_damage",Base:35},{Name:"minecraft:generic.movement_speed",Base:0.43}],CustomName:'[{"text": "ruins hardend zombie"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s}]}},{id:"minecraft:diamond_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s}]}},{id:"minecraft:diamond_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:diamond_block",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s}]}}],Silent:true,Health:80}
 execute store result entity @e[tag=RU.Field_TagBefHardendZombie,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX

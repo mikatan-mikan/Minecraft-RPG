@@ -17,6 +17,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     ## 乱数を加算後3を引いて座標を算出
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
+function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
 summon witch -218.5 92 879.5 {Tags:["RU.Field_TagBefWitch"],DeathLootTable:"mikatanserver:area/ruins/witch",Attributes:[{Name:"minecraft:generic.max_health",Base:100},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.attack_damage",Base:35},{Name:"minecraft:generic.movement_speed",Base:0.2}],CustomName:'[{"text": "ruins witch"}]',Silent:true,Health:100}
 execute store result entity @e[tag=RU.Field_TagBefWitch,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX

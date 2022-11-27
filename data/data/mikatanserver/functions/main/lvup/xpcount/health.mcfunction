@@ -1,6 +1,7 @@
 scoreboard players remove @s tradecount 1
 
 scoreboard players add @s hpxp 1
+scoreboard players add @s[scores={hp-Lv=..99}] hpxp 4
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:7}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s hpxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:8}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s hpxp 1

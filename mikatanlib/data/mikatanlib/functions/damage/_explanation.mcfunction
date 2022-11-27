@@ -1,0 +1,2 @@
+tellraw @s [{"text":"rand","color": "gold","bold": true},{"text": ":","color": "white"},{"text":"\nメソッドcall:[mikatanlib:damage/main]","color": "red","italic": true,"underlined": true}]
+tellraw @s [{"text":"--使用方法","color": "light_purple","bold": true},{"text": ":","color": "white"},{"text":"自身の\"MK.attack.damage\"にダメージを代入し呼び出すことで防御無視ダメージを与えます","color": "aqua","italic": true,"underlined": true}]

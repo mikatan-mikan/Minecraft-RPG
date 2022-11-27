@@ -1,0 +1,1 @@
+tellraw @a[name="$tmp"] [{"text":"y = "},{"score":{"name":"@s","objective":"NowPlaceY"},"color":"red"},{"text":" "},{"text":"x = "},{"score":{"name":"@s","objective":"NowPlaceX"},"color":"red"}]

@@ -1,5 +1,7 @@
-scoreboard players remove @s mana 30
+scoreboard players set $mana TMP 30
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
-effect give @s instant_health 1 1
+effect give @s instant_health 1 0
 playsound entity.experience_orb.pickup master @s ~ ~ ~ 2 2
 particle heart ~ ~ ~ 0.3 0.8 0.3 3 50

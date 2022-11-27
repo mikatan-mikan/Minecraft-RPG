@@ -129,7 +129,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[{\"text\":\"farming boots\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"blue\"}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている。\"}]','[{\"text\":\" オニオンのドロップ数が増加する\"}]']},onion_ar:1b}"
+                "tag": "{display:{Name:'[{\"text\":\"farming boots\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"gray\",\"italic\":false}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている\",\"color\":\"blue\",\"italic\":false}]','[{\"text\":\" オニオンのドロップ数が増加する\",\"color\":\"blue\",\"italic\":false}]']},onion_ar:1b}"
               }
             ],
             "name": "minecraft:leather_boots"
@@ -147,7 +147,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[{\"text\":\"farming leggings\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"blue\"}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている。\"}]','[{\"text\":\" オニオンのドロップ数が増加する\"}]']},onion_ar:1b}"
+                "tag": "{display:{Name:'[{\"text\":\"farming leggings\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"gray\",\"italic\":false}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている\",\"color\":\"blue\",\"italic\":false}]','[{\"text\":\" オニオンのドロップ数が増加する\",\"color\":\"blue\",\"italic\":false}]']},onion_ar:1b}"
               }
             ],
             "name": "minecraft:leather_leggings"
@@ -165,7 +165,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[{\"text\":\"farming chestplate\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"blue\"}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている。\"}]','[{\"text\":\" オニオンのドロップ数が増加する\"}]']},onion_ar:1b}"
+                "tag": "{display:{Name:'[{\"text\":\"farming chestplate\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"gray\",\"italic\":false}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている\",\"color\":\"blue\",\"italic\":false}]','[{\"text\":\" オニオンのドロップ数が増加する\",\"color\":\"blue\",\"italic\":false}]']},onion_ar:1b}"
               }
             ],
             "name": "minecraft:leather_chestplate"
@@ -183,7 +183,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[{\"text\":\"farming helmet\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"blue\"}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている。\"}]','[{\"text\":\" オニオンのドロップ数が増加する\"}]']},onion_ar:1b}"
+                "tag": "{display:{Name:'[{\"text\":\"farming helmet\",\"color\":\"yellow\"}]',color:16776960,Lore:['[{\"text\":\"オニオンファーマー\",\"color\":\"gray\",\"italic\":false}]','[{\"text\":\" 条件：オニオン採取時にfarming防具で統一されている\",\"color\":\"blue\",\"italic\":false}]','[{\"text\":\" オニオンのドロップ数が増加する\",\"color\":\"blue\",\"italic\":false}]']},onion_ar:1b}"
               }
             ],
             "name": "minecraft:leather_helmet"

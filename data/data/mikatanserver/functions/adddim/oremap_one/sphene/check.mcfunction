@@ -7,7 +7,7 @@ execute as @e[scores={removesapAr=200..},tag=spheneArmor] at @s run function mik
 ##スフェーン変換&持ち込み削除
 clear @s yellow_concrete
 
-execute as @s[scores={spheneselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:yellow_concrete",Count:1b}},distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sphene"}]'},CustomModelData:3} 1
+execute as @s[scores={spheneselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:yellow_concrete",Count:1b}},distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sphene"}]'},CustomModelData:3} 4
 execute as @s[scores={spheneselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:yellow_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sphene"}]'},CustomModelData:3} 1
 execute as @s[scores={spheneselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:yellow_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sphene"}]'},CustomModelData:3} 1
 execute as @s[scores={spheneselfcount=1..}] at @s if entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:yellow_concrete",Count:1b}},predicate=mikatanserver:chance/0.30,distance=..5] run give @s slime_ball{display:{Name:'[{"text":"sphene"}]'},CustomModelData:3} 1

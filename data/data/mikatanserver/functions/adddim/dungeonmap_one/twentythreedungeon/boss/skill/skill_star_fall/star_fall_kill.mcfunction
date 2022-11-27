@@ -1,0 +1,1 @@
+kill @e[tag=TwentythreeD_StarFall,type=armor_stand]

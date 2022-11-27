@@ -1,6 +1,7 @@
 scoreboard players set @s enchantcount 0
 
 scoreboard players add @s manaxp 1
+scoreboard players add @s[scores={mana-Lv=..99}] manaxp 4
 
 
 function mikatanserver:main/lvup/_accessory/mana

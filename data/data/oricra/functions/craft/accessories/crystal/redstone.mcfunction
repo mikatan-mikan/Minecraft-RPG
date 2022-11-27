@@ -3,7 +3,7 @@ data merge block ~ ~ ~ {Items:[]}
 playsound minecraft:block.smithing_table.use master @p
 
 #アイテム
-item replace block ~ ~ ~ container.4 with minecraft:magma_cream{display:{Name:'[{"text": "redstone crystal","color":"red"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率でエンチャント時のxpが倍になる"}]']},CustomModelData:13} 1
+item replace block ~ ~ ~ container.4 with minecraft:magma_cream{display:{Name:'[{"text": "redstone crystal","color":"red"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率でエンチャント時のxpが+1される"}]']},CustomModelData:13} 1
 
 #進捗
 advancement grant @p only mikatanserver:customcrafter/accessories/crystal/redstone

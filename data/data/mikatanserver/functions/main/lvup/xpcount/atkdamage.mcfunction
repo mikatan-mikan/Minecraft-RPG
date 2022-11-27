@@ -19,8 +19,9 @@ scoreboard players set @s DirtCount 0
 scoreboard players set @s GrassCount 0
 
 scoreboard players add @s attackDxp 2
+scoreboard players add @s[scores={attackD-Lv=..99}] attackDxp 3
 
-scoreboard players add @s[scores={AtkBoost_1 = 1..}] attackDxp 1
+scoreboard players add @s[scores={AtkBoost_1 = 1..}] attackDxp 2
 
 
 execute as @s[scores={ForestStoneFlag=1},predicate = mikatanserver:chance/0.005] at @s run function mikatanserver:main/drap_stone/forest_stone

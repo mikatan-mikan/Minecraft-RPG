@@ -23,7 +23,7 @@ execute as @s[scores={mana=55..},nbt={SelectedItem:{tag:{CustomModelData:25}}}] 
 execute as @s[scores={mana=15..},nbt={SelectedItem:{tag:{CustomModelData:27}}}] at @s run function mikatanserver:item/rod/villagertp/main
 #summon zombie mana:20
 execute as @s[scores={mana=20..},nbt={SelectedItem:{tag:{CustomModelData:28}},Inventory:[{id:"minecraft:diamond_block"}]}] at @s run function mikatanserver:item/rod/summonzombie/main
-#healingrod mana:30
+#healingrod mana:35
 execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:34}}}] at @s run function mikatanserver:item/rod/healing/main
 #just guard mana:5
 execute as @s[scores={mana=5..},nbt={SelectedItem:{tag:{CustomModelData:35}}}] at @s run function mikatanserver:item/rod/justguard/main
@@ -72,7 +72,7 @@ execute as @s[scores={mana = 50..},nbt={SelectedItem:{tag:{CustomModelData:73}}}
 #crystal
 execute as @s[scores={mana = 100..},nbt={SelectedItem:{tag:{CustomModelData:75}}}] at @s run function mikatanserver:item/rod/crystal/main
 # aspect of the end
-execute as @s[scores={mana = 50..},nbt={SelectedItem:{tag:{CustomModelData:76}}}] at @s if block ^ ^ ^1 air if block ^ ^ ^2 air if block ^ ^ ^3 air if block ^ ^ ^4 air if block ^ ^ ^5 air if block ^ ^ ^6 air if block ^ ^ ^7 air if block ^ ^ ^8 air run function mikatanserver:item/rod/aspect_of_the_end/main
+execute as @s[scores={mana = 50..},nbt={SelectedItem:{tag:{CustomModelData:76}}}] at @s anchored eyes if block ^ ^ ^1 air if block ^ ^ ^2 air if block ^ ^ ^3 air if block ^ ^ ^4 air if block ^ ^ ^5 air if block ^ ^ ^6 air if block ^ ^ ^7 air if block ^ ^ ^8 air run function mikatanserver:item/rod/aspect_of_the_end/main
 #投剣:45
 execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:78}}}] at @s run function mikatanserver:item/rod/through_2/main
 #pumpkin:30
@@ -87,6 +87,10 @@ execute as @s[scores={mana=55..},nbt={SelectedItem:{tag:{CustomModelData:98}}}] 
 execute as @s[scores={mana=40..},nbt={SelectedItem:{tag:{CustomModelData:107}}}] at @s run function mikatanserver:item/rod/gravity/main
 #golem mana:45
 execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:108}}}] at @s run function mikatanserver:item/rod/golem/main
+#bullet mana:30
+execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:118}}}] at @s run function mikatanserver:item/rod/bullet/main
+#devil mana:30
+execute as @s[scores={devilwandcount = 200..},nbt={SelectedItem:{tag:{CustomModelData:120}}}] at @s run function mikatanserver:item/rod/devil/main
 
 #純真エンチャント
 execute as @s[scores={mana=70..},nbt={SelectedItem:{tag:{inocent:[1]}}}] at @s run function mikatanserver:item/rod/inocent_ench/main
@@ -167,7 +171,7 @@ execute as @s[scores={luck-Lv=100..,attackS-Lv=100..,attackD-Lv=100..,mana-Lv=10
 #island
 execute as @s[scores={RewardPoint=2300..},nbt={SelectedItem:{tag:{CustomModelData:80}}}] run function mikatanserver:item/teleporter/area/island
 #halloween
-execute as @s[scores={RewardPoint=2300..},nbt={SelectedItem:{tag:{CustomModelData:81}}}] run function mikatanserver:item/teleporter/area/halloween
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:81}}}] run function mikatanserver:item/teleporter/area/halloween
 #クリスマス 2022
 execute as @s[scores={RewardPoint=400..},nbt={SelectedItem:{tag:{CustomModelData:83}}}] run function mikatanserver:item/teleporter/_event_christmas_2022
 #ruins
@@ -206,6 +210,12 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:113}}}] run function mikat
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:114}}}] run function mikatanserver:item/teleporter/masic_fire2
 #cherry
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:115}}}] run function mikatanserver:item/teleporter/area/cherryblossom
+#cave
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:116}}}] run function mikatanserver:item/teleporter/area/cave
+#nether tier2
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:117}}}] run function mikatanserver:item/teleporter/area/nether_tier2
+#dungeon fourth
+execute as @s[scores={luck-Lv=65..,attackS-Lv=65..,attackD-Lv=65..,mana-Lv=65..,speed-Lv=65..,hp-Lv=65..},nbt={SelectedItem:{tag:{CustomModelData:119}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentythree/init
 
 ##slime raid
     #ボスがいないなら召喚可能

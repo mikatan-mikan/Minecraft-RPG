@@ -1,6 +1,7 @@
 
 
 scoreboard players add @s luckxp 1
+scoreboard players add @s[scores={luck-Lv=..99}] luckxp 4
 
 scoreboard players add @s[scores={LuckBoost_9 = 1..}] luckxp 9
 

@@ -17,6 +17,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     ## 乱数を加算後3を引いて座標を算出
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
+function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
 summon enderman 243.5 74 -385.5 {Tags:["Field_TagBefEnder"],DeathLootTable:"mikatanserver:area/ender/enderman",Attributes:[{Name:"minecraft:generic.max_health",Base:10}],CustomName:'[{"text": "zealot"}]'}
 execute store result entity @e[tag=Field_TagBefEnder,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX

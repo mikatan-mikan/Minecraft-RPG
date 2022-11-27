@@ -1,0 +1,4 @@
+summon armor_stand ~1 ~1 ~ {Tags:["TwentythreeDunMob","TwentythreeD_StarFall","TwentythreeD_StarFall_1"],Invisible:1b,Small:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:iron_block",Count:1b}]}
+summon armor_stand ~-0.5 ~1 ~0.86602540378 {Tags:["TwentythreeDunMob","TwentythreeD_StarFall","TwentythreeD_StarFall_2"],Invisible:1b,Small:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:iron_block",Count:1b}]}
+summon armor_stand ~-0.5 ~1 ~-0.86602540378 {Tags:["TwentythreeDunMob","TwentythreeD_StarFall","TwentythreeD_StarFall_3"],Invisible:1b,Small:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:iron_block",Count:1b}]}
+tellraw @a[tag=DungeonPlay_23] [{"text": "Comet>>","color": "aqua"},{"text": "Star Fall!!","color": "yellow"}]

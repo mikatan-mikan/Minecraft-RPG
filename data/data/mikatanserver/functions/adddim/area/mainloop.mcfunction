@@ -12,3 +12,5 @@ execute if entity @a[tag=FieldFarm,scores={LogCheck_Timer=600..},predicate=mikat
 execute if entity @a[tag=FieldNewyear_2023,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/newyear_2023/mainloop
 execute if entity @a[tag=FieldJungle,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/jungle/mainloop
 execute if entity @a[tag=FieldCherryblossom,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/cherryblossom/mainloop
+execute if entity @a[tag=FieldCave,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/cave/mainloop
+execute if entity @a[tag=FieldNether_2,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/nether_tier2/mainloop

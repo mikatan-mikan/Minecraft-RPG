@@ -7,7 +7,7 @@ execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,sc
 execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=70}] at @s run playsound entity.enderman.teleport master @a[distance=..15] ~ ~ ~ 1 0.3
 execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=80}] at @s run playsound entity.enderman.teleport master @a[distance=..15] ~ ~ ~ 1 0.6
 execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=90}] at @s run playsound entity.enderman.teleport master @a[distance=..15] ~ ~ ~ 1 0.9
-execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=60..100}] at @s as @e[distance=..10,type=#mikatanserver:mobs] at @s run tp @s @e[distance=..10,limit=1,type=armor_stand,tag=ChaosAr] 
+execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=60..100}] at @s as @e[distance=..10,type=#mikatanserver:mobs,sort=nearest,limit=20] at @s run tp @s @e[distance=..10,limit=1,type=armor_stand,tag=ChaosAr] 
 
 execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=120}] at @s run playsound entity.generic.explode master @a[distance=..15] ~ ~ ~ 1 1.5
 execute as @a[tag=ChaosExer,limit=1] at @s as @e[type=armor_stand,tag=ChaosAr,scores={ChaosArExeTimer=120}] at @s run particle explosion ~ ~ ~ 1 1 1 0 10

@@ -28,4 +28,4 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{armor_angel:1b}},{Slot:101b
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{armor_forest:1b}},{Slot:101b,tag:{armor_forest:1b}},{Slot:102b,tag:{armor_forest:1b}},{Slot:103b,tag:{armor_forest:1b}}]}] run function mikatanserver:item/rod/rare_stone_wand_2/forest_full/mana
 
 #かんざし
-execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:33}}]}] run effect give @s saturation 1 0
+execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:33}}]}] if score @s mana-Lv matches 125.. run effect give @s saturation 1 0

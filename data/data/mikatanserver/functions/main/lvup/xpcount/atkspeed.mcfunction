@@ -7,6 +7,7 @@ execute as @s[predicate=mikatanserver:chance/0.00001,scores={creepercount=1..}] 
 scoreboard players set @s creepercount 0
 
 scoreboard players add @s attackSxp 1
+scoreboard players add @s[scores={attackS-Lv=..99}] attackSxp 4
 
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:16}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s attackSxp 1

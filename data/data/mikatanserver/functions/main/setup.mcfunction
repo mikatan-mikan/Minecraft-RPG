@@ -38,7 +38,7 @@
 
     tellraw @s [{"text": "initialize flag and dungeon method...","color": "green","italic": true}]
 
-    tellraw @s [{"text": "completed setup!!","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
+    tellraw @s [{"text": "completed setup!!\n","color": "gold"},{"text":"再ログインを推奨します"},{"text":"\n\n=====================================================","color": "aqua"}]
 
 
-give @s carrot_on_a_stick{GiveXp:1000} 1
+give @s carrot_on_a_stick{GiveXp:1000,display:{Name:'[{"text": "右クリックして xp + 1000"}]'}} 1

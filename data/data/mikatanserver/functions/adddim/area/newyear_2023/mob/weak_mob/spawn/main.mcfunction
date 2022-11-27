@@ -17,6 +17,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     ## 乱数を加算後3を引いて座標を算出
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
+function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
 scoreboard players set @s MK.r.RandValue 2
 function mikatanlib:rand/rand_exe

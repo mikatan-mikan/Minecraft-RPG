@@ -1,0 +1,43 @@
+particle portal ~0 ~ ~-5 0 0 0 0 1
+particle portal ~0.78217 ~ ~-4.93844 0 0 0 0 1
+particle portal ~1.54508 ~ ~-4.75528 0 0 0 0 1
+particle portal ~2.26995 ~ ~-4.45503 0 0 0 0 1
+particle portal ~2.93893 ~ ~-4.04508 0 0 0 0 1
+particle portal ~3.53553 ~ ~-3.53553 0 0 0 0 1
+particle portal ~4.04508 ~ ~-2.93893 0 0 0 0 1
+particle portal ~4.45503 ~ ~-2.26995 0 0 0 0 1
+particle portal ~4.75528 ~ ~-1.54508 0 0 0 0 1
+particle portal ~4.93844 ~ ~-0.78217 0 0 0 0 1
+particle portal ~5 ~ ~0 0 0 0 0 1
+particle portal ~4.93844 ~ ~0.78217 0 0 0 0 1
+particle portal ~4.75528 ~ ~1.54508 0 0 0 0 1
+particle portal ~4.45503 ~ ~2.26995 0 0 0 0 1
+particle portal ~4.04508 ~ ~2.93893 0 0 0 0 1
+particle portal ~3.53553 ~ ~3.53553 0 0 0 0 1
+particle portal ~2.93893 ~ ~4.04508 0 0 0 0 1
+particle portal ~2.26995 ~ ~4.45503 0 0 0 0 1
+particle portal ~1.54508 ~ ~4.75528 0 0 0 0 1
+particle portal ~0.78217 ~ ~4.93844 0 0 0 0 1
+particle portal ~0 ~ ~5 0 0 0 0 1
+particle portal ~-0.78217 ~ ~4.93844 0 0 0 0 1
+particle portal ~-1.54508 ~ ~4.75528 0 0 0 0 1
+particle portal ~-2.26995 ~ ~4.45503 0 0 0 0 1
+particle portal ~-2.93893 ~ ~4.04508 0 0 0 0 1
+particle portal ~-3.53553 ~ ~3.53553 0 0 0 0 1
+particle portal ~-4.04508 ~ ~2.93893 0 0 0 0 1
+particle portal ~-4.45503 ~ ~2.26995 0 0 0 0 1
+particle portal ~-4.75528 ~ ~1.54508 0 0 0 0 1
+particle portal ~-4.93844 ~ ~0.78217 0 0 0 0 1
+particle portal ~-5 ~ ~0 0 0 0 0 1
+particle portal ~-4.93844 ~ ~-0.78217 0 0 0 0 1
+particle portal ~-4.75528 ~ ~-1.54508 0 0 0 0 1
+particle portal ~-4.45503 ~ ~-2.26995 0 0 0 0 1
+particle portal ~-4.04508 ~ ~-2.93893 0 0 0 0 1
+particle portal ~-3.53553 ~ ~-3.53553 0 0 0 0 1
+particle portal ~-2.93893 ~ ~-4.04508 0 0 0 0 1
+particle portal ~-2.26995 ~ ~-4.45503 0 0 0 0 1
+particle portal ~-1.54508 ~ ~-4.75528 0 0 0 0 1
+particle portal ~-0.78217 ~ ~-4.93844 0 0 0 0 1
+
+
+playsound minecraft:block.bell.use master @a[distance=..5] ~ ~ ~ 1.2 0.7

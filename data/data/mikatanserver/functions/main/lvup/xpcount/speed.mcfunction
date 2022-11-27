@@ -33,6 +33,7 @@ scoreboard players set @s D_diamond_ore_cnt 0
 scoreboard players set @s D_emerald_ore_cnt 0
 
 scoreboard players add @s speedxp 1
+scoreboard players add @s[scores={speed-Lv=..99}] speedxp 4
 
 ##symbol
 execute as @s[scores={AngelStoneFlag=1},predicate = mikatanserver:chance/0.001] at @s run function mikatanserver:main/drap_stone/angel_stone
@@ -46,6 +47,7 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomM
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:19}}]},predicate=mikatanserver:chance/0.30] run scoreboard players add @s speedxp 1
 execute as @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:37}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s speedxp 1
 execute as @s[nbt={Inventory:[{"Slot":102b,id:"minecraft:leather_chestplate",tag:{obsidian_chestplate:1b}},{id:"minecraft:obsidian",Count:64b}]},predicate=mikatanserver:chance/0.1] run scoreboard players add @s speedxp 1
+execute as @s[nbt={Inventory:[{"Slot":100b,tag:{cave_ar:true}},{"Slot":101b,tag:{cave_ar:true}},{"Slot":102b,tag:{cave_ar:true}},{"Slot":103b,tag:{cave_ar:true}}]},predicate=mikatanserver:chance/0.01] run experience add @s 7 points
 
 ##石を掘ったときレア泥
 execute as @s[predicate=mikatanserver:chance/0.000002] run function mikatanserver:main/lvup/raredrop/speed

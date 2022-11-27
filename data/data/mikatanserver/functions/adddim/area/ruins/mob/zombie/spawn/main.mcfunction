@@ -17,6 +17,7 @@ scoreboard players operation @s NowPlaceY *= $10 int
     ## 乱数を加算後3を引いて座標を算出
     scoreboard players operation @s NowPlaceY += @s MK.r.RandValue
     scoreboard players remove @s NowPlaceY 30
+function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
 summon zombie -218.5 92 880.5 {Tags:["RU.Field_TagBefZombie"],DeathLootTable:"mikatanserver:area/ruins/zombie",Attributes:[{Name:"minecraft:generic.max_health",Base:30},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.attack_damage",Base:25}],CustomName:'[{"text": "ruins zombie"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"minecraft:zombie_head",Count:1b}],Health:40}
 execute store result entity @e[tag=RU.Field_TagBefZombie,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX

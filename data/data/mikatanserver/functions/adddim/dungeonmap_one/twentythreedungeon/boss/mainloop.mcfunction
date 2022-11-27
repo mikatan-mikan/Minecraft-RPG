@@ -1,0 +1,2 @@
+execute store result bossbar minecraft:twentythreeboss_bar value run scoreboard players get $23 BossHP
+execute as @e[tag=TwentythreeDunBoss] run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/mainloop

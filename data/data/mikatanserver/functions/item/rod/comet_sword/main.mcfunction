@@ -1,4 +1,8 @@
-scoreboard players remove @s mana 15
+scoreboard players set $mana TMP 15
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
+
+execute if entity @s[nbt={SelectedItem:{tag:{tier:2}}}] run function mikatanserver:item/rod/comet_sword/tier2/mana
 
 #彗星召喚
 summon armor_stand ~ ~20 ~ {Tags:["StarSword_Comet","beforeresultAr"],Invisible:1b,Invulnerable:1b,ArmorItems:[{},{},{},{id:"minecraft:lapis_block",Count:1b,tag:{Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}],Small:1b}

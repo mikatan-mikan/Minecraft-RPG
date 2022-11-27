@@ -1,10 +1,10 @@
-
+scoreboard players set @s tradecount 0
 ##エリアタグ
     tag @s remove new_year2021P
     tag @s remove tp_after
     tag @s remove FieldEnder
-    tag @s remove FieldNether
-    tag @s remove FieldRuins
+    #tag @s remove FieldNether
+    #tag @s remove FieldRuins
     tag @s remove FieldIsland
     clear @s iron_pickaxe{island_item:true}
     clear @s stone_axe{island_item:true}
@@ -12,10 +12,14 @@
     tag @s remove Fieldfarm
     clear @s wooden_hoe{area_farming_item:true}
     tag @s remove FieldNewyear_2023
-    tag @s remove FieldJungle
+    #tag @s remove FieldJungle
     tag @s remove FieldCherryblossom
-    execute as @a[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
-    execute as @a[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
+    tag @s remove FieldCave
+    clear @s diamond_pickaxe{cave_item:true}
+    execute as @s[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
+    execute as @s[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
+    execute as @s[tag=FieldJungle,predicate=mikatanserver:overworld] run function mikatanserver:main/event/jungle/reset_bossbar
+    execute as @s[tag=FieldNether_2,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether_tier2/reset_bossbar
     tag @s remove ender_tp_after
     tag @s remove nether_tp_after
     tag @s remove ruins_tp_after
@@ -25,6 +29,7 @@
     tag @s remove newyear_2023_tp_after
     tag @s remove jungle_tp_after
     tag @s remove cherryblossom_tp_after
+    tag @s remove cave_tp_after
     #alltag
     tag @s remove FieldPlayer
 ##クエストタグ

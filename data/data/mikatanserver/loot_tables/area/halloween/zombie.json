@@ -147,7 +147,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:18,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\":\"そこにあるもの\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv75以上\"}]']}}"
+                "tag": "{CustomModelData:14,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【高難易度】\",\"color\": \"red\"},{\"text\":\"その輝きは彗星の如き・・・\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv60以上\"}]']}}"
               }
             ],
             "name": "minecraft:carrot_on_a_stick"

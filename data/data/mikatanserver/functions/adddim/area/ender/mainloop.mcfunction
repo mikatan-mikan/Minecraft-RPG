@@ -7,14 +7,9 @@
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldEnder] run function mikatanserver:adddim/area/ender/mob/wither/spawn/spawncheck
 
     ## キレてるエンダーマンを検知する
-    execute as @e[tag=field_ender_angryflag] run function mikatanserver:adddim/area/ender/mob/enderman/angry/main
+    # execute as @e[tag=field_ender_angryflag] run function mikatanserver:adddim/area/ender/mob/enderman/angry/main
 
-    ##サモアイ判定
-    execute as @a[scores={field_EnderKillCnt=1..},tag=FieldEnder] at @s if predicate mikatanserver:chance/0.02 run function mikatanserver:adddim/area/ender/mob/summon_eye_ender
-    execute as @a[scores={field_EnderKillCnt=1..},tag=FieldEnder,nbt={Inventory:[{id:"minecraft:chainmail_boots",Count:1b,Slot:100b,tag:{ender_ar:1b}}]}] at @s if predicate mikatanserver:chance/0.02 run function mikatanserver:adddim/area/ender/mob/summon_eye_ender
-    execute as @a[scores={field_EnderKillCnt=1..},tag=FieldEnder,nbt={Inventory:[{id:"minecraft:chainmail_leggings",Count:1b,Slot:101b,tag:{ender_ar:1b}}]}] at @s if predicate mikatanserver:chance/0.02 run function mikatanserver:adddim/area/ender/mob/summon_eye_ender
-    execute as @a[scores={field_EnderKillCnt=1..},tag=FieldEnder,nbt={Inventory:[{id:"minecraft:chainmail_chestplate",Count:1b,Slot:102b,tag:{ender_ar:1b}}]}] at @s if predicate mikatanserver:chance/0.02 run function mikatanserver:adddim/area/ender/mob/summon_eye_ender
-    scoreboard players set @a field_EnderKillCnt 0
+
 
     ##村人に話しかけたなら
     execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/1] at @s run function mikatanserver:adddim/area/ender/villager/talk_1

@@ -9,7 +9,7 @@ item replace block ~ ~ ~ container.4 with minecraft:player_head{display:{Name:'[
 scoreboard players set @p farming_judge_bool 0
 execute as @p run function mikatanserver:main/lvup/luck/farming/
 ##んで1が返ってきたらヨシ！ってことで1つレベルをあげよう()
-execute if score @p farming_judge_bool matches 1 run function oricra:craft/enchantbook/farming/lifesteal_2
+execute if score @p farming_judge_bool matches 1 run function oricra:craft/enchantbook/farming/box/lifesteal_2
 execute if score @p farming_judge_bool matches 1 run tellraw @p [{"text": "[system]","color": "yellow"},{"text": "幸運の風が吹いている・・・","color": "green"}]
 # execute if entity @p[scores={FarmingLuckPT=1},predicate=mikatanserver:chance/0.01] run function oricra:craft/enchantbook/farming/lifesteal_2
 # execute if entity @p[scores={FarmingLuckPT=2},predicate=mikatanserver:chance/0.02] run function oricra:craft/enchantbook/farming/lifesteal_2

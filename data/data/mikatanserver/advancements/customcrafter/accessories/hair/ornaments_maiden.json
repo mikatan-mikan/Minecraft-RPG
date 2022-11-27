@@ -4,8 +4,9 @@
             "item": "minecraft:magma_cream",
             "nbt": "{CustomModelData:50}"
         },
-        "title": "巫の意志を復元するもの",
-        "description": "巫の髪飾り<白金>を作成する"
+        "title": "それは高貴なる自身の意志・・・",
+        "description": "巫の髪飾り<白金>を作成する",
+        "frame": "challenge"
     },
     "parent": "mikatanserver:customcrafter/accessories/hair/ornaments_gold",
     "criteria": {

@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 35
+scoreboard players set $mana TMP 35
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 tag @s add burtexe
 
