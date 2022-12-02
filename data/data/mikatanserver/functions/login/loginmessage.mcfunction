@@ -1,6 +1,8 @@
 
 function mikatanserver:main/lvup/_lvset
 function mikatanserver:item/teleporter/tag/raid/check
+function mikatanserver:main/utils_num/get_alllv
+# team join PlayerUI @s
 execute if score @s LogCheck_Timer matches 20 run playsound entity.player.levelup master @s ~ ~ ~ 2 1
 execute if score @s LogCheck_Timer matches 20 run tellraw @s [{"text": "welcome to "},{"text": "mikatan server","color": "gold"}]
 execute if score @s LogCheck_Timer matches 20 run tellraw @s [{"text": ">>","color": "aqua"},{"text": "レベルについて","color": "green","hoverEvent": {"action": "show_text","contents": [{"text": "Hp Xp","color": "light_purple"},{"text": ":村人との交易で得ることができ、25Lvあたり1上昇します\n","color": "white"},{"text": "AtkD Xp","color": "red"},{"text": "木こりによってXpを上昇させることができ、1Lvあたり2%上昇します\n","color": "white"},{"text": "AtkS Xp","color": "gold"},{"text": ":敵との戦闘によりXpを得られ、1Lvあたり0.1%上昇します\n","color": "white"},{"text": "Luck Xp","color": "green"},{"text": ":釣りと作物の回収によりXpが得られ、1Lvあたりluckが0.3%上昇、farmingluckが0.1%ずつ上昇\n","color": "white"},{"text": "Speed Xp","color": "aqua"},{"text": ":基本的な石の採掘によってXpを得ることができ、1Lvあたり0.3%上昇します\n","color": "white"},{"text": "Mana Xp","color": "blue"},{"text": ":エンチャントにより上昇し1Lvあたり1上昇します","color": "white"}]}},{"text": "<<","color": "aqua"}]

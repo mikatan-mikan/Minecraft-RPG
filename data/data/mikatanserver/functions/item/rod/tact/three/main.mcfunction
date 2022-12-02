@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 70
+scoreboard players set $mana TMP 45
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 
 scoreboard players set @s MK.r.RandValue 2

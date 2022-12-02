@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt":"{CustomModelData:125}"
+      },
+      "title": "音の響き",
+      "description": "violinを作成する"
+    },
+    "parent": "mikatanserver:customcrafter/music/mallet",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/music/15"
+    }
+  }
+  

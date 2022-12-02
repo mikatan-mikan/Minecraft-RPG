@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Id:[I;-658315617,1345341002,-1441385699,1450688462],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRkODE3ZGMzMThmZDZiNWQxNTM1ZGYxMmIwOTgxMTdiMzhkOGIxNmVlNDc5MTZiNDEzZTQ5N2M3YmViNWUxZSJ9fX0=\"}]}}}"
+      },
+      "title": "解き放たれる思い出と聖杯",
+      "description": "マナのバッチ(tier2)を作成する"
+    },
+    "parent": "mikatanserver:customcrafter/accessories/batch/mana_2",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/15"
+    }
+  }
+  

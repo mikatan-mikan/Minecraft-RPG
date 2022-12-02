@@ -1,6 +1,5 @@
 scoreboard players add @s attackS-Lv 1
-execute at @s run particle minecraft:happy_villager ~ ~1 ~ 1 1 1 1 500
-playsound minecraft:entity.player.levelup master @s ~ ~ ~ 2 0 1
+execute unless score @s IsLvUpSound matches 1 run function mikatanserver:main/lvup/xpcount/_soundpar/main
 title @s subtitle [{"text":"combat level ->","color":"gold"},{"score":{"name":"@s","objective":"attackS-Lv"},"color":"gold"}]
 title @s title {"text":"AttackSpd LV \u0020UP!!","underlined":true,"color":"red"}
 tellraw @a [{"text": ""},{"text": "[System] ","color": "yellow"},{"selector":"@s","color": "white"},{"text": "の"},{"text": "attack speed Lv","color": "gold"},{"text": "が","color": "white"},{"score":{"name": "@s","objective": "attackS-Lv"}},{"text": "になった"}]
@@ -19,3 +18,6 @@ function mikatanserver:main/lvup/_lvset
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:48}}]}] run xp add @s 35 levels
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:58}}]}] run xp add @s 40 levels
+
+
+execute if score $NowMax AllLV > @s attackS-Lv if score @s attackSxp >= @s needattackSxp run function mikatanserver:main/lvup/xpcount/atkspeedup

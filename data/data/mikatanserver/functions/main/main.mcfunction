@@ -82,3 +82,6 @@ execute as @a[scores={Boost = 1..}] run function mikatanserver:main/boostminus
 
 ##マナ用スコアリセ
 scoreboard players set @a ManaBatchBool 0
+
+##アイテム生存時間(30s)
+execute as @e[type=item,tag=!KillItemBefore30s,tag=!DmgDisplay] run function mikatanserver:main/deathflag/item_kill

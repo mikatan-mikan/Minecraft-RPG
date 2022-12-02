@@ -1,4 +1,6 @@
-
+##all lvの変更
+function mikatanserver:main/utils_num/get_alllv
+##Lv statを適応
 function mikatanserver:main/lvup/atkdamage/lv100_lv0/func
 function mikatanserver:main/lvup/atkspeed/lv100_lv0/func
 function mikatanserver:main/lvup/luck/lv100_lv0/func

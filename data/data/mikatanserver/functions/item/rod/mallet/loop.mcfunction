@@ -1,0 +1,1 @@
+execute as @e[tag=MalletBombAr] at @s run function mikatanserver:item/rod/mallet/armor_check

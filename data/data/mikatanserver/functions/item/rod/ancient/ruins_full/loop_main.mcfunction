@@ -1,0 +1,1 @@
+execute as @a[distance=..3] at @s run function mikatanserver:item/rod/ancient/ruins_full/loop_exe

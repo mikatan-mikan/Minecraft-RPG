@@ -1,6 +1,5 @@
 scoreboard players add @s attackD-Lv 1
-execute at @s run particle minecraft:happy_villager ~ ~1 ~ 1 1 1 1 500
-playsound minecraft:entity.player.levelup master @s ~ ~ ~ 2 0 1
+execute unless score @s IsLvUpSound matches 1 run function mikatanserver:main/lvup/xpcount/_soundpar/main
 title @s subtitle [{"text":"foraging level ->","color":"green"},{"score":{"name":"@s","objective":"attackD-Lv"},"color":"gold"}]
 title @s title {"text":"AttackDmg LV \u0020UP!!","underlined":true,"color":"red"}
 tellraw @a [{"text": ""},{"text": "[System] ","color": "yellow"},{"selector":"@s","color": "white"},{"text": "の"},{"text": "attack damage Lv","color": "red"},{"text": "が","color": "white"},{"score":{"name": "@s","objective": "attackD-Lv"}},{"text": "になった"}]
@@ -18,3 +17,6 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomM
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:35}}]}] run xp add @s 30 levels
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:48}}]}] run xp add @s 35 levels
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:58}}]}] run xp add @s 40 levels
+
+
+execute if score $NowMax AllLV > @s attackD-Lv if score @s attackDxp >= @s needattackDxp run function mikatanserver:main/lvup/xpcount/atkdamagelvup

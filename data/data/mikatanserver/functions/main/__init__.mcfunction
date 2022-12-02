@@ -292,6 +292,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add ForestStoneFlag dummy
     scoreboard objectives add GoldenEggFlag dummy
     scoreboard objectives add SpiritMassFlag dummy
+    scoreboard objectives add RuinsPetalFlag dummy
     scoreboard objectives add FarmingStoneFlag dummy
     scoreboard objectives add GravityStoneFlag dummy
     scoreboard objectives add NowMobCount dummy
@@ -340,14 +341,17 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $104 int 104
     scoreboard players set $105 int 105
     scoreboard players set $106 int 106
+    scoreboard players set $150 int 150
     scoreboard players set $190 int 190
     scoreboard players set $200 int 200
+    scoreboard players set $250 int 250
     scoreboard players set $256 int 256
     scoreboard players set $300 int 300
     scoreboard players set $333 int 333
     scoreboard players set $350 int 350
     scoreboard players set $373 int 373
     scoreboard players set $400 int 400
+    scoreboard players set $450 int 450
     scoreboard players set $512 int 512
     scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
@@ -483,6 +487,19 @@ tellraw @a [{"text": "=====================================================\n\n"
     
     #榴杖
     scoreboard objectives add devilwandcount minecraft.custom:minecraft.play_time
+
+    # team add PlayerUI
+    # team modify PlayerUI prefix [{"text": "AllLv"},{"score":{"name": "@s","objective": "AllLv"}},{"text": "はーとのゆにこーどあいでぃー"},{"score":{"name": "@s","objective": "PlayerHealth"}},{"text":"\uE027"},{"score":{"name": "@s","objective": "mana"}}]
+
+    scoreboard objectives add AllLV dummy
+    scoreboard players set $NowMax AllLV 300
+
+    scoreboard objectives add ItemKillTimer dummy
+
+    scoreboard objectives add IsLvUpSound dummy
+
+    scoreboard objectives add ArmorStandTimer dummy
+    scoreboard objectives add PlayerStatMusic dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

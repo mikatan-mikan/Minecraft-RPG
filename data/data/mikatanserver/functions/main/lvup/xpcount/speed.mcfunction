@@ -39,6 +39,7 @@ scoreboard players add @s[scores={speed-Lv=..99}] speedxp 4
 execute as @s[scores={AngelStoneFlag=1},predicate = mikatanserver:chance/0.001] at @s run function mikatanserver:main/drap_stone/angel_stone
 execute as @s[scores={ImaginStoneFlag=1},predicate = mikatanserver:chance/0.001] at @s run function mikatanserver:main/drap_stone/imagin_stone
 execute as @s[scores={GoldenEggFlag=1},predicate = mikatanserver:chance/0.0007] at @s run function mikatanserver:main/drap_stone/golden_stone
+execute as @s[scores={RuinsPetalFlag=1,speed-Lv=135..},predicate = mikatanserver:chance/0.0001] at @s run function mikatanserver:main/drap_stone/ruins_petal
 execute as @s[scores={SpiritMassFlag=1},predicate = mikatanserver:chance/0.0005] at @s run function mikatanserver:main/drap_stone/spirit_mass
 ##accessories経験値
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:1}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s speedxp 1

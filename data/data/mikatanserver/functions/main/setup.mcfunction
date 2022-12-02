@@ -36,6 +36,8 @@
 
     scoreboard players set @s DungeonClear_Num 0
 
+    # team join PlayerUI @s
+
     tellraw @s [{"text": "initialize flag and dungeon method...","color": "green","italic": true}]
 
     tellraw @s [{"text": "completed setup!!\n","color": "gold"},{"text":"再ログインを推奨します"},{"text":"\n\n=====================================================","color": "aqua"}]

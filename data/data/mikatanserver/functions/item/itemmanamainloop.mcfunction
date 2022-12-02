@@ -79,8 +79,8 @@ execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:78}}}] 
 execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:82,pumpkin_rod:true}}}] at @s run function mikatanserver:item/rod/pumpkin/main
 #tact mana:50
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:93}}}] at @s run function mikatanserver:item/rod/tact/two/main
-#ruins tact mana:70
-execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:99}}}] at @s run function mikatanserver:item/rod/tact/three/main
+#ruins tact mana:45
+execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:99}}}] at @s run function mikatanserver:item/rod/tact/three/main
 #rupture mana:55
 execute as @s[scores={mana=55..},nbt={SelectedItem:{tag:{CustomModelData:98}}}] at @s run function mikatanserver:item/rod/rupture/main
 #gravity mana:40
@@ -91,6 +91,17 @@ execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:108}}}]
 execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:118}}}] at @s run function mikatanserver:item/rod/bullet/main
 #devil mana:30
 execute as @s[scores={devilwandcount = 200..},nbt={SelectedItem:{tag:{CustomModelData:120}}}] at @s run function mikatanserver:item/rod/devil/main
+#ancient mana:30
+execute as @s[scores={mana=10..},nbt={SelectedItem:{tag:{CustomModelData:122}}}] at @s run function mikatanserver:item/rod/ancient/main
+#mallet mana:40
+execute as @s[scores={mana=40..},nbt={SelectedItem:{tag:{CustomModelData:124}}}] at @s run function mikatanserver:item/rod/mallet/main
+#violin mana:65
+execute as @s[scores={mana=65..},nbt={SelectedItem:{tag:{CustomModelData:125}}}] at @s run function mikatanserver:item/rod/violin/main
+#saxophone mana:50
+execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:126}}}] at @s run function mikatanserver:item/rod/saxophone/main
+#flute mana:50
+execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:127}}}] at @s run function mikatanserver:item/rod/flute/main
+
 
 #純真エンチャント
 execute as @s[scores={mana=70..},nbt={SelectedItem:{tag:{inocent:[1]}}}] at @s run function mikatanserver:item/rod/inocent_ench/main
@@ -216,6 +227,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:116}}}] run function mikat
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:117}}}] run function mikatanserver:item/teleporter/area/nether_tier2
 #dungeon fourth
 execute as @s[scores={luck-Lv=65..,attackS-Lv=65..,attackD-Lv=65..,mana-Lv=65..,speed-Lv=65..,hp-Lv=65..},nbt={SelectedItem:{tag:{CustomModelData:119}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentythree/init
+#dungeon fourth
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:123}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyfour/diff_check
 
 ##slime raid
     #ボスがいないなら召喚可能
@@ -260,6 +273,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:67}}}] at @s run function 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:79}}}] at @s run function mikatanserver:item/add_stone/egg/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:88}}}] at @s run function mikatanserver:item/add_stone/goddess/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:106}}}] at @s run function mikatanserver:item/add_stone/gravity/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:121}}}] at @s run function mikatanserver:item/add_stone/ruins/main
+
 
 
 ##属性

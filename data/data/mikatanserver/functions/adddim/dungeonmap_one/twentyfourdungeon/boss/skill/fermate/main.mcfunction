@@ -1,0 +1,2 @@
+execute as @a[tag=DungeonPlay_24,scores={TwentyfourBossDush=1..}] run effect give @s instant_damage 1 4
+execute as @a[tag=DungeonPlay_24,scores={TwentyfourBossWalk=1..}] run effect give @s instant_damage 1 4

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:123}"
+        },
+        "title": "音楽の時間",
+        "description": "\"その存在は未知なる旋律を奏でて\"に挑む"
+    },
+    "parent": "mikatanserver:tp/dungeon/twentytwo",
+    "criteria": {
+        "jyoken": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "jyoken"
+        ]
+    ],
+    "rewards": {
+        "function": "mikatanserver:rewards/5"
+    }
+}

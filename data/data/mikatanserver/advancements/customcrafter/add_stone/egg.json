@@ -7,7 +7,7 @@
         "title": "親玉",
         "description": "golden eggの採掘権を得る\n============\n出現確率:0.07%\n対象:speedXP獲得ブロックの採掘"
     },
-    "parent": "mikatanserver:customcrafter/add_stone/imagination",
+    "parent": "mikatanserver:customcrafter/add_stone/ruins",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

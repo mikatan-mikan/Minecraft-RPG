@@ -1,0 +1,1 @@
+execute as @e[tag=SaxophoneAr] at @s run function mikatanserver:item/rod/saxophone/armor_check
