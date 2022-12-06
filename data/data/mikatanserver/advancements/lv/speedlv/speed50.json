@@ -16,7 +16,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "speed-Lv": 50
+                "speed-Lv": {"min":50}
               }
             }
           ]

@@ -16,7 +16,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "hp-Lv": 90
+              "hp-Lv": {"min":90}
             }
           }
         ]

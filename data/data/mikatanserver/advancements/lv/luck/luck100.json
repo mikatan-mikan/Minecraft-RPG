@@ -17,7 +17,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "luck-Lv": 100
+              "luck-Lv": {"min":100}
             }
           }
         ]

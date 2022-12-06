@@ -16,7 +16,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "attackD-Lv": 25
+              "attackD-Lv": {"min":25}
             }
           }
         ]

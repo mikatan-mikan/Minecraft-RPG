@@ -16,7 +16,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "mana-Lv": 75
+              "mana-Lv": {"min":75}
             }
           }
         ]
