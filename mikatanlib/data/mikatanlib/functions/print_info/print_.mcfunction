@@ -1,0 +1,3 @@
+
+tag @s remove MK.pi.Print
+tellraw @a [{"text": "summon "},{"text": "armor_stand "},{"score":{"name": "@s","objective": "MK.pi.x"}},{"text": " "},{"score":{"name": "@s","objective": "MK.pi.y"}},{"text": " "},{"score":{"name": "@s","objective": "MK.pi.z"}},{"text": " "},{"text": "{Tags:"},{"nbt":"Tags","entity": "@s"},{"text": ",Invisible:"},{"nbt":"Invisible","entity": "@s"},{"text": ",Invulnerable:"},{"nbt":"Invulnerable","entity": "@s"},{"text": ",Small:"},{"nbt":"Small","entity": "@s"},{"text":"}"}]

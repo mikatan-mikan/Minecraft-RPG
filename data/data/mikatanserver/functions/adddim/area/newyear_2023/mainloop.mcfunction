@@ -9,7 +9,7 @@
     ##村人に話しかけたなら
     execute as @a[tag=FieldNewyear_2023,scores={VillagerFlag=1..},predicate=mikatanserver:villager/new_year_2023/1] at @s run function mikatanserver:adddim/area/newyear_2023/villager/talk_1
     execute as @a[tag=FieldNewyear_2023,scores={VillagerFlag=1..},predicate=mikatanserver:villager/new_year_2023/2] at @s run function mikatanserver:adddim/area/newyear_2023/villager/talk_2
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldNewyear_2023] VillagerFlag 0
 
     ##凍結＋パーティクル
     execute as @a[tag=FieldNewyear_2023] at @s run function mikatanserver:adddim/area/newyear_2023/player/main

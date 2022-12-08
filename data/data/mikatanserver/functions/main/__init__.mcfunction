@@ -295,6 +295,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add RuinsPetalFlag dummy
     scoreboard objectives add FarmingStoneFlag dummy
     scoreboard objectives add GravityStoneFlag dummy
+    scoreboard objectives add MaidenHerbsFlag dummy
     scoreboard objectives add NowMobCount dummy
     tellraw @a [{"text": "completed initialize version 1.7 system...","color": "yellow","italic": true}]
 
@@ -500,6 +501,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add ArmorStandTimer dummy
     scoreboard objectives add PlayerStatMusic dummy
+
+    scoreboard objectives add crystalcount dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

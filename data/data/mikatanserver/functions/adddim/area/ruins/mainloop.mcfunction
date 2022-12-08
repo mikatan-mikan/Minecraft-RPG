@@ -11,7 +11,7 @@
     execute as @a[tag=FieldRuins,scores={VillagerFlag=1..},predicate=mikatanserver:villager/ruins/2] at @s run function mikatanserver:adddim/area/ruins/villager/talk_2
     execute as @a[tag=FieldRuins,scores={VillagerFlag=1..},predicate=mikatanserver:villager/ruins/3] at @s run function mikatanserver:adddim/area/ruins/villager/talk_3
     execute as @a[tag=FieldRuins,scores={VillagerFlag=1..},predicate=mikatanserver:villager/ruins/4] at @s run function mikatanserver:adddim/area/ruins/villager/talk_4
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldRuins] VillagerFlag 0
 
     ##mini boss
     execute in mikatanserver:dungeon if score $ruins_count field_loop matches 1000 unless entity @e[tag=Area_Ruins_Boss] run function mikatanserver:adddim/area/ruins/boss/main

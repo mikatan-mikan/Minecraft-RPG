@@ -50,5 +50,12 @@ tellraw @a [{"text": "initialize armorset method...","color": "green","italic": 
     
 tellraw @a [{"text": "initialize damage method...","color": "green","italic": true}]
 
+    scoreboard objectives add MK.pi.predicate dummy
+    scoreboard objectives add MK.pi.x dummy
+    scoreboard objectives add MK.pi.y dummy
+    scoreboard objectives add MK.pi.z dummy
+
+tellraw @a [{"text": "initialize printinfo method...","color": "green","italic": true}]
+
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan lib ver1.1\n\n","color": "gold"},{"text": "     /function mikatanlib:_explanation\n","color": "light_purple"},{"text": "     を実行すると各メソッドの使用方法が表示されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

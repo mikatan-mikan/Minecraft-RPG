@@ -59,4 +59,4 @@ execute as @p run function mikatanserver:main/lvup/_view/mana
 
 execute as @p run function mikatanserver:main/lvup/_accessory/mana
 ##lvup
-execute if score $NowMax AllLV > @p mana-Lv if score @p manaxp >= @p needmanaxp run function mikatanserver:main/lvup/xpcount/manalvup
+execute as @p if score $NowMax AllLV > @s mana-Lv if score @s manaxp >= @s needmanaxp run function mikatanserver:main/lvup/xpcount/manalvup

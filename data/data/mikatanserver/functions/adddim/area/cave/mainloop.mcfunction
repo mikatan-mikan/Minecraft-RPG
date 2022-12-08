@@ -13,7 +13,7 @@
     execute as @a[tag=FieldCave,scores={VillagerFlag=1..},predicate=mikatanserver:villager/cave/1] at @s run function mikatanserver:adddim/area/cave/villager/talk_1
     execute as @a[tag=FieldCave,scores={VillagerFlag=1..},predicate=mikatanserver:villager/cave/2] at @s run function mikatanserver:adddim/area/cave/villager/talk_2
     execute as @a[tag=FieldCave,scores={VillagerFlag=1..},predicate=mikatanserver:villager/cave/3] at @s run function mikatanserver:adddim/area/cave/villager/talk_3
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldCave] VillagerFlag 0
 
 ##ループリセット
 execute if score $count_cave field_loop matches 1200.. run scoreboard players set $count_cave field_loop 0

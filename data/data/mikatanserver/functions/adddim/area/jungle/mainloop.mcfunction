@@ -18,7 +18,7 @@
     execute as @a[tag=FieldJungle,scores={VillagerFlag=1..},predicate=mikatanserver:villager/jungle/1] at @s run function mikatanserver:adddim/area/jungle/villager/talk_1
     execute as @a[tag=FieldJungle,scores={VillagerFlag=1..},predicate=mikatanserver:villager/jungle/2] at @s run function mikatanserver:adddim/area/jungle/villager/talk_2
     execute as @a[tag=FieldJungle,scores={VillagerFlag=1..},predicate=mikatanserver:villager/jungle/3] at @s run function mikatanserver:adddim/area/jungle/villager/talk_3
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldJungle] VillagerFlag 0
 
 
 ##ループリセット

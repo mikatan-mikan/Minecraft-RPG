@@ -1,6 +1,8 @@
 ##CustomModelData使用済みメモ
 #carrot_on_a_stick                          ~24
 
+
+
 ##ROD
 #teleportROD mana:75
 execute as @s[scores={mana=75..},nbt={SelectedItem:{tag:{CustomModelData:1}}},predicate=mikatanserver:overworld] at @s if block ^ ^ ^1 air if block ^ ^ ^2 air if block ^ ^ ^3 air if block ^ ^ ^4 air if block ^ ^ ^5 air if block ^ ^ ^6 air if block ^ ^ ^7 air if block ^ ^ ^8 air run function mikatanserver:item/rod/aote
@@ -101,6 +103,8 @@ execute as @s[scores={mana=65..},nbt={SelectedItem:{tag:{CustomModelData:125}}}]
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:126}}}] at @s run function mikatanserver:item/rod/saxophone/main
 #flute mana:50
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:127}}}] at @s run function mikatanserver:item/rod/flute/main
+#devil mana:30
+execute as @s[scores={devilwandcount = 200..},nbt={SelectedItem:{tag:{CustomModelData:132}}}] at @s run function mikatanserver:item/rod/devil_2/main
 
 
 #純真エンチャント
@@ -224,11 +228,14 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:115}}}] run function mikat
 #cave
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:116}}}] run function mikatanserver:item/teleporter/area/cave
 #nether tier2
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:117}}}] run function mikatanserver:item/teleporter/area/nether_tier2
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:117}}},scores={QUEST_NETHER_LEVEL=50..}] run function mikatanserver:item/teleporter/area/nether_tier2
 #dungeon fourth
 execute as @s[scores={luck-Lv=65..,attackS-Lv=65..,attackD-Lv=65..,mana-Lv=65..,speed-Lv=65..,hp-Lv=65..},nbt={SelectedItem:{tag:{CustomModelData:119}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentythree/init
 #dungeon fourth
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:123}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyfour/diff_check
+#ender tier2
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:128}}},scores={QUEST_ENDER_LEVEL=50..}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/ender_tier2
+
 
 ##slime raid
     #ボスがいないなら召喚可能
@@ -274,16 +281,11 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:79}}}] at @s run function 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:88}}}] at @s run function mikatanserver:item/add_stone/goddess/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:106}}}] at @s run function mikatanserver:item/add_stone/gravity/main
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:121}}}] at @s run function mikatanserver:item/add_stone/ruins/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:131}}}] at @s run function mikatanserver:item/add_stone/maiden/main
 
 
+execute if score @s mana < @s manamax run function mikatanserver:item/_attribute/check
 
-##属性
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/fire/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/wind/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:3}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/ice/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:4}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/light/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:5}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/dark/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:101}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/tier_2/flame/check
 
 
 ##score Reset

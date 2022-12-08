@@ -1,0 +1,3 @@
+execute store result score $ender2_miniboss_1 spawn_count if entity @e[tag=field_ender2_miniboss_1]
+execute if score $ender2_miniboss_1 spawn_count matches ..1 as @e[tag=field_ender2_miniboss_ar_1] at @s run data merge storage mikatanserver:tagbox {"tag":["field_ender2_miniboss_1"]}
+execute if score $ender2_miniboss_1 spawn_count matches ..1 as @e[tag=field_ender2_miniboss_ar_1] at @s run function mikatanserver:adddim/area/ender_tier2/mob/miniboss/spawn/main

@@ -51,3 +51,22 @@ execute if score $ender16 spawn_count matches ..1 as @e[tag=field_ender_ar_16] a
 execute store result score $ender17 spawn_count if entity @e[tag=field_enderman_17]
 execute if score $ender17 spawn_count matches ..1 as @e[tag=field_ender_ar_17] at @s run data merge storage mikatanserver:ender_tagbox {"tag":["field_enderman_17"]}
 execute if score $ender17 spawn_count matches ..1 as @e[tag=field_ender_ar_17] at @s run function mikatanserver:adddim/area/ender/mob/enderman/spawn/main
+
+
+scoreboard players reset $ender1 spawn_count
+scoreboard players reset $ender2 spawn_count
+scoreboard players reset $ender3 spawn_count
+scoreboard players reset $ender4 spawn_count
+scoreboard players reset $ender5 spawn_count
+scoreboard players reset $ender6 spawn_count
+scoreboard players reset $ender7 spawn_count
+scoreboard players reset $ender8 spawn_count
+scoreboard players reset $ender9 spawn_count
+scoreboard players reset $ender10 spawn_count
+scoreboard players reset $ender11 spawn_count
+scoreboard players reset $ender12 spawn_count
+scoreboard players reset $ender13 spawn_count
+scoreboard players reset $ender14 spawn_count
+scoreboard players reset $ender15 spawn_count
+scoreboard players reset $ender16 spawn_count
+scoreboard players reset $ender17 spawn_count

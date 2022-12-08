@@ -1,0 +1,181 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight":700,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 12
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:17,display:{Name:'[{\"text\":\"purple ender crystal\"}]'}}"
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted ruby\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":4,
+                  "max":8
+                }
+              }
+            ],
+            "name": "minecraft:emerald"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":3
+                }
+              }
+            ],
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":20,
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+1する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"calser boots\",\"color\":\"dark_purple\"}]',color:12322303,Lore:['[{\"text\":\"魅惑\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 条件：culser防具で統一されている\",\"color\":\"blue\",\"italic\":false},{\"text\":\" manaが40以下でかつmanaが回復したとき、跳躍力が高くなる\",\"color\":\"blue\",\"italic\":false}]']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,Slot:\"feet\",UUID:[I;232478239,52352134,523523523,513312412]}],calser_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"calser leggings\",\"color\":\"dark_purple\"}]',color:12322303,Lore:['[{\"text\":\"魅惑\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 条件：culser防具で統一されている\",\"color\":\"blue\",\"italic\":false},{\"text\":\" manaが40以下でかつmanaが回復したとき、跳躍力が高くなる\",\"color\":\"blue\",\"italic\":false}]']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:6,Operation:0,Slot:\"legs\",UUID:[I;132478239,201341341,523523431,13215135]}],calser_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"calser chestplate\",\"color\":\"dark_purple\"}]',color:12322303,Lore:['[{\"text\":\"魅惑\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 条件：culser防具で統一されている\",\"color\":\"blue\",\"italic\":false},{\"text\":\" manaが40以下でかつmanaが回復したとき、跳躍力が高くなる\",\"color\":\"blue\",\"italic\":false}]']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:8,Operation:0,Slot:\"chest\",UUID:[I;312431421,52352134,523523,31235135]}],calser_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"calser helmet\",\"color\":\"dark_purple\"}]',color:12322303,Lore:['[{\"text\":\"魅惑\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 条件：culser防具で統一されている\",\"color\":\"blue\",\"italic\":false},{\"text\":\" manaが40以下でかつmanaが回復したとき、跳躍力が高くなる\",\"color\":\"blue\",\"italic\":false}]']},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,Slot:\"head\",UUID:[I;132478239,4134134,523523,5135]}],calser_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_helmet"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 300,
+            "name": "minecraft:obsidian",
+            "functions": [
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min":4,
+                  "max":32
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

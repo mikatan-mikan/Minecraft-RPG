@@ -29,3 +29,5 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{armor_forest:1b}},{Slot:101
 
 #かんざし
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:33}}]}] if score @s mana-Lv matches 125.. run effect give @s saturation 1 0
+execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:49}}]}] if score @s mana-Lv matches 125.. run effect give @s saturation 1 0
+execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:50}}]}] if score @s mana-Lv matches 125.. run effect give @s saturation 1 0

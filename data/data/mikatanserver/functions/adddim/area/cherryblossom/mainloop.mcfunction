@@ -14,7 +14,7 @@
     execute as @a[tag=FieldCherryblossom,scores={VillagerFlag=1..},predicate=mikatanserver:villager/cherryblossom/1] at @s run function mikatanserver:adddim/area/cherryblossom/villager/talk_1
     execute as @a[tag=FieldCherryblossom,scores={VillagerFlag=1..},predicate=mikatanserver:villager/cherryblossom/2] at @s run function mikatanserver:adddim/area/cherryblossom/villager/talk_2
     execute as @a[tag=FieldCherryblossom,scores={VillagerFlag=1..},predicate=mikatanserver:villager/cherryblossom/3] at @s run function mikatanserver:adddim/area/cherryblossom/villager/talk_3
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldCherryblossom] VillagerFlag 0
 
 
 ##ループリセット

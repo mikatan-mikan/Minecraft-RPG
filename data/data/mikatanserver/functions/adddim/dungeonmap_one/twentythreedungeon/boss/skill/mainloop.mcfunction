@@ -26,7 +26,7 @@ execute if entity @a[scores={TwentythreeBossSkill=175..206}] as @a[tag=DungeonPl
 ##bomb
 execute if entity @a[scores={TwentythreeBossSkill=110}] as @a[tag=DungeonPlay_23] at @s run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/bomb/set
 execute if entity @a[scores={TwentythreeBossSkill=110}] as @a[tag=DungeonPlay_23] at @s run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/bomb/set_par
-execute if entity @a[scores={TwentythreeBossSkill=140}] as @e[tag=TwentythreeBombAr] at @s run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/bomb/main
+execute if entity @a[scores={TwentythreeBossSkill=135}] as @e[tag=TwentythreeBombAr] at @s run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/bomb/main
 ##star
 execute if entity @a[scores={TwentythreeBossSkill=225}] as @e[tag=TwentythreeDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/skill_star_fall/star_fall_main
 execute if entity @a[scores={TwentythreeBossSkill=225..275}] as @e[tag=TwentythreeDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/twentythreedungeon/boss/skill/skill_star_fall/star_fall_move_damage

@@ -1,2 +1,2 @@
-give @s minecraft:magma_cream{display:{Name:'[{"text": "amethyst earing","color":"dark_purple"}]',Lore:['[{"text":"このアイテムをインベントリの右上にセットすると5%の確率で取引時のxpが倍になる"}]']},CustomModelData:7} 1
+give @s minecraft:magma_cream{display:{Name:'[{"text": "amethyst earing","color":"dark_purple"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率で取引時のxpが倍になる"}]']},CustomModelData:7} 1
 give @s minecraft:magma_cream{display:{Name:'[{"text": "rapis ring","color":"blue"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率で木こり時のxpが倍になる"}]']},CustomModelData:4} 1

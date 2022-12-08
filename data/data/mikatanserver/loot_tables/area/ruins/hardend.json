@@ -61,7 +61,7 @@
                     },
                     {
                         "type": "minecraft:item",
-                        "weight":5,
+                        "weight":2,
                         "functions":[
                             {
                                 "function": "minecraft:set_nbt",
@@ -72,7 +72,7 @@
                     },
                     {
                         "type": "minecraft:item",
-                        "weight":5,
+                        "weight":2,
                         "functions":[
                             {
                                 "function": "minecraft:set_nbt",
@@ -83,25 +83,25 @@
                     },
                     {
                         "type": "minecraft:item",
-                        "weight":5,
+                        "weight":2,
                         "functions":[
                             {
                                 "function": "minecraft:set_nbt",
                                 "tag": "{display:{Name:'[{\"text\": \"hardend leggings\"}]'},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:7,Operation:0,UUID:[I;173823436,242342342,633452134,413423454],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1423416136,242342342,633452134,413423423],Slot:\"legs\"}],hardend_ar:true}"
                         }
                         ],
-                        "name": "minecraft:diamond_chestplate"
+                        "name": "minecraft:diamond_leggings"
                     },
                     {
                         "type": "minecraft:item",
-                        "weight":5,
+                        "weight":2,
                         "functions":[
                             {
                                 "function": "minecraft:set_nbt",
                                 "tag": "{display:{Name:'[{\"text\": \"hardend boots\"}]'},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:4,Operation:0,UUID:[I;173823436,242342342,633452134,624134234],Slot:\"feet\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1423416136,242342342,633452134,41342343],Slot:\"feet\"}],hardend_ar:true}"
                         }
                         ],
-                        "name": "minecraft:diamond_chestplate"
+                        "name": "minecraft:diamond_boots"
                     },
                     {
                         "type": "minecraft:item",

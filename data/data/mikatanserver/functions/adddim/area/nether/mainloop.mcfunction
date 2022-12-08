@@ -23,7 +23,7 @@
     execute as @a[tag=FieldNether,scores={VillagerFlag=1..},predicate=mikatanserver:villager/nether/4] at @s run function mikatanserver:adddim/area/nether/villager/talk_4
     execute as @a[tag=FieldNether,scores={VillagerFlag=1..},predicate=mikatanserver:villager/nether/5] at @s run function mikatanserver:adddim/area/nether/villager/talk_5
     execute as @a[tag=FieldNether,scores={VillagerFlag=1..},predicate=mikatanserver:villager/nether/6] at @s run function mikatanserver:adddim/area/nether/villager/talk_6
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldNether] VillagerFlag 0
 
 
 ##ループリセット

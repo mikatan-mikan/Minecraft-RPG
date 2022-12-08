@@ -4,7 +4,7 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:120}"
         },
-        "title": "翡榴の輝き",
+        "title": "柘榴の輝き",
         "description": "榴杖を作成する"
     },
     "parent": "mikatanserver:customcrafter/rod_and_sword/rare_stone",

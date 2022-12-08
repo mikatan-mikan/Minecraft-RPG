@@ -7,7 +7,7 @@
       "title": "それも一つの選択・・・",
       "description": "lava elytraを作成する"
     },
-    "parent": "mikatanserver:event/nether/lavasword",
+    "parent": "mikatanserver:event/nether/laric",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

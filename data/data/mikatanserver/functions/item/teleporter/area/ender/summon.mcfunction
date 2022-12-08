@@ -20,3 +20,7 @@ summon armor_stand 208.5 76 -383.5 {Tags:["field_wither_ar_2","EnderField_Ar"],I
 summon armor_stand 244.5 73 -402.5 {Tags:["field_wither_ar_3","EnderField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
 summon armor_stand 294.5 75 -338.5 {Tags:["field_wither_ar_4","EnderField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
 summon armor_stand 314.5 72 -346.5 {Tags:["field_wither_ar_5","EnderField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+
+summon armor_stand 223.5 75 -388.5 {Tags:["field_calser_ar_1","EnderField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 294.5 77 -391.5 {Tags:["field_calser_ar_2","EnderField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 316.5 73 -362.5 {Tags:["field_calser_ar_3","EnderField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}

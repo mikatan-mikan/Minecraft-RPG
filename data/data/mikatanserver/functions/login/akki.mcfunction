@@ -1,1 +1,1 @@
-give @s minecraft:magma_cream{display:{Name:'[{"text": "amethyst ishiza","color":"dark_purple"}]',Lore:['[{"text":"このアイテムをインベントリの右上にセットすると5%の確率で討伐時のxpが倍になる"}]']},CustomModelData:18} 1
+give @s minecraft:magma_cream{display:{Name:'[{"text": "amethyst ishiza","color":"dark_purple"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率で討伐時のxpが倍になる"}]']},CustomModelData:18} 1

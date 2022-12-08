@@ -22,7 +22,7 @@
     ##村人に話しかけたなら
     execute as @a[tag=FieldNether_2,scores={VillagerFlag=1..},predicate=mikatanserver:villager/nether_tier2/1] at @s run function mikatanserver:adddim/area/nether_tier2/villager/talk_1
     execute as @a[tag=FieldNether_2,scores={VillagerFlag=1..},predicate=mikatanserver:villager/nether_tier2/2] at @s run function mikatanserver:adddim/area/nether_tier2/villager/talk_2
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldNether_2] VillagerFlag 0
     
     ##クエスト判定
     execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{nether_quest:true}}]}] at @s run function mikatanserver:adddim/area/nether/item/quest/check

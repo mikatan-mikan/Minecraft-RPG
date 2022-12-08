@@ -12,7 +12,7 @@
     execute as @a[tag=FieldHalloween,scores={VillagerFlag=1..},predicate=mikatanserver:villager/halloween/3] at @s run function mikatanserver:adddim/area/halloween/villager/talk_3
     execute as @a[tag=FieldHalloween,scores={VillagerFlag=1..},predicate=mikatanserver:villager/halloween/4] at @s run function mikatanserver:adddim/area/halloween/villager/talk_4
     execute as @a[tag=FieldHalloween,scores={VillagerFlag=1..},predicate=mikatanserver:villager/halloween/5] at @s run function mikatanserver:adddim/area/halloween/villager/talk_5
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldHalloween] VillagerFlag 0
 
 
 ##ループリセット

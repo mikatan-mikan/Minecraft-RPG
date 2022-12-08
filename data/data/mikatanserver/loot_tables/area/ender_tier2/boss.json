@@ -1,0 +1,144 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 25,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 200,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ],
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 333,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"ender onion\"}]'}}"
+                        }
+                    ],
+                    "name": "minecraft:sweet_berries"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 333,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:40,display:{Name:'[{\"text\":\"ender powder\"}]'}}"
+                        }
+                    ],
+                    "name": "minecraft:nautilus_shell"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 333,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:41,display:{Name:'[{\"text\":\"ender spirit\"}]'}}"
+                        }
+                    ],
+                    "name": "minecraft:nautilus_shell"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:4,display:{Name:'[{\"text\":\"enchanted charoite\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+                        }
+                    ],
+                    "name": "minecraft:slime_ball"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+1する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"conclude boots\",\"color\":\"dark_purple\"}]',color:4260708},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,Slot:\"feet\",UUID:[I;232478239,52352134,413411235,6135141]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:0.1,Operation:0,Slot:\"feet\",UUID:[I;232478239,12312414,3214123,12421412]}],conclude_ar:1b}"
+                        }
+                    ],
+                    "name": "minecraft:leather_boots"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "name": "minecraft:ender_pearl"
+                }
+            ]
+        }
+    ]
+}

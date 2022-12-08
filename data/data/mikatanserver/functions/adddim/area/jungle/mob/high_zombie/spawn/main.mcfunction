@@ -19,13 +19,13 @@ scoreboard players operation @s NowPlaceY *= $10 int
     scoreboard players remove @s NowPlaceY 30
 function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
-summon zombie -810.5 82 231.5 {Tags:["Field_TagBefZombie"],DeathLootTable:"mikatanserver:area/jungle/high_zombie",Attributes:[{Name:"minecraft:generic.max_health",Base:50},{Name:"minecraft:generic.follow_range",Base:10},{Name:"minecraft:generic.attack_damage",Base:30},{Name:"minecraft:generic.movement_speed",Base:0.35}],CustomName:'[{"text": "wooden zombie"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2932224}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:2932224}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:2932224}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1672215294,-1153678286,-1478340462,1533847741],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ5NmU2NDI5ZDdiZGE1MmZmMmQ1MjdhODA0NTEyYzcxOTBlNTE1YmUwZGQ2NTNhMmFkOTQ2YzY1Njc5NWFiMyJ9fX0="}]}}}}]}
-execute store result entity @e[tag=Field_TagBefZombie,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
-execute store result entity @e[tag=Field_TagBefZombie,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
-data modify entity @e[tag=Field_TagBefZombie,limit=1] Tags append from storage mikatanserver:tagbox tag[0]
+summon zombie -810.5 82 231.5 {Tags:["Field_TagBefZombie_JungleHigh"],DeathLootTable:"mikatanserver:area/jungle/high_zombie",Attributes:[{Name:"minecraft:generic.max_health",Base:50},{Name:"minecraft:generic.follow_range",Base:10},{Name:"minecraft:generic.attack_damage",Base:30},{Name:"minecraft:generic.movement_speed",Base:0.35}],CustomName:'[{"text": "wooden zombie"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2932224}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:2932224}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:2932224}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1672215294,-1153678286,-1478340462,1533847741],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ5NmU2NDI5ZDdiZGE1MmZmMmQ1MjdhODA0NTEyYzcxOTBlNTE1YmUwZGQ2NTNhMmFkOTQ2YzY1Njc5NWFiMyJ9fX0="}]}}}}]}
+execute store result entity @e[tag=Field_TagBefZombie_JungleHigh,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
+execute store result entity @e[tag=Field_TagBefZombie_JungleHigh,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
+data modify entity @e[tag=Field_TagBefZombie_JungleHigh,limit=1] Tags append from storage mikatanserver:tagbox tag[0]
 tag @e[distance=..20,type=zombie] add field_zombie
 ## y座標の変更
 execute store result score @s NowPlaceY run data get entity @s Pos[1]
 scoreboard players operation @s NowPlaceY += $3 int
-execute store result entity @e[tag=Field_TagBefZombie,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
-tag @e[tag=Field_TagBefZombie,limit=1] remove Field_TagBefZombie
+execute store result entity @e[tag=Field_TagBefZombie_JungleHigh,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
+tag @e[tag=Field_TagBefZombie_JungleHigh,limit=1] remove Field_TagBefZombie_JungleHigh

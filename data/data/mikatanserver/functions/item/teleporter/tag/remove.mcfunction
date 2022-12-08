@@ -20,6 +20,7 @@ scoreboard players set @s tradecount 0
     execute as @s[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
     execute as @s[tag=FieldJungle,predicate=mikatanserver:overworld] run function mikatanserver:main/event/jungle/reset_bossbar
     execute as @s[tag=FieldNether_2,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether_tier2/reset_bossbar
+    execute as @s[tag=FieldEnder_2,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ender_tier2/reset_bossbar
     tag @s remove ender_tp_after
     tag @s remove nether_tp_after
     tag @s remove ruins_tp_after

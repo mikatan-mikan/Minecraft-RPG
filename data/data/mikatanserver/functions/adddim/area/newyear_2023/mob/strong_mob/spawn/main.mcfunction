@@ -19,13 +19,13 @@ scoreboard players operation @s NowPlaceY *= $10 int
     scoreboard players remove @s NowPlaceY 30
 function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
-summon zombie -119.5 251 404.5 {Tags:["Field_TagBefZombie"],DeathLootTable:"mikatanserver:area/new-year_2023/strong_zombie",Health:60,Attributes:[{Name:"minecraft:generic.max_health",Base:60},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.movement_speed",Base:0.35},{Name:"minecraft:generic.attack_damage",Base:35}],CustomName:'[{"text": "frost zombie","color": "aqua"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:3782399},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:3782399},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:3782399},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:blue_ice",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}}]}
-execute store result entity @e[tag=Field_TagBefZombie,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
-execute store result entity @e[tag=Field_TagBefZombie,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
-data modify entity @e[tag=Field_TagBefZombie,limit=1] Tags append from storage mikatanserver:tagbox tag[0]
+summon zombie -119.5 251 404.5 {Tags:["Field_TagBefZombie_Ice2023S"],DeathLootTable:"mikatanserver:area/new-year_2023/strong_zombie",Health:60,Attributes:[{Name:"minecraft:generic.max_health",Base:60},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.movement_speed",Base:0.35},{Name:"minecraft:generic.attack_damage",Base:35}],CustomName:'[{"text": "frost zombie","color": "aqua"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:3782399},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:3782399},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:3782399},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}},{id:"minecraft:blue_ice",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1s}]}}]}
+execute store result entity @e[tag=Field_TagBefZombie_Ice2023S,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
+execute store result entity @e[tag=Field_TagBefZombie_Ice2023S,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
+data modify entity @e[tag=Field_TagBefZombie_Ice2023S,limit=1] Tags append from storage mikatanserver:tagbox tag[0]
 tag @e[distance=..20,type=zombie] add field_enderman
 ## y座標の変更
 execute store result score @s NowPlaceY run data get entity @s Pos[1]
 scoreboard players operation @s NowPlaceY += $3 int
-execute store result entity @e[tag=Field_TagBefZombie,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
-tag @e[tag=Field_TagBefZombie,limit=1] remove Field_TagBefZombie
+execute store result entity @e[tag=Field_TagBefZombie_Ice2023S,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
+tag @e[tag=Field_TagBefZombie_Ice2023S,limit=1] remove Field_TagBefZombie_Ice2023S

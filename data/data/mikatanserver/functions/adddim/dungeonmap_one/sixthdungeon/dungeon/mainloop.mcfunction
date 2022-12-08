@@ -12,11 +12,11 @@ execute if entity @a[scores={SixBossSkill1=297..},tag=DungeonPlay_6] as @a run s
 
 ##comet 
 execute if entity @a[scores={SixBossSkill2=194},tag=DungeonPlay_6] as @e[tag=SixthDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/sixthdungeon/dungeon/boss/skill/comet/main
-execute if entity @a[scores={SixBossSkill2=..264}] as @e[tag=CometWMob6] at @s run particle explosion ~ ~ ~ 0.5 0.5 0.5 2 10
-execute as @a[scores={SixBossSkill2=244}] at @s run playsound minecraft:entity.firework_rocket.launch master @s ~ ~ ~ 2 0
-execute as @a[scores={SixBossSkill2=264}] at @s run playsound minecraft:entity.generic.explode master @s ~ ~ ~ 2 0
-execute if entity @a[scores={SixBossSkill2=264}] as @e[tag=CometWMob6] at @s run effect give @e[distance=..5] instant_damage 1 1 false
-execute as @a[scores={SixBossSkill2=264}] run kill @e[tag=CometWMob6]
+execute if entity @a[scores={SixBossSkill2=..264},tag=DungeonPlay_6] as @e[tag=CometWMob6] at @s run particle explosion ~ ~ ~ 0.5 0.5 0.5 2 10
+execute as @a[scores={SixBossSkill2=244},tag=DungeonPlay_6] at @s run playsound minecraft:entity.firework_rocket.launch master @s ~ ~ ~ 2 0
+execute as @a[scores={SixBossSkill2=264},tag=DungeonPlay_6] at @s run playsound minecraft:entity.generic.explode master @s ~ ~ ~ 2 0
+execute if entity @a[scores={SixBossSkill2=264},tag=DungeonPlay_6] as @e[tag=CometWMob6] at @s run effect give @e[distance=..5] instant_damage 1 1 false
+execute as @a[scores={SixBossSkill2=264},tag=DungeonPlay_6] run kill @e[tag=CometWMob6]
 
 ##Jamping Blast
 execute if entity @a[scores={SixBossSkill2=359},tag=DungeonPlay_6] run function mikatanserver:adddim/dungeonmap_one/sixthdungeon/dungeon/boss/skill/jampingblast/main

@@ -19,13 +19,13 @@ scoreboard players operation @s NowPlaceY *= $10 int
     scoreboard players remove @s NowPlaceY 30
 function _mikatandebug:error_throw/point_print
 ## 座標代入及びタグの決定
-summon zombie -814.5 225 -92.5 {Tags:["FARM.Field_TagBefZombie"],DeathLootTable:"mikatanserver:area/farm/zombie",Attributes:[{Name:"minecraft:generic.max_health",Base:5},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.attack_damage",Base:25}],CustomName:'[{"text": "ruins zombie"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"minecraft:zombie_head",Count:1b}],Health:40}
-execute store result entity @e[tag=FARM.Field_TagBefZombie,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
-execute store result entity @e[tag=FARM.Field_TagBefZombie,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
-data modify entity @e[tag=FARM.Field_TagBefZombie,limit=1] Tags append from storage mikatanserver:tagbox tag[0]
+summon zombie -814.5 225 -92.5 {Tags:["FARM.Field_TagBefZombie_Farm"],DeathLootTable:"mikatanserver:area/farm/zombie",Attributes:[{Name:"minecraft:generic.max_health",Base:5},{Name:"minecraft:generic.follow_range",Base:12},{Name:"minecraft:generic.attack_damage",Base:25}],CustomName:'[{"text": "ruins zombie"}]',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"minecraft:zombie_head",Count:1b}],Health:40}
+execute store result entity @e[tag=FARM.Field_TagBefZombie_Farm,limit=1] Pos[0] double 0.1 run scoreboard players get @s NowPlaceX
+execute store result entity @e[tag=FARM.Field_TagBefZombie_Farm,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
+data modify entity @e[tag=FARM.Field_TagBefZombie_Farm,limit=1] Tags append from storage mikatanserver:tagbox tag[0]
 tag @e[distance=..20,type=zombie] add field_zombie
 ## y座標の変更
 execute store result score @s NowPlaceY run data get entity @s Pos[1]
 scoreboard players operation @s NowPlaceY += $3 int
-execute store result entity @e[tag=FARM.Field_TagBefZombie,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
-tag @e[tag=FARM.Field_TagBefZombie,limit=1] remove FARM.Field_TagBefZombie
+execute store result entity @e[tag=FARM.Field_TagBefZombie_Farm,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
+tag @e[tag=FARM.Field_TagBefZombie_Farm,limit=1] remove FARM.Field_TagBefZombie_Farm

@@ -5,6 +5,7 @@
     scoreboard players operation $score TMP %= $200 int
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldEnder] run function mikatanserver:adddim/area/ender/mob/enderman/spawn/spawncheck
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldEnder] run function mikatanserver:adddim/area/ender/mob/wither/spawn/spawncheck
+    execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldEnder] run function mikatanserver:adddim/area/ender/mob/calser/spawn/spawncheck
 
     ## キレてるエンダーマンを検知する
     # execute as @e[tag=field_ender_angryflag] run function mikatanserver:adddim/area/ender/mob/enderman/angry/main
@@ -16,7 +17,7 @@
     execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/2] at @s run function mikatanserver:adddim/area/ender/villager/talk_2
     execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/3] at @s run function mikatanserver:adddim/area/ender/villager/talk_3
     execute as @a[tag=FieldEnder,scores={VillagerFlag=1..},predicate=mikatanserver:villager/end/4] at @s run function mikatanserver:adddim/area/ender/villager/talk_4
-    scoreboard players set @a VillagerFlag 0
+    scoreboard players set @a[tag=FieldEnder] VillagerFlag 0
 
     kill @e[type=item,nbt={Item:{id:"minecraft:end_portal_frame"}}]
 
