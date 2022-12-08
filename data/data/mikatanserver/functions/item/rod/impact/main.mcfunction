@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 50
+scoreboard players set $mana TMP 50
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 summon silverfish ~-5 ~ ~5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["impact_rod_sil","impact_rod_sil_BE","impact_rod_sil_1"]}
 summon silverfish ~-5 ~ ~-5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{ShowParticles:0b,Id:14,Duration:600}],Tags:["impact_rod_sil","impact_rod_sil_BE","impact_rod_sil_2"]}

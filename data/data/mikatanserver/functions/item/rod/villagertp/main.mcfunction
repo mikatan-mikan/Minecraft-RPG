@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 15
+scoreboard players set $mana TMP 15
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 
 

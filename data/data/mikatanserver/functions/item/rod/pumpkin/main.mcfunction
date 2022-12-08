@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 30
+scoreboard players set $mana TMP 30
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 effect give @s regeneration 4 0
 

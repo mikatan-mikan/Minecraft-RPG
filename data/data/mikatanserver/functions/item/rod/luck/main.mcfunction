@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 60
+scoreboard players set $mana TMP 60
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 summon armor_stand ~ ~1 ~ {Tags:["luckrodAr","BeforeStoreLuckrodAr","fullluckrod"],Invulnerable:1b,Invisible:1b}
 

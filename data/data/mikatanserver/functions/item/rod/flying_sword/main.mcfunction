@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 25
+scoreboard players set $mana TMP 25
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 #二重
 execute as @a at @s as @e[tag=BoostAr,distance=..2] run kill @s

@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 40
+scoreboard players set $mana TMP 40
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{ember_ar:1b}},{Slot:101b,tag:{ember_ar:1b}},{Slot:102b,tag:{ember_ar:1b}},{Slot:103b,tag:{ember_ar:1b}}]}] run scoreboard players add @s mana 25
 

@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 50
+scoreboard players set $mana TMP 50
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 tp ^ ^ ^8
 
 effect give @s slow_falling 1 255 true

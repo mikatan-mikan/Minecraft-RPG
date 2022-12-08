@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 40
+scoreboard players set $mana TMP 40
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 execute if entity @s[nbt={SelectedItem:{tag:{tier:2}},Inventory:[{Slot:9b,tag:{CustomModelData:39}}]}] run effect give @s resistance 2 0
 execute if entity @s[nbt={SelectedItem:{tag:{tier:2}},Inventory:[{Slot:100b,tag:{rhodochrosite:true}},{Slot:101b,tag:{rhodochrosite:true}},{Slot:102b,tag:{rhodochrosite:true}},{Slot:103b,tag:{rhodochrosite:true}}]}] run function mikatanserver:item/rod/ruins/rhodo_fullset/check

@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 45
+scoreboard players set $mana TMP 45
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 tag @s add throughSwordExecute
 

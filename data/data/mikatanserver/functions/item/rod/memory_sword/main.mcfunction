@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 100
+scoreboard players set $mana TMP 100
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 effect give @s strength 2 0
 effect give @a[distance=..10] regeneration 10 1
 effect give @a[distance=..10] absorption 10 1

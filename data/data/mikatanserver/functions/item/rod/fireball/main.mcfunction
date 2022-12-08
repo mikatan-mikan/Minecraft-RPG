@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 27
+scoreboard players set $mana TMP 27
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 ##fireball本体の召喚
 execute unless entity @s[nbt={SelectedItem:{tag:{fireball:2s}}}] run summon armor_stand ~ ~ ~ {Tags:["FireBallArmor","beforeRot"],Invisible:1b,Invulnerable:1b,Small:1b}

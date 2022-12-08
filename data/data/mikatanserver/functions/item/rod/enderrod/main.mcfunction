@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 55
+scoreboard players set $mana TMP 55
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 ##pearl召喚
 summon ender_pearl ^ ^1 ^1 {Tags:["beforeRot"],Glowing:true,NoGravity:0}

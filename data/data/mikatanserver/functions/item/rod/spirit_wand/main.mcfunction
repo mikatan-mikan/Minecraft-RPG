@@ -1,4 +1,6 @@
-scoreboard players remove @s mana 100
+scoreboard players set $mana TMP 100
+function mikatanserver:main/mana/remove
+scoreboard players reset $mana TMP
 
 execute as @e[type=#mikatanserver:mobs] at @s run function mikatanserver:item/rod/spirit_wand/slow
 #sunstone一式なら
