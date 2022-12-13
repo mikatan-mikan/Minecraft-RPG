@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:carrot_on_a_stick",
-        "nbt":"{CustomModelData:126}"
+        "nbt":"{CustomModelData:127}"
       },
       "title": "貴方が未来を指すためのもの",
       "description": "fluteを作成する",

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sweet_berries"
+          ],
+          "nbt":"{CustomModelData: 1,enchanted: 1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mikatanserver:item/food/onion"
+  }
+}

@@ -4,7 +4,7 @@
             "item": "minecraft:golden_sword"
         },
         "title": "纏われた炎は真の輝きを取り戻す・・・",
-        "description": "lava swordを作成する",
+        "description": "laric swordを作成する",
         "frame":"challenge"
     },
     "parent": "mikatanserver:event/nether/lavasword",

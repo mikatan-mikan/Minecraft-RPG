@@ -1,0 +1,99 @@
+# [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAAwBMAZtQCwCGtARgLQDMAbAJxPsG1AKwCAHJwCMvdr1bcxrSUyaVuKBmAIA7JgFsEyQGGKAAklawMJhn0BnJOBQB7QtohIGlAijhu4GBzAANyZsQkNwAA8kLzAoGIBfBIIbUjRCe0RJAlsIa3dEWLhsbDQYW0NJSliMJzyIQ1i0WwBRErKKloBHQlDsKABlKx9yRFpQiqS8cGh4ClLtfCISUbBSAHZWOG5qFG52aiZeakE4WklZXl4GdlExUlYUSivJam4LXQMKQC3fMwsrGx6TKOFxuJBVAi0Wp6QIhMIRMDRQoAOnWBHiiHYlFRU0gTlhoXCgSRsQxklxTlotAqBViWwAXmh-DECM0AEJwRn+bq9EqDYZwUbjbCTZIzWCGMALJbEMgUdZMYQoVi0J7sJTbQSHWjq0jcYTsUicSgsXjjFA8SgffSS37Uf7WOyBZyuAoQsBQpwwxDgOFEn2ImKo9FILE45J4gnw4mh7G8EMohgUqk0llgBlMgKFVm2DlcjA8vr8pgjJDC0XTSAS+ZoRYWWWrVhiWjcSiSTgnVXNwQMca6uBwdXrFDCUgt6isBgMcg6G0-EycB2A4GoUFu2Ke72+wkIpFh+NxINJiMQfEBv27oMHjHY48ESnUuC0ggZ5nZsDszmZwt8oYlwVlhMcBTOKczINK9YrBQlCcGIGjrOsnC3DBYiCJIzCyKQpCUOww6cHAvDcEcwjCHATDWl8yC-JoBAAk6AYumCWQbtCUb+lEV4JreuKnmxl6YtiaKHgJ4b3imT5pq+WZNLmX7cj0RZ-qWYxASBVZgVKtYylByAMNwRGcPIOqSJIrACHpYg3Kw6zcEhFpMNQki0OsgpUuRs6UWAvzCEu9Egq64IsV6fExiJQkYmG6w8We27RgGJIJuSEYPqm75SWmn75j+-RKQBKkisBCQALpAA_3
+# 線 1
+particle soul_fire_flame ^0.7 ^-0.7 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.62222 ^-0.51111 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.54444 ^-0.32222 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.46667 ^-0.13333 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.38889 ^0.05556 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.31111 ^0.24444 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.23333 ^0.43333 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.15556 ^0.62222 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.07778 ^0.81111 ^1 0 0 0 0 1
+particle soul_fire_flame ^0 ^1 ^1 0 0 0 0 1
+# 円 1
+particle soul_fire_flame ^0 ^-1 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.15643 ^-0.98769 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.30902 ^-0.95106 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.45399 ^-0.89101 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.58779 ^-0.80902 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.70711 ^-0.70711 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.80902 ^-0.58779 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.89101 ^-0.45399 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.95106 ^-0.30902 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.98769 ^-0.15643 ^1 0 0 0 0 1
+particle soul_fire_flame ^1 ^0 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.98769 ^0.15643 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.95106 ^0.30902 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.89101 ^0.45399 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.80902 ^0.58779 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.70711 ^0.70711 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.58779 ^0.80902 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.45399 ^0.89101 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.30902 ^0.95106 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.15643 ^0.98769 ^1 0 0 0 0 1
+particle soul_fire_flame ^0 ^1 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.15643 ^0.98769 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.30902 ^0.95106 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.45399 ^0.89101 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.58779 ^0.80902 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.70711 ^0.70711 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.80902 ^0.58779 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.89101 ^0.45399 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.95106 ^0.30902 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.98769 ^0.15643 ^1 0 0 0 0 1
+particle soul_fire_flame ^-1 ^0 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.98769 ^-0.15643 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.95106 ^-0.30902 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.89101 ^-0.45399 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.80902 ^-0.58779 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.70711 ^-0.70711 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.58779 ^-0.80902 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.45399 ^-0.89101 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.30902 ^-0.95106 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.15643 ^-0.98769 ^1 0 0 0 0 1
+# 線 2
+particle soul_fire_flame ^0.7 ^-0.7 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.52222 ^-0.57778 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.34444 ^-0.45556 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.16667 ^-0.33333 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.01111 ^-0.21111 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.18889 ^-0.08889 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.36667 ^0.03333 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.54444 ^0.15556 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.72222 ^0.27778 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.9 ^0.4 ^1 0 0 0 0 1
+# 線 3
+particle soul_fire_flame ^-0.9 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.7 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.5 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.3 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.1 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.1 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.3 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.5 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.7 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.9 ^0.4 ^1 0 0 0 0 1
+# 線 4
+particle soul_fire_flame ^0.9 ^0.4 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.72222 ^0.27778 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.54444 ^0.15556 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.36667 ^0.03333 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.18889 ^-0.08889 ^1 0 0 0 0 1
+particle soul_fire_flame ^0.01111 ^-0.21111 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.16667 ^-0.33333 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.34444 ^-0.45556 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.52222 ^-0.57778 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.7 ^-0.7 ^1 0 0 0 0 1
+# 線 5
+particle soul_fire_flame ^-0.7 ^-0.7 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.62222 ^-0.51111 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.54444 ^-0.32222 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.46667 ^-0.13333 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.38889 ^0.05556 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.31111 ^0.24444 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.23333 ^0.43333 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.15556 ^0.62222 ^1 0 0 0 0 1
+particle soul_fire_flame ^-0.07778 ^0.81111 ^1 0 0 0 0 1
+particle soul_fire_flame ^0 ^1 ^1 0 0 0 0 1
+
+execute if score $score TMP matches 100 run data merge entity @s {NoAI:true}

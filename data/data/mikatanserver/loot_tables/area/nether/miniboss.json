@@ -1,0 +1,253 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight":200,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 8
+                }
+              }
+            ],
+            "name": "minecraft:golden_apple"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":1000,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 12
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:19,display:{Name:'[{\"text\":\"lava crystal\"}]'}}"
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 48,
+                  "max": 64
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"ruby\"}]'}}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 48,
+                  "max": 64
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"sapphire\"}]'}}"
+              }
+            ],
+            "name": "minecraft:slime_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":100,
+            "name": "minecraft:blaze_rod"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":4,
+                  "max":8
+                }
+              }
+            ],
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":1
+                }
+              },
+              {
+                "function":"minecraft:set_nbt",
+                "tag":"{display:{Name:'[{\"text\":\"hades boots\"}]',color:7667712},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,Slot:\"feet\",UUID:[I;232478239,13124134,14141312,513312412]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:0.05,Operation:0,Slot:\"feet\",UUID:[I;232478239,12312414,523523523,123123]}],hades_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":1
+                }
+              },
+              {
+                "function":"minecraft:set_nbt",
+                "tag":"{display:{Name:'[{\"text\":\"hades leggings\"}]',color:7667712},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:6,Operation:0,Slot:\"legs\",UUID:[I;1231241,13124134,14141312,513312412]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:0.05,Operation:0,Slot:\"legs\",UUID:[I;232478239,12312414,913461,91234814]}],hades_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":1
+                }
+              },
+              {
+                "function":"minecraft:set_nbt",
+                "tag":"{display:{Name:'[{\"text\":\"hades chestplate\"}]',color:7667712},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:8,Operation:0,Slot:\"chest\",UUID:[I;712481348,61248134,14141312,513312412]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:0.05,Operation:0,Slot:\"chest\",UUID:[I;8124614,712491410,523523523,8124614]}],hades_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":1
+                }
+              },
+              {
+                "function":"minecraft:set_nbt",
+                "tag":"{display:{Name:'[{\"text\":\"hades helmet\"}]',color:7667712},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:3,Operation:0,Slot:\"head\",UUID:[I;232478239,632149140,14141312,712491343]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:0.05,Operation:0,Slot:\"head\",UUID:[I;91240141,12312414,523523523,534823481]}],hades_ar:1b}"
+              }
+            ],
+            "name": "minecraft:leather_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min":1,
+                  "max":1
+                }
+              }
+            ],
+            "name": "minecraft:netherite_scrap"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":20,
+            "functions":[
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{GiveXp:1,display:{Name:'[{\"text\": \"xp + 1\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+1する\",\"color\": \"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:42,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<奇跡の剣舞>>\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight":5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:10,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\":\"始まりのダンジョン\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv10以上\"}]']}}"
+              }
+            ],
+            "name": "minecraft:carrot_on_a_stick"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight":1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:19,display:{Name:'[{\"text\":\"lava crystal\"}]'}}"
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
+          }
+        ]
+      }
+    ]
+  }

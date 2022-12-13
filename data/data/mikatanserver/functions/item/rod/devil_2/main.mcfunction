@@ -24,7 +24,7 @@ effect give @e[type=#mikatanserver:mobs,distance=..5] weakness 3 0
 function mikatanserver:item/rod/devil/particle_sound
 
 #devil一式なら
-execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{armor_devil:1b}},{Slot:101b,tag:{armor_devil:1b}},{Slot:102b,tag:{armor_devil:1b}},{Slot:103b,tag:{armor_devil:1b}}]}] run function mikatanserver:item/rod/devil_2/devil_full/mana
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{devil_ar:1b}},{Slot:101b,tag:{devil_ar:1b}},{Slot:102b,tag:{devil_ar:1b}},{Slot:103b,tag:{devil_ar:1b}}]}] run function mikatanserver:item/rod/devil_2/devil_full/mana
 
 #fresh green一式なら
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{fresh_ar:true}},{Slot:101b,tag:{fresh_ar:true}},{Slot:102b,tag:{fresh_ar:true}},{Slot:103b,tag:{fresh_ar:true}}]}] run function mikatanserver:item/rod/devil_2/f_green_full/mana

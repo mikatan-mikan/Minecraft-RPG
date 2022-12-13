@@ -16,6 +16,7 @@ scoreboard players set @s tradecount 0
     tag @s remove FieldCherryblossom
     tag @s remove FieldCave
     clear @s diamond_pickaxe{cave_item:true}
+    tag @s remove FieldVolcano
     execute as @s[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
     execute as @s[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
     execute as @s[tag=FieldJungle,predicate=mikatanserver:overworld] run function mikatanserver:main/event/jungle/reset_bossbar
@@ -31,6 +32,7 @@ scoreboard players set @s tradecount 0
     tag @s remove jungle_tp_after
     tag @s remove cherryblossom_tp_after
     tag @s remove cave_tp_after
+    tag @s remove volcano_tp_after
     #alltag
     tag @s remove FieldPlayer
 ##クエストタグ

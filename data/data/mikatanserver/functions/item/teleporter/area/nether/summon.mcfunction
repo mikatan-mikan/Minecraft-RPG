@@ -40,3 +40,8 @@ summon armor_stand 316.5 -20 -1163.5 {Tags:["field_nether_hig_ar_7","NetherField
 summon armor_stand 296.5 -20 -1163.5 {Tags:["field_nether_hig_ar_8","NetherField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
 summon armor_stand 300.5 -21 -1201.5 {Tags:["field_nether_hig_ar_9","NetherField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
 summon armor_stand 307.5 -20 -1185.5 {Tags:["field_nether_hig_ar_10","NetherField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+
+##miniboss
+summon armor_stand 433.5 -18 -1164.5 {Tags:["field_nether_mboss_ar_1","NetherField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 313.5 -19 -1257.5 {Tags:["field_nether_mboss_ar_2","NetherField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}
+summon armor_stand 320.5 -21 -1167.5 {Tags:["field_nether_mboss_ar_3","NetherField_Ar"],Invisible:1b,Invulnerable:1b,Small:1b}

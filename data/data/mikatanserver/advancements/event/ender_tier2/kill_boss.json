@@ -7,7 +7,7 @@
       "title": "最終討伐",
       "description": "concludeのボスを討伐する"
     },
-    "parent": "mikatanserver:event/ender_tier2/visit_village",
+    "parent": "mikatanserver:event/ender_tier2/eat_onion",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

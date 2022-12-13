@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sweet_berries"
+          ],
+          "nbt":"{CustomModelData: 2}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mikatanserver:item/food/paprika"
+  }
+}

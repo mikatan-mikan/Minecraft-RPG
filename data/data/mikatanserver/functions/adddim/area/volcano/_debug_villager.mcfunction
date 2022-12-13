@@ -1,0 +1,13 @@
+#> mikatanserver:adddim/area/volcano/_debug_villager
+
+kill @e[tag=FieldVolcanoVillager_1]
+kill @e[tag=FieldVolcanoVillager_2]
+kill @e[tag=FieldVolcanoVillager_3]
+
+
+summon villager 2156.5 172 3054.5 {VillagerData:{profession:"",level:1,type:"plains"},PersistenceRequired:1,Invulnerable:1,NoAI:1,Tags:["FieldVolcanoVillager_1"],Rotation:[-100.0f,0.0f],Silent:1b}
+summon villager 2141.5 167 3044.5 {VillagerData:{profession:"",level:1,type:"plains"},PersistenceRequired:1,Invulnerable:1,NoAI:1,Tags:["FieldVolcanoVillager_2"],Rotation:[-135.0f,0.0f],Silent:1b}
+summon villager 2130.5 172 3057.5 {VillagerData:{profession:"",level:1,type:"plains"},PersistenceRequired:1,Invulnerable:1,NoAI:1,Tags:["FieldVolcanoVillager_3"],Rotation:[165.0f,0.0f],Silent:1b}
+
+
+summon villager 2125.5 172 3056.5 {VillagerData:{profession:"cleric",level:5,type:"plains"},PersistenceRequired:1,Invulnerable:1,Silent:1b,NoAI:1,Offers:{Recipes:[{buy:{id:"nautilus_shell",Count:64b,tag:{CustomModelData:42,display:{Name:'[{"text":"lava quartz"}]'}}},buyB:{id:"nautilus_shell",Count:64b,tag:{CustomModelData:42,display:{Name:'[{"text":"lava quartz"}]'}}},sell:{id:"nautilus_shell",Count:1b,tag:{CustomModelData:42,display:{Name:'[{"text":"enchanted lava quartz"}]'},HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}},maxUses:1000000000},{buy:{id:"sweet_berries",Count:64b,tag:{CustomModelData:2,display:{Name:'[{"text":"volcano paprika"}]'}}},buyB:{id:"sweet_berries",Count:64b,tag:{CustomModelData:2,display:{Name:'[{"text":"volcano paprika"}]'}}},sell:{id:"sweet_berries",Count:1b,tag:{CustomModelData:2,display:{Name:'[{"text":"enchanted volcano paprika"}]'},HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}},maxUses:1000000000},{buy:{id:"sweet_berries",Count:50b,tag:{CustomModelData:2,display:{Name:'[{"text":"enchanted volcano paprika"}]'},HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}},buyB:{id:"nautilus_shell",Count:50b,tag:{CustomModelData:42,display:{Name:'[{"text":"enchanted lava quartz"}]'},HideFlags:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}},sell:{id:"netherite_helmet",Count:1b,tag:{display:{Name:'[{"text":"devil helmet","color": "dark_purple"}]',Lore:['[{"text": "足に装備したとき :","color":"white","italic": false}]','[{"text":" 防具 +4","color": "dark_green","italic": false}]','[{"text": " 防具強度 +3","color": "dark_green","italic": false}]']},HideFlags:2,AttributeModifiers:[{AttributeName:"generic.armor",Amount:4.0,Operation:0,Slot:"feet",UUID:[I;915581423,-201312431,-295946392,55618117]},{AttributeName:"generic.armor_toughness",Amount:3,Operation:0,Slot:"feet",UUID:[I;-212372333,307371239,201312414,-96671228]}],Unbreakable:1b,devil_ar:1b}},maxUses:1000000000}]},Rotation:[180.0f,0.0f]}

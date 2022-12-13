@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_button",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "entity":"this",
+                            "tag": "{Tags:[\"RankStore\"]}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": 
+                            [
+                                {
+                                    "score": {
+                                        "name": "$m",
+                                        "objective": "TMP"
+                                    }
+                                },
+                                {
+                                    "text": ":0"
+                                },
+                                {
+                                    "score": {
+                                        "name": "$s",
+                                        "objective": "TMP"
+                                    }
+                                },
+                                {
+                                    "text": ".0"
+                                },
+                                {
+                                    "score": {
+                                        "name": "$t",
+                                        "objective": "TMP"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -21,7 +21,7 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:player_head",tag:{candy_t
 
 ##Goddess Stone
 execute as @s[scores={GoddessStoneFlag=1},predicate = mikatanserver:chance/0.01,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/goddess_stone
-execute as @s[scores={MaidenHerbsFlag=1,AllLV=150..},predicate = mikatanserver:chance/1,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/maiden_herbs
+execute as @s[scores={MaidenHerbsFlag=1,AllLV=150..},predicate = mikatanserver:chance/0.005,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/maiden_herbs
 
 ##敵を倒したときレア泥
 execute as @s[predicate=mikatanserver:chance/0.001] run function mikatanserver:main/lvup/raredrop/atkspeed

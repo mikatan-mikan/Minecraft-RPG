@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:leather_boots",
+        "nbt":"{display:{color:1441823}}"
+      },
+      "title": "対極をなす存在",
+      "description": "devilシリーズの防具を作成する",
+      "frame":"challenge"
+    },
+    "parent": "mikatanserver:event/volcano/eat_paprika",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/10"
+    }
+  }
+  

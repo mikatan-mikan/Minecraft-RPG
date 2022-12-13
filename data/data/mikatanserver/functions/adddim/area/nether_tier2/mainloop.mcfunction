@@ -25,7 +25,7 @@
     scoreboard players set @a[tag=FieldNether_2] VillagerFlag 0
     
     ##クエスト判定
-    execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{nether_quest:true}}]}] at @s run function mikatanserver:adddim/area/nether/item/quest/check
+    execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{nether_quest:true}}]},tag=FieldNether_2] at @s run function mikatanserver:adddim/area/nether/item/quest/check
 
 
 ##ループリセット

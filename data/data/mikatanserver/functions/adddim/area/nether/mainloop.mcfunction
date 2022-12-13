@@ -6,6 +6,7 @@
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldNether] run function mikatanserver:adddim/area/nether/mob/def_zombie/spawn/spawncheck
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldNether] run function mikatanserver:adddim/area/nether/mob/def_zombie/spawn/mid_spawncheck
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldNether] run function mikatanserver:adddim/area/nether/mob/def_zombie/spawn/hig_spawncheck
+    execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldNether] run function mikatanserver:adddim/area/nether/mob/def_zombie/spawn/mboss_spawncheck
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldNether] run function mikatanserver:adddim/area/nether/mob/def_zombie/armor_reset
 
     ##ボススポーン
@@ -25,6 +26,8 @@
     execute as @a[tag=FieldNether,scores={VillagerFlag=1..},predicate=mikatanserver:villager/nether/6] at @s run function mikatanserver:adddim/area/nether/villager/talk_6
     scoreboard players set @a[tag=FieldNether] VillagerFlag 0
 
+    ##クエスト判定
+    execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{nether_quest:true}}]},tag=FieldNether] at @s run function mikatanserver:adddim/area/nether/item/quest/check
 
 ##ループリセット
 execute if score $count nether_field_loop matches 12000.. run scoreboard players set $count nether_field_loop 0
