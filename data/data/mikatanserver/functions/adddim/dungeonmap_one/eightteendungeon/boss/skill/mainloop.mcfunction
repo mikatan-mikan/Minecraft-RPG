@@ -1,4 +1,4 @@
-
+tag @a[tag=DungeonPlay_18,tag=!BossBattle18] add BossBattle18
 execute if score @s MobNowHP matches ..300 run clear @a[tag=BossBattle18] #boats
 execute if score @s MobNowHP matches ..300 run effect clear @a[tag=BossBattle18] resistance
 

@@ -1,4 +1,4 @@
-
+tag @a[tag=DungeonPlay_10,tag=!BossBattle10] add BossBattle10
 execute if score @s MobNowHP matches ..300 run clear @a[tag=BossBattle10] #boats
 execute if score @s MobNowHP matches ..300 run effect clear @a[tag=BossBattle10] resistance
     ##healing

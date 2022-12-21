@@ -1,4 +1,4 @@
-
+tag @a[tag=DungeonPlay_8,tag=!BossBattle8] add BossBattle8
 execute if entity @a[scores={EigBossSkill=100}] as @e[tag=EigthDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/eigthdungeon/boss/skill/healing/main
 
 execute if entity @a[scores={EigBossSkill=175}] as @e[tag=EigthDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/eigthdungeon/boss/skill/summon/main

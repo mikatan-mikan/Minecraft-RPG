@@ -1,4 +1,4 @@
-
+tag @a[tag=DungeonPlay_24,tag=!BossBattle24] add BossBattle24
 execute if score @s MobNowHP matches ..300 run clear @a[tag=BossBattle24] #boats
 execute if score @s MobNowHP matches ..300 run effect clear @a[tag=BossBattle24] resistance
 ##bossの現在HPをgetする

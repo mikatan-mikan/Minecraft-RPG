@@ -1,4 +1,4 @@
-
+tag @a[tag=DungeonPlay_16,tag=!BossBattle16] add BossBattle16
 ##剣を進める(常時)
 execute as @e[type=armor_stand,tag=SixteenDunSwAr] at @s run function mikatanserver:adddim/dungeonmap_one/sixteendungeon/boss/skill/sword_front/step
 
