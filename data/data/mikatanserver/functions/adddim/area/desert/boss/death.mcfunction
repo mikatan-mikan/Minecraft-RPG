@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=Desert_BossNowPlaceAr] at @s run function mikatanserver:adddim/area/desert/boss/give_item

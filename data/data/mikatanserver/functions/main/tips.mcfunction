@@ -1,4 +1,4 @@
-scoreboard players set @s MK.r.RandValue 10
+scoreboard players set @s MK.r.RandValue 14
 function mikatanlib:rand/rand_exe
 
 execute if score @s MK.r.RandValue matches 0 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "レベルアップ\n","color": "aqua"},{"text": "レベルアップによってステータスをあげよう！","color": "white","bold": true}]
@@ -11,6 +11,18 @@ execute if score @s MK.r.RandValue matches 6 run tellraw @s [{"text": "[system]"
 execute if score @s MK.r.RandValue matches 7 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "アクセサリー\n","color": "aqua"},{"text": "詰まってしまったときは特殊な効果をもつアクセサリーを使ってみよう！","color": "white","bold": true}]
 execute if score @s MK.r.RandValue matches 8 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "鉱石\n","color": "aqua"},{"text": "色々な鉱石が追加されている。作って性能を確かめよう！","color": "white","bold": true}]
 execute if score @s MK.r.RandValue matches 9 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "エリア\n","color": "aqua"},{"text": "エリアと呼ばれる場所からは様々なアイテムがドロップする。準備を整えてみよう！","color": "white","bold": true}]
+
+
+execute if score @s MK.r.RandValue matches 10 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "シンボル\n","color": "aqua"},{"text": "ダンジョン等でドロップする一部アイテムはシンボルと呼ばれるアイテムの作成に使われる。シンボルを作成して新たな素材を手に入れよう！","color": "white","bold": true}]
+execute if score @s MK.r.RandValue matches 11 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "クエスト\n","color": "aqua"},{"text": "一部エリアにはクエストが存在する。クリアして報酬を手に入れよう！","color": "white","bold": true}]
+execute if score @s MK.r.RandValue matches 12 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "最初の一歩\n","color": "aqua"},{"text": "Crafter++を作成し、angel防具の作成を目指そう！","color": "white","bold": true}]
+execute if score @s MK.r.RandValue matches 13 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "クエストレベル\n","color": "aqua"},{"text": "エリアで受注できるクエストはクリアすると専用のLvが上昇する。制限に含まれることがあるのであげておこう！","color": "white","bold": true}]
+execute if score @s MK.r.RandValue matches 14 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "属性\n","color": "aqua"},{"text": "Enhancerを使用してrodには追加効果を与えることができる。manaコストに対して強い効果が多いので付与してみよう！","color": "white","bold": true}]
+execute if score @s MK.r.RandValue matches 15 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "レイド\n","color": "aqua"},{"text": "メンバーがレイド戦を開始することがある。参加アイテムを作成して戦いにいこう！","color": "white","bold": true}]
+execute if score @s MK.r.RandValue matches 16 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "アーティファクト\n","color": "aqua"},{"text": "アーティファクトと呼ばれるアイテムは使用することで永続的な経験値増加効果などが得られる。作成しよう！","color": "white","bold": true}]
+# execute if score @s MK.r.RandValue matches 17 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "エリア\n","color": "aqua"},{"text": "エリアと呼ばれる場所からは様々なアイテムがドロップする。準備を整えてみよう！","color": "white","bold": true}]
+# execute if score @s MK.r.RandValue matches 18 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "エリア\n","color": "aqua"},{"text": "エリアと呼ばれる場所からは様々なアイテムがドロップする。準備を整えてみよう！","color": "white","bold": true}]
+# execute if score @s MK.r.RandValue matches 19 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "✧","color": "red"},{"text": "Tips","color":"green"},{"text": "✧","color": "red"} , {"text": "エリア\n","color": "aqua"},{"text": "エリアと呼ばれる場所からは様々なアイテムがドロップする。準備を整えてみよう！","color": "white","bold": true}]
 
 
 scoreboard players set @s DeathCnt_Tip 0

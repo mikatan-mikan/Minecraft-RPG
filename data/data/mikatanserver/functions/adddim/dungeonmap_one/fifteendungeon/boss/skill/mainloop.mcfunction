@@ -21,6 +21,8 @@ execute if score $15 BossHP matches ..0 run kill @s
             execute if entity @a[scores={FifteenBossSkill=170},tag=BossBattle15] at @s run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/dmg_circle/main
         ##15m-
             execute if entity @a[scores={FifteenBossSkill=210},tag=BossBattle15] at @s run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/dmg_circle/main_2
+    ##healing
+        execute if score $15 BossHP matches ..256 if predicate mikatanserver:chance/0.5 if entity @a[scores={FifteenBossSkill=230},tag=BossBattle15] as @e[tag=FifteenDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/healing/main
     ##召喚
         #乱数
             execute if score @a[tag=BossBattle15,limit=1] FifteenBossSkill matches 257 run scoreboard players set @s MK.r.RandValue 2
@@ -41,10 +43,10 @@ execute if score $15 BossHP matches ..0 run kill @s
 ##mainloop 2 skill 1
 
     ##固定召喚(プレイヤーに対して、ウィザスケ召喚)
-        execute as @a[scores={FifteenBossSkill2=225},tag=BossBattle15] at @s run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/summon_wither/main
+        execute as @a[scores={FifteenBossSkill2=125},tag=BossBattle15] at @s run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/summon_wither/main
 
     ##起爆(1,2)
-        execute if entity @a[scores={FifteenBossSkill2=225},tag=BossBattle15] run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/bomb1/main
-        execute if entity @a[scores={FifteenBossSkill2=325},tag=BossBattle15] in mikatanserver:dungeon positioned 109.5 124.0 474.5 run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/bomb2/main
+        execute if entity @a[scores={FifteenBossSkill2=165},tag=BossBattle15] run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/bomb1/main
+        execute if entity @a[scores={FifteenBossSkill2=185},tag=BossBattle15] in mikatanserver:dungeon positioned 109.5 124.0 474.5 run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/boss/skill/bomb2/main
 
-    execute if entity @a[scores={FifteenBossSkill2=325..}] run scoreboard players set @a FifteenBossSkill2 0
+    execute if entity @a[scores={FifteenBossSkill2=220..}] run scoreboard players set @a FifteenBossSkill2 0

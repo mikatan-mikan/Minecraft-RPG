@@ -5,7 +5,7 @@
         "nbt": "{CustomModelData:122}",
         "frame": "challenge"
       },
-      "title": "失われた煌めき",
+      "title": {"text":"失われた煌めき","color": "yellow"},
       "description": "ancient rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/rod_and_sword/ruins_wand",

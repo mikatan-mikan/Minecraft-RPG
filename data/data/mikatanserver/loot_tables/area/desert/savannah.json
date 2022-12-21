@@ -1,0 +1,145 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 200,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:acacia_log",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:acacia_leaves",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"savannah sword\",\"color\":\"dark_green\"}]',Lore:['[{\"text\": \"利き手に持った時\",\"color\":\"white\",\"italic\": false}]','[{\"text\":\" 攻撃力 11.75\",\"color\": \"dark_green\",\"italic\": false}]','[{\"text\": \" 攻撃速度 1.65\",\"color\": \"dark_green\",\"italic\": false}]']},AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:11.75, Operation:0, Slot:\"mainhand\", UUID:[I;1234,1234,1234,1234]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:-2.35,Operation:0,Slot:\"mainhand\",UUID:[I;1234,1234,1234,1235]}],HideFlags:2,CustomModelData:6}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:sweet_berries",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"savannah mango\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:45,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<波動>>\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:104,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<重力の操縦者>>\",\"color\":\"red\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                }
+            ]
+        }
+    ]
+}

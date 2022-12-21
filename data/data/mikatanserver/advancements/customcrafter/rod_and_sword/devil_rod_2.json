@@ -4,7 +4,7 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:132}"
         },
-        "title": "静かな煌めき",
+        "title": {"text":"静かな煌めき","color": "dark_purple"},
         "description": "榴創杖を作成する"
     },
     "parent": "mikatanserver:customcrafter/rod_and_sword/devil_rod",

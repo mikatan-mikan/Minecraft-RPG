@@ -1,6 +1,6 @@
 execute as @s in mikatanserver:dungeon run tp @s -183.5 85 1195.5 -90 0
 title @s subtitle [{"text": "その存在は新時代のメロディを奏でて","color": "red"}]
-title @s title [{"text": "<<その存在は未知なる旋律を奏でて>>","color": "red"}]
+title @s title [{"text": "その存在は未知なる旋律を奏でて","color": "red"}]
 playsound entity.ender_pearl.throw master @s ~ ~ ~ 2
 scoreboard objectives remove DungeonStartCnt24
 function mikatanserver:adddim/dungeonmap_one/twentyfourdungeon/init

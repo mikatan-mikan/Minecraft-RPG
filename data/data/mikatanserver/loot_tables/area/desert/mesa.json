@@ -1,0 +1,173 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 200,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:red_sand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 48
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:red_sandstone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "name": "minecraft:terracotta",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "name": "minecraft:red_terracotta",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"mesa sword\",\"color\":\"red\"}]',Lore:['[{\"text\": \"利き手に持った時\",\"color\":\"white\",\"italic\": false}]','[{\"text\":\" 攻撃力 11.5\",\"color\": \"dark_green\",\"italic\": false}]','[{\"text\": \" 攻撃速度 1.7\",\"color\": \"dark_green\",\"italic\": false}]']},AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:11.5, Operation:0, Slot:\"mainhand\", UUID:[I;1234,1234,1234,1234]},{AttributeName:\"minecraft:generic.attack_speed\",Amount:-2.3,Operation:0,Slot:\"mainhand\",UUID:[I;1234,1234,1234,1235]}],HideFlags:2,CustomModelData:1}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:44,display:{Name:'[{\"text\":\"sand catalyst\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:45,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<波動>>\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:104,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"<<重力の操縦者>>\",\"color\":\"red\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 
 execute as @a[tag=DungeonPlay_15] at @s run playsound entity.strider.eat master @s ~ ~ ~ 1 2
-effect give @a[distance=15..] instant_damage 1 2
+effect give @a[distance=15..,tag=DungeonPlay_15] instant_damage 1 4
 
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmABwCsADCgGYBGAzEwLQCMTlD7ALJwBM-djQDscAQENK46ilq1qpcbTAEAdtIC2CZIDDFAAScNYGNIy6AzknAoA9oU0QkANloEUcF3Ax2wADdpbEJ9cAAPJE8wKGiAX3iCK1I0QltETmoCawhLV0QYuGxsNBhrfU4lZIc8iH0YtGsAURKyiuaAR0IQ7CgAZQtvckQGEIrEgF0gA_3
 # 円 1

@@ -1,0 +1,154 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 25,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 350,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:43,display:{Name:'[{\"text\":\"sand crystal\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 350,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:44,display:{Name:'[{\"text\":\"sand catalyst\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 350,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:45,display:{Name:'[{\"text\":\"sand cube\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 350,
+                    "name": "minecraft:sweet_berries",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"savannah mango\"}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[\"desert head\"]'},SkullOwner:{Id:[I;-131949009,-251443763,-1138921453,-1680744537],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUxMjY2MzQxNmZiMWI2ZGMzOTIwNTMwNjAyN2RhOWQ3OGNiNWFlYjM5MzUyZDNkYjI3MDg1MWUzMzkzZmQ5ZiJ9fX0=\"}]}},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,Slot:\"head\",UUID:[I;513512214,-105458275,-295946392,53618117]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"head\",UUID:[I;-43124134,307371239,101113870,96471228]},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.04,Operation:1,Slot:\"head\",UUID:[I;221243134,235463474,47352235,64625134]}],Pcluster_ar:true}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[\"desert chestplate\"]',color:12500298},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8.0,Operation:0,Slot:\"chest\",UUID:[I;915581423,-105458275,-295946392,5364134]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"chest\",UUID:[I;-212372333,307371239,101113870,23542354]},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.04,Operation:1,Slot:\"chest\",UUID:[I;221243134,235463474,6345,346356362]}],Pcluster_ar:true}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[\"desert leggings\"]',color:12500298},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6.0,Operation:0,Slot:\"legs\",UUID:[I;915581423,-105458275,-295946392,525141]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"legs\",UUID:[I;-212372333,307371239,101113870,56251354]},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.04,Operation:1,Slot:\"legs\",UUID:[I;413413412,141,47345522,346356362]}],Pcluster_ar:true}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[\"desert boots\"]',color:12500298},AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3.0,Operation:0,Slot:\"feet\",UUID:[I;915581423,-6352152,-295946392,53618117]},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,Slot:\"feet\",UUID:[I;-212372333,307371239,5135153,96471228]},{AttributeName:\"minecraft:generic.movement_speed\",Amount:0.04,Operation:1,Slot:\"feet\",UUID:[I;221243134,101234981,47352235,346356362]}],Pcluster_ar:true}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

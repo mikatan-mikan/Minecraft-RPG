@@ -4,7 +4,7 @@
             "item": "minecraft:carrot_on_a_stick",
             "nbt": "{CustomModelData:123}"
         },
-        "title": "このフィナーレは貴方の物語を指して",
+        "title": {"text":"このフィナーレは貴方の物語を指して","color":"aqua"},
         "description": "\"【絶高難易度】その存在は未知なる旋律を奏でて\"に挑む"
     },
     "parent": "mikatanserver:tp/dungeon/twentyfour_diff2",

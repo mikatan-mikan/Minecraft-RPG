@@ -47,6 +47,7 @@ tellraw @a [{"text": "initialize knockback method...","color": "green","italic":
 tellraw @a [{"text": "initialize armorset method...","color": "green","italic": true}]
 
     scoreboard objectives add MK.attack.damage dummy
+    scoreboard objectives add MK.attack.delete_tag dummy
     
 tellraw @a [{"text": "initialize damage method...","color": "green","italic": true}]
 

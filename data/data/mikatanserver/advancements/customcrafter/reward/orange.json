@@ -4,7 +4,7 @@
         "item": "minecraft:carrot_on_a_stick",
         "nbt":"{CustomModelData:60}"
       },
-      "title": "Re: Mikatan Server",
+      "title": {"text":"Re: Mikatan Server","color": "gold"},
       "description": "【歴史の採掘者】を達成する",
       "frame": "goal"
     },

@@ -10,7 +10,7 @@ bossbar set minecraft:fifteenboss_bar color purple
 
 ## 人数を取得 & 値の決定
 execute store result score player TMP if entity @a[tag = DungeonPlay_15]
-scoreboard players operation player TMP *= $256 int
+scoreboard players operation player TMP *= $350 int
 execute store result bossbar fifteenboss_bar max run scoreboard players get player TMP
 execute store result bossbar fifteenboss_bar value run scoreboard players get player TMP
 #execute store result entity @e[tag=FifteenDunBoss,limit=1] Health int 1 run scoreboard players get player TMP

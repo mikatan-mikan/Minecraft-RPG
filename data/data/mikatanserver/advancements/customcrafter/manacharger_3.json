@@ -5,7 +5,7 @@
         "item": "minecraft:carrot_on_a_stick",
         "nbt": "{CustomModelData:31}"
       },
-      "title": "舞を習得するもの",
+      "title": {"text":"舞を習得するもの","color": "blue"},
       "description": "origin of mana tierⅢを作成する"
     },
     "parent": "mikatanserver:customcrafter/manacharger_2",

@@ -1,1 +1,1 @@
-summon skeleton ~ ~ ~ {Tags:["SixteenDunMob"],HandItems:[{},{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:punch",lvl:10s}]}}],Health:1}
+summon skeleton ~ ~ ~ {Tags:["SixteenDunMob"],HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:punch",lvl:10s}]}},{}],Health:1}

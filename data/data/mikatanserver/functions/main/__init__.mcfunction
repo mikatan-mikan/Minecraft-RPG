@@ -128,7 +128,7 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add FrozenBlockS dummy
         scoreboard objectives add frozenmasiccount dummy
     tellraw @a [{"text": "initialize masic and farmingluck and ore method...","color": "green","italic": true}]
-    tellraw @a [{"text": "completed initialize open β and 1.0 system...","color": "yellow","italic": true}]
+    tellraw @a [{"text": "completed initialize open β and 1.0 system...","color": "aqua","italic": true}]
     #オレンジ
         scoreboard objectives add MoveCheck minecraft.custom:minecraft.play_time
         scoreboard objectives add MoveCheck_dush minecraft.custom:minecraft.sprint_one_cm
@@ -316,7 +316,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add farming_judge_bool dummy
     #ダンジョンクリア回数
     scoreboard objectives add DungeonClear_Num dummy
-    tellraw @a [{"text": "completed initialize version 2.0 system...","color": "yellow","italic": true}]
+    tellraw @a [{"text": "completed initialize version 2.0 system...","color": "aqua","italic": true}]
 
     ##number set
     scoreboard objectives add int dummy
@@ -356,6 +356,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $512 int 512
     scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
+    scoreboard players set $1100 int 1100
 
 
     scoreboard objectives add ImaginStoneFlag dummy
@@ -479,6 +480,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     tellraw @a [{"text": "completed initialize version 2.6 system...","color": "yellow","italic": true}]
 
     scoreboard objectives add ironblockselfcount minecraft.mined:minecraft.iron_block
+    scoreboard objectives add jungleselfcount minecraft.mined:minecraft.jungle_log
 
     scoreboard objectives add bulletrodtimer dummy
     
@@ -509,6 +511,12 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add IsElytra minecraft.custom:minecraft.aviate_one_cm
     scoreboard objectives add Delay dummy
     scoreboard objectives add VolcanoParkItems dummy
+    scoreboard objectives add DesertParkItems dummy
+
+    scoreboard objectives add StoryVillagerTalk dummy
+
+    
+    tellraw @a [{"text": "completed initialize version 3.0 system...","color": "aqua","italic": true}]
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

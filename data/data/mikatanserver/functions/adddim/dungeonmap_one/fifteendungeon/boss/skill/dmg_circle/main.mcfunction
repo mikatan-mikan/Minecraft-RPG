@@ -1,7 +1,7 @@
 
 tellraw @a[tag=DungeonPlay_15] [{"text": "溶岩塊>>","color": "red"},{"text": "ダメージサークル！！","color": "red"}]
 execute as @a[tag=DungeonPlay_15] at @s run playsound entity.strider.eat master @s ~ ~ ~ 1 2
-effect give @a[distance=10..] instant_damage 1 2
+effect give @a[distance=10..,tag=DungeonPlay_15] instant_damage 1 3
 
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmABwCsADCgGYBGAzEwLQCMTlD7ALJwBM-djQDscAQENK46ilq1qpcbTAEAdtIC2CZIDDFAAScNYGNIy6AzknAoA9oU0QkANloEUcF3Ax2wADdpbEJ9cAAPJE8wKGiAX3iCK1I0QltEThjrCEtXRBi4bGw0GGt9LJiMB1yIfRi0awBRYtLypoBHQhDsKABlC29yRAYQ8sSAXSA_3
 # 円 1

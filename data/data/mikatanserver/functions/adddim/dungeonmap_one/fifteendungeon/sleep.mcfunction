@@ -1,7 +1,7 @@
 ##5秒待ち
 execute as @a[scores={DungeonStartCnt15=..101},tag=CountLeader] run schedule function mikatanserver:adddim/dungeonmap_one/fifteendungeon/sleep 1t
 ##参加者が現れた場合
-execute at @a[tag=FifteenDLeader] as @a[distance=..5,tag=!DungeonStart15,scores={luck-Lv=85..,attackS-Lv=85..,attackD-Lv=85..,mana-Lv=85..,speed-Lv=85..,hp-Lv=85..}] run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/challengeadd
+execute at @a[tag=FifteenDLeader] as @a[distance=..5,tag=!DungeonStart15,scores={luck-Lv=85..,attackS-Lv=85..,attackD-Lv=85..,mana-Lv=85..,speed-Lv=85..,hp-Lv=85..,QUEST_NETHER_LEVEL=10..}] run function mikatanserver:adddim/dungeonmap_one/fifteendungeon/challengeadd
 
 
 

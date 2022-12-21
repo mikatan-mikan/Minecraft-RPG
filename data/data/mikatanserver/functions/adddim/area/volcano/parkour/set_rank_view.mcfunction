@@ -19,6 +19,7 @@ execute in mikatanserver:dungeon if score $s TMP matches ..9 if score $t TMP mat
 execute in mikatanserver:dungeon if score $s TMP matches ..9 if score $t TMP matches ..9 run loot spawn 2063.5 111 3042.5 loot mikatanserver:_system/parkour/rank00
 data modify entity @e[type=armor_stand,tag=VolcanoField_Ar,tag=Rank3,limit = 1] CustomName set from entity @e[nbt={Item:{tag:{Tags:["RankStore"]}}},limit=1] Item.tag.display.Name
 kill @e[nbt={Item:{tag:{Tags:["RankStore"]}}}]
+execute if score $rank3 TMP matches 2000000000.. run data modify entity @e[type=armor_stand,tag=VolcanoField_Ar,tag=Rank3,limit = 1] CustomName set value '[{"text":"None","color":"gray"}]'
 
 ##2位
 scoreboard players operation $m TMP = $rank2 TMP
@@ -36,6 +37,7 @@ execute in mikatanserver:dungeon if score $s TMP matches ..9 if score $t TMP mat
 execute in mikatanserver:dungeon if score $s TMP matches ..9 if score $t TMP matches ..9 run loot spawn 2063.5 111 3042.5 loot mikatanserver:_system/parkour/rank00
 data modify entity @e[type=armor_stand,tag=VolcanoField_Ar,tag=Rank2,limit = 1] CustomName set from entity @e[nbt={Item:{tag:{Tags:["RankStore"]}}},limit=1] Item.tag.display.Name
 kill @e[nbt={Item:{tag:{Tags:["RankStore"]}}}]
+execute if score $rank2 TMP matches 2000000000.. run data modify entity @e[type=armor_stand,tag=VolcanoField_Ar,tag=Rank2,limit = 1] CustomName set value '[{"text":"None","color":"gray"}]'
 
 ##1位
 scoreboard players operation $m TMP = $rank1 TMP
@@ -53,6 +55,7 @@ execute in mikatanserver:dungeon if score $s TMP matches ..9 if score $t TMP mat
 execute in mikatanserver:dungeon if score $s TMP matches ..9 if score $t TMP matches ..9 run loot spawn 2063.5 111 3042.5 loot mikatanserver:_system/parkour/rank00
 data modify entity @e[type=armor_stand,tag=VolcanoField_Ar,tag=Rank1,limit = 1] CustomName set from entity @e[nbt={Item:{tag:{Tags:["RankStore"]}}},limit=1] Item.tag.display.Name
 kill @e[nbt={Item:{tag:{Tags:["RankStore"]}}}]
+execute if score $rank1 TMP matches 2000000000.. run data modify entity @e[type=armor_stand,tag=VolcanoField_Ar,tag=Rank1,limit = 1] CustomName set value '[{"text":"None","color":"gray"}]'
 
 scoreboard players reset $m TMP
 scoreboard players reset $s TMP

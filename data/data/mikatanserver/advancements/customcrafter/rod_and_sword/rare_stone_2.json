@@ -5,7 +5,7 @@
         "nbt": "{CustomModelData:52}",
         "frame": "challenge"
       },
-      "title": "眩しい煌めき",
+      "title": {"text":"眩しい煌めき","color": "gold"},
       "description": "翠創杖を作成する"
     },
     "parent": "mikatanserver:customcrafter/rod_and_sword/rare_stone",

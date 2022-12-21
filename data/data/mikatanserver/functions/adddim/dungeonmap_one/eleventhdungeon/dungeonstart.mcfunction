@@ -1,5 +1,5 @@
 execute as @s in mikatanserver:dungeon run tp @s 53 130 -285.5 90 0
-title @s title [{"text": "再臨　その先にあるものは・・・","color": "green"}]
+title @s title [{"text": "再臨  その先にあるものは・・・","color": "green"}]
 playsound entity.ender_pearl.throw master @s ~ ~ ~ 2
 scoreboard objectives remove DungeonStartCnt11
 function mikatanserver:adddim/dungeonmap_one/eleventhdungeon/init
