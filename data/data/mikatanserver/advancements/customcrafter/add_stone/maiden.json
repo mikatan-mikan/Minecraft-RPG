@@ -5,9 +5,9 @@
             "nbt": "{CustomModelData:131}"
         },
         "title": "最後のお告げ",
-        "description": "maiden herbsの採掘権を得る\n============\n出現確率:0.5%\n対象:dungeon又はareaでのAtkSXP入手(必要条件：AllLv150以上)"
+        "description": "maiden herbsの採掘権を得る\n============\n出現確率:0.3%\n対象:AtkdXP獲得ブロックの採掘"
     },
-    "parent": "mikatanserver:customcrafter/add_stone/goddess",
+    "parent": "mikatanserver:customcrafter/add_stone/gravity",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

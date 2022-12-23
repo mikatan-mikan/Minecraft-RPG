@@ -1,8 +1,9 @@
-
+execute store result score @s EnhanceNum run data get entity @s SelectedItem.tag.Enhance_Num
 ##属性
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:1}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/fire/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:2}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/wind/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:3}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/ice/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:4}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/light/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:5}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/dark/check
-execute as @s[nbt={SelectedItem:{tag:{Enhance_Num:101}}}] if data entity @s SelectedItem.tag.CustomModelData at @s run function mikatanserver:item/_attribute/tier_2/flame/check
+execute if score @s EnhanceNum matches 1 at @s run function mikatanserver:item/_attribute/fire/check
+execute if score @s EnhanceNum matches 2 at @s run function mikatanserver:item/_attribute/wind/check
+execute if score @s EnhanceNum matches 3 at @s run function mikatanserver:item/_attribute/ice/check
+execute if score @s EnhanceNum matches 4 at @s run function mikatanserver:item/_attribute/light/check
+execute if score @s EnhanceNum matches 5 at @s run function mikatanserver:item/_attribute/dark/check
+execute if score @s EnhanceNum matches 101 at @s run function mikatanserver:item/_attribute/tier_2/flame/check
+execute if score @s EnhanceNum matches 102 at @s run function mikatanserver:item/_attribute/tier_2/storm/check

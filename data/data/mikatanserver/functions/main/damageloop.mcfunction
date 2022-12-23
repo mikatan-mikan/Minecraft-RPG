@@ -3,17 +3,9 @@
 
 function mikatanserver:main/carrotstick/damage
 ##エンダースレイヤー
-execute if entity @s[nbt={SelectedItem:{tag:{enderslayer:[1]}}}] run function mikatanserver:item/enchant/enderslayer
-execute if entity @s[nbt={SelectedItem:{tag:{enderslayer:[2]}}}] run function mikatanserver:item/enchant/enderslayer
-execute if entity @s[nbt={SelectedItem:{tag:{enderslayer:[3]}}}] run function mikatanserver:item/enchant/enderslayer
-execute if entity @s[nbt={SelectedItem:{tag:{enderslayer:[4]}}}] run function mikatanserver:item/enchant/enderslayer
-execute if entity @s[nbt={SelectedItem:{tag:{enderslayer:[5]}}}] run function mikatanserver:item/enchant/enderslayer
+execute if data entity @s SelectedItem.tag.enderslayer run function mikatanserver:item/enchant/cubism/main
 ##キュービズム
-execute if entity @s[nbt={SelectedItem:{tag:{cubism:[1]}}}] run function mikatanserver:item/enchant/cubism/main
-execute if entity @s[nbt={SelectedItem:{tag:{cubism:[2]}}}] run function mikatanserver:item/enchant/cubism/main
-execute if entity @s[nbt={SelectedItem:{tag:{cubism:[3]}}}] run function mikatanserver:item/enchant/cubism/main
-execute if entity @s[nbt={SelectedItem:{tag:{cubism:[4]}}}] run function mikatanserver:item/enchant/cubism/main
-execute if entity @s[nbt={SelectedItem:{tag:{cubism:[5]}}}] run function mikatanserver:item/enchant/cubism/main
+execute if data entity @s SelectedItem.tag.cubism run function mikatanserver:item/enchant/cubism/main
 ##ライフスティール
 execute if entity @s[nbt={SelectedItem:{tag:{lifesteal:[1]}}},predicate=mikatanserver:chance/0.005] run function mikatanserver:item/enchant/lifesteal/main
 execute if entity @s[nbt={SelectedItem:{tag:{lifesteal:[2]}}},predicate=mikatanserver:chance/0.01] run function mikatanserver:item/enchant/lifesteal/main
@@ -25,12 +17,11 @@ execute if entity @s[nbt={Inventory:[{"Slot":100b,tag:{armor_ruins:true}},{"Slot
 ##icesword(破壊)
 execute as @s[nbt={SelectedItem:{tag:{ice:[1]}}}] at @s run function mikatanserver:item/tool/sword
 ##giantkillar
-execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[1]}}}] run function mikatanserver:item/enchant/giantkillar/main
-execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[2]}}}] run function mikatanserver:item/enchant/giantkillar/main
-execute if entity @s[nbt={SelectedItem:{tag:{giantkillar:[3]}}}] run function mikatanserver:item/enchant/giantkillar/main
+execute if data entity @s SelectedItem.tag.giantkillar run function mikatanserver:item/enchant/giantkillar/main
 ##batch
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:30}}]}] run effect give @s regeneration 3 0 true
 execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:39}}]}] run effect give @s speed 1 0 true
+execute as @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:67}}]}] at @s if block ~ ~ ~ water run effect give @s regeneration 3 1 true
 execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if predicate mikatanserver:chance/0.40 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:1}}]}] run scoreboard players add @s mana 1
 execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if predicate mikatanserver:chance/0.70 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{CustomModelData:43,tier:2}}]}] run scoreboard players add @s mana 1
 execute if score @s manamax > @s mana unless score @s ManaBatchBool matches 1 if entity @s[nbt={Inventory:[{"Slot":11b,id:"minecraft:magma_cream",tag:{tier:1}}]}] if predicate mikatanserver:chance/0.20 run scoreboard players add @s mana 1

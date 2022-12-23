@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "stone",
+        "andesite",
+        "jungle_leaves",
+        "jungle_log",
+        "vine",
+        "mycelium",
+        "coarse_dirt",
+        "grass_block"
+    ]
+}

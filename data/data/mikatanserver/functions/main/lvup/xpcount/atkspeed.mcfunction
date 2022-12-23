@@ -3,8 +3,8 @@
 #zombie
 execute as @s[predicate=mikatanserver:chance/0.00001,scores={zombiecount=1..}] run function mikatanserver:main/lvup/raredrop/mob/zombie
 scoreboard players set @s zombiecount 0
-execute as @s[predicate=mikatanserver:chance/0.00001,scores={creepercount=1..}] run function mikatanserver:main/lvup/raredrop/mob/creeper
-scoreboard players set @s creepercount 0
+# execute as @s[predicate=mikatanserver:chance/0.00001,scores={creepercount=1..}] run function mikatanserver:main/lvup/raredrop/mob/creeper
+# scoreboard players set @s creepercount 0
 
 scoreboard players add @s attackSxp 1
 scoreboard players add @s[scores={attackS-Lv=..99}] attackSxp 4
@@ -19,9 +19,9 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:player_head",tag:{candy_t
 
 ##
 
-##Goddess Stone
+##symbol
 execute as @s[scores={GoddessStoneFlag=1},predicate = mikatanserver:chance/0.01,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/goddess_stone
-execute as @s[scores={MaidenHerbsFlag=1,AllLV=150..},predicate = mikatanserver:chance/0.005,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/maiden_herbs
+execute as @s[scores={SandSiteFlag=1},predicate = mikatanserver:chance/1,tag=FieldDesert] at @s run function mikatanserver:main/drap_stone/sand_site
 
 ##敵を倒したときレア泥
 execute as @s[predicate=mikatanserver:chance/0.001] run function mikatanserver:main/lvup/raredrop/atkspeed

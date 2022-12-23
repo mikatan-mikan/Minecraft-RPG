@@ -105,10 +105,6 @@ execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:126}}}]
 execute as @s[scores={mana=50..},nbt={SelectedItem:{tag:{CustomModelData:127}}}] at @s run function mikatanserver:item/rod/flute/main
 #devil mana:30
 execute as @s[scores={devilwandcount = 200..},nbt={SelectedItem:{tag:{CustomModelData:132}}}] at @s run function mikatanserver:item/rod/devil_2/main
-#sand sword:30
-execute as @s[scores={mana=10..},nbt={SelectedItem:{tag:{CustomModelData:134}}}] at @s run function mikatanserver:item/rod/sand/main
-#absorption rod:30
-execute as @s[scores={mana=30..},nbt={SelectedItem:{tag:{CustomModelData:133}}}] at @s run function mikatanserver:item/rod/absorption/main
 
 
 #純真エンチャント
@@ -297,7 +293,6 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:121}}}] at @s run function
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:131}}}] at @s run function mikatanserver:item/add_stone/maiden/main
 
 
-execute if entity @s[tag=UseMana] run function mikatanserver:item/_attribute/check
 
 
 

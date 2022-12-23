@@ -1,0 +1,322 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:lapis_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:sandstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 30\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:43,display:{Name:'[{\"text\":\"enchanted sand crystal\"}]'},Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:100s}],HideFlags:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:44,display:{Name:'[{\"text\":\"enchanted sand catalyst\"}]'},Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:100s}],HideFlags:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:45,display:{Name:'[{\"text\":\"enchanted sand cube\"}]'},Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:100s}],HideFlags:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:sweet_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"enchanted savannah mango\"}]'},Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:100s}],HideFlags:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:netherite_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:lapis_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:amethyst_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"enchanted amethyst\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GiveXp:30,display:{Name:'[{\"text\": \"xp + 30\"}]',Lore:['[{\"text\": \"このアイテムを右クリックするとそれぞれのxpを+30する\",\"color\":\"white\"}]','[{\"text\":\"注意：オーバーフローした場合カットされる可能性があります\",\"color\": \"red\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:deepslate_diamond_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted Atrus Powder\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,display:{Name:'[{\"text\":\"enchanted peridot\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:7,display:{Name:'[{\"text\":\"enchanted rhodochrosite\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"enchanted iron\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 300,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:56,display:{Name:'[{\"text\":\"sand ingot\"}]'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:nautilus_shell",
+          "functions": [
+            
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:55,display:{Name:'[{\"text\":\"謎のかけら\",\"color\":\"yellow\"}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

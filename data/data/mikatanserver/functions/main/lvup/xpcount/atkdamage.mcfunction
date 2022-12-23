@@ -27,6 +27,7 @@ scoreboard players add @s[scores={AtkBoost_1 = 1..}] attackDxp 2
 execute as @s[scores={ForestStoneFlag=1},predicate = mikatanserver:chance/0.005] at @s run function mikatanserver:main/drap_stone/forest_stone
 execute as @s[scores={EnderStoneFlag=1},predicate = mikatanserver:chance/0.002] at @s run function mikatanserver:main/drap_stone/ender_stone
 execute as @s[scores={GravityStoneFlag=1},predicate = mikatanserver:chance/0.003] at @s run function mikatanserver:main/drap_stone/gravity_stone
+execute as @s[scores={MaidenHerbsFlag=1,AllLV=150..},predicate = mikatanserver:chance/0.003,predicate=mikatanserver:dungeonmapdim] at @s run function mikatanserver:main/drap_stone/maiden_herbs
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:4}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s attackDxp 1
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:5}}]},predicate=mikatanserver:chance/0.10] run scoreboard players add @s attackDxp 1

@@ -515,6 +515,11 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add StoryVillagerTalk dummy
 
+    scoreboard objectives add SandSiteFlag dummy
+
+    scoreboard objectives add CustomModelData dummy
+    scoreboard objectives add EnhanceNum dummy
+
     
     tellraw @a [{"text": "completed initialize version 3.0 system...","color": "aqua","italic": true}]
 
