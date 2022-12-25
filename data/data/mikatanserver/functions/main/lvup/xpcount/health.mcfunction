@@ -8,6 +8,7 @@ execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomM
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:9}}]},predicate=mikatanserver:chance/0.20] run scoreboard players add @s hpxp 1
 execute if entity @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:53}}]},predicate=mikatanserver:chance/0.25] run scoreboard players add @s hpxp 1
 execute if entity @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:64}}]},predicate=mikatanserver:chance/0.5] run scoreboard players add @s hpxp 1
+execute if entity @s[nbt={Inventory:[{"Slot":10b,id:"minecraft:magma_cream",tag:{CustomModelData:69}}]},predicate=mikatanserver:chance/0.3] run scoreboard players add @s hpxp 1
 
 ##
 

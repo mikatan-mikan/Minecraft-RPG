@@ -168,6 +168,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:105}}}] at @s if predicate
 execute as @s[scores={luck-Lv=65..,attackS-Lv=65..,attackD-Lv=65..,mana-Lv=65..,speed-Lv=65..,hp-Lv=65..},nbt={SelectedItem:{tag:{CustomModelData:119}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentythree/init
 #dungeon fourth
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:123}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyfour/diff_check
+#dungeon twentyseven
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:137}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyseven/init
 
 
 ##ores world

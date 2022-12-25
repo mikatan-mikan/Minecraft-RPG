@@ -2,12 +2,12 @@
     "display": {
         "icon": {
             "item": "minecraft:magma_cream",
-            "nbt": "{CustomModelData:64}"
+            "nbt": "{CustomModelData:69}"
         },
-        "title": "そこで舞うのは",
-        "description": "砂のイヤリングを作成する"
+        "title": "羽を受け入れて",
+        "description": "羽のイヤリングを作成する"
     },
-    "parent": "mikatanserver:customcrafter/accessories/earing/wing",
+    "parent": "mikatanserver:customcrafter/accessories/earing/emerald",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"
@@ -19,6 +19,6 @@
         ]
     ],
     "rewards": {
-        "function": "mikatanserver:rewards/20"
+        "function": "mikatanserver:rewards/15"
     }
 }
