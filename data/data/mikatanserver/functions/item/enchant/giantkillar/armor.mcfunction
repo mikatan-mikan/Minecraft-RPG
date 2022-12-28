@@ -2,7 +2,7 @@ execute as @e[type=armor_stand,distance=..6,tag=giantkillarAr] at @s run tp @s ^
 
 execute store result score @s PHealth run data get entity @s Health
 execute as @e[type=armor_stand,distance=..6,tag=giantkillarAr] at @s as @e[distance=..2] store result score @s MobNowHP run data get entity @s Health
-
+execute at @e[type=armor_stand,distance=..6,tag=giantkillarAr] if entity @e[type=#mikatanserver:mobs,distance=..2] at @s run function mikatanserver:item/enchant/giantkillar/automaton_sword/main
 execute as @e[type=armor_stand,distance=..6,tag=giantkillarAr] at @s as @e[distance=..2] if score @a[tag=Executegiantkillar,limit=1,sort=nearest] PHealth < @s MobNowHP as @a[tag=Executegiantkillar,limit=1,sort=nearest] run function mikatanserver:item/enchant/giantkillar/armor_hit
 
 scoreboard players add @s giantkillarLoop 1

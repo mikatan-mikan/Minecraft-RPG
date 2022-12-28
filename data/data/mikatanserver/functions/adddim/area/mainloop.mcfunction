@@ -17,3 +17,4 @@ execute if entity @a[tag=FieldNether_2,scores={LogCheck_Timer=600..},predicate=m
 execute if entity @a[tag=FieldEnder_2,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/ender_tier2/mainloop
 execute if entity @a[tag=FieldVolcano,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/volcano/mainloop
 execute if entity @a[tag=FieldDesert,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/desert/mainloop
+execute if entity @a[tag=FieldSilf,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/silf/mainloop

@@ -75,6 +75,7 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add darkoakcount minecraft.mined:minecraft.dark_oak_log
         scoreboard objectives add cristoncount minecraft.mined:minecraft.crimson_stem
         scoreboard objectives add warpedcount minecraft.mined:minecraft.warped_stem
+        scoreboard objectives add mangrovecount minecraft.mined:minecraft.mangrove_log
 
     #釣り回数(luck)
         scoreboard objectives add fishingcount minecraft.custom:minecraft.fish_caught
@@ -519,6 +520,9 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add CustomModelData dummy
     scoreboard objectives add EnhanceNum dummy
+
+
+    scoreboard objectives add ForestRod dummy
 
     
     tellraw @a [{"text": "completed initialize version 3.0 system...","color": "aqua","italic": true}]

@@ -1,17 +1,16 @@
 start = 1
-end = 37
+end = 54
 
 for i in range(start,end + 1):
-    print(f"execute store result score $desert_savannah{i} spawn_count if entity @e[tag=field_desert_savannah{i}]")
-    print(f"execute if score $desert_savannah{i} spawn_count matches ..1 as @e[tag=field_desert_savannahar_{i}] at @s run data merge storage mikatanserver:tagbox" + ' {"tag":["field_desert_savannah' + str(i) + '"]}')
-    print(f"execute if score $desert_savannah{i} spawn_count matches ..1 as @e[tag=field_desert_savannahar_{i}] at @s run function mikatanserver:adddim/area/desert/mob/mesa/spawn/main")
+    print(f"execute store result score $silf_ground{i} spawn_count if entity @e[tag=field_silf_ground_{i}]")
+    print(f"execute if score $silf_ground{i} spawn_count matches ..1 as @e[tag=field_silf_ground_ar_{i}] at @s run data merge storage mikatanserver:tagbox" + ' {"tag":["field_silf_ground_' + str(i) + '"]}')
+    print(f"execute if score $silf_ground{i} spawn_count matches ..1 as @e[tag=field_silf_ground_ar_{i}] at @s run function mikatanserver:adddim/area/silf/mob/ground/spawn/main")
 
 for i in range(start,end + 1):
-    print(f"scoreboard players reset $desert_savannah{i} spawn_count")
+    print(f"scoreboard players reset $silf_ground{i} spawn_count")
 
 '''
-
-execute store result score $ender2_high_2 spawn_count if entity @e[tag=field_ender2_high_2]
-execute if score $ender2_high_2 spawn_count matches ..1 as @e[tag=field_ender2_high_ar_2] at @s run data merge storage mikatanserver:tagbox {"tag":["field_ender2_high_2"]}
-execute if score $ender2_high_2 spawn_count matches ..1 as @e[tag=field_ender2_high_ar_2] at @s run function mikatanserver:adddim/area/ender_tier2/mob/high/spawn/main
+execute store result score $silf_ground1 spawn_count if entity @e[tag=field_silf_ground_1]
+execute if score $silf_ground1 spawn_count matches ..1 as @e[tag=field_silf_ground_ar_1] at @s run data merge storage mikatanserver:tagbox {"tag":["field_silf_ground_1"]}
+execute if score $silf_ground1 spawn_count matches ..1 as @e[tag=field_silf_ground_ar_1] at @s run function mikatanserver:adddim/area/silf/mob/ground/spawn/main
 '''

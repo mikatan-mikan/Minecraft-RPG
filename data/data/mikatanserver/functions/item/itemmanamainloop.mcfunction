@@ -266,6 +266,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:48}}}] at @s run function 
 
 ##xp配布
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:"return"}}}] run function mikatanserver:item/givexp/return
+execute as @s[nbt={SelectedItem:{tag:{GiveXp:2000}}}] run function mikatanserver:item/givexp/2000
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:1000}}}] run function mikatanserver:item/givexp/1000
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:100}}}] run function mikatanserver:item/givexp/100
 execute as @s[nbt={SelectedItem:{tag:{GiveXp:30}}}] run function mikatanserver:item/givexp/30

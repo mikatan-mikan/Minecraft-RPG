@@ -20,7 +20,7 @@
                 "text": "、これは未来を目指して"
             }
         ],
-        "description": "ピラミッドの住民から話を聞く",
+        "description": "ピラミッドで話を聞く",
         "hidden": true
     },
     "parent": "mikatanserver:root",

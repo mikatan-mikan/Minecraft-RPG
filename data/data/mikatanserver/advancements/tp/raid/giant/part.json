@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:144}"
+      },
+      "title": "聳え立つ敵影",
+      "description": "レイド戦：オートマトナーへのテレポーターを作成する"
+    },
+    "parent": "mikatanserver:tp/raid/slime/part",
+    "criteria": {
+      "jyoken": {
+        "trigger": "impossible"
+      }
+    },
+    "requirements": [
+      [
+        "jyoken"
+      ]
+    ],
+    "rewards": {
+      "function": "mikatanserver:rewards/10"
+    }
+  }

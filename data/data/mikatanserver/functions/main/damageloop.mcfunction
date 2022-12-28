@@ -1,6 +1,5 @@
 ##mikatanserver:judge/attack の実績により実行
 
-
 function mikatanserver:main/carrotstick/damage
 ##エンダースレイヤー
 execute if data entity @s SelectedItem.tag.enderslayer run function mikatanserver:item/enchant/cubism/main

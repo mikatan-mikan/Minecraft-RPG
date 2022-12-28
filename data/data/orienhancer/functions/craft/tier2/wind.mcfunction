@@ -16,4 +16,4 @@ execute store result block ~ ~ ~ Items[4].tag.Enhance_Num int 1 run scoreboard p
 function orienhancer:craft/_exec_enhance
 
 
-advancement grant @p only mikatanserver:customenhancer/tier2/fire
+advancement grant @p only mikatanserver:customenhancer/tier2/wind

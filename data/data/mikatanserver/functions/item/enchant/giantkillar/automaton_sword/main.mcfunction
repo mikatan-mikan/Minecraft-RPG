@@ -1,0 +1,1 @@
+execute if predicate mikatanserver:chance/0.15 run effect give @s haste 1 0

@@ -18,6 +18,7 @@ scoreboard players reset @s StoryVillagerTalk
     tag @s remove FieldCave
     clear @s diamond_pickaxe{cave_item:true}
     tag @s remove FieldVolcano
+    tag @s remove FieldSilf
     execute as @s[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
     execute as @s[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
     execute as @s[tag=FieldJungle,predicate=mikatanserver:overworld] run function mikatanserver:main/event/jungle/reset_bossbar
@@ -36,6 +37,7 @@ scoreboard players reset @s StoryVillagerTalk
     tag @s remove cave_tp_after
     tag @s remove volcano_tp_after
     tag @s remove desert_tp_after
+    tag @s remove silf_tp_after
     #alltag
     tag @s remove FieldPlayer
 ##クエストタグ
