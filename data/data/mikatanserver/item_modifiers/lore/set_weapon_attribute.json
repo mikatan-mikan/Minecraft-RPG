@@ -1,0 +1,17 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {"text":""},
+                {
+                    "nbt": "Attribute_Lore",
+                    "storage": "mikatanserver:weapon_lore",
+                    "interpret": true
+                }
+            ]
+        ],
+        "replace": false
+    }
+]

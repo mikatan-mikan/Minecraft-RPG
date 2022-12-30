@@ -528,11 +528,13 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add HaveArmor dummy
 
-    
+    ##アクセサリー変更検知
     scoreboard objectives add HaveAccessories9bFlag dummy
     scoreboard objectives add HaveAccessories10bFlag dummy
     scoreboard objectives add HaveAccessories11bFlag dummy
 
+    ##reinforcer強化度用
+    scoreboard objectives add Reinforcer.Damage dummy
     
     tellraw @a [{"text": "completed initialize version 3.0 system...","color": "aqua","italic": true}]
 

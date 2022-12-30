@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {"text":""},
+                {
+                    "nbt": "Attribute_Lore",
+                    "storage": "mikatanserver:weapon_lore",
+                    "interpret": true
+                },
+                {
+                    "text": " 追加攻撃力+",
+                    "color": "yellow"
+                },
+                {
+                    "nbt": "Damage_Lore",
+                    "storage": "mikatanserver:weapon_lore",
+                    "interpret": true
+                }
+            ]
+        ],
+        "replace": false
+    }
+]
