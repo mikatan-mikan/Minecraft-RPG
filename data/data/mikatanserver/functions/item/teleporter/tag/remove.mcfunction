@@ -65,3 +65,4 @@ scoreboard players reset @s StoryVillagerTalk
     tag @s remove ore_lightmasic
     tag @s remove ore_darkmasic
     tag @s remove ore_fire2masic
+    tag @s remove ore_wind2masic
