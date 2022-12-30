@@ -1,6 +1,6 @@
 ##ノックバックさせたいキャラに呼び出させる
     ##引数
-    ## 攻撃したプレイヤーに対して : tag @s add Attacker
+    ## 攻撃したプレイヤーに対して : tag @s add MK.k.Attacker
     ## XZへのふきとばし補正 : scoreboard players set $MK.k.Xpower MK.k.knockbackValue 100
     ## Yへのふきとばし補正 : scoreboard players set $MK.k.Ypower MK.k.knockbackValue 100
     ## Yへのオフセット : scoreboard players set $MK.k.Ypower MK.k.OffsetY 100
@@ -39,13 +39,4 @@
     data modify entity @s Motion set from storage mikatanlib:knockback Pos
 #リセット
     tag @e remove MK.k.Attacker
-    data remove storage mikatanlib:knockback Pos
-    data remove storage mikatanlib:knockback Pos_Player
-    scoreboard players reset $MK.k.KnockbackX
-    scoreboard players reset $MK.k.KnockbackY
-    scoreboard players reset $MK.k.KnockbackZ
-    scoreboard players reset $MK.k.KnockbackX_P
-    scoreboard players reset $MK.k.KnockbackY_P
-    scoreboard players reset $MK.k.KnockbackZ_P
-    scoreboard players reset $MK.k.OffsetY
     schedule function mikatanlib:knockback/knockback_reset 1t

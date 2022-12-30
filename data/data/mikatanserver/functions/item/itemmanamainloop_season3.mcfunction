@@ -1,5 +1,8 @@
 execute store result score @s CustomModelData run data get entity @s SelectedItem.tag.CustomModelData
 
+##防具処理
+execute if entity @e[nbt={SelectedItem:{tag:{carrot_armor:1b}}}] run function mikatanserver:item/armor/_check
+
 ##masic items
 #absorption rod:30
 execute as @s[scores={mana=30..,CustomModelData=133}] at @s run function mikatanserver:item/rod/absorption/main
@@ -11,10 +14,14 @@ execute as @s[scores={mana=40..,CustomModelData=148}] at @s run function mikatan
 execute as @s[scores={mana=10..,CustomModelData=134}] at @s run function mikatanserver:item/rod/sand/main
 #pyrite rod:none
 execute as @s[scores={CustomModelData=149}] at @s run function mikatanserver:item/rod/pyrite/main
+#silf rod:35
+execute as @s[scores={CustomModelData=141}] at @s run function mikatanserver:item/rod/silf/main
 
 ##dungeon
 #dungeon twentyfive
 execute as @s[scores={AllLV=150..,CustomModelData=135}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyfive/init
+#dungeon twentyfive
+execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=136}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentysix/init
 
 ##ores world
 #masic_wind2

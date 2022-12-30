@@ -1,0 +1,1 @@
+scoreboard players set @s HaveAccessories9bFlag 1

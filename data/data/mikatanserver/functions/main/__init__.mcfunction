@@ -358,6 +358,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
     scoreboard players set $1100 int 1100
+    scoreboard players set $2048 int 2048
 
 
     scoreboard objectives add ImaginStoneFlag dummy
@@ -513,6 +514,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add Delay dummy
     scoreboard objectives add VolcanoParkItems dummy
     scoreboard objectives add DesertParkItems dummy
+    scoreboard objectives add SilfParkItems dummy
 
     scoreboard objectives add StoryVillagerTalk dummy
 
@@ -523,6 +525,13 @@ tellraw @a [{"text": "=====================================================\n\n"
 
 
     scoreboard objectives add ForestRod dummy
+
+    scoreboard objectives add HaveArmor dummy
+
+    
+    scoreboard objectives add HaveAccessories9bFlag dummy
+    scoreboard objectives add HaveAccessories10bFlag dummy
+    scoreboard objectives add HaveAccessories11bFlag dummy
 
     
     tellraw @a [{"text": "completed initialize version 3.0 system...","color": "aqua","italic": true}]

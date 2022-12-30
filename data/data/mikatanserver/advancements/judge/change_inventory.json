@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "rewards": {
+        "function": "mikatanserver:main/_change_inventory"
+    }
+}

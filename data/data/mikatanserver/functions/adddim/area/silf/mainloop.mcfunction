@@ -21,9 +21,9 @@
     #memo:タイマー変数ParkourTime,報酬変数SilfParkItems,エリトラ検知変数IsElytraを宣言する
     #     removetagでの削除時に変数,Tagをreset
     #     時間表示UIの作成
-    execute as @e[tag=SilfParkourStart] at @s as @a[tag=FieldSilf,distance=..1] unless score @s Delay matches 0.. run function mikatanserver:adddim/area/silf/parkour/start
+    execute as @e[tag=SilfParkourStart] at @s as @a[tag=FieldSilf,distance=..1.5] unless score @s Delay matches 0.. run function mikatanserver:adddim/area/silf/parkour/start
     execute as @a[tag=SilfParkour] run function mikatanserver:adddim/area/silf/parkour/timecnt
-    execute as @e[tag=SilfParkourGoal] at @s as @a[tag=SilfParkour,distance=..1] run function mikatanserver:adddim/area/silf/parkour/goal
+    execute as @e[tag=SilfParkourGoal] at @s as @a[tag=SilfParkour,distance=..1.5] run function mikatanserver:adddim/area/silf/parkour/goal
     ##delay
     execute as @a[scores={Delay=1..}] run scoreboard players remove @s Delay 1
     execute as @a[scores={Delay=0}] run scoreboard players reset @s Delay 

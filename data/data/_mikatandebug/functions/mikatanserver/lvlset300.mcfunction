@@ -10,3 +10,4 @@ scoreboard players set @s manamax 300
 function mikatanserver:main/lvup/hp/lv300_lv0/func
 function mikatanserver:main/lvup/atkspeed/lv300_lv0/func
 function mikatanserver:main/lvup/atkdamage/lv300_lv0/func
+function mikatanserver:main/utils_num/get_alllv

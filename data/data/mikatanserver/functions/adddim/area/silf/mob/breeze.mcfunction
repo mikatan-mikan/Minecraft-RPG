@@ -1,5 +1,5 @@
 title @s title {"text": "Breeze","color": "green"}
-playsound block.fire.extinguish master @s ~ ~ ~ 2 0.8
+playsound item.armor.equip_leather master @s ~ ~ ~ 1 1.6
 
 ## [x,y,z]からx,zを取得
 execute store result score @s NowPlaceX run data get entity @s Pos[0]
@@ -26,6 +26,6 @@ execute store result entity @e[tag=Silf.Field_TagBefBreeze,limit=1] Pos[0] doubl
 execute store result entity @e[tag=Silf.Field_TagBefBreeze,limit=1] Pos[2] double 0.1 run scoreboard players get @s NowPlaceY
 ## y座標の変更
 execute store result score @s NowPlaceY run data get entity @s Pos[1]
-scoreboard players operation @s NowPlaceY += $3 int
+scoreboard players operation @s NowPlaceY += $2 int
 execute store result entity @e[tag=Silf.Field_TagBefBreeze,limit=1] Pos[1] double 1 run scoreboard players get @s NowPlaceY
 tag @e[tag=Silf.Field_TagBefBreeze,limit=1] remove Silf.Field_TagBefBreeze

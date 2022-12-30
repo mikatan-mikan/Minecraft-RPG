@@ -12,7 +12,7 @@ execute if score @s TMP matches ..800 if score @s SilfParkItems matches ..1 run 
 execute if score @s TMP matches ..800 if score @s SilfParkItems matches ..1 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "アイテムを入手しました：","color": "white"},{"text": "【絶高難易度】その存在は未知なる旋律を奏でて","color": "red"},{"text": "1x","color": "white"}]
 execute if score @s TMP matches ..800 if score @s SilfParkItems matches ..1 run scoreboard players set @s SilfParkItems 2
 
-execute if score @s TMP matches ..600 if score @s SilfParkItems matches ..2 run give @s golden_pickaxe{display:{Name:'[{"text":"sand pickaxe","color": "yellow"}]'},Unbreakable:1b,sand_pickaxe:1b} 1
-execute if score @s TMP matches ..600 if score @s SilfParkItems matches ..2 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "アイテムを入手しました：","color": "white"},{"text": "sand pickaxe","color": "yellow"},{"text": "1x","color": "white"}]
+execute if score @s TMP matches ..600 if score @s SilfParkItems matches ..2 run give @s netherite_pickaxe{display:{Name:'[{"text":"silf pickaxe","color": "green"}]'},silf_pickaxe:1b,CustomModelData:6,Unbreakable:1b} 1
+execute if score @s TMP matches ..600 if score @s SilfParkItems matches ..2 run tellraw @s [{"text": "[system]","color": "yellow"},{"text": "アイテムを入手しました：","color": "white"},{"text": "silf pickaxe","color": "green"},{"text": "1x","color": "white"}]
 execute if score @s TMP matches ..600 if score @s SilfParkItems matches ..2 run scoreboard players set @s SilfParkItems 3
-execute if score @s TMP matches ..600 run advancement grant @s only mikatanserver:event/desert/parkour
+execute if score @s TMP matches ..600 run advancement grant @s only mikatanserver:event/silf/parkour

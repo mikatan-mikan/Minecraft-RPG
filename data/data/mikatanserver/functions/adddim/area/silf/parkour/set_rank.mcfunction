@@ -18,4 +18,4 @@ execute if score $rank1 TMP > $rank2 TMP run data modify storage mikatanserver:p
 execute if score $rank1 TMP > $rank2 TMP run data modify storage mikatanserver:parkour Silf[0] set from storage mikatanserver:parkour Silf[1]
 execute if score $rank1 TMP > $rank2 TMP run data modify storage mikatanserver:parkour Silf[1] set from storage mikatanserver:parkour tmp
 
-function mikatanserver:adddim/area/desert/parkour/set_rank_view
+function mikatanserver:adddim/area/silf/parkour/set_rank_view
