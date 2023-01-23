@@ -7,7 +7,7 @@
       "description": "風の精霊と緑の大地をクリアする",
       "frame": "goal"
     },
-    "parent": "mikatanserver:tp/dungeon/twenty",
+    "parent": "mikatanserver:tp/dungeon/twentysix",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

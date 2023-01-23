@@ -1,0 +1,1 @@
+execute if entity @s[tag=MainAr] at @s positioned ~ ~-100 ~ run function mikatanserver:item/specialskill/pink/skill/main_ar

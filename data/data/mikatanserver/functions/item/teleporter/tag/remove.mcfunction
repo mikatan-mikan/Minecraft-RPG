@@ -1,3 +1,4 @@
+scoreboard players set @s SpecialSkill 0
 scoreboard players reset @s tradecount
 scoreboard players reset @s StoryVillagerTalk
 ##エリアタグ

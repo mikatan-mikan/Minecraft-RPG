@@ -25,6 +25,11 @@ execute as @s[scores={redwoolselfcount=1..}] at @s if entity @e[distance=..5,typ
 execute as @s[scores={spruceselfcount=1..}] at @s if entity @e[distance=..5,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:spruce_log",Count:1b}}] run give @s slime_ball{display:{Name:'[{"text":"モミの木材"}]'},CustomModelData:10} 1
 
 execute as @s[scores={bookselfcount=1..}] at @s if entity @e[distance=..5,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:bookshelf",Count:1b}}] run give @s slime_ball{display:{Name:'[{"text":"masic book <fire>","color": "red"}]'},CustomModelData:23} 1
+execute as @s[scores={bookselfcount=1..}] at @s if entity @e[distance=..5,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:bookshelf",Count:1b}},predicate=mikatanserver:chance/0.60] run give @s slime_ball{display:{Name:'[{"text":"masic book <fire>","color": "red"}]'},CustomModelData:23} 1
+execute as @s[scores={bookselfcount=1..}] at @s if entity @e[distance=..5,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:bookshelf",Count:1b}},predicate=mikatanserver:chance/0.60] run give @s slime_ball{display:{Name:'[{"text":"masic book <fire>","color": "red"}]'},CustomModelData:23} 1
+execute as @s[scores={bookselfcount=1..}] at @s if entity @e[distance=..5,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:bookshelf",Count:1b}},predicate=mikatanserver:chance/0.60] run give @s slime_ball{display:{Name:'[{"text":"masic book <fire>","color": "red"}]'},CustomModelData:23} 1
+
+
 
 
 execute as @s[scores={redwoolselfcount=1..}] at @s as @e[distance=..5,type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:red_wool",Count:1b}}] run kill @s

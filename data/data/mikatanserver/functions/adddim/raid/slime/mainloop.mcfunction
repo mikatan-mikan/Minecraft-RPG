@@ -1,3 +1,11 @@
+##残り時間の計算
+scoreboard players operation $20t RAID_Slime_Skill = $cnt RAID_Slime_Skill 
+scoreboard players operation $20t RAID_Slime_Skill %= $20 int
+execute if score $20t RAID_Slime_Skill matches 1 run function mikatanserver:adddim/raid/slime/set_time
+execute if score $12000 RAID_Slime_Skill matches 0..9 run bossbar set raid_slime_bossbar name [{"text":"キングスライム","color": "green"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Slime_Skill"}},{"text": ":0"},{"score":{"name": "$12000","objective": "RAID_Slime_Skill"}}]
+execute unless score $12000 RAID_Slime_Skill matches 0..9 run bossbar set raid_slime_bossbar name [{"text":"キングスライム","color": "green"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Slime_Skill"}},{"text": ":"},{"score":{"name": "$12000","objective": "RAID_Slime_Skill"}}]
+
+
 ##as server -> at 0 0 0
 execute as @e[tag=RAID_Slime] at @s run function mikatanserver:adddim/raid/slime/raidloop
 

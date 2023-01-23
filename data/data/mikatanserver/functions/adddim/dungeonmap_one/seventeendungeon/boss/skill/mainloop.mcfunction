@@ -12,7 +12,7 @@ scoreboard players operation $17 BossHP -= $17_boss_hp TMP
 ##ダメージ表示
 execute at @s run function mh_rpgish:mob/non_bar/hp_changed
 ##ボス本体のhpを回復させる
-effect give @s instant_damage 1 200
+data merge entity @s {Health:1024.0f}
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
 execute if score $17 BossHP matches ..0 run kill @s
     ##healing
@@ -37,13 +37,13 @@ execute if score $17 BossHP matches ..0 run kill @s
             execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] run scoreboard players set @s MK.r.RandValue 4
             execute if entity @a[scores={SeventeenBossSkill=230},tag=BossBattle17,limit=1] run function mikatanlib:rand/rand_exe
         #乱数==0        [剣士(男)]
-            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=0}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/male
+            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=0}] as @a[tag=BossBattle17] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/male
         #乱数==1        [ゴーレム]
-            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=1}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/golem
+            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=1}] as @a[tag=BossBattle17] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/golem
         #乱数==2        [剣士(女)]
-            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=2}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/female
+            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=2}] as @a[tag=BossBattle17] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/female
         #乱数==3        [masic witch]
-            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=3}] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/witch
+            execute if entity @a[scores={SeventeenBossSkill=231},tag=BossBattle17] if entity @s[scores={MK.r.RandValue=3}] as @a[tag=BossBattle17] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/witch
             ##masic            
             execute if entity @a[scores={SeventeenBossSkill=20},tag=BossBattle17] as @e[tag=SeventeenDun_Witch] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/masic/before_particle
             execute if entity @a[scores={SeventeenBossSkill=40},tag=BossBattle17] as @e[tag=SeventeenDun_Witch] at @s run function mikatanserver:adddim/dungeonmap_one/seventeendungeon/boss/skill/rand_pattern_2/summon/masic/main

@@ -40,6 +40,9 @@
 
     tellraw @s [{"text": "initialize flag and dungeon method...","color": "green","italic": true}]
 
+    scoreboard players set @s SpecialSkillMax 150
+    scoreboard players set @s SpecialSkill 0
+
     tellraw @s [{"text": "completed setup!!\n","color": "gold"},{"text":"再ログインを推奨します"},{"text":"\n\n=====================================================","color": "aqua"}]
 
 

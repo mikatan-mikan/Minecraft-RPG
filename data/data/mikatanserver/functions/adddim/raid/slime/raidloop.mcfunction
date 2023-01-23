@@ -9,13 +9,6 @@ execute store result score $slimes RAID_Slime_Skill if entity @e[type=slime,dist
 
 execute facing entity @p eyes run tp @s ~ ~ ~
 
-##残り時間の計算
-scoreboard players operation $20t RAID_Slime_Skill = $cnt RAID_Slime_Skill 
-scoreboard players operation $20t RAID_Slime_Skill %= $20 int
-execute if score $20t RAID_Slime_Skill matches 1 run function mikatanserver:adddim/raid/slime/set_time
-execute if score $12000 RAID_Slime_Skill matches 0..9 run bossbar set raid_slime_bossbar name [{"text":"キングスライム","color": "green"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Slime_Skill"}},{"text": ":0"},{"score":{"name": "$12000","objective": "RAID_Slime_Skill"}}]
-execute unless score $12000 RAID_Slime_Skill matches 0..9 run bossbar set raid_slime_bossbar name [{"text":"キングスライム","color": "green"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Slime_Skill"}},{"text": ":"},{"score":{"name": "$12000","objective": "RAID_Slime_Skill"}}]
-
 
 ##この辺りにHP管理+途中抜けして帰ってきたときには既にスライムがおらず帰れないのでプレイヤーをkillするためのフラグをセットする処理を書く(killするのは./mainloop.mcfunction内)
 ##bossの現在HPをgetする
@@ -26,7 +19,7 @@ scoreboard players operation $raid_slime TMP -= $raid_slime boss_hp_checker
 ##スコアからhpを減算する
 scoreboard players operation $raid_slime BossHP -= $raid_slime TMP
 ##ボス本体のhpを回復させる
-effect give @s instant_health 1 200
+data merge entity @s {Health:1024.0f}
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
 execute if score $cnt RAID_Slime_Skill matches 100.. if score $raid_slime BossHP matches ..0 run kill @s
 execute store result bossbar minecraft:raid_slime_bossbar value run scoreboard players get $raid_slime BossHP

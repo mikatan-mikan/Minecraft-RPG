@@ -1,4 +1,4 @@
-execute if score @s[predicate=mikatanserver:chance/0.03] mangrovecount matches 1.. run give @s chest{BlockEntityTag:{LootTable:"mikatanserver:raredrop/christmas_wood"}}
+# execute if score @s[predicate=mikatanserver:chance/0.03] mangrovecount matches 1.. run give @s chest{BlockEntityTag:{LootTable:"mikatanserver:raredrop/christmas_wood"}}
 ##氷斧
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe",Count:1b,tag:{CustomModelData:9}}}] run effect give @s haste 2 0 true
 ##batch
@@ -20,7 +20,7 @@ scoreboard players reset @s GrassCount
 scoreboard players reset @s mangrovecount
 
 scoreboard players add @s attackDxp 2
-scoreboard players add @s[scores={attackD-Lv=..99}] attackDxp 3
+execute if score @s attackD-Lv < $EasyLv AllLV run scoreboard players add @s attackDxp 3
 
 scoreboard players add @s[scores={AtkBoost_1 = 1..}] attackDxp 2
 

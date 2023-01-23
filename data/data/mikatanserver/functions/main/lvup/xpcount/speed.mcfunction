@@ -33,7 +33,7 @@ scoreboard players set @s D_diamond_ore_cnt 0
 scoreboard players set @s D_emerald_ore_cnt 0
 
 scoreboard players add @s speedxp 1
-scoreboard players add @s[scores={speed-Lv=..99}] speedxp 4
+execute if score @s speed-Lv < $EasyLv AllLV run scoreboard players add @s speedxp 4
 
 ##symbol
 execute as @s[scores={AngelStoneFlag=1},predicate = mikatanserver:chance/0.001] at @s run function mikatanserver:main/drap_stone/angel_stone

@@ -1,3 +1,10 @@
+##残り時間の計算
+scoreboard players operation $20t RAID_Giant_Skill = $cnt RAID_Giant_Skill 
+scoreboard players operation $20t RAID_Giant_Skill %= $20 int
+execute if score $20t RAID_Giant_Skill matches 1 run function mikatanserver:adddim/raid/giant/set_time
+execute if score $12000 RAID_Giant_Skill matches 0..9 run bossbar set raid_giant_bossbar name [{"text":"オートマトナー","color": "yellow"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Giant_Skill"}},{"text": ":0"},{"score":{"name": "$12000","objective": "RAID_Giant_Skill"}}]
+execute unless score $12000 RAID_Giant_Skill matches 0..9 run bossbar set raid_giant_bossbar name [{"text":"オートマトナー","color": "yellow"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Giant_Skill"}},{"text": ":"},{"score":{"name": "$12000","objective": "RAID_Giant_Skill"}}]
+
 ##as server -> at 0 0 0
 execute as @e[tag=RAID_Giant] at @s run function mikatanserver:adddim/raid/giant/raidloop
 

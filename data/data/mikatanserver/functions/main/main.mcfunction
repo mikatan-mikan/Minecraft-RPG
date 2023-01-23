@@ -12,6 +12,9 @@ gamemode survival @a[predicate=mikatanserver:overworld,gamemode=adventure]
 # execute as @a[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
 # execute as @a[tag=FieldFarm,predicate=mikatanserver:overworld] run tag @s remove FieldFarm
 
+scoreboard players enable @a FirstChatFlag 
+execute as @a[scores={FirstChatFlag=1..}] run function mikatanserver:login/game_msg
+
 ##放置検知
 execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp/main
 execute as @a[scores={MoveCheck_Lite=100..}] at @s run function mikatanserver:main/removexp/luck
@@ -69,6 +72,8 @@ execute as @a[predicate=mikatanserver:main/breakwood] run function mikatanserver
 execute as @a[scores={enchantcount=1..}] run function mikatanserver:main/lvup/xpcount/mana
 #luckxp
 execute as @a[scores={fishingcount=1..}] run function mikatanserver:main/lvup/xpcount/luck
+
+
 
 
 ##effort material

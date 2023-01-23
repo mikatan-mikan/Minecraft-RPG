@@ -355,6 +355,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $400 int 400
     scoreboard players set $450 int 450
     scoreboard players set $512 int 512
+    scoreboard players set $850 int 850
+    scoreboard players set $900 int 900
     scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
     scoreboard players set $1100 int 1100
@@ -457,12 +459,15 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add PlayerUI_Skill dummy
         #残り時間(表示)
         scoreboard objectives add PlayerUI_Skill_Timer dummy
+        #NULL:通常 1-:UISpaceを少なくする
+        scoreboard objectives add MiniUI dummy
 
     scoreboard objectives add tanzaniteselfcount minecraft.mined:minecraft.blue_wool
     scoreboard objectives add citrinselfcount minecraft.mined:minecraft.yellow_wool
     scoreboard objectives add moon_stoneselfcount minecraft.mined:minecraft.white_wool
 
     scoreboard objectives add PlayerHealth health
+    scoreboard objectives modify PlayerHealth displayname [{"text":"❤","color": "red"}]
     scoreboard objectives setdisplay belowName PlayerHealth
 
     scoreboard objectives add EntityTimer dummy
@@ -537,6 +542,18 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add Reinforcer.Damage dummy
     
     tellraw @a [{"text": "completed initialize version 3.0 system...","color": "aqua","italic": true}]
+
+    ##sp skillHit変数
+    scoreboard objectives add SpecialSkill dummy
+    scoreboard objectives add SpecialSkillMax dummy
+    ##skill timer 変数
+    scoreboard objectives add SpecialSkillTimer dummy
+
+    ##現在の緩和Lv
+    scoreboard players set $EasyLv AllLV 110
+
+    ##ログイン時のチャットフラグ
+    scoreboard objectives add FirstChatFlag trigger
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

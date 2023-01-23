@@ -1,5 +1,6 @@
 tellraw @a [{"text": "[system]","color": "yellow"},{"text": "レイドボス<キングスライム>の討伐に失敗しました","color": "red"}]
 
+execute as @a at @s run playsound block.anvil.place master @s ~ ~ ~ 1 1.5
 tp @e[tag=RAID_SlimeMob] ~ ~-129 ~
 kill @e[tag=RAID_SlimeMob]
 scoreboard players set $slime RAID_Flag 0

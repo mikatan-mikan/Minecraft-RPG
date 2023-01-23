@@ -1,0 +1,17 @@
+##使用しない 2023/1/19
+scoreboard players operation $xp TMP = @s hpxp
+scoreboard players operation $needxp TMP = @s needhpxp
+
+execute if score @s hpxp matches 1000.. run scoreboard players set @s TMP 4
+execute if score @s hpxp matches 100..999 run scoreboard players set @s TMP 3
+execute if score @s hpxp matches 10..99 run scoreboard players set @s TMP 2
+execute if score @s hpxp matches 1..9 run scoreboard players set @s TMP 1
+execute if score @s needhpxp matches 1000.. run scoreboard players add @s TMP 4
+execute if score @s needhpxp matches 100..999 run scoreboard players add @s TMP 3
+execute if score @s needhpxp matches 10..99 run scoreboard players add @s TMP 2
+execute if score @s needhpxp matches 1..9 run scoreboard players add @s TMP 1
+
+execute if score @s hpxp matches ..5 run data merge storage mikatanserver:actionbar {LvStat:'[{"text":"                                                                                             ","color":"white"},{"text":"HP","color":"light_purple","bold":true},{"text":"Lv"},{"score":{"name":"@s","objective":"hp-Lv"},"color":"light_purple","bold":true},{"text":"("},{"score":{"name":"@s","objective":"hpxp"},"color":"light_purple"},{"text":"/"},{"score":{"name":"@s","objective":"needhpxp"},"color":"light_purple"},{"text":")"},{"text":"                                                          \\uF826","color":"white"}]'}
+execute if score @s hpxp matches 6 run data merge storage mikatanserver:actionbar {LvStat:'[{"text":"                                                                                            ","color":"white"},{"text":"HP","color":"light_purple","bold":true},{"text":"Lv"},{"score":{"name":"@s","objective":"hp-Lv"},"color":"light_purple","bold":true},{"text":"("},{"score":{"name":"@s","objective":"hpxp"},"color":"light_purple"},{"text":"/"},{"score":{"name":"@s","objective":"needhpxp"},"color":"light_purple"},{"text":")"},{"text":"                                                         \\uF822","color":"white"}]'}
+execute if score @s hpxp matches 7 run data merge storage mikatanserver:actionbar {LvStat:'[{"text":"                                                                                           ","color":"white"},{"text":"HP","color":"light_purple","bold":true},{"text":"Lv"},{"score":{"name":"@s","objective":"hp-Lv"},"color":"light_purple","bold":true},{"text":"("},{"score":{"name":"@s","objective":"hpxp"},"color":"light_purple"},{"text":"/"},{"score":{"name":"@s","objective":"needhpxp"},"color":"light_purple"},{"text":")"},{"text":"                                                        \\uF822","color":"white"}]'}
+execute if score @s hpxp matches 8 run data merge storage mikatanserver:actionbar {LvStat:'[{"text":"                                                                                          ","color":"white"},{"text":"HP","color":"light_purple","bold":true},{"text":"Lv"},{"score":{"name":"@s","objective":"hp-Lv"},"color":"light_purple","bold":true},{"text":"("},{"score":{"name":"@s","objective":"hpxp"},"color":"light_purple"},{"text":"/"},{"score":{"name":"@s","objective":"needhpxp"},"color":"light_purple"},{"text":")"},{"text":"                                                       \\uF822","color":"white"}]'}

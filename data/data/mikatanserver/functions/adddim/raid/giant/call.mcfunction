@@ -23,7 +23,7 @@ execute as @e[tag=RAID_Giant] store result score @s MobNowHP run data get entity
 bossbar add raid_giant_bossbar "オートマトナー"
 bossbar set minecraft:raid_giant_bossbar players @a
 bossbar set minecraft:raid_giant_bossbar max 9000
-bossbar set minecraft:raid_giant_bossbar color red
+bossbar set minecraft:raid_giant_bossbar color yellow
 bossbar set minecraft:raid_giant_bossbar style notched_20
 scoreboard players set $raid_giant BossHP 9000
 

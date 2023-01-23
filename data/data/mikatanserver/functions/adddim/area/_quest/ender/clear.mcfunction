@@ -9,4 +9,4 @@ execute if entity @s[nbt={Inventory:[{Slot:9b,tag:{CustomModelData:54,tier:2},id
 execute at @s run particle minecraft:happy_villager ~ ~1 ~ 1 1 1 1 500
 playsound minecraft:entity.player.levelup master @s ~ ~ ~ 2 0 1
 tellraw @s [{"text": "[system]","color": "yellow"},{"text": "クエストクリア！","color": "yellow"}]
-tellraw @a [{"text": ""},{"text": "[System] ","color": "yellow"},{"selector":"@s","color": "white"},{"text": "の"},{"text": "\uE021 Lv","color": "dark_purple"},{"text": "が","color": "white"},{"score":{"name": "@s","objective": "QUEST_ENDER_LEVEL"}},{"text": "になった"}]
+tellraw @a [{"text": ""},{"text": "[System] ","color": "yellow"},{"selector":"@s","color": "white"},{"text": "の"},{"text": "\uE021","font":"add_fonts"},{"text":" Lv","color": "dark_purple"},{"text": "が","color": "white"},{"score":{"name": "@s","objective": "QUEST_ENDER_LEVEL"}},{"text": "になった"}]

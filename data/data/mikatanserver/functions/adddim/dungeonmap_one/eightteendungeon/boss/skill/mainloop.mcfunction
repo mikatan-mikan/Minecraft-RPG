@@ -16,7 +16,7 @@ scoreboard players operation $18 BossHP -= $18_boss_hp_venus TMP
 ##ダメージ表示
 execute at @s run function mh_rpgish:mob/non_bar/hp_changed
 ##ボス本体のhpを回復させる
-effect give @e[tag=EightteenDunBoss] instant_damage 1 200
+execute as @e[tag=EightteenDunBoss] run data merge entity @s {Health:1024.0f}
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
 execute if score $18 BossHP matches ..0 run kill @e[tag=EightteenDunBoss]
     ##healing

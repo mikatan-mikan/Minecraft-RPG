@@ -7,7 +7,7 @@ scoreboard players set @s zombiecount 0
 # scoreboard players set @s creepercount 0
 
 scoreboard players add @s attackSxp 1
-scoreboard players add @s[scores={attackS-Lv=..99}] attackSxp 4
+execute if score @s attackS-Lv < $EasyLv AllLV run scoreboard players add @s attackSxp 4
 
 
 execute as @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:16}}]},predicate=mikatanserver:chance/0.05] run scoreboard players add @s attackSxp 1

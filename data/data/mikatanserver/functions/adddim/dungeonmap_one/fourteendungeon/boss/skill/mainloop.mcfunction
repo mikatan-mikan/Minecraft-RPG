@@ -12,7 +12,8 @@ scoreboard players operation $14 BossHP -= $14_boss_hp TMP
 ##ダメージ表示
 execute at @s run function mh_rpgish:mob/non_bar/hp_changed
 ##ボス本体のhpを回復させる
-effect give @s instant_damage 1 200
+data merge entity @s {Health:1024.0f}
+# effect give @s instant_damage 1 200
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
 execute if score $14 BossHP matches ..0 run kill @s
     ##healing

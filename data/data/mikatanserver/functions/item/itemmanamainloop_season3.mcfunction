@@ -36,6 +36,11 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:147}}},advancements={mikat
     execute as @s[nbt={SelectedItem:{tag:{CustomModelData:143}}}] at @s if predicate mikatanserver:overworld unless score $giant RAID_Flag matches 1 run function mikatanserver:adddim/raid/giant/call
     #ボスがいるなら参加可能
     execute as @s[nbt={SelectedItem:{tag:{CustomModelData:144}}}] at @s if predicate mikatanserver:overworld if score $giant RAID_Flag matches 1 run function mikatanserver:adddim/raid/giant/participation
+##red crystal
+    #ボスがいないなら召喚可能
+    execute as @s[nbt={SelectedItem:{tag:{CustomModelData:152}}}] at @s if predicate mikatanserver:overworld unless score $redcrystal RAID_Flag matches 1 run function mikatanserver:adddim/raid/redcrystal/call
+    #ボスがいるなら参加可能
+    execute as @s[nbt={SelectedItem:{tag:{CustomModelData:151}}}] at @s if predicate mikatanserver:overworld if score $redcrystal RAID_Flag matches 1 run function mikatanserver:adddim/raid/redcrystal/participation
 
 ##追加アイテム等入手条件解放処理
 execute as @s[scores={CustomModelData=140}] at @s run function mikatanserver:item/add_stone/sand/main

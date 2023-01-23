@@ -9,12 +9,6 @@ execute store result score $giants RAID_Giant_Skill if entity @e[type=giant,dist
 
 execute facing entity @p eyes run tp @s ~ ~ ~
 
-##残り時間の計算
-scoreboard players operation $20t RAID_Giant_Skill = $cnt RAID_Giant_Skill 
-scoreboard players operation $20t RAID_Giant_Skill %= $20 int
-execute if score $20t RAID_Giant_Skill matches 1 run function mikatanserver:adddim/raid/giant/set_time
-execute if score $12000 RAID_Giant_Skill matches 0..9 run bossbar set raid_giant_bossbar name [{"text":"オートマトナー","color": "red"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Giant_Skill"}},{"text": ":0"},{"score":{"name": "$12000","objective": "RAID_Giant_Skill"}}]
-execute unless score $12000 RAID_Giant_Skill matches 0..9 run bossbar set raid_giant_bossbar name [{"text":"オートマトナー","color": "red"},{"text": "    "},{"text": "残り時間：","color": "white"},{"score":{"name": "$min","objective": "RAID_Giant_Skill"}},{"text": ":"},{"score":{"name": "$12000","objective": "RAID_Giant_Skill"}}]
 
 
 ##この辺りにHP管理+途中抜けして帰ってきたときには既にスライムがおらず帰れないのでプレイヤーをkillするためのフラグをセットする処理を書く(killするのは./mainloop.mcfunction内)
@@ -26,7 +20,7 @@ scoreboard players operation $raid_giant TMP -= $raid_giant boss_hp_checker
 ##スコアからhpを減算する
 scoreboard players operation $raid_giant BossHP -= $raid_giant TMP
 ##ボス本体のhpを回復させる
-effect give @s instant_health 1 200
+data merge entity @s {Health:1024.0f}
 ##もしボスのHPが0を下回ればボスをキルする(プレイヤーの勝利条件)
 execute if score $cnt RAID_Giant_Skill matches 100.. if score $raid_giant BossHP matches ..0 run kill @s
 execute store result bossbar minecraft:raid_giant_bossbar value run scoreboard players get $raid_giant BossHP

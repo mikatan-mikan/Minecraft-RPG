@@ -1,5 +1,6 @@
 tellraw @a [{"text": "[system]","color": "yellow"},{"text": "レイドボス<オートマトナー>の討伐に失敗しました","color": "red"}]
 
+execute as @a at @s run playsound block.anvil.place master @s ~ ~ ~ 1 1.5
 kill @e[tag=RAID_GiantMob]
 scoreboard players set $giant RAID_Flag 0
 bossbar remove minecraft:raid_giant_bossbar

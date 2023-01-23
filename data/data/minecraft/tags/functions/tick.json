@@ -10,6 +10,7 @@
       "orienhancer:main",
       "orireinforcer:main",
       "oriartifacter:main",
-      "oriartifacter:mainloop/item/check"
+      "oriartifacter:mainloop/item/check",
+      "orispskiller:main"
     ]
   }

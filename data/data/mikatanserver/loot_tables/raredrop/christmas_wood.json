@@ -117,7 +117,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"ema\"}]'}}"
+                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"絵馬\",\"color\":\"yellow\"}]'}}"
               }
             ],
             "name": "minecraft:wooden_sword"

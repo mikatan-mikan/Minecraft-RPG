@@ -231,7 +231,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:84}}}] run function mikata
 #farm
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikatanserver:item/teleporter/area/farm
 #new_year 2023
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}}] run function mikatanserver:item/teleporter/area/newyear_2023
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}},advancements={mikatanserver:customcrafter/add_stone/egg=true}] run function mikatanserver:item/teleporter/area/newyear_2023
 #jungle
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}}] run function mikatanserver:item/teleporter/area/jungle
 #cherry
@@ -275,7 +275,8 @@ execute as @s[nbt={SelectedItem:{tag:{GiveXp:1}}}] run function mikatanserver:it
 execute as @s[nbt={SelectedItem:{tag:{GiveMana:100}}},scores={mana-Lv=..99}] run function mikatanserver:item/givexp/mana/100
 
 
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] at @s run function mikatanserver:item/system/change_view_xp/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] at @s unless data entity @s SelectedItem.tag.num run function mikatanserver:item/system/change_view_xp/main
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:91}}}] at @s if data entity @s SelectedItem.tag.num run function mikatanserver:item/system/change_view_xp/mini
 
 #reward 称号 ice
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:41}}}] at @s run function mikatanserver:item/reward/ice
@@ -298,6 +299,3 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:131}}}] at @s run function
 
 
 
-
-##score Reset
-scoreboard players set @s ROD 0
