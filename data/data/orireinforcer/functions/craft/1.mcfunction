@@ -8,6 +8,6 @@ function orireinforcer:craft/_damage_set
 function orireinforcer:craft/_del_item
 
 ##loreの更新
-function mikatanserver:main/lore/set_attribute_damage
+function mikatanserver:main/lore/set_lore_main
 
 advancement grant @p only mikatanserver:customreinforcer/1

@@ -5,6 +5,7 @@ scoreboard players reset $mana TMP
 effect clear @s absorption
 effect give @s absorption 10 0
 effect give @s regeneration 4 2
+execute if score @s CustomModelData matches 156 run effect give @s saturation 1 0
 
 give @s firework_rocket 1
 

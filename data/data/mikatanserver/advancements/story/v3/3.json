@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cream",
+            "nbt": "{CustomModelData:66}"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "text": "[1-3] ",
+                "color": "yellow"
+            },
+            {
+                "text": "誤解・目的・聖杯"
+            }
+        ],
+        "description": "星の上で話を聞く",
+        "hidden":true
+    },
+    "parent": "mikatanserver:story/v3/2",
+    "criteria": {
+        "jyoken": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "jyoken"
+        ]
+    ],
+    "rewards": {
+        "function": "mikatanserver:rewards/5"
+    }
+}

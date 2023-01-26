@@ -6,6 +6,6 @@ execute store result block ~ ~ ~ Items[4].tag.Enhance_Num int 1 run scoreboard p
 function orienhancer:craft/_exec_enhance
 
 ##loreの更新
-function mikatanserver:main/lore/set_attribute_damage
+function mikatanserver:main/lore/set_lore_main
 
 advancement grant @p only mikatanserver:customenhancer/base/wind

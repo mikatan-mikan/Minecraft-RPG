@@ -1,0 +1,138 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 200,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ],
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1000,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:60,display:{Name:'[{\"text\":\"blue pot\"}]'}}"
+                        }
+                    ],
+                    "name": "minecraft:nautilus_shell"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ],
+                    "name": "minecraft:redstone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "name": "minecraft:redstone_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 200,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ],
+                    "name": "minecraft:rotten_flesh"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:105,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【絶高難易度】\",\"color\": \"red\"},{\"text\":\"<<波動>>\",\"color\":\"red\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv170以上,実績ポイント5000以上\"}]']},teleporter:1b}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:137,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【高難易度】\",\"color\": \"red\"},{\"text\":\"その先の存在\",\"color\":\"red\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv40以上\"}]']},teleporter:1b}"
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"universe boots\"}]',color:56831},universe_ar:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Amount:4,Operation:0,UUID:[I;173823436,242342342,633452134,624134234],Slot:\"feet\"},{AttributeName:\"minecraft:generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;1423416136,242342342,633452134,41342343],Slot:\"feet\"}]}"
+                        }
+                    ],
+                    "name": "minecraft:leather_boots"
+                }
+            ]
+        }
+    ]
+}

@@ -10,4 +10,4 @@ kill @e[tag=MK.r.rand,limit=1]
 
 scoreboard players operation @s MK.r.UUID_0 %= @s MK.r.RandValue
 
-execute store result score @s MK.r.RandValue run scoreboard players get @s MK.r.UUID_0
+scoreboard players operation @s MK.r.RandValue = @s MK.r.UUID_0

@@ -304,7 +304,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     tellraw @a [{"text": "completed add stone method...","color": "green","italic": true}]
 
     #翠杖
-    scoreboard objectives add jadewandcount minecraft.custom:minecraft.play_time
+    scoreboard objectives add RodCoolTime minecraft.custom:minecraft.play_time
 
     scoreboard objectives add NowPlaceX dummy
     scoreboard objectives add NowPlaceY dummy
@@ -520,6 +520,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add VolcanoParkItems dummy
     scoreboard objectives add DesertParkItems dummy
     scoreboard objectives add SilfParkItems dummy
+    scoreboard objectives add UniverseParkItems dummy
 
     scoreboard objectives add StoryVillagerTalk dummy
 

@@ -1,0 +1,1 @@
+function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/boss/skill/arrow/skill/main_ar

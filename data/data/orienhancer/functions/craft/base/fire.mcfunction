@@ -9,7 +9,7 @@ data modify block ~ ~ ~ Items[{Slot:4b}].tag.Enhance_Str set value '[{"text":"�
 function orienhancer:craft/_exec_enhance
 
 ##loreの更新
-function mikatanserver:main/lore/set_attribute_damage
+function mikatanserver:main/lore/set_lore_main
 
 
 advancement grant @p only mikatanserver:customenhancer/base/fire

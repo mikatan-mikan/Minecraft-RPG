@@ -1,6 +1,7 @@
 #周囲5mの味方に即時回復1を与え、自身に耐性4(2s)を付与する
 
 scoreboard players set $mana TMP 30
+execute if score @s CustomModelData matches 156 run scoreboard players set $mana TMP 25
 function mikatanserver:main/mana/remove
 scoreboard players reset $mana TMP
 

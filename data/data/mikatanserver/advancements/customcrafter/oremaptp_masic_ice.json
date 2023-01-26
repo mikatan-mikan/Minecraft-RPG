@@ -5,7 +5,7 @@
         "nbt": "{CustomModelData:103}"
       },
       "title": "凍てつく杖",
-      "description": "Ice Bookマップ(Ice)へのテレポーターを作成する"
+      "description": "Masic Bookマップ(Ice)へのテレポーターを作成する"
     },
     "parent": "mikatanserver:customcrafter/oremaptp_masic_wind",
     "criteria": {

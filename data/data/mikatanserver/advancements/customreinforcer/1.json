@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "item": "minecraft:slime_ball",
-            "nbt": "{CustomModelData:1}"
+            "nbt": "{CustomModelData:1,Enchantments:[{}]}"
         },
         "title": "鍛錬 - Lv.1",
         "description": "Reinforcerを使用し、追加ダメージを付与する",

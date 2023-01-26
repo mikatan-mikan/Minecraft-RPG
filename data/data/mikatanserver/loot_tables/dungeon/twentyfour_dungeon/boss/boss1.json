@@ -154,7 +154,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2000,
+          "weight": 20,
           "name": "minecraft:netherite_sword",
           "functions": [
             {
@@ -172,7 +172,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2000,
+          "weight": 20,
           "name": "minecraft:netherite_sword",
           "functions": [
             {

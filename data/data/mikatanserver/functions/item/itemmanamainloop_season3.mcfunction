@@ -13,23 +13,31 @@ execute as @s[scores={mana=40..,CustomModelData=148}] at @s run function mikatan
 #sand sword:30
 execute as @s[scores={mana=10..,CustomModelData=134}] at @s run function mikatanserver:item/rod/sand/main
 #pyrite rod:none
-execute as @s[scores={CustomModelData=149}] at @s run function mikatanserver:item/rod/pyrite/main
+execute as @s[scores={CustomModelData=149}] if score @s RodCoolTime matches 0.. at @s run function mikatanserver:item/rod/pyrite/main
+#pyrite rod:none
+execute as @s[scores={CustomModelData=156}] if score @s RodCoolTime matches 0.. at @s run function mikatanserver:item/rod/pyrite/main
 #silf rod:35
-execute as @s[scores={CustomModelData=141}] at @s run function mikatanserver:item/rod/silf/main
+execute as @s[scores={mana=35..,CustomModelData=141}] at @s run function mikatanserver:item/rod/silf/main
 
 ##dungeon
 #dungeon twentyfive
 execute as @s[scores={AllLV=150..,CustomModelData=135}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyfive/init
 #dungeon twentyfive
 execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=136}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentysix/init
+#dungeon twentyeight
+execute as @s[scores={AllLV=135..,CustomModelData=138}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyeight/diff_check
 
 ##ores world
 #masic_wind2
 execute as @s[scores={CustomModelData=142}] run function mikatanserver:item/teleporter/masic_wind2
+#masic_ice2
+execute as @s[scores={CustomModelData=158}] run function mikatanserver:item/teleporter/masic_ice2
 
 ##area
 #silf
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:147}}},advancements={mikatanserver:customcrafter/add_stone/sand=true,mikatanserver:story/v3/1=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/silf
+#universe
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:157}}},advancements={mikatanserver:customcrafter/rod_and_sword/pyrite_2=true,mikatanserver:story/v3/2=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/universe
 
 ##slime giant
     #ボスがいないなら召喚可能

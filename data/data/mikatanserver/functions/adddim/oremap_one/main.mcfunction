@@ -21,6 +21,7 @@ execute if entity @s[tag=ore_lightmasic] run function mikatanserver:adddim/orema
 execute if entity @s[tag=ore_darkmasic] run function mikatanserver:adddim/oremap_one/masic_dark/check
 execute if entity @s[tag=ore_fire2masic] run function mikatanserver:adddim/oremap_one/masic_fire_2/check
 execute if entity @s[tag=ore_wind2masic] run function mikatanserver:adddim/oremap_one/masic_wind_2/check
+execute if entity @s[tag=ore_ice2masic] run function mikatanserver:adddim/oremap_one/masic_ice_2/check
 
 execute as @s[scores={stonecount=1..}] run function mikatanserver:adddim/oremap_one/clone
 execute as @s[scores={basaltCount=1..}] run function mikatanserver:adddim/oremap_one/clone
@@ -57,6 +58,8 @@ execute as @s[predicate=mikatanserver:oremapdim,tag=ore_darkmasic] at @s unless 
 execute as @s[predicate=mikatanserver:oremapdim,tag=ore_fire2masic] at @s unless blocks -113 97 503 -82 128 534 -73 97 502 masked run clone -113 97 503 -82 128 534 -73 97 502 filtered #mikatanserver:ore_fire2masic
 ##wind2_masic
 execute as @s[predicate=mikatanserver:oremapdim,tag=ore_wind2masic] at @s unless blocks -477 98 459 -446 129 490 -477 98 499 masked run clone -477 98 459 -446 129 490 -477 98 499 filtered #mikatanserver:ore_wind2masic
+##ice2_masic
+execute as @s[predicate=mikatanserver:oremapdim,tag=ore_ice2masic] at @s unless blocks -437 98 459 -406 129 490 -437 98 499 masked run clone -437 98 459 -406 129 490 -437 98 499 filtered #mikatanserver:ore_ice2masic
 
 
 

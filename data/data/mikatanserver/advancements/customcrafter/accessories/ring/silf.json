@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cream",
+            "nbt": "{CustomModelData:73}"
+        },
+        "title": "精霊の指輪",
+        "description": "シルフのリングを作成する"
+    },
+    "parent": "mikatanserver:customcrafter/accessories/ring/ice",
+    "criteria": {
+        "jyoken": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "jyoken"
+        ]
+    ],
+    "rewards": {
+        "function": "mikatanserver:rewards/20"
+    }
+}

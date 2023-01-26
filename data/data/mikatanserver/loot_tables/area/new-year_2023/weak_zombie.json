@@ -185,7 +185,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight":3,
+            "weight":6,
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -196,7 +196,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:10,display:{Name:'[{\"text\":\"テレポート->始まりのダンジョン\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv10以上\"}]']}}"
+                "tag": "{CustomModelData:86,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"その奇跡は軌跡を描いて・・・\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv125以上\"}]']},teleporter:1b}"
               }
             ],
             "name": "minecraft:carrot_on_a_stick"
@@ -215,24 +215,6 @@
               {
                 "function": "minecraft:set_nbt",
                 "tag": "{CustomModelData:14,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【高難易度】\",\"color\": \"red\"},{\"text\":\"その輝きは彗星の如き・・・\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:AllLv60以上\"}]']}}"
-              }
-            ],
-            "name": "minecraft:carrot_on_a_stick"
-          },
-          {
-            "type": "minecraft:item",
-            "weight":3,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 3,
-                  "max": 1
-                }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:42,display:{Name:'[{\"text\":\"テレポート->\",\"color\":\"aqua\"},{\"text\": \"【超高難易度】\",\"color\": \"red\"},{\"text\":\"奇跡の剣舞\",\"color\":\"aqua\"}]',Lore:['[{\"text\":\"このアイテムを右クリックでディメンション移動を行います\",\"color\":\"aqua\"}]','[{\"text\":\"移動先:ダンジョン\",\"color\":\"red\"}]','[{\"text\":\"必要条件:無し\"}]']}}"
               }
             ],
             "name": "minecraft:carrot_on_a_stick"

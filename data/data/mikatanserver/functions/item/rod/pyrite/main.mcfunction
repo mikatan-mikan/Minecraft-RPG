@@ -1,4 +1,4 @@
-scoreboard players set @s RodCoolTime 0
+scoreboard players set @s RodCoolTime -200
 
 ##周囲5mのモブに鈍足1を付与する
 effect give @e[type=#mikatanserver:mobs,distance=..5] slowness 3 1

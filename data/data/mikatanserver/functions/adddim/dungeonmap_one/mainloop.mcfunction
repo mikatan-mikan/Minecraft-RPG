@@ -26,3 +26,4 @@ execute if entity @a[tag=DungeonPlay_24] run function mikatanserver:adddim/dunge
 execute if entity @a[tag=DungeonPlay_25] run function mikatanserver:adddim/dungeonmap_one/twentyfivedungeon/mainloop
 execute if entity @a[tag=DungeonPlay_26] run function mikatanserver:adddim/dungeonmap_one/twentysixdungeon/mainloop
 execute if entity @a[tag=DungeonPlay_27] run function mikatanserver:adddim/dungeonmap_one/twentysevendungeon/mainloop
+execute if entity @a[tag=DungeonPlay_28] run function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/mainloop

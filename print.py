@@ -1,4 +1,8 @@
+import requests
 
+def get_gip_addr():
+    res = requests.get('https://ifconfig.me')
+    return res.text
 
-for i in range(0,200,3):
-        print('summon armor_stand ~ ~' + str(i) +' ~ {Tags:["MK.sa.SetAr"],NoAI:1b,NoGravity:1b,Invulnerable:1b}')
+if __name__ == '__main__':
+    print('your globalip: ' + get_gip_addr())

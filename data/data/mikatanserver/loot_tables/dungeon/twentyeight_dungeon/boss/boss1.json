@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 150,
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 150,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 48,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:coal",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 8
+                    }
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'[{\"text\":\"enchanted coal\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+                }
+            ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight":400,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 48,
+                "max": 64
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"sphene\"}]'}}"
+            }
+          ],
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"dreamy sword\",\"color\": \"yellow\"}]',Lore:['[{\"text\": \"利き手に持った時\",\"color\":\"white\",\"italic\": false}]','[{\"text\":\" 攻撃力 9\",\"color\": \"dark_green\",\"italic\": false}]','[{\"text\": \" 攻撃速度 1.6\",\"color\": \"dark_green\",\"italic\": false}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9,Operation:0,Slot:\"mainhand\",UUID:[I;-956796003,830653523,393774358,-36031691]}]}"
+            }
+          ],
+          "name": "minecraft:wooden_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":800,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"green tomato\"}]'},CustomModelData:3}"
+            }
+          ],
+          "name": "minecraft:sweet_berries"
+        },
+        {
+          "type": "minecraft:item",
+          "weight":5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"dream cloud\"}]'},SkullOwner:{Id:[I;-1485487972,29838460,-1484864433,-62091234],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmN2RkMmJkZjQxOGI0MDMzNmRhMWVjYmQ5MzE1YjU4YjIwNjI3YTk0YWVlNjlhZGFmMDFmNWQ0ZWFjODBkOSJ9fX0=\"}]}}}"
+            }
+          ],
+          "name": "minecraft:player_head"
+        }
+      ]
+    }
+  ]
+}
