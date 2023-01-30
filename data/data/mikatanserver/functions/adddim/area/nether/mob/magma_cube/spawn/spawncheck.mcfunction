@@ -4,6 +4,6 @@ scoreboard players set $boss_flag nether_field_loop 1
 
 bossbar add nether_magmaboss "マグマキューブ"
 bossbar set nether_magmaboss players @a[tag=FieldNether]
-bossbar set nether_magmaboss max 200
+bossbar set nether_magmaboss max 2000
 bossbar set nether_magmaboss color red
-bossbar set nether_magmaboss value 200
+bossbar set nether_magmaboss value 2000

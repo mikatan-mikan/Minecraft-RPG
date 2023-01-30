@@ -2,7 +2,7 @@ execute in mikatanserver:dungeon run summon zombie -169.5 235 -67.5 {Attributes:
 
 bossbar add fifthboss_bar "Goblin king"
 bossbar set minecraft:fifthboss_bar players @a[tag=DungeonPlay_5]
-bossbar set minecraft:fifthboss_bar max 350
+bossbar set minecraft:fifthboss_bar max 3500
 bossbar set minecraft:fifthboss_bar color blue
 
 #Bossbattletag もバグる

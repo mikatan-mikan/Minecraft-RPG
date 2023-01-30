@@ -7,6 +7,6 @@ effect give @e[tag=Area_Ruins_Boss] glowing 1000 1
 
 bossbar add ruins_witch "魔術師"
 bossbar set ruins_witch players @a[tag=FieldRuins]
-bossbar set ruins_witch max 400
+bossbar set ruins_witch max 4000
 bossbar set ruins_witch color purple
-bossbar set ruins_witch value 400
+bossbar set ruins_witch value 4000

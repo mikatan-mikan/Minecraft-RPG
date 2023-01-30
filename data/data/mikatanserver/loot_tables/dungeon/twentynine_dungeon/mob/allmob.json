@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 99,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"白銀の欠片\"}]'},SkullOwner:{Id:[I;977594933,-1992604693,-2088865105,1698361262],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E0MjNhYTUzOWE2NjMzNjUyMzJlNDY1ZWE3NDdiNDU2Y2RmMzJhMDIyN2VjZDcwOTlkNDg1YzJkZDhhMzUwOCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"白銀の剣\"}]'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9,Operation:0,Slot:\"mainhand\",UUID:[I;-956796003,1241443,251351325,-36031691]}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

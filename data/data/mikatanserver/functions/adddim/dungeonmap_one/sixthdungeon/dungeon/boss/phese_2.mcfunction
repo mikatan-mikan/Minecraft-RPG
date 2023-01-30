@@ -10,7 +10,7 @@ execute as @a[tag=DungeonPlay_6] at @s run playsound entity.wither.spawn master 
 bossbar remove sixthboss_bar
 bossbar add sixthboss_bar "Leaf Spirit of Future"
 bossbar set minecraft:sixthboss_bar players @a[tag=DungeonPlay_6]
-bossbar set minecraft:sixthboss_bar max 700
+bossbar set minecraft:sixthboss_bar max 7000
 bossbar set minecraft:sixthboss_bar color green
 
 execute as @e[tag=SixthDunBoss] at @s as @a[tag=DungeonPlay_6] run tag @s add BossBattle6

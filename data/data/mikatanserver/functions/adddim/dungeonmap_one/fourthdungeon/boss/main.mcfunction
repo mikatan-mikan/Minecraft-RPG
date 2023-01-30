@@ -2,7 +2,7 @@ execute in mikatanserver:dungeon run summon vindicator -450.5 230 88.5 {Attribut
 scoreboard objectives remove BossSpawnTimer4
 bossbar add fourthboss_bar "Comet"
 bossbar set minecraft:fourthboss_bar players @a[tag=DungeonPlay_4]
-bossbar set minecraft:fourthboss_bar max 600
+bossbar set minecraft:fourthboss_bar max 6000
 bossbar set minecraft:fourthboss_bar color blue
 
 #Bossbattletag もバグる

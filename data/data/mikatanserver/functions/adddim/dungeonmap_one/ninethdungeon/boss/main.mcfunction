@@ -6,7 +6,7 @@ execute as @e[tag=NinethDunBoss] store result score @s MobNowHP run data get ent
 scoreboard objectives remove BossSpawnTimer9
 bossbar add ninethboss_bar "剣聖：Michelle"
 bossbar set minecraft:ninethboss_bar players @a[tag=DungeonPlay_9]
-bossbar set minecraft:ninethboss_bar max 1000
+bossbar set minecraft:ninethboss_bar max 10000
 bossbar set minecraft:ninethboss_bar color blue
 
 #Bossbattletag もバグる

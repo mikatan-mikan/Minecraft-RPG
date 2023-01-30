@@ -2,7 +2,7 @@ execute in mikatanserver:dungeon run summon vindicator -353.0 64 34.0 {Attribute
 
 bossbar add sevthboss_bar "future of anything"
 bossbar set minecraft:sevthboss_bar players @a[tag=DungeonPlay_7]
-bossbar set minecraft:sevthboss_bar max 350
+bossbar set minecraft:sevthboss_bar max 3500
 bossbar set minecraft:sevthboss_bar color blue
 
 kill @e[type=armor_stand,tag=SevDunBossArmor]

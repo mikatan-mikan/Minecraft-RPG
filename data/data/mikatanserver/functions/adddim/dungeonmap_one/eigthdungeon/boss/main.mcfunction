@@ -2,7 +2,7 @@ execute in mikatanserver:dungeon run summon elder_guardian -93 142 512 {Attribut
 scoreboard objectives remove BossSpawnTimer8
 bossbar add eigthboss_bar "Comet"
 bossbar set minecraft:eigthboss_bar players @a[tag=DungeonPlay_8]
-bossbar set minecraft:eigthboss_bar max 600
+bossbar set minecraft:eigthboss_bar max 6000
 bossbar set minecraft:eigthboss_bar color blue
 
 #Bossbattletag もバグる

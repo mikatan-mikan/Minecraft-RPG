@@ -1,0 +1,1 @@
+scoreboard objectives add TwentynineDSkillTimer1 dummy

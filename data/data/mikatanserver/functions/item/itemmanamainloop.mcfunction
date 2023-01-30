@@ -170,6 +170,8 @@ execute as @s[scores={luck-Lv=65..,attackS-Lv=65..,attackD-Lv=65..,mana-Lv=65..,
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:123}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyfour/diff_check
 #dungeon twentyseven
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:137}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyseven/init
+#dungeon twentynine
+execute as @s[scores={AllLV=5..},nbt={SelectedItem:{tag:{CustomModelData:159}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentynine/init
 
 
 ##ores world
@@ -229,7 +231,7 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:81}}}] run function mikata
 #ruins
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:84}}}] run function mikatanserver:item/teleporter/area/ruins
 #farm
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikatanserver:item/teleporter/area/farm
+execute as @s[scores={RewardPoint=4000..},nbt={SelectedItem:{tag:{CustomModelData:90}}}] run function mikatanserver:item/teleporter/area/farm
 #new_year 2023
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}},advancements={mikatanserver:customcrafter/add_stone/egg=true}] run function mikatanserver:item/teleporter/area/newyear_2023
 #jungle
