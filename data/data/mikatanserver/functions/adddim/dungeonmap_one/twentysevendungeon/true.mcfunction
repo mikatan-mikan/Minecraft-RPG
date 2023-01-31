@@ -2,7 +2,7 @@ bossbar remove minecraft:twentysevenboss_bar
 
 # advancement grant @a[tag=DungeonPlay_27] only mikatanserver:tp/dungeon_clear/twentyseven
 scoreboard objectives remove TwentysevenDSkillTimer1
-give @a[tag=DungeonPlay_27] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyseven_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_27] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その先の存在","color":"green"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyseven_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_27] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_27] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_27] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:twentysevenboss_bar

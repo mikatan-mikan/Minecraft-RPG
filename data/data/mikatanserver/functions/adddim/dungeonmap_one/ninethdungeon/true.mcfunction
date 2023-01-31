@@ -1,7 +1,7 @@
 bossbar remove minecraft:ninethboss_bar
 advancement grant @a[tag=DungeonPlay_9] only mikatanserver:tp/dungeon_clear/nineth
-give @a[tag=DungeonPlay_9] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/nineth_dungeon/boss/boss"}}
-execute as @a[tag=DungeonPlay_9] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/nineth_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_9] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"軌跡の剣舞","color":"light_purple"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/nineth_dungeon/boss/boss"}}
+execute as @a[tag=DungeonPlay_9] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"軌跡の剣舞","color":"light_purple"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/nineth_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_9] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_9] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_9] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:ninethboss_bar

@@ -1,6 +1,6 @@
 bossbar remove minecraft:twentythreeboss_bar
 advancement grant @a[tag=DungeonPlay_23] only mikatanserver:tp/dungeon_clear/twentythree
-give @a[tag=DungeonPlay_23] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentythree_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_23] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その彗星は瞬きのように・・・","color":"aqua"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentythree_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_23] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_23] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_23] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:twentythreeboss_bar

@@ -174,6 +174,9 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:137}}}] at @s if predicate
 execute as @s[scores={AllLV=5..},nbt={SelectedItem:{tag:{CustomModelData:159}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentynine/init
 
 
+## Season2 締め括り
+execute as @s[scores={AllLV=150..},nbt={SelectedItem:{tag:{CustomModelData:160}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/_season2/init
+
 ##ores world
 #return over world
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:4}}},predicate=mikatanserver:oremapdim] in minecraft:overworld run function mikatanserver:item/teleporter/returnoverworld

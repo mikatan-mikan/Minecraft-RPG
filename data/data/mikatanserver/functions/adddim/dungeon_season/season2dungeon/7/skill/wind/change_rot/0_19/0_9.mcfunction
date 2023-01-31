@@ -1,0 +1,10 @@
+execute if score $season2_dun_wind MK.r.RandValue matches 0 run tp @s ~ ~ ~ 180 -90
+execute if score $season2_dun_wind MK.r.RandValue matches 1 run tp @s ~ ~ ~ 180 -45
+execute if score $season2_dun_wind MK.r.RandValue matches 2 run tp @s ~ ~ ~ 180 0
+execute if score $season2_dun_wind MK.r.RandValue matches 3 run tp @s ~ ~ ~ 180 45
+execute if score $season2_dun_wind MK.r.RandValue matches 4 run tp @s ~ ~ ~ 180 90
+execute if score $season2_dun_wind MK.r.RandValue matches 5 run tp @s ~ ~ ~ 135 -90
+execute if score $season2_dun_wind MK.r.RandValue matches 6 run tp @s ~ ~ ~ 135 -45
+execute if score $season2_dun_wind MK.r.RandValue matches 7 run tp @s ~ ~ ~ 135 0
+execute if score $season2_dun_wind MK.r.RandValue matches 8 run tp @s ~ ~ ~ 135 45
+execute if score $season2_dun_wind MK.r.RandValue matches 9 run tp @s ~ ~ ~ 135 90

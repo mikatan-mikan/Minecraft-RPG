@@ -1,5 +1,5 @@
 bossbar remove minecraft:eleventhboss_bar
-give @a[tag=DungeonPlay_11] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/eleventh_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_11] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"再臨  その先にあるものは・・・","color":"green"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/eleventh_dungeon/boss/boss"}}
 #execute as @a[tag=DungeonPlay_11] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/eleventh_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_11] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_11] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_11] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]

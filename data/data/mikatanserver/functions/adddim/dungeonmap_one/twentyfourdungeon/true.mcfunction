@@ -1,8 +1,8 @@
 bossbar remove minecraft:twentyfourboss_bar
-execute if score $diff TwentyfourBossSkill matches 0 run give @a[tag=DungeonPlay_24] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss0"}}
-execute if score $diff TwentyfourBossSkill matches 1 run give @a[tag=DungeonPlay_24] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss1"}}
-execute if score $diff TwentyfourBossSkill matches 2 run give @a[tag=DungeonPlay_24] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss2"}}
-execute if score $diff TwentyfourBossSkill matches 3 run give @a[tag=DungeonPlay_24] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss3"}}
+execute if score $diff TwentyfourBossSkill matches 0 run give @a[tag=DungeonPlay_24] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その存在は未知なる旋律を奏でて","color":"blue"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss0"}}
+execute if score $diff TwentyfourBossSkill matches 1 run give @a[tag=DungeonPlay_24] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その存在は未知なる旋律を奏でて","color":"blue"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss1"}}
+execute if score $diff TwentyfourBossSkill matches 2 run give @a[tag=DungeonPlay_24] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その存在は未知なる旋律を奏でて","color":"blue"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss2"}}
+execute if score $diff TwentyfourBossSkill matches 3 run give @a[tag=DungeonPlay_24] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その存在は未知なる旋律を奏でて","color":"blue"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyfour_dungeon/boss/boss3"}}
 #execute as @a[tag=DungeonPlay_22] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentytwo_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_24] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_24] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_24] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]

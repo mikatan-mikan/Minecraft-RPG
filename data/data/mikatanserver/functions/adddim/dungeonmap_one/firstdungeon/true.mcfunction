@@ -1,5 +1,5 @@
 bossbar remove minecraft:firstboss_bar
-give @a[tag=DungeonPlay_1] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/firstdungeon/atrus"}}
+give @a[tag=DungeonPlay_1] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"始まりのダンジョン","color":"green"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/first_dungeon/mob/allmob"}}
 execute as @a[tag=DungeonPlay_6] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_6] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_1] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:firstboss_bar

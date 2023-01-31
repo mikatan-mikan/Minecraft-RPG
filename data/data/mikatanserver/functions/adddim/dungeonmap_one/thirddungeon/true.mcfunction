@@ -1,5 +1,5 @@
 bossbar remove minecraft:thirdboss_bar
-give @a[tag=DungeonPlay_3] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/third_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_3] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"洞窟の先に待つのは","color":"yellow"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/third_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_6] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_6] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_3] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:thirdboss_bar

@@ -1,6 +1,6 @@
 bossbar remove minecraft:eigthboss_bar
 advancement grant @a[tag=DungeonPlay_8] only mikatanserver:tp/dungeon_clear/eigth
-give @a[tag=DungeonPlay_8] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/eigth_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_8] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/eigth_dungeon/boss/boss"},display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"それは訪れることのなかった光の先・・・","color":"aqua"}]'}}
 execute as @a[tag=DungeonPlay_8] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_8] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_8] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:eigthboss_bar

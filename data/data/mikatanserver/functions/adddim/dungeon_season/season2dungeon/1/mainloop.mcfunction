@@ -1,0 +1,2 @@
+execute store result bossbar minecraft:season2boss_bar value run scoreboard players get @e[tag=season2DunBoss,limit=1] mh.hp
+execute as @e[tag=season2DunBoss] run function mikatanserver:adddim/dungeonmap_one/season2dungeon/boss/skill/mainloop

@@ -1,0 +1,1 @@
+summon silverfish ~ ~ ~ {Attributes:[{Name:"minecraft:generic.attack_damage",Base:25},{Name:"minecraft:generic.max_health",Base:25}],Health:25,Tags:["season2DunMob"]}

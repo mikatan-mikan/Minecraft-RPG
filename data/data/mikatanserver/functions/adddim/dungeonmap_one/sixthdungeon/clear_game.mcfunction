@@ -1,7 +1,7 @@
 bossbar remove minecraft:sixthboss_bar
 effect clear @a[tag=DungeonPlay_6] speed
-give @a[tag=DungeonPlay_6] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/sixth_dungeon/boss/boss"}}
-give @a[tag=CountLeader] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/sixth_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_6] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"記憶の奥底に・・・","color":"aqua"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/sixth_dungeon/boss/boss"}}
+give @a[tag=CountLeader] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"記憶の奥底に・・・","color":"aqua"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/sixth_dungeon/boss/boss"}}
 tellraw @a[tag=DungeonPlay_6] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"6秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 execute as @a[tag=DungeonPlay_6] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_6] ~ ~ ~ 2 0
 bossbar remove minecraft:sixthboss_bar

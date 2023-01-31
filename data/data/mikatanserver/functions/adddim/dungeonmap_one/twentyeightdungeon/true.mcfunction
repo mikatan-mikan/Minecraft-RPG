@@ -4,10 +4,10 @@ bossbar remove minecraft:twentyeightboss_bar
 scoreboard objectives remove TwentyeightDSkillTimer1
 execute store result score $chests TwentyeightDunDeath run clear @a oak_door{Twentyeight_chest:1b}
 
-execute if score $28_Difficulty Temporary matches 0 run give @a[tag=DungeonPlay_28] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss0"}}
-execute if score $chests TwentyeightDunDeath matches 1.. if score $28_Difficulty Temporary matches 0 run give @a[tag=DungeonPlay_28] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss0"}}
-execute if score $28_Difficulty Temporary matches 1 run give @a[tag=DungeonPlay_28] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss1"}}
-execute if score $chests TwentyeightDunDeath matches 1.. if score $28_Difficulty Temporary matches 1 run give @a[tag=DungeonPlay_28] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss1"}}
+execute if score $28_Difficulty Temporary matches 0 run give @a[tag=DungeonPlay_28] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"夢の精と新たなお告げ","color":"white"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss0"}}
+execute if score $chests TwentyeightDunDeath matches 1.. if score $28_Difficulty Temporary matches 0 run give @a[tag=DungeonPlay_28] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"夢の精と新たなお告げ","color":"white"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss0"}}
+execute if score $28_Difficulty Temporary matches 1 run give @a[tag=DungeonPlay_28] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"夢の精と新たなお告げ","color":"white"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss1"}}
+execute if score $chests TwentyeightDunDeath matches 1.. if score $28_Difficulty Temporary matches 1 run give @a[tag=DungeonPlay_28] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"夢の精と新たなお告げ","color":"white"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentyeight_dungeon/boss/boss1"}}
 
 execute as @a[tag=DungeonPlay_28] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_28] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_28] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]

@@ -1,6 +1,6 @@
 bossbar remove minecraft:nineteenboss_bar
 advancement grant @a[tag=DungeonPlay_19] only mikatanserver:tp/dungeon_clear/nineteen
-give @a[tag=DungeonPlay_19] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/nineteen_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_19] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"別解","color":"dark_purple"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/nineteen_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_19] at @s run playsound entity.player.levelup master @s ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_19] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,100,0)へTPします","color": "yellow"}]
 bossbar remove minecraft:nineteenboss_bar

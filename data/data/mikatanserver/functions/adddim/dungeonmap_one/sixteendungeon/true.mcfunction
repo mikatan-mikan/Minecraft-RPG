@@ -1,6 +1,6 @@
 bossbar remove minecraft:sixteenboss_bar
 advancement grant @a[tag=DungeonPlay_16] only mikatanserver:tp/dungeon_clear/sixteen
-give @a[tag=DungeonPlay_16] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/sixteen_dungeon/boss/boss"}}
+give @a[tag=DungeonPlay_16] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"その先に出した答え","color":"light_purple"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/sixteen_dungeon/boss/boss"}}
 #execute as @a[tag=DungeonPlay_11] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/Sixteen_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_16] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_16] ~ ~ ~ 2 0
 tellraw @a[tag=DungeonPlay_16] [{"text":"ダンジョンクリア!!\n","color": "aqua"},{"text":"5秒後にオーバーワールド(0,110,0)へTPします","color": "yellow"}]

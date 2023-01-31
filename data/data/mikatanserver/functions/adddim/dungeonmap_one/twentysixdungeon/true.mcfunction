@@ -1,7 +1,7 @@
 bossbar remove minecraft:twentysixboss_bar
 advancement grant @a[tag=DungeonPlay_26] only mikatanserver:tp/dungeon_clear/twentysix
-give @a[tag=DungeonPlay_26] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentysix_dungeon/boss/boss"}}
-give @a[tag=DungeonCaller26] minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentysix_dungeon/boss/caller"},display:{Name:'[{"text": "リーダーボーナス","color": "red"}]'}}
+give @a[tag=DungeonPlay_26] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"風の精霊と緑の大地","color":"green"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentysix_dungeon/boss/boss"}}
+give @a[tag=DungeonCaller26] minecraft:chest{display:{Name:'[{"text":"ダンジョンドロップ","color":"green"},{"text":" - ","color":"yellow"},{"text":"風の精霊と緑の大地","color":"green"},{"text": "(リーダーボーナス)","color": "red"}]'},BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentysix_dungeon/boss/caller"}}
 tag @a remove DungeonCaller26
 #execute as @a[tag=DungeonPlay_26] if entity @s[nbt={SelectedItem:{tag:{dancing:[1]}}}] run give @s minecraft:chest{BlockEntityTag:{LootTable:"mikatanserver:dungeon/twentysix_dungeon/boss/boss"}}
 execute as @a[tag=DungeonPlay_26] at @s run playsound entity.player.levelup master @a[tag=DungeonPlay_26] ~ ~ ~ 2 0
