@@ -468,7 +468,10 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add PlayerHealth health
     scoreboard objectives modify PlayerHealth displayname [{"text":"❤","color": "red"}]
-    scoreboard objectives setdisplay belowName PlayerHealth
+    scoreboard objectives add PlayerHealth10 dummy
+    scoreboard objectives modify PlayerHealth10 displayname [{"text":"❤","color": "red"}]
+    scoreboard objectives add PlayerHealth10Max dummy
+    scoreboard objectives setdisplay belowName PlayerHealth10
 
     scoreboard objectives add EntityTimer dummy
 

@@ -105,7 +105,7 @@
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 3
+                  "max": 4
                 }
               },
               {
@@ -123,7 +123,7 @@
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 3
+                  "max": 4
                 }
               },
               {
@@ -236,6 +236,17 @@
                 }
               ],
               "name": "minecraft:wooden_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 250,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:8,display:{Name:'[{\"text\":\"sea crystal\"}]'}}"
+              }
+            ],
+            "name": "minecraft:nautilus_shell"
           }
         ]
       },
@@ -273,7 +284,7 @@
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 3
+                  "max": 7
                 }
               },
               {
@@ -291,7 +302,7 @@
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 3
+                  "max": 7
                 }
               },
               {

@@ -1,18 +1,26 @@
 tellraw @s [{"text": "====================================================","color":"gold"}]
 
+
 scoreboard players set $chat_bool TMP 0
 execute if entity @s[advancements={mikatanserver:customcrafter/tablecraft=true}] run scoreboard players add $chat_bool TMP 1
 data merge storage mikatanserver:chat {"Check":'[{"text":"✖","color":"red"}]'}
 execute if score $chat_bool TMP matches 1 run data merge storage mikatanserver:chat {"Check":'[{"text":"✔","color":"green"}]'}
 data merge storage mikatanserver:chat {"Bool":'[{"text":"達成度","color":"green"},{"text":" : ","color":"white"},{"score":{"name":"$chat_bool","objective":"TMP"},"color":"green"},{"text":" / 1","color":"green"}]'}
-tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを10まで上げ、作業台に額縁を置き、ネザライトブロックを置いてcrafter++を作成する\n","color":"yellow"}]
+tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを5まで上げ、作業台に額縁を置き、ネザライトブロックを置いてcrafter++を作成する\n","color":"yellow"}]
+
+scoreboard players set $chat_bool TMP 0
+execute if entity @s[advancements={mikatanserver:tp/dungeon/twentynine=true}] run scoreboard players add $chat_bool TMP 1
+data merge storage mikatanserver:chat {"Check":'[{"text":"✖","color":"red"}]'}
+execute if score $chat_bool TMP matches 1 run data merge storage mikatanserver:chat {"Check":'[{"text":"✔","color":"green"}]'}
+data merge storage mikatanserver:chat {"Bool":'[{"text":"達成度","color":"green"},{"text":" : ","color":"white"},{"score":{"name":"$chat_bool","objective":"TMP"},"color":"green"},{"text":" / 1","color":"green"}]'}
+tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを5まで上げ、白銀の従者と刃に挑み、レベリングダンジョンのシステムを理解する\n","color":"yellow"}]
 
 scoreboard players set $chat_bool TMP 0
 execute if entity @s[advancements={mikatanserver:tp/dungeon/first=true}] run scoreboard players add $chat_bool TMP 1
 data merge storage mikatanserver:chat {"Check":'[{"text":"✖","color":"red"}]'}
 execute if score $chat_bool TMP matches 1 run data merge storage mikatanserver:chat {"Check":'[{"text":"✔","color":"green"}]'}
 data merge storage mikatanserver:chat {"Bool":'[{"text":"達成度","color":"green"},{"text":" : ","color":"white"},{"score":{"name":"$chat_bool","objective":"TMP"},"color":"green"},{"text":" / 1","color":"green"}]'}
-tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを10まで上げ、始まりのダンジョンに挑み、システムを理解する。\n","color":"yellow"}]
+tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを10まで上げ、始まりのダンジョンに挑み、ダンジョンのシステムを理解する。\n","color":"yellow"}]
 
 scoreboard players set $chat_bool TMP 0
 execute if entity @s[advancements={mikatanserver:event/ender/tp=true}] run scoreboard players add $chat_bool TMP 1

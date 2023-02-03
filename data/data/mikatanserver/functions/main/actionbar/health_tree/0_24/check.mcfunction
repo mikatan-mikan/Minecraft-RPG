@@ -1,0 +1,2 @@
+execute if score $now_hp PlayerHealth10 matches 12.. run function mikatanserver:main/actionbar/health_tree/0_24/12_24/check
+execute if score $now_hp PlayerHealth10 matches ..11 run function mikatanserver:main/actionbar/health_tree/0_24/0_11/check

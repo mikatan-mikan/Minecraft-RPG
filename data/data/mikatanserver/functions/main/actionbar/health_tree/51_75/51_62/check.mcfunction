@@ -1,0 +1,2 @@
+execute if score $now_hp PlayerHealth10 matches 57.. run data merge storage mikatanserver:actionbar {HMain:'[{"score":{"objective":"PlayerHealth10","name":"@s"},"font":"down","color":"#ffcc00"}]'}
+execute if score $now_hp PlayerHealth10 matches ..56 run data merge storage mikatanserver:actionbar {HMain:'[{"score":{"objective":"PlayerHealth10","name":"@s"},"font":"down","color":"#ffb300"}]'}

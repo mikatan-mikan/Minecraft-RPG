@@ -6,7 +6,7 @@ execute as @e[tag=EleventhDunBoss] store result score @s MobNowHP run data get e
 scoreboard objectives remove BossSpawnTimer11
 bossbar add eleventhboss_bar "master satellite"
 bossbar set minecraft:eleventhboss_bar players @a[tag=DungeonPlay_11]
-bossbar set minecraft:eleventhboss_bar max 1024
+bossbar set minecraft:eleventhboss_bar max 10240
 bossbar set minecraft:eleventhboss_bar color blue
 
 #Bossbattletag もバグる

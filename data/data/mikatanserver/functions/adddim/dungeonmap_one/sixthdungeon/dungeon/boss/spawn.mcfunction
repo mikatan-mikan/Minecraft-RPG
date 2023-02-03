@@ -4,7 +4,7 @@ execute as @a[tag=DungeonPlay_6] at @s run playsound entity.wither.spawn master 
 
 bossbar add sixthboss_bar "Lava Cube"
 bossbar set minecraft:sixthboss_bar players @a[tag=DungeonPlay_6]
-bossbar set minecraft:sixthboss_bar max 500
+bossbar set minecraft:sixthboss_bar max 5000
 bossbar set minecraft:sixthboss_bar color red
 
 #Bossbattletag もバグる

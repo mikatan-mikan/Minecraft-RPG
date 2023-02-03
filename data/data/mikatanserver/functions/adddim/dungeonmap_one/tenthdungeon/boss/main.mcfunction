@@ -6,7 +6,7 @@ execute as @e[tag=TenthDunBoss] store result score @s MobNowHP run data get enti
 scoreboard objectives remove BossSpawnTimer10
 bossbar add tenthboss_bar "iron blade"
 bossbar set minecraft:tenthboss_bar players @a[tag=DungeonPlay_10]
-bossbar set minecraft:tenthboss_bar max 700
+bossbar set minecraft:tenthboss_bar max 7000
 bossbar set minecraft:tenthboss_bar color blue
 
 #Bossbattletag もバグる

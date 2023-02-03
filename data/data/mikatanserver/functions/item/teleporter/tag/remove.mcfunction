@@ -1,4 +1,4 @@
-scoreboard players set @s SpecialSkill 0
+# scoreboard players set @s SpecialSkill 0
 scoreboard players reset @s tradecount
 scoreboard players reset @s StoryVillagerTalk
 ##エリアタグ
@@ -11,7 +11,7 @@ scoreboard players reset @s StoryVillagerTalk
     clear @s iron_pickaxe{island_item:true}
     clear @s stone_axe{island_item:true}
     tag @s remove FieldHalloween
-    tag @s remove Fieldfarm
+    tag @s remove FieldFarm
     clear @s wooden_hoe{area_farming_item:true}
     tag @s remove FieldNewyear_2023
     #tag @s remove FieldJungle

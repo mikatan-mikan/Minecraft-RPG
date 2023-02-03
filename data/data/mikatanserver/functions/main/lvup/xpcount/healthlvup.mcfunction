@@ -14,4 +14,7 @@ execute as @s[scores={hp-Lv=70..}] run scoreboard players add @s needhpxp 1
 execute as @s[scores={hp-Lv=120..}] run scoreboard players add @s needhpxp 4
 function mikatanserver:main/lvup/_lvset
 
+##現在の最大HPを記憶する
+execute store result score @s PlayerHealth10Max run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base 10
+
 execute if score $NowMax AllLV > @s hp-Lv if score @s hpxp >= @s needhpxp run function mikatanserver:main/lvup/xpcount/healthlvup

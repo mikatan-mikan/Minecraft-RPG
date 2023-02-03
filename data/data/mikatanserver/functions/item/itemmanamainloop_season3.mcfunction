@@ -38,6 +38,8 @@ execute as @s[scores={CustomModelData=158}] run function mikatanserver:item/tele
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:147}}},advancements={mikatanserver:customcrafter/add_stone/sand=true,mikatanserver:story/v3/1=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/silf
 #universe
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:157}}},advancements={mikatanserver:customcrafter/rod_and_sword/pyrite_2=true,mikatanserver:story/v3/2=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/universe
+#salamander
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:161}}},advancements={mikatanserver:customreinforcer/4=true,mikatanserver:story/v3/3=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/salamander
 
 ##slime giant
     #ボスがいないなら召喚可能
