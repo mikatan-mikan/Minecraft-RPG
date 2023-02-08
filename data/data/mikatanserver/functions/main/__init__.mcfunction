@@ -497,6 +497,10 @@ tellraw @a [{"text": "=====================================================\n\n"
     ##ender_quest_score
     scoreboard objectives add QUEST_NETHER dummy
     scoreboard objectives add QUEST_NETHER_LEVEL dummy
+
+    ##ruins quest score
+    scoreboard objectives add QUEST_RUINS dummy
+    scoreboard objectives add QUEST_RUINS_LEVEL dummy
     
     #榴杖
     scoreboard objectives add devilwandcount minecraft.custom:minecraft.play_time

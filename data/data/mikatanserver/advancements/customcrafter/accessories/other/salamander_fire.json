@@ -7,7 +7,7 @@
       "title": "彼女の魔力",
       "description": "salamander's fireを作成する"
     },
-    "parent": "mikatanserver:customcrafter/accessories/other/silf",
+    "parent": "mikatanserver:customcrafter/accessories/other/silf_leaf",
     "criteria": {
       "jyoken": {
         "trigger": "impossible"

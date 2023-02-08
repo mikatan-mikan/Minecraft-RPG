@@ -30,6 +30,8 @@
     execute in mikatanserver:dungeon if score $score TMP matches 100..120 if entity @a[tag=FieldRuins] as @e[type=witch,tag=field_witch_ruins] at @s positioned ~ ~1 ~ run function mikatanserver:adddim/area/ruins/mob/masic_witch/masic/before_particle
     execute in mikatanserver:dungeon if score $score TMP matches 130 if entity @a[tag=FieldRuins] as @e[type=witch,tag=field_witch_ruins] at @s positioned ~ ~1 ~ run function mikatanserver:adddim/area/ruins/mob/masic_witch/masic/main
 
+    ##クエスト判定
+    execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{ruins_quest:true}}]},tag=FieldRuins] at @s run function mikatanserver:adddim/area/ruins/item/quest/check
 
 ##ループリセット
 execute if score $ruins_count field_loop matches 18000.. run scoreboard players set $ruins_count field_loop 0

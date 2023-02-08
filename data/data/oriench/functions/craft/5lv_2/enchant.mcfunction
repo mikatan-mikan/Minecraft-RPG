@@ -57,5 +57,7 @@ execute as @p run function mikatanserver:main/lvup/_artifact/mana
 execute as @p run function mikatanserver:main/lvup/_view/mana
 
 execute as @p run function mikatanserver:main/lvup/_accessory/mana
+##専用アクセサリー
+execute as @p if entity @s[nbt={Inventory:[{"Slot":9b,id:"minecraft:magma_cream",tag:{CustomModelData:79}}]}] run scoreboard players add @s manaxp 1
 ##lvup
 execute as @p if score $NowMax AllLV > @s mana-Lv if score @s manaxp >= @s needmanaxp run function mikatanserver:main/lvup/xpcount/manalvup
