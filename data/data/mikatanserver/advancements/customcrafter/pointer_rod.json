@@ -5,7 +5,7 @@
         "nbt": "{CustomModelData:73}"
       },
       "title": "導きを求めて",
-      "description": "ponter rodを作成する"
+      "description": "pointer rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/windrod",
     "criteria": {

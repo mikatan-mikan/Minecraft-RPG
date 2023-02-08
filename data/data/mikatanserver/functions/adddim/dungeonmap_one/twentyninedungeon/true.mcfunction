@@ -4,7 +4,9 @@ bossbar remove minecraft:twentynineboss_bar
 scoreboard objectives remove TwentynineDSkillTimer1
 execute store result score $chests TwentynineDunDeath run clear @a oak_door{Twentynine_chest:1b}
 
+
 scoreboard players set $leveling_xp TMP 10
+scoreboard players set $leveling_lv TMP 80
 execute as @a[tag=DungeonPlay_29] run function mikatanserver:adddim/dungeonmap_one/_leveling/give_xp
 scoreboard players reset $leveling_xp TMP
 

@@ -18,6 +18,8 @@ execute as @s[scores={CustomModelData=149}] if score @s RodCoolTime matches 0.. 
 execute as @s[scores={CustomModelData=156}] if score @s RodCoolTime matches 0.. at @s run function mikatanserver:item/rod/pyrite/main
 #silf rod:35
 execute as @s[scores={mana=35..,CustomModelData=141}] at @s run function mikatanserver:item/rod/silf/main
+#salamander rod:35
+execute as @s[scores={mana=35..,CustomModelData=163}] at @s run function mikatanserver:item/rod/salamander/main
 
 ##dungeon
 #dungeon twentyfive
@@ -26,6 +28,8 @@ execute as @s[scores={AllLV=150..,CustomModelData=135}] at @s if predicate mikat
 execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=136}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentysix/init
 #dungeon twentyeight
 execute as @s[scores={AllLV=135..,CustomModelData=138}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyeight/diff_check
+#dungeon thirty
+execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=164}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirty/init
 
 ##ores world
 #masic_wind2

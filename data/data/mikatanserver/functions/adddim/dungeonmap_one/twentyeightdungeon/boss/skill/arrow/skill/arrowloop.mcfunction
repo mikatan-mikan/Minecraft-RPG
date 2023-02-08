@@ -17,6 +17,6 @@ tag @s add Now
     scoreboard players remove $y NowPlaceY 90
 ##座標の調整と召喚
 summon arrow ~ ~ ~ {Tags:["Bef","TwentyeightDunMob","PinkAr"]}
-execute as @e[type=arrow,tag=Bef,tag=TwentyeightDunMob,tag=PinkAr] run function mikatanserver:item/specialskill/pink/skill/store_pos
+execute as @e[type=arrow,tag=Bef,tag=TwentyeightDunMob,tag=PinkAr] run function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/boss/skill/arrow/skill/store_pos
 execute as @e[type=arrow,tag=TwentyeightDunMob,tag=PinkAr,nbt={inGround:1b}] run kill @s 
 tag @s remove Now
