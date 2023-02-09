@@ -36,6 +36,10 @@ execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=164}] at @s
 execute as @s[scores={CustomModelData=142}] run function mikatanserver:item/teleporter/masic_wind2
 #masic_ice2
 execute as @s[scores={CustomModelData=158}] run function mikatanserver:item/teleporter/masic_ice2
+#masic_light2
+execute as @s[scores={CustomModelData=165}] run function mikatanserver:item/teleporter/masic_light2
+#masic_dark2
+execute as @s[scores={CustomModelData=166}] run function mikatanserver:item/teleporter/masic_dark2
 
 ##area
 #silf
