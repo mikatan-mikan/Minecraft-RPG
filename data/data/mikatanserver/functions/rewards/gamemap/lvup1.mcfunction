@@ -1,0 +1,4 @@
+scoreboard players add @s RewardPoint 5
+tellraw @s [{"text": "実績ポイントが5加算されました！","color": "yellow"}]
+tellraw @s [{"text": "[system]","color": "yellow"},{"text": "Lvが上昇しました！それぞれのLvの上げ方は以下の通りです","color": "red"}]
+tellraw @s [{"text": "Hp Xp\n","color": "light_purple"},{"text": ":村人との交易で得ることができ、25Lvあたり10上昇します\n","color": "white"},{"text": "AtkD Xp\n","color": "red"},{"text": ":木こりによってXpを上昇させることができ、1Lvあたり2%上昇します\n","color": "white"},{"text": "AtkS Xp\n","color": "gold"},{"text": ":敵との戦闘によりXpを得られ、1Lvあたり0.1%上昇します\n","color": "white"},{"text": "Luck Xp\n","color": "green"},{"text": ":釣りと作物の回収によりXpが得られ、1Lvあたりluckが0.3%上昇、farmingluckが0.1%ずつ上昇\n","color": "white"},{"text": "Speed Xp\n","color": "aqua"},{"text": ":基本的な石の採掘によってXpを得ることができ、1Lvあたり0.3%上昇します\n","color": "white"},{"text": "Mana Xp\n","color": "blue"},{"text": ":エンチャントにより上昇し1Lvあたり1上昇します","color": "white"}]

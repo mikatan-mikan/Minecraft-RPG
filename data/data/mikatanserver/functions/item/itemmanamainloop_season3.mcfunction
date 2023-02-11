@@ -62,3 +62,4 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:161}}},advancements={mikat
 
 ##追加アイテム等入手条件解放処理
 execute as @s[scores={CustomModelData=140}] at @s run function mikatanserver:item/add_stone/sand/main
+execute as @s[scores={CustomModelData=167}] at @s run function mikatanserver:item/add_stone/soul/main

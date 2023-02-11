@@ -54,7 +54,9 @@
         scoreboard players set @a mana 0
         scoreboard objectives add manamax dummy
         scoreboard players set @a manamax 0
-        scoreboard objectives add manatimer minecraft.custom:minecraft.play_time
+        scoreboard objectives add ticktimer minecraft.custom:minecraft.play_time
+
+
 
     ##Lvアップ判定用
     #石系統採掘数(speed)

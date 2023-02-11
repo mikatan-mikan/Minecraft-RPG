@@ -18,7 +18,7 @@
       ]
     ],
     "rewards": {
-      "function": "mikatanserver:rewards/10"
+      "function": "mikatanserver:rewards/gamemap/crafttable"
     }
   }
   

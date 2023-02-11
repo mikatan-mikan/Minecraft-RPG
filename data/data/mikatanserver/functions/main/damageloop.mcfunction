@@ -11,6 +11,10 @@ execute if entity @s[nbt={SelectedItem:{tag:{lifesteal:[2]}}},predicate=mikatans
 execute if entity @s[nbt={SelectedItem:{tag:{lifesteal:[3]}}},predicate=mikatanserver:chance/0.015] run function mikatanserver:item/enchant/lifesteal/main
 execute if entity @s[nbt={SelectedItem:{tag:{lifesteal:[4]}}},predicate=mikatanserver:chance/0.02] run function mikatanserver:item/enchant/lifesteal/main
 execute if entity @s[nbt={SelectedItem:{tag:{lifesteal:[5]}}},predicate=mikatanserver:chance/0.025] run function mikatanserver:item/enchant/lifesteal/main
+##リジェネっレーション
+execute if entity @s[nbt={SelectedItem:{tag:{regen:[1]}}},predicate=mikatanserver:chance/0.01] run function mikatanserver:item/enchant/regen/main
+execute if entity @s[nbt={SelectedItem:{tag:{regen:[2]}}},predicate=mikatanserver:chance/0.02] run function mikatanserver:item/enchant/regen/main
+execute if entity @s[nbt={SelectedItem:{tag:{regen:[3]}}},predicate=mikatanserver:chance/0.03] run function mikatanserver:item/enchant/regen/main
 ##hit count
 execute unless score @s SpecialSkill >= @s SpecialSkillMax run scoreboard players add @s SpecialSkill 1
 ##ruins armor

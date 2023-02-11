@@ -16,10 +16,15 @@ scoreboard players enable @a FirstChatFlag
 execute as @a[scores={FirstChatFlag=1..}] run function mikatanserver:login/game_msg
 
 ##放置検知
+    execute as @a[scores={AFKCheck_walk=1..}] run function mikatanserver:main/kill_entity/afk/walkreset
+    execute as @a[scores={AFKCheck_dush=1..}] run function mikatanserver:main/kill_entity/afk/walkreset
+execute as @a[tag=AFK] unless score @s AFKTimer matches 1200.. run function mikatanserver:main/kill_entity/afk/tp
 execute as @a[scores={MoveCheck=1200..}] run function mikatanserver:main/removexp/main
+execute as @a[scores={AFKCheck=3600..}] if score $Player TMP matches 6.. if predicate mikatanserver:overworld at @s run function mikatanserver:main/kill_entity/afk
 execute as @a[scores={MoveCheck_Lite=100..}] at @s run function mikatanserver:main/removexp/luck
 
-execute positioned 2000 110 -717 as @a[distance=..100,predicate=mikatanserver:overworld] run scoreboard players set @s mobcount 0
+##ピッグマン経験値無効
+# execute positioned 2000 110 -717 as @a[distance=..100,predicate=mikatanserver:overworld] run scoreboard players set @s mobcount 0
 
 execute as @a[scores={darkoakcount=1..},predicate=mikatanserver:oremapdim] run scoreboard players set @s darkoakcount 0
 
@@ -56,8 +61,10 @@ execute as @a[scores={deathflag=1..}] run function mikatanserver:main/deathflag/
 #鉱石dimに人がいるかを検知
 execute as @a[predicate=mikatanserver:oremapdim] run function mikatanserver:adddim/oremap_one/main
 
-##mana上昇
-execute as @a[scores={manatimer=20..}] run execute if score @s manamax > @s mana run function mikatanserver:main/mana/main
+##20tick loop
+scoreboard players add $20tick ticktimer 1
+execute if score $20tick ticktimer matches 20.. run function mikatanserver:main/tick/10tick
+# execute as @a[scores={manatimer=20..}] run execute if score @s manamax > @s mana run function mikatanserver:main/mana/main
 
 ##xp変換
 #speedxp

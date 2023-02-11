@@ -120,7 +120,7 @@
       ]
     ],
     "rewards": {
-      "function":"mikatanserver:rewards/5"
+      "function":"mikatanserver:rewards/gamemap/lvup1"
     }
   }
   

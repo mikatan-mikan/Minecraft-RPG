@@ -33,7 +33,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     #mana stat count func
         scoreboard objectives add mana dummy
         scoreboard objectives add manamax dummy
-        scoreboard objectives add manatimer minecraft.custom:minecraft.play_time
+        scoreboard objectives remove manatimer
+        scoreboard objectives add ticktimer dummy
     ##Lvアップ判定用
     #石系統採掘数(speed)
         scoreboard objectives add stonecount minecraft.mined:minecraft.stone
@@ -138,6 +139,12 @@ tellraw @a [{"text": "=====================================================\n\n"
         scoreboard objectives add MoveCheck_walk minecraft.custom:minecraft.walk_one_cm
         scoreboard objectives add TimerCrystalTime dummy
 
+        
+        scoreboard objectives add AFKCheck minecraft.custom:minecraft.play_time
+        scoreboard objectives add AFKCheck_dush minecraft.custom:minecraft.sprint_one_cm
+        scoreboard objectives add AFKCheck_walk minecraft.custom:minecraft.walk_one_cm
+        scoreboard objectives add AFKCheck_elytra minecraft.custom:minecraft.aviate_one_cm
+
     scoreboard objectives add RewardPoint dummy
     scoreboard objectives setdisplay list RewardPoint
 
@@ -219,6 +226,7 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     #実績
     scoreboard objectives add lifestealcraft dummy
+    scoreboard objectives add regencraft dummy
     scoreboard objectives add enderslayercraft dummy
 
 
@@ -532,6 +540,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add StoryVillagerTalk dummy
 
     scoreboard objectives add SandSiteFlag dummy
+    scoreboard objectives add SoulCrystalFlag dummy
 
     scoreboard objectives add CustomModelData dummy
     scoreboard objectives add EnhanceNum dummy
@@ -566,6 +575,10 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     ##クリア率変数
     scoreboard objectives add ClearPer dummy
+
+    
+    ##AFK
+    scoreboard objectives add AFKTimer dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
