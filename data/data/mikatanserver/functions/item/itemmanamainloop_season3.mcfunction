@@ -30,6 +30,8 @@ execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=136}] at @s
 execute as @s[scores={AllLV=135..,CustomModelData=138}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyeight/diff_check
 #dungeon thirty
 execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=164}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirty/init
+#dungeon thirtyone
+execute as @s[scores={AllLV=40..,CustomModelData=169},advancements={mikatanserver:event/volcano/tp=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtyone/init
 
 ##ores world
 #masic_wind2

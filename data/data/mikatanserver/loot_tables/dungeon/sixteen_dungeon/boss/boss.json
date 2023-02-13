@@ -131,7 +131,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 30,
+            "weight": 60,
             "name": "minecraft:nautilus_shell",
             "functions": [
               {

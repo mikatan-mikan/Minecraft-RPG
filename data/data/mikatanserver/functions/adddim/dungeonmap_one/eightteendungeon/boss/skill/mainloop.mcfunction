@@ -1,7 +1,7 @@
-tag @a[tag=DungeonPlay_18,tag=!BossBattle18] add BossBattle18
+execute if entity @e[tag=Bef,tag=EightteenDunBoss] run tag @a[tag=DungeonPlay_18,tag=!BossBattle18] add BossBattle18
 execute if score @s MobNowHP matches ..300 run clear @a[tag=BossBattle18] #boats
 execute if score @s MobNowHP matches ..300 run effect clear @a[tag=BossBattle18] resistance
-
+tag @e[tag=Bef,tag=EightteenDunBoss] remove Bef
 ##bossの現在HPをgetする
 execute store result score $18_boss_hp_god boss_hp_checker run data get entity @e[tag=Eightteen_Goddess,limit=1] Health
 execute store result score $18_boss_hp_venus boss_hp_checker run data get entity @e[tag=Eightteen_Venus,limit=1] Health
@@ -57,7 +57,7 @@ execute if score $18 BossHP matches ..0 run kill @e[tag=EightteenDunBoss]
 
 
     ##mainloop 1 再帰
-    execute if entity @a[scores={EightteenBossSkill=293..}] run scoreboard players set @a EightteenBossSkill 0
+    execute if entity @a[scores={EightteenBossSkill=243..}] run scoreboard players set @a EightteenBossSkill 0
 
     
 

@@ -5,3 +5,5 @@ execute store result score @s CustomModelData run data get entity @s SelectedIte
 execute as @s[scores={SpecialSkill=150..,CustomModelData=153}] at @s run function mikatanserver:item/specialskill/red/main
 #pink:150
 execute as @s[scores={SpecialSkill=150..,CustomModelData=154}] at @s run function mikatanserver:item/specialskill/pink/main
+#purple:150
+execute as @s[scores={SpecialSkill=150..,CustomModelData=168}] at @s run function mikatanserver:item/specialskill/purple/main

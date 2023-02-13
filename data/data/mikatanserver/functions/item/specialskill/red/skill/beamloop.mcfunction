@@ -10,5 +10,5 @@ execute positioned ~ ~-1.0 ~ as @e[type=#mikatanserver:mobs,distance=..1] run fu
 
 tp ^ ^ ^0.5
 scoreboard players add @s SpecialSkillTimer 1
-execute if score @s SpecialSkillTimer matches 50.. run kill @s
 execute unless score @s SpecialSkillTimer matches 50.. at @s run function mikatanserver:item/specialskill/red/skill/beamloop
+kill @s
