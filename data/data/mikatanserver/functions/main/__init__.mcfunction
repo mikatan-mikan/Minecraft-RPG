@@ -518,6 +518,7 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     scoreboard objectives add AllLV dummy
     scoreboard players set $NowMax AllLV 300
+    scoreboard players set $GameMap AllLV 135
 
     scoreboard objectives add ItemKillTimer dummy
 

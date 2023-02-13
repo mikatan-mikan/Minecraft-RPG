@@ -1,2 +1,0 @@
-give @s minecraft:magma_cream{display:{Name:'[{"text": "redstone crystal","color":"red"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率でエンチャント時のxpが倍になる"}]']},CustomModelData:13} 1
-give @s minecraft:magma_cream{display:{Name:'[{"text": "copper ishiza","color":"gold"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率で討伐時のxpが倍になる"}]']},CustomModelData:16} 1

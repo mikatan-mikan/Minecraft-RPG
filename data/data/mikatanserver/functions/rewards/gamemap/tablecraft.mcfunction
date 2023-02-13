@@ -1,3 +1,3 @@
 scoreboard players add @s RewardPoint 10
 tellraw @s [{"text": "実績ポイントが10加算されました！","color": "yellow"}]
-tellraw @s [{"text": "[system]","color": "yellow"},{"text": "Crafter++を作成しました！DiscordからRecipeを確認して、ゲームを進めましょう","color": "red"}]
+tellraw @s [{"text": "[system]","color": "yellow"},{"text": "Crafter++を作成しました！DiscordからRecipeを確認して、ゲームを進めましょう","color": "red"},{"text": "\nまたレシピはslot <画像中でそのアイテムが何番目か> -> 説明{スロット番号:アイテム}(任意)で示されます"},{"text": "\n他にも真ん中(5)にエンチャントbook、左上(1)に付与先アイテムを置くことでノーコストでエンチャントができます"},{"text":"またエンチャントboxと呼ばれるエンチャントアイテムも存在します。詳しくはcrafter⁺⁺｜system＆enchantingのチャンネルトピックを参照してください"}]

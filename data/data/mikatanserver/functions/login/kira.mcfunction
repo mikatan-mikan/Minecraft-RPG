@@ -1,2 +1,0 @@
-give @s minecraft:magma_cream{display:{Name:'[{"text": "diamond brooch","color":"aqua"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率で採掘時のxpが倍になる"}]']},CustomModelData:1} 1
-give @s minecraft:magma_cream{display:{Name:'[{"text": "stone brecelet","color":"gray"}]',Lore:['[{"text":"このアイテムをインベントリの左上にセットすると5%の確率で釣り時のxpが倍になる"}]']},CustomModelData:10} 1
