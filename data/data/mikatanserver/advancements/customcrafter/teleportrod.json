@@ -4,7 +4,7 @@
         "item": "minecraft:ender_pearl"
       },
       "title": "瞬間移動...？",
-      "description": "teleportRODを作成する"
+      "description": "teleport rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/speedbuffer",
     "criteria": {

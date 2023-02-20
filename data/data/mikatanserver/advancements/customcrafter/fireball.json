@@ -4,7 +4,7 @@
         "item": "minecraft:fire_charge"
       },
       "title": "火を操る者",
-      "description": "fireball RODを作成する"
+      "description": "fireball rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/frozenrod",
     "criteria": {

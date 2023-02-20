@@ -49,7 +49,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:3,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
+                "tag": "{CustomModelData:2,display:{Name:'[{\"text\":\"enchanted sapphire\"}]'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],HideFlags:1}"
               }
             ],
             "name": "minecraft:slime_ball"

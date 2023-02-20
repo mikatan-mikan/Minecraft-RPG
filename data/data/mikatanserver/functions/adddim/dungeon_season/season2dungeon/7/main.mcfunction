@@ -19,7 +19,7 @@ execute store result bossbar season2boss_bar value run scoreboard players get pl
 ## スコアでHPを管理する(ダメージを受けたらmaxhp-nowhpをスコアから減算してnowhpをmaxhpにする)
 execute store result score $season2 BossHP run scoreboard players get player TMP
 execute store result score $season2_max BossHP run scoreboard players get player TMP
-
+#TODO
 #Bossbattletag もバグる
 execute as @e[tag=season2DunBoss] at @s as @a[tag=DungeonPlay_season2] run tag @s add BossBattleseason2
 

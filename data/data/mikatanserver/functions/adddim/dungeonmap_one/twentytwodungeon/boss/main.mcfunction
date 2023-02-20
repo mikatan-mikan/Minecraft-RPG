@@ -38,3 +38,4 @@ execute store result bossbar minecraft:twentytwoboss_bar value run data get enti
 scoreboard objectives add TwentytwoBossSkill minecraft.custom:minecraft.play_time
 
 scoreboard objectives add TwentytwoBossSkill2 minecraft.custom:minecraft.play_time
+# function mikatanserver:adddim/dungeonmap_one/twentytwodungeon/boss/main

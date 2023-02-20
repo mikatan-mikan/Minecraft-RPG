@@ -4,7 +4,7 @@
         "item": "minecraft:ender_pearl"
       },
       "title": "時空の超越者",
-      "description": "ender RODを作成する"
+      "description": "ender rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/fireball",
     "criteria": {

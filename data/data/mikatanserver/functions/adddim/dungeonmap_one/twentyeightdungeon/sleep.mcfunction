@@ -1,7 +1,8 @@
 ##5秒待ち
 execute as @a[scores={DungeonStartCnt28=..101},tag=CountLeader] run schedule function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/sleep 1t
 ##参加者が現れた場合
-execute at @a[tag=TwentyeightDLeader] as @a[distance=..5,tag=!DungeonStart28,scores={AllLV=40..}] run function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/challengeadd
+execute if score $28_Difficulty Temporary matches 0 at @a[tag=TwentyeightDLeader] as @a[distance=..5,tag=!DungeonStart28,scores={AllLV=40..}] run function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/challengeadd
+execute if score $28_Difficulty Temporary matches 1 at @a[tag=TwentyeightDLeader] as @a[distance=..5,tag=!DungeonStart28,scores={AllLV=135..}] run function mikatanserver:adddim/dungeonmap_one/twentyeightdungeon/challengeadd
 
 
 ##ダンジョンへワープ

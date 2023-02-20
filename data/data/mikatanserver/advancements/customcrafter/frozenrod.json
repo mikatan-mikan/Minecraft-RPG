@@ -4,7 +4,7 @@
         "item": "minecraft:ice"
       },
       "title": "広がる冷気",
-      "description": "frozenRODを作成する"
+      "description": "frozen rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/windrod",
     "criteria": {

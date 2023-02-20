@@ -5,7 +5,7 @@
         "nbt":"{CustomModelData:39}"
       },
       "title": "氷の囁き",
-      "description": "burtRODを作成する"
+      "description": "burt rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/frozenrod",
     "criteria": {

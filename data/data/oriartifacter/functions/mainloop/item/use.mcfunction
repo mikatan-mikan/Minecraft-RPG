@@ -67,5 +67,6 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:2510}}},scores={ART.hp=9..
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:3010}}},scores={ART.luck=9..}] run function oriartifacter:mainloop/item/base/luck/10
 
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:3501}}},scores={ART.atks=3..},advancements={oriartifacter:specialskill/1=false}] run function oriartifacter:mainloop/item/specialskill/1
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:3502}}},scores={ART.hp=5..},advancements={oriartifacter:specialskill/2=false}] run function oriartifacter:mainloop/item/specialskill/2
 
 scoreboard players reset @s ARTIFACT

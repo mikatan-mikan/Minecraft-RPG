@@ -149,7 +149,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted Atrus Powder\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                            "tag": "{CustomModelData:1,display:{Name:'[{\"text\":\"enchanted Atrus powder\"}]'},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
                         },
                         {
                             "function": "minecraft:set_count",

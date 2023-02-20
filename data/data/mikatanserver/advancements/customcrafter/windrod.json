@@ -4,7 +4,7 @@
         "item": "minecraft:oak_leaves"
       },
       "title": "暴風の使い手",
-      "description": "windRODを作成する"
+      "description": "wind rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/lightningrod",
     "criteria": {

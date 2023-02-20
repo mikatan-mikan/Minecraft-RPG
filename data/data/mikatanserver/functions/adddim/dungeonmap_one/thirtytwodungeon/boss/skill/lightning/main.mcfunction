@@ -1,0 +1,2 @@
+tellraw @a[tag=DungeonPlay_32] [{"text": "グリーンキューブ>>","color": "red"},{"text": "ライトニング","color": "yellow"}]
+execute as @a[tag=DungeonPlay_32] at @s run function mikatanserver:adddim/dungeonmap_one/thirtytwodungeon/boss/skill/lightning/light

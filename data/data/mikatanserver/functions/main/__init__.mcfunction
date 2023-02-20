@@ -363,12 +363,15 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $400 int 400
     scoreboard players set $450 int 450
     scoreboard players set $512 int 512
+    scoreboard players set $600 int 600
     scoreboard players set $850 int 850
     scoreboard players set $900 int 900
     scoreboard players set $1000 int 1000
     scoreboard players set $1024 int 1024
     scoreboard players set $1100 int 1100
+    scoreboard players set $1536 int 1536
     scoreboard players set $2048 int 2048
+    scoreboard players set $4096 int 4096
 
 
     scoreboard objectives add ImaginStoneFlag dummy
@@ -580,6 +583,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     
     ##AFK
     scoreboard objectives add AFKTimer dummy
+
+    scoreboard objectives add maze dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

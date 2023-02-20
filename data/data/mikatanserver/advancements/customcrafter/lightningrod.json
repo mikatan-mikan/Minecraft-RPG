@@ -4,7 +4,7 @@
         "item": "minecraft:blaze_rod"
       },
       "title": "落雷",
-      "description": "lightningRODを作成する"
+      "description": "lightning rodを作成する"
     },
     "parent": "mikatanserver:customcrafter/teleportrod",
     "criteria": {
