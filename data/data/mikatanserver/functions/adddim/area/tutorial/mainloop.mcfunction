@@ -1,0 +1,1 @@
+execute as @a[tag=Tutorial] at @s run function mikatanserver:adddim/area/tutorial/player_loop

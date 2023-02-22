@@ -20,3 +20,5 @@ execute if entity @a[tag=FieldDesert,scores={LogCheck_Timer=600..},predicate=mik
 execute if entity @a[tag=FieldSilf,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/silf/mainloop
 execute if entity @a[tag=FieldUniverse,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/universe/mainloop
 execute if entity @a[tag=FieldSalamander,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/salamander/mainloop
+execute if entity @a[tag=FieldUndine,scores={LogCheck_Timer=600..},predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/undine/mainloop
+execute if entity @a[tag=Tutorial,predicate=mikatanserver:dungeonmapdim] run function mikatanserver:adddim/area/tutorial/mainloop

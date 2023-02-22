@@ -1,6 +1,7 @@
 # scoreboard players set @s SpecialSkill 0
 scoreboard players reset @s tradecount
 scoreboard players reset @s StoryVillagerTalk
+    tag @s remove Tutorial
 ##エリアタグ
     tag @s remove new_year2021P
     tag @s remove tp_after
@@ -21,6 +22,8 @@ scoreboard players reset @s StoryVillagerTalk
     tag @s remove FieldVolcano
     tag @s remove FieldSilf
     tag @s remove FieldUniverse
+    tag @s remove FieldSalamander
+    tag @s remove FieldUndine
     execute as @s[tag=FieldNether,predicate=mikatanserver:overworld] run function mikatanserver:main/event/nether/reset_bossbar
     execute as @s[tag=FieldRuins,predicate=mikatanserver:overworld] run function mikatanserver:main/event/ruins/reset_bossbar
     execute as @s[tag=FieldJungle,predicate=mikatanserver:overworld] run function mikatanserver:main/event/jungle/reset_bossbar
@@ -41,6 +44,8 @@ scoreboard players reset @s StoryVillagerTalk
     tag @s remove desert_tp_after
     tag @s remove silf_tp_after
     tag @s remove universe_tp_after
+    tag @s remove salamander_tp_after
+    tag @s remove undine_tp_after
     #alltag
     tag @s remove FieldPlayer
 ##クエストタグ

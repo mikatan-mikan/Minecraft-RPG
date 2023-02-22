@@ -22,6 +22,8 @@ execute as @s[scores={mana=35..,CustomModelData=141}] at @s run function mikatan
 execute as @s[scores={mana=35..,CustomModelData=163}] at @s run function mikatanserver:item/rod/salamander/main
 #saturation rod:30
 execute as @s[scores={mana=30..,CustomModelData=171}] at @s run function mikatanserver:item/rod/saturation/main
+#scythe:20
+execute as @s[scores={mana=20..,CustomModelData=174}] if data entity @s SelectedItem.tag.masic at @s run function mikatanserver:item/rod/undine_scythe/main
 
 ##dungeon
 #dungeon twentyfive
@@ -56,6 +58,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:147}}},advancements={mikat
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:157}}},advancements={mikatanserver:customcrafter/rod_and_sword/pyrite_2=true,mikatanserver:story/v3/2=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/universe
 #salamander
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:161}}},advancements={mikatanserver:customreinforcer/4=true,mikatanserver:story/v3/3=true}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/salamander
+#undine
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:175}}},advancements={mikatanserver:story/v3/4=true},scores={AllLV=190..}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/area/undine
 
 ##slime giant
     #ボスがいないなら召喚可能

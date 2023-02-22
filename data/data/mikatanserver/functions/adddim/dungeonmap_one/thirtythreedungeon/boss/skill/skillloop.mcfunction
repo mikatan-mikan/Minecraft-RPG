@@ -53,7 +53,7 @@ data merge entity @s {Health:1024.0f}
 
 
     ##前に波動を出す
-            execute as @e[tag=BlessMarker] at @s run function mikatanserver:adddim/dungeonmap_one/thirtythreedungeon/boss/skill/bless/move
+            execute as @e[tag=BlessMarker,tag=ThirtythreeDunMob] at @s run function mikatanserver:adddim/dungeonmap_one/thirtythreedungeon/boss/skill/bless/move
         execute if entity @a[scores={ThirtythreeBossSkill2=300},tag=BossBattle33] at @s run function mikatanserver:adddim/dungeonmap_one/thirtythreedungeon/boss/skill/bless/main
         execute if entity @a[scores={ThirtythreeBossSkill2=400},tag=BossBattle33] at @s run function mikatanserver:adddim/dungeonmap_one/thirtythreedungeon/boss/skill/bless/main
 

@@ -73,6 +73,7 @@ execute as @a[predicate=mikatanserver:main/breakstone] run function mikatanserve
 execute as @a[scores={mobcount=1..}] run function mikatanserver:main/lvup/xpcount/atkspeed
 #healthxp
 execute as @a[scores={tradecount=1..},predicate=mikatanserver:overworld] run function mikatanserver:main/lvup/xpcount/health
+execute as @a[scores={tradecount=1..},tag=tutorial] run function mikatanserver:main/lvup/xpcount/health
 #atkdamagexp
 execute as @a[predicate=mikatanserver:main/breakwood] run function mikatanserver:main/lvup/xpcount/atkdamage
 #manaxp

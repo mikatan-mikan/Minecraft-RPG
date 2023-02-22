@@ -7,7 +7,7 @@ data modify storage mikatanlib:printinfo Tags set from entity @e[sort=nearest,li
 
 execute store result score $now_x MK.pi.predicate run data get entity @s Pos[0]
 execute store result score $now_y MK.pi.predicate run data get entity @s Pos[2]
-execute as @e[type=armor_stand,tag=SalamanderField_Ar] run function mikatanlib:print_info/check_pos
+execute as @e[type=armor_stand,tag=UndineField_Ar] run function mikatanlib:print_info/check_pos
 
 
 schedule function mikatanlib:print_info/print 1t

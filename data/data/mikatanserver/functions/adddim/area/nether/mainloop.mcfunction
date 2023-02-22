@@ -10,8 +10,8 @@
     execute in mikatanserver:dungeon if score $score TMP matches 0 if entity @a[tag=FieldNether] run function mikatanserver:adddim/area/nether/mob/def_zombie/armor_reset
 
     ##ボススポーン
-    execute in mikatanserver:dungeon if score $count nether_field_loop matches 8000 if entity @a[tag=FieldNether] unless entity @e[type=magma_cube,tag=nether_magmacube] run function mikatanserver:adddim/area/nether/mob/magma_cube/spawn/spawncheck
-    execute in mikatanserver:dungeon if score $count nether_field_loop matches 8000 if entity @a[tag=FieldNether] if entity @e[type=magma_cube,tag=nether_magmacube] run tp @e[type=magma_cube,tag=nether_magmacube] 347.5 -16 -1211.5
+    execute in mikatanserver:dungeon if score $count nether_field_loop matches 6000 if entity @a[tag=FieldNether] unless entity @e[type=magma_cube,tag=nether_magmacube] run function mikatanserver:adddim/area/nether/mob/magma_cube/spawn/spawncheck
+    execute in mikatanserver:dungeon if score $count nether_field_loop matches 6000 if entity @a[tag=FieldNether] if entity @e[type=magma_cube,tag=nether_magmacube] run tp @e[type=magma_cube,tag=nether_magmacube] 347.5 -16 -1211.5
         ##スキルメインループ
         execute if entity @e[type=magma_cube,tag=nether_magmacube] as @e[type=magma_cube,tag=nether_magmacube] at @s run function mikatanserver:adddim/area/nether/mob/magma_cube/skill/mainloop
         ##ボス死亡検知
@@ -30,7 +30,7 @@
     execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{nether_quest:true}}]},tag=FieldNether] at @s run function mikatanserver:adddim/area/nether/item/quest/check
 
 ##ループリセット
-execute if score $count nether_field_loop matches 12000.. run scoreboard players set $count nether_field_loop 0
+execute if score $count nether_field_loop matches 8000.. run scoreboard players set $count nether_field_loop 0
 
 ##わきループ
 scoreboard players add $count nether_field_loop 1
