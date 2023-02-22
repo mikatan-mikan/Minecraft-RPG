@@ -21,6 +21,7 @@ scoreboard players reset $18_boss_hp_venus TMP
 scoreboard players reset $18_boss_hp_god TMP
 scoreboard players reset $18 BossHP
 scoreboard players set $18 dungeon_play_now 0
+scoreboard players add $18_Clear ClearPer 1
 kill @e[tag=EightteenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=EightteenDunMob]

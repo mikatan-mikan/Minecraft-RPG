@@ -12,6 +12,7 @@ tag @a[tag=DungeonPlay_23] remove BossBattle23
 tag @a[tag=DungeonPlay_23] add Return_Dun_23
 tag @a[tag=DungeonPlay_23] remove DungeonPlay_23
 scoreboard players set $23 dungeon_play_now 0
+scoreboard players add $23_Clear ClearPer 1
 scoreboard objectives remove TwentythreeDunDeath
 scoreboard objectives remove TwentythreeBossSkill
 kill @e[tag=TwentythreeDunArmor]

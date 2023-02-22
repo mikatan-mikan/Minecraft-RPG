@@ -12,6 +12,7 @@ tag @a[tag=DungeonPlay_15] remove DungeonPlay
 tag @a[tag=DungeonPlay_15] remove BossBattle15
 tag @a[tag=DungeonPlay_15] add Return_Dun_15
 scoreboard players set $15 dungeon_play_now 0
+scoreboard players add $15_Clear ClearPer 1
 scoreboard objectives remove FifteenDunDeath
 scoreboard objectives remove FifteenBossSkill
 scoreboard objectives remove 15_boss_hp_checker

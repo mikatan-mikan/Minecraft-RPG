@@ -20,6 +20,7 @@ scoreboard objectives remove SixteenBossSkill2
 scoreboard objectives remove SixteenBossSkill
 scoreboard objectives remove BossMoveCnt_16
 scoreboard players set $16 dungeon_play_now 0
+scoreboard players add $16_Clear ClearPer 1
 kill @e[tag=SixteenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=SixteenDunMob]

@@ -19,6 +19,9 @@ tag @a[tag=DungeonPlay_32] remove BossBattle32
 tag @a[tag=DungeonPlay_32] add Return_Dun_32
 tag @a[tag=DungeonPlay_32] remove DungeonPlay_32
 scoreboard players set $32 dungeon_play_now 0
+execute if score $32_Difficulty Temporary matches 0 run scoreboard players add $32_0_Clear ClearPer 1
+execute if score $32_Difficulty Temporary matches 1 run scoreboard players add $32_1_Clear ClearPer 1
+execute if score $32_Difficulty Temporary matches 2 run scoreboard players add $32_2_Clear ClearPer 1
 scoreboard objectives remove ThirtytwoDunDeath
 kill @e[tag=ThirtytwoDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]

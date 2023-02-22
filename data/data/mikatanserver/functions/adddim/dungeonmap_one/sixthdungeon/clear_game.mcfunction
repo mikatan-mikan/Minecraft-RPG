@@ -11,6 +11,7 @@ tag @a[tag=DungeonPlay_6] remove DungeonPlay
 tag @a[tag=DungeonPlay_6] remove BossBattle6
 tag @a[tag=DungeonPlay_6] add Return_Dun_6
 scoreboard players set $6 dungeon_play_now 0
+scoreboard players add $6_Clear ClearPer 1
 scoreboard objectives remove SixthDunDeath
 scoreboard objectives remove SixBossSkill
 scoreboard objectives remove TrollSixDunSkill

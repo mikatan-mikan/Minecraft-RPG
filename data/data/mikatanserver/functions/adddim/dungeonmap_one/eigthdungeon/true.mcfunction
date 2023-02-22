@@ -11,6 +11,7 @@ tag @a[tag=DungeonPlay_8] remove DungeonPlay
 tag @a[tag=DungeonPlay_8] remove BossBattle8
 tag @a[tag=DungeonPlay_8] add Return_Dun_8
 scoreboard players set $8 dungeon_play_now 0
+scoreboard players add $8_Clear ClearPer 1
 scoreboard objectives remove EigthDunDeath
 scoreboard objectives remove EigBossSkill
 kill @e[tag=EigDunArmor]

@@ -21,6 +21,7 @@ tag @a[tag=DungeonPlay_29] remove BossBattle29
 tag @a[tag=DungeonPlay_29] add Return_Dun_29
 tag @a[tag=DungeonPlay_29] remove DungeonPlay_29
 scoreboard players set $29 dungeon_play_now 0
+scoreboard players add $29_Clear ClearPer 1
 scoreboard objectives remove TwentynineDunDeath
 kill @e[tag=TwentynineDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]

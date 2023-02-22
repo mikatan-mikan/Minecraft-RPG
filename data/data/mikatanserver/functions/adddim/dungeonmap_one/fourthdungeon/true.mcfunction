@@ -11,6 +11,7 @@ tag @a[tag=DungeonPlay_4] remove DungeonPlay
 tag @a[tag=DungeonPlay_4] remove BossBattle4
 tag @a[tag=DungeonPlay_4] add Return_Dun_4
 scoreboard players set $4 dungeon_play_now 0
+scoreboard players add $4_Clear ClearPer 1
 scoreboard objectives remove FourthDunDeath
 scoreboard objectives remove FourBossSkill
 kill @e[tag=FourDunArmor]

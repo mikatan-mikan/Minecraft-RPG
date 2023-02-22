@@ -4,8 +4,15 @@ tag @s add CountLeader
 tag @s add ThirtythreeDLeader
 execute if score $33_Difficulty Temporary matches 0 run clear @s carrot_on_a_stick{CustomModelData:173,diff:0} 1
 execute if score $33_Difficulty Temporary matches 1 run clear @s carrot_on_a_stick{CustomModelData:173,diff:1} 1
-execute if score $33_Difficulty Temporary matches 0 run tellraw @a ["",{"selector":"@s"},{"text":"が5s後に"},{"text": "【高難易度】","color": "red"},{"text":"深海の支配者","color":"aqua"},{"text":"を開始します\n参加者は","color":"white"},{"selector":"@s","color":"white"},{"text":"の","color":"white"},{"text":"5m以内","color":"red"},{"text":"に集まってください\n","color":"white"},{"text": "参加可能：AllLv100以上"}]
-execute if score $33_Difficulty Temporary matches 1 run tellraw @a ["",{"selector":"@s"},{"text":"が5s後に"},{"text": "【超高難易度】","color": "red"},{"text":"深海の支配者","color":"aqua"},{"text":"を開始します\n参加者は","color":"white"},{"selector":"@s","color":"white"},{"text":"の","color":"white"},{"text":"5m以内","color":"red"},{"text":"に集まってください\n","color":"white"},{"text": "参加可能：AllLv190以上"}]
+execute if score $33_Difficulty Temporary matches 0 run data modify storage mikatanserver:dungeon_chat dungeon_msg set value '[{"text":""},{"selector":"@s"},{"text":"が5s後に"},{"text": "【高難易度】","color": "red"},{"text":"深海の支配者","color":"aqua"},{"text":"を開始します\\n参加者は","color":"white"},{"selector":"@s","color":"white"},{"text":"の","color":"white"},{"text":"5m以内","color":"red"},{"text":"に集まってください\\n","color":"white"},{"text": "参加可能：AllLv100以上"}]'
+execute if score $33_Difficulty Temporary matches 1 run data modify storage mikatanserver:dungeon_chat dungeon_msg set value '[{"text":""},{"selector":"@s"},{"text":"が5s後に"},{"text": "【超高難易度】","color": "red"},{"text":"深海の支配者","color":"aqua"},{"text":"を開始します\\n参加者は","color":"white"},{"selector":"@s","color":"white"},{"text":"の","color":"white"},{"text":"5m以内","color":"red"},{"text":"に集まってください\\n","color":"white"},{"text": "参加可能：AllLv190以上"}]'
+execute if score $33_Difficulty Temporary matches 0 run scoreboard players operation $clear ClearPer = $33_0_Clear ClearPer
+execute if score $33_Difficulty Temporary matches 0 run scoreboard players operation $in ClearPer = $33_0 ClearPer
+execute if score $33_Difficulty Temporary matches 1 run scoreboard players operation $clear ClearPer = $33_1_Clear ClearPer
+execute if score $33_Difficulty Temporary matches 1 run scoreboard players operation $in ClearPer = $33_1 ClearPer
+function mikatanserver:adddim/dungeonmap_one/_utils/print/check
+execute if score $33_Difficulty Temporary matches 0 run scoreboard players add $33_0 ClearPer 1
+execute if score $33_Difficulty Temporary matches 1 run scoreboard players add $33_1 ClearPer 1
 scoreboard objectives add DungeonStartCnt33 minecraft.custom:minecraft.play_time
 schedule function mikatanserver:adddim/dungeonmap_one/thirtythreedungeon/sleep 5t
 

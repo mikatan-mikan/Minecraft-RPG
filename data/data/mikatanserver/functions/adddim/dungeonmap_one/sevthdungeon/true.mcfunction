@@ -10,6 +10,7 @@ tag @a[tag=DungeonPlay_7] remove DungeonPlay
 tag @a[tag=DungeonPlay_7] remove BossBattle7
 tag @a[tag=DungeonPlay_7] add Return_Dun_7
 scoreboard players set $7 dungeon_play_now 0
+scoreboard players add $7_Clear ClearPer 1
 scoreboard objectives remove SevthDunDeath
 scoreboard objectives remove SevBossSkill
 scoreboard objectives remove SevDunBackS 

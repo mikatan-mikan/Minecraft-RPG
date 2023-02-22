@@ -12,6 +12,7 @@ tag @a[tag=DungeonPlay_10] remove DungeonPlay
 tag @a[tag=DungeonPlay_10] remove BossBattle10
 tag @a[tag=DungeonPlay_10] add Return_Dun_10
 scoreboard players set $10 dungeon_play_now 0
+scoreboard players add $10_Clear ClearPer 1
 scoreboard objectives remove TenthDunDeath
 scoreboard objectives remove TenBossSkill
 kill @e[tag=TenDunArmor]

@@ -15,6 +15,10 @@ tag @a[tag=DungeonPlay_24] remove DungeonPlay
 tag @a[tag=DungeonPlay_24] remove BossBattle24
 tag @a[tag=DungeonPlay_24] add Return_Dun_24
 scoreboard players set $24 dungeon_play_now 0
+execute if score $diff TwentyfourBossSkill matches 0 run scoreboard players add $24_0_Clear ClearPer 1
+execute if score $diff TwentyfourBossSkill matches 1 run scoreboard players add $24_1_Clear ClearPer 1
+execute if score $diff TwentyfourBossSkill matches 2 run scoreboard players add $24_2_Clear ClearPer 1
+execute if score $diff TwentyfourBossSkill matches 3 run scoreboard players add $24_3_Clear ClearPer 1
 scoreboard objectives remove TwentyfourDunDeath
 scoreboard objectives remove TwentyfourBossSkill
 scoreboard objectives remove TwentyfourBossSkill2

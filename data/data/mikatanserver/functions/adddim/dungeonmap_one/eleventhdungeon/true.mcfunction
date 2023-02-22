@@ -16,6 +16,7 @@ scoreboard objectives remove ElevenBossSkill
 scoreboard objectives remove Wind_Count
 scoreboard objectives remove Wind_Rot_Count
 scoreboard players set $11 dungeon_play_now 0
+scoreboard players add $11_Clear ClearPer 1
 kill @e[tag=ElevenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=ElevenDunMob]

@@ -17,6 +17,7 @@ scoreboard objectives remove TwentyBossSkill
 scoreboard objectives remove TwentyBossSkill2
 
 scoreboard players set $20 dungeon_play_now 0
+scoreboard players add $20_Clear ClearPer 1
 kill @e[tag=TwentyDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=TwentyDunMob]

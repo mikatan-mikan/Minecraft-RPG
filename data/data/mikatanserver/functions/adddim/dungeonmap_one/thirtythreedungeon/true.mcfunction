@@ -17,6 +17,8 @@ tag @a[tag=DungeonPlay_33] remove BossBattle33
 tag @a[tag=DungeonPlay_33] add Return_Dun_33
 tag @a[tag=DungeonPlay_33] remove DungeonPlay_33
 scoreboard players set $33 dungeon_play_now 0
+execute if score $33_Difficulty Temporary matches 0 run scoreboard players add $33_0_Clear ClearPer 1
+execute if score $33_Difficulty Temporary matches 1 run scoreboard players add $33_1_Clear ClearPer 1
 scoreboard objectives remove ThirtythreeDunDeath
 kill @e[tag=ThirtythreeDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]

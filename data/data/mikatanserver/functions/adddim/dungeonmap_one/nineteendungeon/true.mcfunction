@@ -18,6 +18,7 @@ scoreboard objectives remove NineteenBossSkill3
 scoreboard objectives remove NineteenBossSkill4
 
 scoreboard players set $19 dungeon_play_now 0
+scoreboard players add $19_Clear ClearPer 1
 kill @e[tag=NineteenDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
 execute in mikatanserver:dungeon run kill @e[tag=NineteenDunMob]

@@ -13,6 +13,7 @@ tag @a[tag=DungeonPlay_2] remove DungeonPlay
 tag @a[tag=DungeonPlay_2] remove BossBattle2
 tag @a[tag=DungeonPlay_2] add Return_Dun_2
 scoreboard players set $2 dungeon_play_now 0
+scoreboard players add $2_Clear ClearPer 1
 scoreboard objectives remove SecondDunDeath
 kill @e[tag=SecDunArmor]
 execute in mikatanserver:dungeon run kill @e[type=item,predicate=mikatanserver:dungeonmapdim]
