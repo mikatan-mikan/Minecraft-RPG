@@ -339,6 +339,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard players set $8 int 8
     scoreboard players set $9 int 9
     scoreboard players set $10 int 10
+    scoreboard players set $15 int 15
     scoreboard players set $16 int 16
     scoreboard players set $20 int 20
     scoreboard players set $50 int 50
@@ -587,6 +588,8 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add maze dummy
 
     scoreboard objectives add TutorialFlag dummy
+
+    scoreboard objectives add HurricaneRodTimer dummy
 
 tellraw @a [{"text": "初期化が完了しました！\n\n","color": "yellow"}]
 tellraw @a [{"text": "ver : mikatan server main code ver2.2\n\n","color": "gold"},{"text": "     /reload\n","color": "light_purple"},{"text": "     を実行すると各スコアが再度生成されます","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]

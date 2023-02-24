@@ -43,6 +43,8 @@ execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:65}}}] 
 execute as @s[scores={mana=40..},nbt={SelectedItem:{tag:{CustomModelData:85}}}] at @s run function mikatanserver:item/rod/ruins/main
 #jungle sword:mana40
 execute as @s[scores={mana=45..},nbt={SelectedItem:{tag:{CustomModelData:101}}}] at @s run function mikatanserver:item/rod/jungle_sword/main
+#hurricane rod:mana25
+execute as @s[scores={mana=25..},nbt={SelectedItem:{tag:{CustomModelData:177}}}] at @s run function mikatanserver:item/rod/hurricane/main
 
 #想剣
 execute as @s[scores={mana=100..},nbt={SelectedItem:{tag:{CustomModelData:20}}}] at @s run function mikatanserver:item/rod/memory_sword/main
@@ -238,7 +240,7 @@ execute as @s[scores={RewardPoint=4000..},nbt={SelectedItem:{tag:{CustomModelDat
 #new_year 2023
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:92}}},advancements={mikatanserver:customcrafter/add_stone/egg=true}] run function mikatanserver:item/teleporter/area/newyear_2023
 #jungle
-execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}}] run function mikatanserver:item/teleporter/area/jungle
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:100}}},scores={AllLV=145..}] run function mikatanserver:item/teleporter/area/jungle
 #cherry
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:115}}}] run function mikatanserver:item/teleporter/area/cherryblossom
 #cave

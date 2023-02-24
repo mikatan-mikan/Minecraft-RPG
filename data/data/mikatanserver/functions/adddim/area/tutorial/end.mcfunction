@@ -6,4 +6,5 @@ give @s minecraft:carrot_on_a_stick{CustomModelData:91,display:{Name:'[{"text":"
 give @s minecraft:carrot_on_a_stick{CustomModelData:91,display:{Name:'[{"text":"右クリックでXP表示形式を変更","color":"red","bold": true}]'}} 1
 scoreboard players set @s TutorialFlag 2
 effect clear @s
+advancement grant @s only mikatanserver:root
 function mikatanserver:adddim/area/tutorial/end2

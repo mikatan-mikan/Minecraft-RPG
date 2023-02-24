@@ -21,6 +21,8 @@ execute as @e[tag=EightteenDunBoss] run data merge entity @s {Health:1024.0f}
 execute if score $18 BossHP matches ..0 run kill @e[tag=EightteenDunBoss]
     ##healing
         execute if entity @a[scores={EightteenBossSkill=100},tag=BossBattle18] as @e[tag=EightteenDunBoss] at @s run function mikatanserver:adddim/dungeonmap_one/eightteendungeon/boss/skill/healing/main
+    ##女神の怒り
+        execute as @a[scores={EightteenBossSkill=120},tag=BossBattle18] unless data entity @s Inventory[{Slot:102b,id:"minecraft:elytra"}] run function mikatanserver:adddim/dungeonmap_one/eightteendungeon/boss/skill/angry/main
     ##blind & speed & hunger
         #乱数
             execute if entity @a[scores={EightteenBossSkill=172},tag=BossBattle18,limit=1] run scoreboard players set @s MK.r.RandValue 3

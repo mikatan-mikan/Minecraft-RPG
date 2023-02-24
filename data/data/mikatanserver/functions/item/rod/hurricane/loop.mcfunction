@@ -1,0 +1,1 @@
+execute as @a[tag=ExecHurricane] at @s run function mikatanserver:item/rod/hurricane/player

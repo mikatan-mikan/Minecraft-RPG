@@ -10,114 +10,13 @@
       "announce_to_chat": true
     },
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "speed-Lv": 0
-              }
-            }
-          ]
-        }
-      },
-      "jyouken_1": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "ench-Lv": 0
-              }
-            }
-          ]
-        }
-      },
-      "jyouken_2": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "attackS-Lv": 0
-              }
-            }
-          ]
-        }
-      },
-      "jyouken_3": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "attackD-Lv": 0
-              }
-            }
-          ]
-        }
-      },
-      "jyouken_4": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "luck-Lv": 0
-              }
-            }
-          ]
-        }
-      },
-      "jyouken_5": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "mana-Lv": 0
-              }
-            }
-          ]
-        }
-      },
-      "jyouken_6": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "hp-Lv": 0
-              }
-            }
-          ]
-        }
+      "jyoken": {
+        "trigger": "impossible"
       }
     },
     "requirements": [
       [
-        "requirement",
-        "jyouken_1",
-        "jyouken_2",
-        "jyouken_3",
-        "jyouken_4",
-        "jyouken_5",
-        "jyouken_6"
+        "jyoken"
       ]
     ]
   }

@@ -256,6 +256,13 @@
             {
               "function": "set_nbt",
               "tag":"{CustomModelData:14,display:{Name:'[{\"text\": \"ヒカリキンメダイ\"}]'}}"
+            },
+            {
+              "function": "set_count",
+              "count":{
+                "min":48,
+                "max": 64
+              }
             }
           ],
           "name": "minecraft:tropical_fish"

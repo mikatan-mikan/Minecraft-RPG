@@ -9,7 +9,20 @@
     "parent": "mikatanserver:customcrafter/tablecraft",
     "criteria": {
       "jyoken": {
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:magma_cream"
+              ],
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        }
       }
     },
     "requirements": [
