@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:178}"
+        },
+        "title": "鏡の存在",
+        "description": "\"水の精霊と青の大地\"に挑む"
+    },
+    "parent": "mikatanserver:tp/dungeon/thirty",
+    "criteria": {
+        "jyoken": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "jyoken"
+        ]
+    ],
+    "rewards": {
+        "function": "mikatanserver:rewards/25"
+    }
+}

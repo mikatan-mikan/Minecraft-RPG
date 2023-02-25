@@ -68,9 +68,8 @@ execute as @s[predicate=mikatanserver:oremapdim,tag=ore_light2masic] at @s unles
 execute as @s[predicate=mikatanserver:oremapdim,tag=ore_dark2masic] at @s unless blocks -512 103 220 -481 134 251 -512 103 260 masked run clone -512 103 220 -481 134 251 -512 103 260 filtered #mikatanserver:ore_dark2masic
 
 
-
 #ブロック撤去
-execute in mikatanserver:oremap as @e[type=item,predicate=mikatanserver:oremapdim] at @s unless block ~ ~ ~ air unless block ~ ~ ~ bedrock run kill @s
+execute in mikatanserver:oremap as @e[type=item,predicate=mikatanserver:oremapdim] unless data entity @s Thrower at @s unless block ~ ~ ~ air unless block ~ ~ ~ bedrock run kill @s
 
 
 

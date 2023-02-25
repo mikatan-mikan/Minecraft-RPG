@@ -1,0 +1,1 @@
+tellraw @s ["",{"text": "[","color": "green"},{"storage":"mikatanserver:mark","nbt":"choice","interpret": true},{"text": "]","color": "green"}," ",{"storage":"mikatanserver:mark","nbt":"mark","interpret": true}," ",{"storage":"mikatanserver:mark","nbt":"conditions","interpret": true}]

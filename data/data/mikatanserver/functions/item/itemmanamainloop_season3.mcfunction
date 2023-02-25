@@ -24,6 +24,8 @@ execute as @s[scores={mana=35..,CustomModelData=163}] at @s run function mikatan
 execute as @s[scores={mana=30..,CustomModelData=171}] at @s run function mikatanserver:item/rod/saturation/main
 #scythe:20
 execute as @s[scores={mana=20..,CustomModelData=174}] if data entity @s SelectedItem.tag.masic at @s run function mikatanserver:item/rod/undine_scythe/main
+#undine rod:35
+execute as @s[scores={mana=35..,CustomModelData=179}] at @s run function mikatanserver:item/rod/undine/main
 
 ##dungeon
 #dungeon twentyfive
@@ -40,6 +42,8 @@ execute as @s[scores={AllLV=40..,CustomModelData=169},advancements={mikatanserve
 execute as @s[scores={AllLV=40..,CustomModelData=170}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtytwo/diff_check
 #dungeon thirtythree
 execute as @s[scores={AllLV=100..,CustomModelData=173}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtythree/diff_check
+#dungeon thirtythree
+execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=178}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtyfour/init
 
 ##ores world
 #masic_wind2

@@ -1,0 +1,1 @@
+tellraw @s [{"text": "[system]","color": "yellow"},{"text":" マークを変更しました","color": "white"}]

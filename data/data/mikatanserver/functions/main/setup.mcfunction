@@ -45,6 +45,7 @@
 
     tellraw @s [{"text": "completed setup!!\n","color": "gold"},{"text":"\n\n=====================================================","color": "aqua"}]
 
+team join BaseTeam @s
 effect give @s resistance 1000000 255
 effect give @s saturation 1000000 255
 tag @s add Tutorial

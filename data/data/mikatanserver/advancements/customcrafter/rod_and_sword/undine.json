@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:179}"
+        },
+        "title": "水の力",
+        "description": "undine rodを作成する"
+    },
+    "parent": "mikatanserver:customcrafter/rod_and_sword/salamander",
+    "criteria": {
+        "jyoken": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "jyoken"
+        ]
+    ],
+    "rewards": {
+        "function": "mikatanserver:rewards/25"
+    }
+}

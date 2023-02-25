@@ -259,7 +259,8 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     
     team add IceTeam {"text": "【氷結の展開者】"}
-    team modify IceTeam color aqua
+    team modify IceTeam color white
+    team modify IceTeam prefix [{"text":"\uE041","font":"add_fonts"},{"text": " ","font": "default"}]
 
     scoreboard objectives add RotChangeFlag dummy
     scoreboard objectives add ResultRot_0 dummy
@@ -378,8 +379,22 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add ImaginStoneFlag dummy
     scoreboard objectives add LuckStoneFlag dummy
 
+
+    team add BaseTeam {"text": ""}
+    team modify BaseTeam color white
+    team modify BaseTeam prefix [{"text":"\uE044","font":"add_fonts"},{"text": " ","font": "default"}]
+
     team add OrangeTeam {"text": "【歴史の採掘者】"}
-    team modify OrangeTeam color gold
+    team modify OrangeTeam color white
+    team modify OrangeTeam prefix [{"text":"\uE043","font":"add_fonts"},{"text": " ","font": "default"}]
+
+    team add RuinsTeam {"text": "【遺跡の開拓者】"}
+    team modify RuinsTeam color white
+    team modify RuinsTeam prefix [{"text":"\uE042","font":"add_fonts"},{"text": " ","font": "default"}]
+    
+    team add AngelTeam {"text": "【天使の使い魔】"}
+    team modify AngelTeam color white
+    team modify AngelTeam prefix [{"text":"\uE045","font":"add_fonts"},{"text": " ","font": "default"}]
 
     scoreboard objectives add DeathCnt_Tip deathCount
 
@@ -572,7 +587,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     scoreboard objectives add SpecialSkillTimer dummy
 
     ##現在の緩和Lv
-    scoreboard players set $EasyLv AllLV 110
+    scoreboard players set $EasyLv AllLV 115
 
     ##ログイン時のチャットフラグ
     scoreboard objectives add FirstChatFlag trigger

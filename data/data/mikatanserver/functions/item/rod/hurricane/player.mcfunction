@@ -26,7 +26,6 @@ particle sweep_attack ~-1.54508 ~ ~-4.75528 0.2 0 0.2 1 5
 effect give @e[type=#mikatanserver:mobs,distance=..5] levitation 1 20
 
 particle sweep_attack ~ ~ ~ 0.2 0.5 0.2 1 5
-effect give @s regeneration 1 1
 effect give @s resistance 1 0
 
 scoreboard players add @s HurricaneRodTimer 1
