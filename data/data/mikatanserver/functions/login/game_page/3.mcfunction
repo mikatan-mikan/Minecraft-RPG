@@ -79,6 +79,21 @@ execute if score $chat_bool TMP matches 2 run data merge storage mikatanserver:c
 data merge storage mikatanserver:chat {"Bool":'[{"text":"達成度","color":"green"},{"text":" : ","color":"white"},{"score":{"name":"$chat_bool","objective":"TMP"},"color":"green"},{"text":" / 2","color":"green"}]'}
 tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを135程度まで上げる。ダンジョン<\"めがみ\"と\"めがみ\"？>に挑む/goddess symbolを作成する\n","color":"yellow"}]
 
+scoreboard players set $chat_bool TMP 0
+execute if entity @s[advancements={mikatanserver:tp/dungeon/eight=true}] run scoreboard players add $chat_bool TMP 1
+data merge storage mikatanserver:chat {"Check":'[{"text":"✖","color":"red"}]'}
+execute if score $chat_bool TMP matches 1 run data merge storage mikatanserver:chat {"Check":'[{"text":"✔","color":"green"}]'}
+data merge storage mikatanserver:chat {"Bool":'[{"text":"達成度","color":"green"},{"text":" : ","color":"white"},{"score":{"name":"$chat_bool","objective":"TMP"},"color":"green"},{"text":" / 1","color":"green"}]'}
+tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを140程度まで上げる。ダンジョン<それは訪れることのなかった光の先・・・>に挑む\n","color":"yellow"}]
+
+scoreboard players set $chat_bool TMP 0
+execute if entity @s[advancements={mikatanserver:event/jungle/tp=true}] run scoreboard players add $chat_bool TMP 1
+execute if entity @s[advancements={mikatanserver:event/jungle/windrod2=true}] run scoreboard players add $chat_bool TMP 1
+data merge storage mikatanserver:chat {"Check":'[{"text":"✖","color":"red"}]'}
+execute if score $chat_bool TMP matches 2 run data merge storage mikatanserver:chat {"Check":'[{"text":"✔","color":"green"}]'}
+data merge storage mikatanserver:chat {"Bool":'[{"text":"達成度","color":"green"},{"text":" : ","color":"white"},{"score":{"name":"$chat_bool","objective":"TMP"},"color":"green"},{"text":" / 2","color":"green"}]'}
+tellraw @s [{"nbt":"Bool","storage":"mikatanserver:chat","interpret": true},{"nbt":"Check","storage":"mikatanserver:chat","interpret": true},{"text": "\n"},{"text": "全てのLvを145程度まで上げる。エリア<jungle>に向かう/hurricane rodを作成する\n","color":"yellow"}]
+
 tellraw @s [{"text":"前のページへ","hoverEvent": {"action":"show_text","contents":{"text":"クリックしてLv50-100を表示する","color":"green"}},"clickEvent":{"action": "run_command","value": "/trigger FirstChatFlag set 2"},"color":"gold"}]
 function mikatanserver:login/game_page/press_page
 

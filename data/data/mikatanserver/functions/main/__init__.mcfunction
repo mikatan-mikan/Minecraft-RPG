@@ -260,7 +260,7 @@ tellraw @a [{"text": "=====================================================\n\n"
     
     team add IceTeam {"text": "【氷結の展開者】"}
     team modify IceTeam color white
-    team modify IceTeam prefix [{"text":"\uE041","font":"add_fonts"},{"text": " ","font": "default"}]
+    team modify IceTeam prefix [{"text":"\uE041","font":"add_fonts"},{"text": "\uF822","font": "add_fonts"}]
 
     scoreboard objectives add RotChangeFlag dummy
     scoreboard objectives add ResultRot_0 dummy
@@ -382,19 +382,19 @@ tellraw @a [{"text": "=====================================================\n\n"
 
     team add BaseTeam {"text": ""}
     team modify BaseTeam color white
-    team modify BaseTeam prefix [{"text":"\uE044","font":"add_fonts"},{"text": " ","font": "default"}]
+    team modify BaseTeam prefix [{"text":"\uE044","font":"add_fonts"},{"text": "\uF822","font": "add_fonts"}]
 
     team add OrangeTeam {"text": "【歴史の採掘者】"}
     team modify OrangeTeam color white
-    team modify OrangeTeam prefix [{"text":"\uE043","font":"add_fonts"},{"text": " ","font": "default"}]
+    team modify OrangeTeam prefix [{"text":"\uE043","font":"add_fonts"},{"text": "\uF822","font": "add_fonts"}]
 
     team add RuinsTeam {"text": "【遺跡の開拓者】"}
     team modify RuinsTeam color white
-    team modify RuinsTeam prefix [{"text":"\uE042","font":"add_fonts"},{"text": " ","font": "default"}]
+    team modify RuinsTeam prefix [{"text":"\uE042","font":"add_fonts"},{"text": "\uF822","font": "add_fonts"}]
     
     team add AngelTeam {"text": "【天使の使い魔】"}
     team modify AngelTeam color white
-    team modify AngelTeam prefix [{"text":"\uE045","font":"add_fonts"},{"text": " ","font": "default"}]
+    team modify AngelTeam prefix [{"text":"\uE045","font":"add_fonts"},{"text": "\uF822","font": "add_fonts"}]
 
     scoreboard objectives add DeathCnt_Tip deathCount
 

@@ -1,0 +1,1 @@
+scoreboard objectives add ThirtyfiveDSkillTimer1 dummy

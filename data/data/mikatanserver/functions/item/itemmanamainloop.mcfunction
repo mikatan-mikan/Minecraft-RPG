@@ -174,6 +174,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:123}}}] at @s if predicate
 execute as @s[nbt={SelectedItem:{tag:{CustomModelData:137}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentyseven/init
 #dungeon twentynine
 execute as @s[scores={AllLV=5..},nbt={SelectedItem:{tag:{CustomModelData:159}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/twentynine/init
+#dungeon thirtyfive
+execute as @s[scores={AllLV=80..},advancements={mikatanserver:customcrafter/rod_and_sword/rare_stone_2=true},nbt={SelectedItem:{tag:{CustomModelData:180}}}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtyfive/init
 
 
 ## Season2 締め括り

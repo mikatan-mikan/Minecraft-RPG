@@ -1,3 +1,4 @@
+tag @a[tag=DungeonPlay_5,tag=!BossBattle5] add BossBattle5
 ##メインループ関数 (ここでタイムを満たしているかをチェックする)
 
 execute if entity @a[scores={FifBossSkill=1}] as @e[tag=FifthDunBoss] run effect give @s glowing 40 1

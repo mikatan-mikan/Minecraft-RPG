@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:170}"
         },
         "title": "古の大陸を開拓する者",
-        "description": "\"反逆の新緑\"に挑む"
+        "description": "\"【超高難易度】反逆の新緑\"に挑む"
     },
     "parent": "mikatanserver:tp/dungeon/thirtytwo_diff1",
     "criteria": {

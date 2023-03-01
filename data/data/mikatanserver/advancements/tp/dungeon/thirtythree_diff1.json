@@ -7,7 +7,7 @@
         "title": "此処にあったそれは・・・",
         "description": "\"【超高難易度】深海の支配者\"に挑む"
     },
-    "parent": "mikatanserver:tp/dungeon/thirtythree0",
+    "parent": "mikatanserver:tp/dungeon/thirtythree_diff0",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

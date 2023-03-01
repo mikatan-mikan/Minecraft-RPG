@@ -1,4 +1,5 @@
-# tag @a[tag=DungeonPlay_33,tag=!BossBattle33] add BossBattle33 <-ラグ対策だが道中があるダンジョンなので恐らくBossBattle33がつかないくらいラグいなら鯖が落ちる
+tag @a[tag=DungeonPlay_33,tag=!BossBattle33] add BossBattle33 
+#<-ラグ対策だが道中があるダンジョンなので恐らくBossBattle33がつかないくらいラグいなら鯖が落ちる
 execute if score @s MobNowHP matches ..300 run clear @a[tag=BossBattle33] #boats
 execute if score @s MobNowHP matches ..300 run effect clear @a[tag=BossBattle33] resistance
 

@@ -3,7 +3,7 @@ scoreboard players operation $xp TMP *= $leveling_xp TMP
 execute if score $leveling_lv TMP > @s mana-Lv run scoreboard players operation @s manaxp += $xp TMP
 execute if score $NowMax AllLV > @s mana-Lv if score @s manaxp >= @s needmanaxp run function mikatanserver:main/lvup/xpcount/manalvup
 
-scoreboard players set $xp TMP 40
+scoreboard players set $xp TMP 70
 scoreboard players operation $xp TMP *= $leveling_xp TMP
 execute if score $leveling_lv TMP > @s hp-Lv run scoreboard players operation @s hpxp += $xp TMP
 execute if score $NowMax AllLV > @s hp-Lv if score @s hpxp >= @s needhpxp run function mikatanserver:main/lvup/xpcount/healthlvup

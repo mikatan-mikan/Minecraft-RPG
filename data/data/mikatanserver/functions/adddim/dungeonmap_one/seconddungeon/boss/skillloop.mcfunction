@@ -1,3 +1,5 @@
+tag @a[tag=DungeonPlay_2,tag=!BossBattle2] add BossBattle2
+
 scoreboard players add @s SecDSkillTimer1 1
 execute as @s at @s if entity @s[scores={SecDSkillTimer1=60}] if block ^3 ^ ^ air run tellraw @a[tag=DungeonPlay_2] [{"text":"✧satellite>>","color": "green"},{"text": "teleport!","color": "dark_green"}]
 execute as @s at @s if entity @s[scores={SecDSkillTimer1=60}] if block ^3 ^ ^ air run tp @s ^3 ^ ^

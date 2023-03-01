@@ -7,7 +7,7 @@
         "title": "空の深海",
         "description": "\"【高難易度】深海の支配者\"に挑む"
     },
-    "parent": "mikatanserver:tp/dungeon/thirtytwo0",
+    "parent": "mikatanserver:tp/dungeon/thirtytwo_diff0",
     "criteria": {
         "jyoken": {
             "trigger": "impossible"

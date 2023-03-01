@@ -9,7 +9,7 @@ function mikatanserver:main/utils_num/get_alllv
 scoreboard players enable @s FirstChatFlag
 
 ##TODO
-team join BaseTeam @a[team=!IceTeam,team=!OrangeTeam,team=!RuinsTeam,team=!BaseTeam]
+team join BaseTeam @a[team=!IceTeam,team=!OrangeTeam,team=!RuinsTeam,team=!AngelTeam,team=!BaseTeam]
 
 execute if score @s LogCheck_Timer matches 20 run playsound entity.player.levelup master @s ~ ~ ~ 2 1
 execute if score @s LogCheck_Timer matches 20 run tellraw @s [{"text": "welcome to "},{"text": "mikatan server","color": "gold"}]

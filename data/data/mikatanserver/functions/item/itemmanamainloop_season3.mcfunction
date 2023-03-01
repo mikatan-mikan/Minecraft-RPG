@@ -8,6 +8,8 @@ execute if entity @e[nbt={SelectedItem:{tag:{carrot_armor:1b}}}] run function mi
 execute as @s[scores={mana=30..,CustomModelData=133}] at @s run function mikatanserver:item/rod/absorption/main
 #forest rod:40
 execute as @s[scores={mana=40..,CustomModelData=148}] at @s run function mikatanserver:item/rod/forest/main
+#bullet rod:35
+execute as @s[scores={mana=30..,CustomModelData=182}] at @s run function mikatanserver:item/rod/bullet/main
 
 ##masic and sword items
 #sand sword:30
@@ -44,6 +46,8 @@ execute as @s[scores={AllLV=40..,CustomModelData=170}] at @s if predicate mikata
 execute as @s[scores={AllLV=100..,CustomModelData=173}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtythree/diff_check
 #dungeon thirtythree
 execute as @s[scores={AllLV=200..,RewardPoint=7000..,CustomModelData=178}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtyfour/init
+#dungeon thirtysix
+execute as @s[scores={AllLV=30..,CustomModelData=181}] at @s if predicate mikatanserver:overworld run function mikatanserver:item/teleporter/dungeon/thirtysix/diff_check
 
 ##ores world
 #masic_wind2

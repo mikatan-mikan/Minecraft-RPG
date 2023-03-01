@@ -9,3 +9,4 @@ execute if score @s EnhanceNum matches 101 at @s run function mikatanserver:item
 execute if score @s EnhanceNum matches 102 at @s run function mikatanserver:item/_attribute/tier_2/storm/check
 execute if score @s EnhanceNum matches 103 at @s run function mikatanserver:item/_attribute/tier_2/hail/check
 execute if score @s EnhanceNum matches 104 at @s run function mikatanserver:item/_attribute/tier_2/positive/check
+execute if score @s EnhanceNum matches 105 at @s run function mikatanserver:item/_attribute/tier_2/negative/check
